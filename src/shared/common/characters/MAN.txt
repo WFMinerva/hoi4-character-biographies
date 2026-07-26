@@ -30,6 +30,7 @@ characters = {
 		}
 
 		advisor = {
+			desc = MAN_aisin_gioro_puyi_desc
 			cost = 100
 			slot = theorist
 			can_be_fired = no

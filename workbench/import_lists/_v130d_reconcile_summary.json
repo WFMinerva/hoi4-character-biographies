@@ -1,0 +1,59 @@
+{
+  "rows": 6421,
+  "stats": {
+    "疑似真人漏写": 557,
+    "待人工裁定": 1579,
+    "已裁定不写-占位": 37,
+    "已裁定不写-科学家": 43,
+    "已覆盖": 4205
+  },
+  "gap_total": 2216,
+  "suspected_real_missing": 557,
+  "suspected_by_tier": {
+    "1": 191,
+    "2": 2,
+    "3": 364
+  },
+  "suspected_by_role": {
+    "advisor": 417,
+    "country_leader": 107,
+    "corps_commander": 19,
+    "navy_leader": 10,
+    "field_marshal": 4
+  },
+  "suspected_top_tags": {
+    "PRC": 86,
+    "CHI": 80,
+    "PHI": 47,
+    "URG": 39,
+    "SWE": 26,
+    "ICE": 22,
+    "PER": 18,
+    "SPR": 16,
+    "IRQ": 12,
+    "SWI": 11,
+    "AFG": 11,
+    "MON": 10,
+    "BUL": 10,
+    "CHL": 8,
+    "SAF": 8
+  },
+  "transition_from_v130a": {
+    "有效 -> 已覆盖": 4193,
+    "身份存在但无desc -> 已裁定不写-占位": 37,
+    "身份存在但无desc -> 已裁定不写-科学家": 43,
+    "身份存在但无desc -> 已覆盖": 12,
+    "身份存在但无desc -> 待人工裁定": 505,
+    "身份存在但无desc -> 疑似真人漏写": 518,
+    "身份未覆盖 -> 待人工裁定": 1074,
+    "身份未覆盖 -> 疑似真人漏写": 39
+  },
+  "current_char_desc_refs": 4205,
+  "current_char_desc_keys": 3216,
+  "current_char_files_with_desc": 167,
+  "loc_files": 83,
+  "loc_keys": 7388,
+  "loc_alias_keys": 720,
+  "desc_keys_missing_loc": [],
+  "placeholder_keys": 36
+}

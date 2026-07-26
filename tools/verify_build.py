@@ -4,8 +4,8 @@ from pathlib import Path
 from common import ROOT, load_json
 
 TARGETS={
- 'lite':('china_bio_lite_v130c7_Daigo_cover_test.zip','lite_manifest.json'),
- 'full':('china_bio_v130c7_Daigo_cover_test.zip','full_manifest.json')
+ 'lite':('china_bio_lite_v130d.zip','lite_manifest.json'),
+ 'full':('china_bio_v130d.zip','full_manifest.json')
 }
 
 def manifest_zip(p:Path):

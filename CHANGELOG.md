@@ -1,5 +1,13 @@
 # Changelog
 
+## v130d-stable
+
+- 傅作义 SHX 政治顾问身份块补挂`SHX_fu_zuoyi_desc`（别名复用主键）。
+- 溥仪 MAN 理论家顾问身份块补挂`MAN_aisin_gioro_puyi_desc`（复用主键）。
+- 完成6421条静态身份覆盖对账与档1裁定表（workbench）。
+- 蒋有芬（SIK）、韩乙奴（XSM）经史料核实为真人并恢复中文名，小传经用户审定入包。
+- 用户实机确认通过（1936剧本显示正常，error.log零报错），转为稳定基准。
+
 ## Codex维护仓库v2
 
 - 保持v130c7双版本MOD源码不变。

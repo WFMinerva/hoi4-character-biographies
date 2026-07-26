@@ -4,8 +4,8 @@ from pathlib import Path
 from common import ROOT
 
 BASELINE={
- 'lite': {'root':'china_bio_lite_v130c7_Daigo_cover_test','outer':'china_bio_lite_v130c7_Daigo_cover_test.mod'},
- 'full': {'root':'china_bio_v130c7_Daigo_cover_test','outer':'china_bio_v130c7_Daigo_cover_test.mod'},
+ 'lite': {'root':'china_bio_lite_v130d','outer':'china_bio_lite_v130d.mod'},
+ 'full': {'root':'china_bio_v130d','outer':'china_bio_v130d.mod'},
 }
 
 def copy_tree(src:Path,dst:Path):

@@ -36,6 +36,7 @@ characters={
 			}
 		}
 		corps_commander={
+			desc = SIK_chiang_yufen_desc
 			skill=3
 			attack_skill=4
 			defense_skill=2
@@ -1144,6 +1145,7 @@ characters={
 			}
 		}
 		corps_commander = {
+			desc = XSM_han_yimu_desc
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
@@ -2179,6 +2181,7 @@ characters={
 			}
 		}
 		advisor={
+			desc = SHX_fu_zuoyi_desc
 			slot = political_advisor
 			idea_token = SHX_fu_zuoyi
 			allowed  = {

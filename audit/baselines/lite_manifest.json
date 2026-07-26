@@ -1,12 +1,12 @@
 {
-  "root": "china_bio_lite_v130c7_Daigo_cover_test",
-  "outer_mod": "china_bio_lite_v130c7_Daigo_cover_test.mod",
+  "root": "china_bio_lite_v130d",
+  "outer_mod": "china_bio_lite_v130d.mod",
   "file_count": 256,
   "files": [
     {
-      "path": "__outer__/china_bio_lite_v130c7_Daigo_cover_test.mod",
-      "size": 209,
-      "sha256": "64a3cfc6718c30d19669b04314cc65aaa6f18eb730b51d0dc185b7ced457b6d1"
+      "path": "__outer__/china_bio_lite_v130d.mod",
+      "size": 170,
+      "sha256": "93d5d1dea3dbd12b31d22c5633e705146024f72fc869149a4980ac9988f83ee9"
     },
     {
       "path": "common/characters/ABK.txt",
@@ -470,8 +470,8 @@
     },
     {
       "path": "common/characters/MAN.txt",
-      "size": 18320,
-      "sha256": "370bad5b96474531d6988608f93b2c58f857e46f258e11d36540d6896c790c62"
+      "size": 18356,
+      "sha256": "95286ccbdc0460b7122d13aefe410ec34ae357c7919d13339278cbbc51508591"
     },
     {
       "path": "common/characters/MEK.txt",
@@ -825,8 +825,8 @@
     },
     {
       "path": "common/characters/Warlords_China.txt",
-      "size": 52023,
-      "sha256": "918f706d09c091b1fea0b3e3af7c73ea9be46ca761345fc4840f86707cf61ed1"
+      "size": 52111,
+      "sha256": "b2010a8948b7ed83e6d8b6478c3111b134bc9d12d4c1652544a2c476c5f13b85"
     },
     {
       "path": "common/characters/YAK.txt",
@@ -845,8 +845,8 @@
     },
     {
       "path": "descriptor.mod",
-      "size": 209,
-      "sha256": "64a3cfc6718c30d19669b04314cc65aaa6f18eb730b51d0dc185b7ced457b6d1"
+      "size": 170,
+      "sha256": "93d5d1dea3dbd12b31d22c5633e705146024f72fc869149a4980ac9988f83ee9"
     },
     {
       "path": "localisation/english/zz_v129k_verified_real_names_l_english.yml",
@@ -870,8 +870,8 @@
     },
     {
       "path": "localisation/replace/simp_chinese/cbio_replace_name_overrides_whitelist_l_simp_chinese.yml",
-      "size": 5825,
-      "sha256": "1b5f7ba9c624f970f5f0fb8c8aca04512e70f35d2ae2319378f01f2734cad713"
+      "size": 5762,
+      "sha256": "a061539856aed3be6dd01c5c47a5f2cfdb258e3c7dc40135576fcfc844d11d2e"
     },
     {
       "path": "localisation/replace/simp_chinese/cbio_replace_special_ui_whitelist_l_simp_chinese.yml",
@@ -990,8 +990,8 @@
     },
     {
       "path": "localisation/simp_chinese/warlords_china_bio_l_simp_chinese.yml",
-      "size": 4176,
-      "sha256": "3ea6184927cf879002a1781f29abbc77c950532d625595030f3b8ca5aee64650"
+      "size": 5415,
+      "sha256": "ea8266f990fee91308daac1a50b6861f782d7be832950f164e8bf8c418cca9be"
     },
     {
       "path": "localisation/simp_chinese/zz_asia_leaders_bio_l_simp_chinese.yml",

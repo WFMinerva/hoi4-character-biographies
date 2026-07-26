@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "baseline": "v130c7-stable",
+  "baseline": "v130d-stable",
   "rules": [
     {
       "id": "project_pure_bio",
@@ -60,6 +60,24 @@
       ],
       "classification": "real_person",
       "decision": "v130c7人工审定正文为当前主文，不得被旧短文覆盖。",
+      "status": "confirmed"
+    },
+    {
+      "entity": "Chiang Yu-fen",
+      "keys": [
+        "SIK_chiang_yufen_desc"
+      ],
+      "classification": "real_person",
+      "decision": "v130d核实为真人：蒋有芬，辽宁人，东北抗日义勇军将领，1937年任喀什警备司令部参谋长、代理司令，1942年在阴谋暴动案中被捕。中文名有《新疆百科》专条及原版官方简中佐证，已从拉丁名白名单移除、恢复中文名。正文已经用户审定入包。",
+      "status": "confirmed"
+    },
+    {
+      "entity": "Han Yimu",
+      "keys": [
+        "XSM_han_yimu_desc"
+      ],
+      "classification": "real_person",
+      "decision": "v130d核实为真人：韩乙奴，青海循化撒拉族，马步芳部下，1949年12月13日循化查加沟暴乱主谋。中文名有原版官方简中及查加沟战斗多条中文史料佐证，已从拉丁名白名单移除、恢复中文名。英文维基称军官、中文来源称保长/县长，职务记载不一致，正文不坐实职务。正文已经用户审定入包。",
       "status": "confirmed"
     }
   ],

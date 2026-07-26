@@ -2,25 +2,24 @@
 
 ## 版本状态
 
-- 当前版本：v130c7
+- 当前版本：v130d
 - 当前主线：纯人物小传双版本
 - 当前测试口径：1936、1939
-- 状态：用户后续实机确认通过，作为当前稳定基准
-- 状态冲突说明：`HANDOFF_v130c7_ORIGINAL.md`生成时间早于实机确认，因此其中“测试版、待验证”属于历史状态，不得覆盖后续人工确认。
+- 状态：用户实机确认通过（1936剧本显示正常，error.log零报错），作为当前稳定基准
 
 ## 兼容版基准
 
-- 原始文件：`（兼容版测试版）china_bio_lite_v130c7_Daigo_cover_test.zip`
-- SHA-256：`6d037cb0234393ef2113e123f7b56de8416c6fcb2b98735945846a92276e7073`
-- 内部目录：`china_bio_lite_v130c7_Daigo_cover_test`
+- 原始文件：`china_bio_lite_v130d.zip`
+- SHA-256：`d3ff26dcf1b722897b1980593f1c9a2536b7b3427cd2bf4160ab962db78e5101`
+- 内部目录：`china_bio_lite_v130d`
 - 规范化文件数：256
 - 工坊定位：兼容优先，尽量不覆盖国策、事件、决议和国家历史脚本。
 
 ## 完整版基准
 
-- 原始文件：`（完整版测试版）china_bio_v130c7_Daigo_cover_test.zip`
-- SHA-256：`48aa90e76ff0da87c4e1acd334443d910159556ee8e471ac24bf4d93b784b99c`
-- 内部目录：`china_bio_v130c7_Daigo_cover_test`
+- 原始文件：`china_bio_v130d.zip`
+- SHA-256：`80ab42cda49fb4af461d0fe74de9f72e5d288e76b0ea6e1c1f3f673c375ea02e`
+- 内部目录：`china_bio_v130d`
 - 规范化文件数：462
 - 工坊定位：覆盖优先，保留必要的动态领袖和动态身份路径覆盖。
 
@@ -39,13 +38,24 @@
 完整版 = shared + full_only + full packaging
 ```
 
-## v130c7必须保留的专项修复
+## v130d在v130c7基础上的变更
+
+- 傅作义SHX政治顾问身份块补挂`SHX_fu_zuoyi_desc`（别名复用主键）；
+- 溥仪MAN理论家顾问身份块补挂`MAN_aisin_gioro_puyi_desc`（复用主键）；
+- 蒋有芬（SIK）、韩乙奴（XSM）经史料核实为真人，恢复中文名并新增审定小传；
+- 完成6421条静态身份覆盖对账（workbench底账，零回归）。
+
+## v130c7以来必须保留的专项修复
 
 - 醍醐忠重人物小传正文修订；
 - 晋系、蒙疆、满洲国36名占位人物姓名去汉化；
 - 晋系顾问傅作义复用中国陆军将领傅作义正文；
 - 完整版溥仪动态元帅`desc`修复；
 - 完整版动态路径覆盖不得被兼容版同步操作误删。
+
+## 历史基准
+
+- v130c7-stable：见git标签与`baseline_inputs/`原始包。
 
 ## 变更基准的条件
 
