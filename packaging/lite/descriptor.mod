@@ -1,0 +1,9 @@
+﻿version="1.19.*"
+tags={
+    "Historical"
+    "Utilities"
+}
+name="china_bio_lite_v130c7_Daigo_cover_test"
+supported_version="1.19.*"
+path="mod/china_bio_lite_v130c7_Daigo_cover_test"
+picture="thumbnail.png"

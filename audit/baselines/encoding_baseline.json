@@ -1,0 +1,2300 @@
+{
+  "baseline": "v130c7-stable",
+  "files": [
+    {
+      "path": "src/shared/common/characters/ABK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/AFA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/AFG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ALB.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ALT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/AOI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ARG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/AST.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ASY.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/AUS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BAN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BAR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BAY.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BEL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BHU.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BIA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BLR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BOL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BRA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BRD.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BRM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BSK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BUK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BUL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/BYA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CAM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CAN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CAT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CHI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CHL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CHU.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CIN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/COG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/COL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/COS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CPS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CRI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CRO.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CUB.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/CZE.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/DAG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/DEN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/DOM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/DON.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ECU.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ELS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ENG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/EST.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ETH.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/FIN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/FRA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/GEN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/GEO.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/GER.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/GHA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/GRE.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/GUA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/HAI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/HAN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/HES.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/HOL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/HON.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/HUN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/IA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ICE.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/IMO.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/INS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/IRE.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/IRQ.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ISR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ITA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/JAP.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/JOR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KAL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KAR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KAT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KBK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KHI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KKP.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KOM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KOR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KUB.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KUR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/KUW.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/LAO.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/LAT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/LBV.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/LEB.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/LIB.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/LIT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/LUX.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MAL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MAN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MEK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MEL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MEN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MEX.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MNT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/MON.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/NEP.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/NIC.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/NOA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/NOR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/NZL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/OKN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/OMA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PAL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PAN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PAR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PER.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PHI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/POL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/POR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PRC.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PRE.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/PRU.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RAJ.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RAP.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RHI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RIF.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKB.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKH.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKO.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RKU.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RNA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RNG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/ROM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RUT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/RWA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SAF.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SAU.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SAX.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SHL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SIA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SIL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SLO.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SOK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SOV.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SPR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SWE.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SWI.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/SYR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/TAN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/TAT.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/THU.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/TIB.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/TOS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/TTS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/TUR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/UBD.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/UDM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/UKR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/URG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/USA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/VEN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/VGE.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/VIN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/WUR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/Warlords_China.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/YAK.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/YEM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/common/characters/YUG.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/english/zz_v129k_verified_real_names_l_english.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/english/zz_v129l_name_localisation_l_english.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/english/zz_v130c3_COL_verified_names_l_english.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/cbio_replace_alias_whitelist_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/cbio_replace_name_overrides_whitelist_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/cbio_replace_special_ui_whitelist_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/cbio_replace_vanilla_desc_whitelist_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v116c_ARG_date_spacing_hotfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v117a_PHI_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v118d_NOR_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v119c_BEL_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v120c_B22_minor_tags_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v121f_B23_minor_tags_logfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v124f_B26-B28_desc_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v125b_B29-B31_desc_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v126a_B32_GRE_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v126c_B33_B34_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v126d_BALTIC_GetLeader_logfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v127a_B35_B36_DEN_CAN_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v127b_dynamic_role_display_hotfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v127c_placeholder_name_dehan_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v128a_COG_IRE_PAR_desc_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v129f_name_desc_aliases_and_restore_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v129g_B52-B62_name_desc_aliases_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_v129h_unverified_name_restore_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/chi_all_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/east_asia_leaders_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/prc_all_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/warlords_china_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_asia_leaders_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_japan_bio_v74_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_missing_1936_leaders_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_missing_1939_leaders_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_missing_1939_leaders_v65_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_reviewed_leaders_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_user_modified_china_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v104_eng_dyn_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v105_eng_cleanup_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v106_targets_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v108_world_ui_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v110_repl_leader_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v112_italy_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v113_fr_dyn_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v113b_dyn_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v113c_china_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v113d_cnfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v113e_china_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v114_chile_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v114l_cze_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v114n_raj_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v114o_spr_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v114p_thoma_hotfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v114r_ast_fin_hun_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v114t_aut_tur_bra_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v115_8countries_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v115c_dynamic_slots_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v115d_dynamic_slots_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v122a_B24_minor_tags_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v123e_B25_minor_tags_loc_key_hotfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v124f_B26-B28_ETH_HOL_ROM_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v125b_B29-B31_POR_MEX_YUG_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v126a_B32_GRE_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v126c_B33_LIT_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v126c_B34_AFG_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v126c_GRE_tsarpalis_hotfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v127a_B35_B36_DEN_CAN_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v128a_COG_IRE_PAR_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129b_B40_B45_COS_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129d_zhou_lei_gxc_hon_hotfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129e_name_display_and_hon_hotfix_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129f_HON_ELS_NIC_NZL_LAT_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129g_B52-B62_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129h_PRU_ECU_advisor_desc_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129k_verified_real_names_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v129l_name_localisation_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v130c3_COL_verified_names_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v130c3_URG_COL_advisor_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v130c3_URG_COL_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_v130c6_fu_zuoyi_advisor_desc_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zzzz_dynamic_leader_fix_v86_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zzzz_extra_germany_sov_white_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zzzz_ger_bio_v86_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zzzz_sov_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zzzzz_ger_advisor_idea_desc_v86_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zzzzzz_eng_user_reviewed_v103_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zzzzzzzzzzz_v109_usa_reviewed_bios_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/AST.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/AUS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/BOL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/BUL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/CHL.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/GER.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/HUN.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/INS.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/formable_nation_decisions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/afghanistan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/argentina.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/australia_taog.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/austria.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/belgium.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/brazil.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/bulgaria.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/chile.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/china_communist_sea.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/china_warlord_sea.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/czechoslovakia_mu.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/finland.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/france.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/germany.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/greece.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/hungary.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/hungary_wuw.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/india.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/india_goe.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/indonesia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/iraq.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/italy.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/japan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/manchukuo.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/manchukuo_TSR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/mexico.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/persia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/philippines.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/poland.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/portugal.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/romania.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/siam.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/soviet.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/spain.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/sweden.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/switzerland.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/turkey.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/yugoslavia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/on_actions/04_mtg_on_actions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/on_actions/09_aat_on_actions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/on_actions/16_taog_on_actions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/AUS_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/CHI_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/DEN_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/ETH_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/INS_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/ITA_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/JAP_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/PHI_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/POL_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/SOV_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/scripted_effects/WTT_warlord_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_Denmark.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_Finland.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_Generic_Events.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_Iceland.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_NewsEvents.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_Norway.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_Sweden.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AAT_nordic.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/ABDA_events.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/AcePilots.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BBA_AfricanUnion_events.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BBA_Ethiopia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BBA_ItaloEthiopianWar.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BBA_Italy.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BBA_NewsEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BBA_Switzerland.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BFTB_Bulgaria.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BFTB_Greece.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BFTB_NewsEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/BFTB_Turkey.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Baltic.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Britain.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Bulgaria.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/CapitulationEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/China.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/DOD_Czechoslovakia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/DOD_Hungary.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/DOD_NewsEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/DOD_Romania.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/DOD_Yugoslavia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Decisions_Events.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/ElectionEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Ethiopia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Finland.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/France.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/GOE_Afghanistan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/GOE_Iraq.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/GOE_Persia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/GOE_Raj.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/GOE_generic_events.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/GOT_Generic_Events.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Generic.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Germany.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Greece.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Hungary.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Italy.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Japan.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LAR_NewsEvents.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LAR_Spain.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LAR_TestEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LAR_occupation.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LaR_France.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LaR_Portugal.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LaR_agent_events.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LaR_espionage_operations.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/LowCountries.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MTG_Britain.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MTG_Germany.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MTG_Netherlands.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MTG_NewsEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MTG_USA.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MTG_generic.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MTG_naval_treaty_events.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MUN_Czechoslovakia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/MUN_Slovakia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Mexico.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NSB_Baltic.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NSB_Estonia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NSB_Latvia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NSB_Lithuania.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NSB_NewsEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NSB_Poland.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NSB_Soviet.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NewsEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/NukeEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Paraguay.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Poland.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/PoliticalEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Romania.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/SEA_Communist_China.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/SEA_Japan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/SEA_Nat_China.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/SEA_Philippines.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/SEA_Warlords.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/SEA_generic_events.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/SovietUnion.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Spain.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Special_Project_Events.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TAOG_Australia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TAOG_Indonesia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TAOG_NewsEvents.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TAOG_Siam.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TFV_Australia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TFV_Canada.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TFV_New_Zealand.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TFV_Raj.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TFV_South_Africa.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TOA_Argentina.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TOA_Brazil.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TOA_Chile.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TOA_GUAY.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TOA_Generic_Events.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TSR_Manchukuo.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/TestEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Turkey.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/USA.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_Britain.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_China.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_Denmark.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_Germany.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_Japan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_Manchukou.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_NewsEvents.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_PRC.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_Soviet.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_border_conflict_events.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WTT_china_political_power_struggle.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WUW_Austria.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WUW_Belgium.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WUW_Congo.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WUW_Germany.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WUW_Hungary.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/WarJustification.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/Yugoslavia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/debug_events.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/ss_recruitment_event.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/stability_events.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/events/treaty_orgs.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/AST - Australia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/BEL - Belgium.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/CAT - Catalonia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/CHL - Chile.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/EGY - Egypt.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/GER - Germany.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/INS - Indonesia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/ISR - Israel.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/JAP - Japan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/JOR - Jordan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/LEB - Lebanon.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/LIB - Liberia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/MEN - Mengkukuo.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/MON - Mongolia.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/PAL - Palestine.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/RAJ - British Raj.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/SYR - Syria.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    }
+  ]
+}

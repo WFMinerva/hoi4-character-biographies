@@ -1,0 +1,17 @@
+characters = {
+	UDM_boris = {
+		name = CBIO_NAME_UDM_boris 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Boris_Berman
+			}
+		}
+		country_leader = {
+			desc = CBIO_UDM_boris_desc
+			ideology = stalinism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

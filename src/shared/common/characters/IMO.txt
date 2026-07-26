@@ -1,0 +1,27 @@
+characters = {
+
+
+	IMO_muhammad_khalili = {
+
+		name = IMO_muhammad_khalili
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IMO_muhammad_khalili
+			}
+		}
+
+
+		country_leader = {
+			desc = CBIO_IMO_muhammad_khalili_desc
+			ideology = despotism
+			traits = {  }
+			expire = "1954.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+}

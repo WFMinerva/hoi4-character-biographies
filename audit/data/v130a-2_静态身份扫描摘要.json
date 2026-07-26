@@ -1,0 +1,44 @@
+{
+  "metrics": {
+    "vanilla_character_files": 231,
+    "lite_character_files": 167,
+    "vanilla_characters": 5283,
+    "identity_rows": 6421,
+    "lite_valid": 4193,
+    "lite_identity_no_desc": 1115,
+    "lite_identity_not_covered": 1113,
+    "lite_desc_missing_loc": 0
+  },
+  "role_summary": {
+    "country_leader": {
+      "total": 774,
+      "lite_valid": 656,
+      "full_valid": 656
+    },
+    "field_marshal": {
+      "total": 135,
+      "lite_valid": 129,
+      "full_valid": 129
+    },
+    "corps_commander": {
+      "total": 785,
+      "lite_valid": 748,
+      "full_valid": 748
+    },
+    "advisor": {
+      "total": 4459,
+      "lite_valid": 2447,
+      "full_valid": 2447
+    },
+    "navy_leader": {
+      "total": 165,
+      "lite_valid": 153,
+      "full_valid": 153
+    },
+    "scientist": {
+      "total": 103,
+      "lite_valid": 60,
+      "full_valid": 60
+    }
+  }
+}

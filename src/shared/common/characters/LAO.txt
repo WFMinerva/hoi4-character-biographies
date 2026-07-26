@@ -1,0 +1,71 @@
+characters = {
+
+	# King Sisavangvong
+	LAO_sisavang_vong = { 
+		name = LAO_sisavang_vong
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LAO_sisavang_vong
+				small = GFX_portrait_LAO_sisavang_vong_civilian_small
+			}
+			army = {
+				small = GFX_portrait_LAO_sisavang_vong_military_small
+			}
+		}
+		country_leader = {
+			desc = CBIO_LAO_sisavang_vong_desc
+			ideology = despotism
+			traits = { king_of_luang_prabang }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = CBIO_LAO_sisavang_vong_desc
+			ideology = emperor_fascism
+			traits = { king_of_luang_prabang }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+		
+	}
+
+	# Kou Voravong
+	LAO_kou_voravong = { 
+		name = LAO_kou_voravong
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kou_Voragong
+			}
+			
+		}
+		country_leader = {
+			desc = CBIO_LAO_kou_voravong_desc
+			ideology = conservatism
+			traits = { champion_of_the_lao_issara }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+		
+	}
+
+	# Souphanouvong
+	LAO_souphanouvong = { 
+		name = LAO_souphanouvong
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Sisavang_Vong
+			}
+			
+		}
+		country_leader = {
+			desc = CBIO_LAO_souphanouvong_desc
+			ideology = marxism
+			traits = { LAO_the_red_prince }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+		
+	}
+
+	
+}

@@ -1,0 +1,3 @@
+# Preserve the verified baseline byte-for-byte.
+# HOI4 scripts and localisation files have strict encoding and line-ending rules.
+* -text

@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "instructions": "默认脚本diff只允许desc赋值。任何非desc脚本变化必须在具体任务分支中临时登记，写明用户批准、理由、文件和允许正则；任务结束后复核是否仍需保留。",
+  "exceptions": []
+}

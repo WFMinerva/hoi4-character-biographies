@@ -1,0 +1,26 @@
+characters = {
+
+
+	HES_philipp_of_hesse = {
+
+		name = HES_philipp_of_hesse
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HES_philip_of_hesse
+			}
+		}
+
+		country_leader = {
+			desc = CBIO_HES_philipp_of_hesse_desc
+			ideology = despotism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+}

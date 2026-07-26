@@ -1,0 +1,26 @@
+characters = {
+
+
+	MEK_christian_louis = {
+
+		name = MEK_christian_louis
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEK_christian_louis
+			}
+		}
+
+		country_leader = {
+			desc = CBIO_MEK_christian_louis_desc
+			ideology = despotism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+}

@@ -1,0 +1,27 @@
+{
+  "baseline": "v130c7",
+  "lite_zip": {
+    "filename": "（兼容版测试版）china_bio_lite_v130c7_Daigo_cover_test.zip",
+    "sha256": "6d037cb0234393ef2113e123f7b56de8416c6fcb2b98735945846a92276e7073",
+    "root": "china_bio_lite_v130c7_Daigo_cover_test",
+    "files": 256
+  },
+  "full_zip": {
+    "filename": "（完整版测试版）china_bio_v130c7_Daigo_cover_test.zip",
+    "sha256": "48aa90e76ff0da87c4e1acd334443d910159556ee8e471ac24bf4d93b784b99c",
+    "root": "china_bio_v130c7_Daigo_cover_test",
+    "files": 462
+  },
+  "normalized_comparison": {
+    "common_paths": 255,
+    "same_content_paths": 254,
+    "different_common_paths": [
+      "descriptor.mod"
+    ],
+    "lite_only_paths": [
+      "__outer__/china_bio_lite_v130c7_Daigo_cover_test.mod"
+    ],
+    "full_only_paths_count": 207,
+    "full_only_mod_files_count": 206
+  }
+}

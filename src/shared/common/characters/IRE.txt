@@ -1,0 +1,474 @@
+characters={
+	IRE_Éamon_de_valera={
+		name = CBIO_NAME_IRE_Eamon_de_valera
+		portraits={
+			civilian={
+				large=GFX_portrait_Eamon_de_Valera
+			}
+		}
+		country_leader={
+			desc = CBIO_IRE_Eamon_de_valera_desc
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_eoin_oduffy={
+		name = CBIO_NAME_IRE_eoin_oduffy
+		portraits={
+			civilian={
+				large=GFX_portrait_Eoin_ODuffy
+			}
+		}
+		country_leader={
+			desc = CBIO_IRE_eoin_oduffy_desc
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_james_larkin={
+		name = CBIO_NAME_IRE_james_larkin
+		portraits={
+			civilian={
+				large=GFX_portrait_James_Larkin
+			}
+		}
+		country_leader={
+			desc = CBIO_IRE_james_larkin_desc
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_william_norton={
+		name = CBIO_NAME_IRE_william_norton
+		portraits={
+			civilian={
+				large=GFX_portrait_William_Norton
+			}
+		}
+		country_leader={
+			desc = CBIO_IRE_william_norton_desc
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_michael_costello={
+		name = CBIO_NAME_IRE_michael_costello
+		portraits={
+			army={
+				large=GFX_portrait_Michael_Costello
+				small=GFX_portrait_Michael_Costello_small
+			}
+		}
+		corps_commander={
+			desc = CBIO_IRE_michael_costello_desc
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRE_p_a_mulcahy={
+		advisor={
+			desc = CBIO_IRE_p_a_mulcahy_desc
+			
+			
+			slot = air_chief
+			idea_token = IRE_p_a_mulcahy
+			allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					air_chief_ground_support_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_p_a_mulcahy
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_2"
+			}
+		}
+	}
+	IRE_liam_archer={
+		advisor={
+			desc = CBIO_IRE_liam_archer_desc
+			
+			
+			slot = army_chief
+			idea_token = IRE_liam_archer
+			allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					army_chief_offensive_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_liam_archer
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	IRE_a_t_lawlor={
+		advisor={
+			
+			
+			slot = high_command
+			idea_token = IRE_a_t_lawlor
+			ledger = navy
+				allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					navy_fleet_logistics_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name="A.T. Lawlor"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	IRE_oscar_traynor={
+		advisor={
+			desc = CBIO_IRE_oscar_traynor_desc
+			cost = 100
+			
+			slot = theorist
+			idea_token = IRE_oscar_traynor
+			ledger = air
+				allowed = {
+					original_tag = IRE
+				}
+				
+				traits = {
+					air_warfare_theorist
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_oscar_traynor
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+	}
+	IRE_frank_fahy={
+		advisor={
+			desc = CBIO_IRE_frank_fahy_desc
+			
+			
+			slot = high_command
+			idea_token = IRE_frank_fahy
+			ledger = army
+				allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					army_commando_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_frank_fahy
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_6"
+			}
+		}
+	}
+	IRE_h_t_green={
+		advisor={
+			
+			
+			slot = air_chief
+			idea_token = IRE_h_t_green
+			allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					air_chief_safety_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name="H.T. Green"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+	}
+	IRE_michael_brennan={
+		advisor={
+			desc = CBIO_IRE_michael_brennan_desc
+			
+			
+			slot = high_command
+			idea_token = IRE_michael_brennan
+			ledger = air
+				allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					air_bomber_interception_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_michael_brennan
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+	IRE_richard_james_mulcahy={
+		advisor={
+			desc = CBIO_IRE_richard_james_mulcahy_desc
+			
+			
+			slot = army_chief
+			idea_token = IRE_richard_james_mulcahy
+			allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					army_chief_defensive_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_richard_james_mulcahy
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_5"
+			}
+		}
+	}
+	IRE_michael_joe_costello={
+		advisor={
+			desc = CBIO_IRE_michael_joe_costello_desc
+			cost = 100
+			
+			slot = theorist
+			idea_token = IRE_michael_joe_costello
+			ledger = army
+				allowed = {
+					original_tag = IRE
+				}
+				
+				traits = {
+					military_theorist
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_michael_joe_costello
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+	IRE_dan_mckenna={
+		advisor={
+			desc = CBIO_IRE_dan_mckenna_desc
+			
+			
+			slot = high_command
+			idea_token = IRE_dan_mckenna
+			ledger = army
+				allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					army_regrouping_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_dan_mckenna
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+	IRE_s_muiris={
+		advisor={
+			
+			
+			slot = navy_chief
+			idea_token = IRE_s_muiris
+			allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					navy_chief_decisive_battle_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name="S. O'Muiris"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+	}
+	IRE_john_byrne={
+		advisor={
+			desc = CBIO_IRE_john_byrne_desc
+			
+			
+			slot = navy_chief
+			idea_token = IRE_john_byrne
+			allowed = {
+					original_tag = IRE
+				}
+				traits = {
+					navy_chief_naval_aviation_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_john_byrne
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_1"
+			}
+		}
+	}
+	IRE_sean_lemass={
+		advisor={
+			desc = CBIO_IRE_sean_lemass_desc
+			slot = political_advisor
+			idea_token = IRE_sean_lemass
+			allowed  = {
+					original_tag  = IRE
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_sean_lemass
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_5"
+			}
+		}
+	}
+	IRE_douglas_hyde={
+		advisor={
+			desc = CBIO_IRE_douglas_hyde_desc
+			slot = political_advisor
+			idea_token = IRE_douglas_hyde
+			allowed  = {
+					original_tag  = IRE
+				}
+				traits  = {
+					popular_figurehead 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_douglas_hyde
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+	}
+	IRE_sean_ceallaigh={
+		advisor={
+			desc = CBIO_IRE_sean_ceallaigh_desc
+			slot = political_advisor
+			idea_token = IRE_sean_ceallaigh
+			allowed  = {
+					original_tag  = IRE
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name = IRE_sean_ceallaigh
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+	}
+
+
+
+  #####                                                              
+ #     #   ####   #  ######  #    #  #####  #   ####   #####   ####  
+ #        #    #  #  #       ##   #    #    #  #         #    #      
+  #####   #       #  #####   # #  #    #    #   ####     #     ####  
+       #  #       #  #       #  # #    #    #       #    #         # 
+ #     #  #    #  #  #       #   ##    #    #  #    #    #    #    # 
+  #####    ####   #  ######  #    #    #    #   ####     #     ####  
+
+
+
+
+	IRE_ernest_walton = {
+		name = IRE_ernest_walton
+		portraits = {
+			army = {
+				large = GFX_portrait_IRE_ernest_walton
+			}
+		}
+		
+		scientist = {
+			traits = { scientist_trait_nuclear_power_expert }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+}
