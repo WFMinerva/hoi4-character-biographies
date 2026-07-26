@@ -1,0 +1,426 @@
+characters={
+	GUA_jorge_ubico={
+		name=CBIO_NAME_GUA_jorge_ubico
+		portraits={
+			civilian={
+				large="GFX_portrait_guatemala_jorge_ubico"
+			}
+		}
+		country_leader={
+			desc = CBIO_GUA_jorge_ubico_desc
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUA_justo_arbenz={
+		name=CBIO_NAME_GUA_justo_arbenz
+		portraits={
+			civilian={
+				large=GFX_portrait_Justo_Arbenz
+			}
+		}
+		country_leader={
+			desc = CBIO_GUA_justo_arbenz_desc
+			ideology=conservatism
+			expire="1943.1.1.12"
+			id=-1
+		}
+	}
+	GUA_máximo_arbenz={
+		name="Máximo Arbenz"
+		portraits={
+			civilian={
+				large=GFX_portrait_Maximo_Arbenz
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism
+			traits={ dealbroker smooth_talking_charmer }
+			expire="1946.1.1.12"
+			id=-1
+		}
+	}
+	GUA_diego_barahona={
+		name=CBIO_NAME_GUA_diego_barahona
+		portraits={
+			civilian={
+				large=GFX_portrait_Diego_Barahona
+			}
+		}
+		country_leader={
+			desc = CBIO_GUA_diego_barahona_desc
+			ideology=rexism
+			traits={ national_integralist }
+			expire="1949.1.1.12"
+			id=-1
+		}
+	}
+	GUA_jorge_torriello_garrido={
+		advisor={
+			desc = CBIO_GUA_jorge_torriello_garrido_desc
+			
+			
+			slot = navy_chief
+			idea_token = GUA_jorge_torriello_garrido
+			allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					navy_chief_decisive_battle_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_jorge_torriello_garrido
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_south_america_1"
+			}
+		}
+	}
+	GUA_carlos_diaz_de_leon={
+		advisor={
+			desc = CBIO_GUA_carlos_diaz_de_leon_desc
+			
+			
+			slot = high_command
+			idea_token = GUA_carlos_diaz_de_leon
+			ledger = army
+				allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					army_infantry_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=GUA_carlos_diaz_de_leon
+		portraits={
+			army={
+				small="GFX_idea_generic_army_south_america_2"
+			}
+		}
+	}
+	GUA_jacopo_arbenz_guzman={
+		advisor={
+			desc = CBIO_GUA_jacopo_arbenz_guzman_desc
+			
+			
+			slot = army_chief
+			idea_token = GUA_jacopo_arbenz_guzman
+			allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					army_chief_offensive_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=GUA_jacopo_arbenz_guzman
+		portraits={
+			army={
+				small="GFX_idea_generic_army_south_america_5"
+			}
+		}
+	}
+	GUA_w_tesch_orlando={
+		advisor={
+			cost = 100
+			
+			slot = theorist
+			idea_token = GUA_w_tesch_orlando
+			ledger = navy
+				allowed = {
+					original_tag = GUA
+				}
+				
+				traits = {
+					naval_theorist
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name="W. Tesch Orlando"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_south_america_1"
+			}
+		}
+	}
+	GUA_r_buenaventure_pineda={
+		advisor={
+			desc = CBIO_GUA_r_buenaventure_pineda_desc
+			
+			
+			slot = air_chief
+			idea_token = GUA_r_buenaventure_pineda
+			allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					air_chief_ground_support_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_r_buenaventure_pineda
+		portraits={
+			army={
+				small="GFX_idea_generic_air_south_america_2"
+			}
+		}
+	}
+	GUA_tomas_mendoza_urribe={
+		advisor={
+			
+			
+			slot = navy_chief
+			idea_token = GUA_tomas_mendoza_urribe
+			allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					navy_chief_commerce_raiding_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name="Tomas Mendoza Urribe"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_south_america_3"
+			}
+		}
+	}
+	GUA_miguel_garcia_granados={
+		advisor={
+			desc = CBIO_GUA_miguel_garcia_granados_desc
+			
+			
+			slot = high_command
+			idea_token = GUA_miguel_garcia_granados
+			ledger = air
+				allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					air_strategic_bombing_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_miguel_garcia_granados
+		portraits={
+			army={
+				small="GFX_idea_generic_air_south_america_1"
+			}
+		}
+	}
+	GUA_jose_ezuira_abel={
+		advisor={
+			
+			
+			slot = high_command
+			idea_token = GUA_jose_ezuira_abel
+			ledger = navy
+				allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					navy_fleet_logistics_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name="José Ezuira Abel"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_south_america_2"
+			}
+		}
+	}
+	GUA_m_ydigaras_fuentes={
+		advisor={
+			desc = CBIO_GUA_m_ydigaras_fuentes_desc
+			cost = 100
+			
+			slot = theorist
+			idea_token = GUA_m_ydigaras_fuentes
+			ledger = army
+				allowed = {
+					original_tag = GUA
+				}
+				
+				traits = {
+					military_theorist
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_m_ydigaras_fuentes
+		portraits={
+			army={
+				small="GFX_idea_generic_army_south_america_1"
+			}
+		}
+	}
+	GUA_federico_ponce_vaides={
+		advisor={
+			desc = CBIO_GUA_federico_ponce_vaides_desc
+			
+			
+			slot = army_chief
+			idea_token = GUA_federico_ponce_vaides
+			allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					army_chief_old_guard
+				}
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_federico_ponce_vaides
+		portraits={
+			army={
+				small="GFX_idea_generic_army_south_america_4"
+			}
+		}
+	}
+	GUA_manuel_orellana={
+		advisor={
+			desc = CBIO_GUA_manuel_orellana_desc
+			
+			
+			slot = high_command
+			idea_token = GUA_manuel_orellana
+			ledger = army
+				allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					army_entrenchment_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_manuel_orellana
+		portraits={
+			army={
+				small="GFX_idea_generic_army_south_america_1"
+			}
+		}
+	}
+	GUA_francisco_javier_arana={
+		advisor={
+			desc = CBIO_GUA_francisco_javier_arana_desc
+			
+			
+			slot = air_chief
+			idea_token = GUA_francisco_javier_arana
+			allowed = {
+					original_tag = GUA
+				}
+				traits = {
+					air_chief_reform_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_francisco_javier_arana
+		portraits={
+			army={
+				small="GFX_idea_generic_air_south_america_1"
+			}
+		}
+	}
+	GUA_juan_arevalo_bermejo={
+		advisor={
+			desc = CBIO_GUA_juan_arevalo_bermejo_desc
+			slot = political_advisor
+			idea_token = GUA_juan_arevalo_bermejo
+			allowed  = {
+					original_tag  = GUA
+				}
+				traits  = {
+					war_industrialist 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=CBIO_NAME_GUA_juan_arevalo_bermejo
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_south_america_3"
+			}
+		}
+	}
+	GUA_eduardo_villagran_ariza={
+		advisor={
+			desc = CBIO_GUA_eduardo_villagran_ariza_desc
+			slot = political_advisor
+			idea_token = GUA_eduardo_villagran_ariza
+			allowed  = {
+					original_tag  = GUA
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name=GUA_eduardo_villagran_ariza
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_south_america_1"
+			}
+		}
+	}
+	GUA_manuel_arroyo={
+		advisor={
+			slot = political_advisor
+			idea_token = GUA_manuel_arroyo
+			allowed  = {
+					original_tag  = GUA
+				}
+				traits  = {
+					quartermaster_general 
+				}
+		}
+# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+		name="Manuel Arroyo"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_south_america_2"
+			}
+		}
+	}
+}

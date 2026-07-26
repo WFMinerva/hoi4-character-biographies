@@ -1,0 +1,26 @@
+characters = {
+
+
+	SHL_hermann_ludemann = {
+
+		name = SHL_hermann_ludemann
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHL_hermann_ludemann
+			}
+		}
+
+		country_leader = {
+			desc = CBIO_SHL_hermann_ludemann_desc
+			ideology = socialism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+}

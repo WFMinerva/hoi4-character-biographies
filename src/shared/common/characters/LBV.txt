@@ -1,0 +1,26 @@
+characters = {
+
+
+	LBV_robert_von_habsburg = {
+
+		name = LBV_robert_von_habsburg
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LBV_robert_von_habsburg
+			}
+		}
+
+		country_leader = {
+			desc = CBIO_LBV_robert_von_habsburg_desc
+			ideology = despotism
+			traits = { archduke_of_austria_este }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+	}
+
+	
+
+}

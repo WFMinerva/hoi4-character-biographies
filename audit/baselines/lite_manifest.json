@@ -1,0 +1,1287 @@
+{
+  "root": "china_bio_lite_v130c7_Daigo_cover_test",
+  "outer_mod": "china_bio_lite_v130c7_Daigo_cover_test.mod",
+  "file_count": 256,
+  "files": [
+    {
+      "path": "__outer__/china_bio_lite_v130c7_Daigo_cover_test.mod",
+      "size": 209,
+      "sha256": "64a3cfc6718c30d19669b04314cc65aaa6f18eb730b51d0dc185b7ced457b6d1"
+    },
+    {
+      "path": "common/characters/ABK.txt",
+      "size": 284,
+      "sha256": "382ff1df5e736a61a3dde1adf0c9f803e6bdd98476ba104b751a537597dd00a3"
+    },
+    {
+      "path": "common/characters/AFA.txt",
+      "size": 813,
+      "sha256": "0e180e5f8ab8373b71bf4d8e92ea3c08399b7affa1059f585a8517eb96b81de4"
+    },
+    {
+      "path": "common/characters/AFG.txt",
+      "size": 27701,
+      "sha256": "8e77141f03c7623d4633b9b9960a6e97024f17b893ba9ac3eab6e279629fbd63"
+    },
+    {
+      "path": "common/characters/ALB.txt",
+      "size": 9486,
+      "sha256": "fd832b1c963be397a7d07223ef16f536cc0bf9e92efae4d3f4f285753d0fe516"
+    },
+    {
+      "path": "common/characters/ALT.txt",
+      "size": 528,
+      "sha256": "c6d3573f405fb493716554d6594001eaec4b0ef27571e9ced1cbf318f3870b87"
+    },
+    {
+      "path": "common/characters/AOI.txt",
+      "size": 2933,
+      "sha256": "4ab02bc83c66f992d083331db63c40918e289890377ee05ad27e828c8503c822"
+    },
+    {
+      "path": "common/characters/ARG.txt",
+      "size": 38743,
+      "sha256": "d700651e838f9f7d019ca36bad456224f8c021de7218eec9fa3dab289211f9e9"
+    },
+    {
+      "path": "common/characters/AST.txt",
+      "size": 57967,
+      "sha256": "0740f2209213be9f575ee469d4bf2722769bceb437009057c509f9bb0638abf2"
+    },
+    {
+      "path": "common/characters/ASY.txt",
+      "size": 592,
+      "sha256": "668c2d0b77dbbb60b222e0fe9ccd98810d8619c086d72adb04078fe6da386c13"
+    },
+    {
+      "path": "common/characters/AUS.txt",
+      "size": 54574,
+      "sha256": "690951d1708c35141c083ec28a3aa16e32fe25cc184330b6157629709d8a1dc1"
+    },
+    {
+      "path": "common/characters/BAN.txt",
+      "size": 7764,
+      "sha256": "7be351accbc63e2981198a3fea13b8732a8b25fd8efee713acd58920bc38f5a3"
+    },
+    {
+      "path": "common/characters/BAR.txt",
+      "size": 352,
+      "sha256": "1f3415e7f734f0cb6abb038449ee22dc5c6616dc558e30c41293df4d72a027bf"
+    },
+    {
+      "path": "common/characters/BAY.txt",
+      "size": 684,
+      "sha256": "1f047e3f9271f8e0aa6ad91c4e2eaa91ec48e38be05dc560549e4ef3ab7cb608"
+    },
+    {
+      "path": "common/characters/BEL.txt",
+      "size": 39651,
+      "sha256": "04af6efa5c05426019456be2b5908a9ce5dd48b8631450909d4b39dc18745e60"
+    },
+    {
+      "path": "common/characters/BHU.txt",
+      "size": 7958,
+      "sha256": "48fa60bedec5a6ac5140596b7b08a3ce54c31ca5c0572017995952b43af27184"
+    },
+    {
+      "path": "common/characters/BIA.txt",
+      "size": 336,
+      "sha256": "9c7a3a8c781a4a33af156da60820ac9177dbdf1c05eb443972575f60100802a4"
+    },
+    {
+      "path": "common/characters/BLR.txt",
+      "size": 1388,
+      "sha256": "fc09385de57bf465575b585ffd63d93f5d4536908286abce7438f95546cdf6d1"
+    },
+    {
+      "path": "common/characters/BOL.txt",
+      "size": 16705,
+      "sha256": "ef411e17322cb11709b90cd145a2c1bfe06cc5cedc6b8fb7e5936d8ef57a9729"
+    },
+    {
+      "path": "common/characters/BRA.txt",
+      "size": 37901,
+      "sha256": "9cff25e20e84bd07d68da133ba23417b100697341d5abc67d1cb5d16c41e249a"
+    },
+    {
+      "path": "common/characters/BRD.txt",
+      "size": 8164,
+      "sha256": "fc94c1797e83ac1fc3e5bd1fcd9ddbb816d4d16c3f01d3508eb1e1df71d01a5a"
+    },
+    {
+      "path": "common/characters/BRM.txt",
+      "size": 9011,
+      "sha256": "6fec27a572c9fe25c18d0ff3de3f641820da17e6db7a63a3511d7d81fa814634"
+    },
+    {
+      "path": "common/characters/BSK.txt",
+      "size": 287,
+      "sha256": "1eecc1028448a0e1297fee05aa9c4be14c973731beffe79e2ae4c6d751612887"
+    },
+    {
+      "path": "common/characters/BUK.txt",
+      "size": 548,
+      "sha256": "a5d27434e53714dc3e1b5eaa4f4bdac6af1d7b8e46aba7fb72381f1478c4a177"
+    },
+    {
+      "path": "common/characters/BUL.txt",
+      "size": 48202,
+      "sha256": "a5a75d21cf9ac6bb4b099d57801c776bc85ced978f1c25364024bd0bc0171073"
+    },
+    {
+      "path": "common/characters/BYA.txt",
+      "size": 591,
+      "sha256": "cabbf6104c58b4c1763bb2fe7cb1ce30b3679395533a7f8c9b5a5d8eb972cd2f"
+    },
+    {
+      "path": "common/characters/CAM.txt",
+      "size": 1275,
+      "sha256": "56078d153b806aa8bbe0e701857973a12446910ed0d2f755ad860e647e3a0f61"
+    },
+    {
+      "path": "common/characters/CAN.txt",
+      "size": 17789,
+      "sha256": "760f42f726ca8d060f6c104ed9122910ec84168ef8fd3f79a77179d700653a51"
+    },
+    {
+      "path": "common/characters/CAT.txt",
+      "size": 330,
+      "sha256": "356ecfe50b4bf2edde05a315c5364e43414916d8a8dd2a021930b5549beb0259"
+    },
+    {
+      "path": "common/characters/CHI.txt",
+      "size": 61578,
+      "sha256": "735e2e4fb6bfd0e5a8890cba236484cdbf57af4de73c8dfc7dc6aef447d03110"
+    },
+    {
+      "path": "common/characters/CHL.txt",
+      "size": 97924,
+      "sha256": "47a7d104610a81117687299c4f084d879b2e6ccaa0933bcbdfa6e1513eb4fa6b"
+    },
+    {
+      "path": "common/characters/CHU.txt",
+      "size": 297,
+      "sha256": "3f02815c819a308631c31c3b9bc8bfd72a2b9e093808d5e39271bce7b2641f49"
+    },
+    {
+      "path": "common/characters/CIN.txt",
+      "size": 541,
+      "sha256": "853440e918668ed8d75acd79c090d9f52e19973b59c67da17df089456e4ee52a"
+    },
+    {
+      "path": "common/characters/COG.txt",
+      "size": 21956,
+      "sha256": "6da721b11447be12929ba06b84d353a2f354c54729bb4d113f79cc81c710cbc9"
+    },
+    {
+      "path": "common/characters/COL.txt",
+      "size": 9694,
+      "sha256": "95257eeb57c072c4e328218964c6be0136204f84aa41ef1522b08e84496981aa"
+    },
+    {
+      "path": "common/characters/COS.txt",
+      "size": 9761,
+      "sha256": "f2461526efe59443dd2ab8b4510e0d05aec90acbd987cce39ced5954e3f075b3"
+    },
+    {
+      "path": "common/characters/CPS.txt",
+      "size": 309,
+      "sha256": "e342e7b5546673f533e447d85f21f81d19fb279f78fc1bd0b8b043a174e21f56"
+    },
+    {
+      "path": "common/characters/CRI.txt",
+      "size": 271,
+      "sha256": "df9f625ee8483a9561c21547b434589568b9224cb28ec9cb02f98459166935b6"
+    },
+    {
+      "path": "common/characters/CRO.txt",
+      "size": 3847,
+      "sha256": "963b1745b3ebc9253b340c29341e7628b7e9d628b6fae7265873d91824b1e8ae"
+    },
+    {
+      "path": "common/characters/CUB.txt",
+      "size": 8519,
+      "sha256": "4a490da4946e63ead579a05028c3410d32db719e2d03f26aa94f59b75e49e00c"
+    },
+    {
+      "path": "common/characters/CZE.txt",
+      "size": 95404,
+      "sha256": "95317e1477b9713e0d301ca8a56a2f2a97e2af2f5880ff20fd6a06a3ad65758b"
+    },
+    {
+      "path": "common/characters/DAG.txt",
+      "size": 581,
+      "sha256": "b9d01a708e441d60f04a00f11d35c2fdd17391563b9a96723f085b6fffda00ad"
+    },
+    {
+      "path": "common/characters/DEN.txt",
+      "size": 47373,
+      "sha256": "7a71c16c2bbde6d0f0a63a3cfd04c9497c1cdbe5c32d84466ffb0c1aa510f1ca"
+    },
+    {
+      "path": "common/characters/DOM.txt",
+      "size": 8464,
+      "sha256": "1fb7a07de7e2767808b72aef0fa9006150f516fc7e85f10c65fcd95b55be6404"
+    },
+    {
+      "path": "common/characters/DON.txt",
+      "size": 709,
+      "sha256": "4d0731977d20452c36af0f554fe33e56539e6442c1201664afac5f15b7c9612f"
+    },
+    {
+      "path": "common/characters/ECU.txt",
+      "size": 10850,
+      "sha256": "d323f32e04b3f97b04a29c4a98a2a60ad01af849b5c8c1ddfb5551f90c07e60b"
+    },
+    {
+      "path": "common/characters/ELS.txt",
+      "size": 9136,
+      "sha256": "11d5352bcc0d58f5e5a5033e38324c480fda62d6b8813852a0bbc73c113848da"
+    },
+    {
+      "path": "common/characters/ENG.txt",
+      "size": 48450,
+      "sha256": "68a85de8b6a7e0129971989b5b58ad34273328e0e5909984a7f3955e3d0923d2"
+    },
+    {
+      "path": "common/characters/EST.txt",
+      "size": 13973,
+      "sha256": "57d06fd752252e4d76b14617673d2a964ae95011058cd944b2f6742e305dbf45"
+    },
+    {
+      "path": "common/characters/ETH.txt",
+      "size": 45828,
+      "sha256": "96cf397e778d92bbf67f7e6bf1e2b887c05aa3eb635013ce72d8afc3bdc75fd7"
+    },
+    {
+      "path": "common/characters/FIN.txt",
+      "size": 58532,
+      "sha256": "07da3d8201456f6ed0f0f3e3336ea7b5f27edf31a8814ccb947a48135af2ba16"
+    },
+    {
+      "path": "common/characters/FRA.txt",
+      "size": 36112,
+      "sha256": "a3f51b7bc8d6beab51cb1bd6681cad1f231c928cd2a6174258b025b7c8a1554c"
+    },
+    {
+      "path": "common/characters/GEN.txt",
+      "size": 360,
+      "sha256": "400b025d966b87da5232706f80a013300e6d6bf0adeef74f95e37dc81cc6cdd5"
+    },
+    {
+      "path": "common/characters/GEO.txt",
+      "size": 2864,
+      "sha256": "49594061af7db3fda43e2f02e447117bd8ed14cfd1bc0815d12c3b2a771f67cc"
+    },
+    {
+      "path": "common/characters/GER.txt",
+      "size": 90994,
+      "sha256": "92da1fa7574919fdf33dfcbc8e42cdc9ecb81f5bbbb66f20c6b2394acf707d1f"
+    },
+    {
+      "path": "common/characters/GHA.txt",
+      "size": 7846,
+      "sha256": "1dc4930487969f078753ce44b033dc08b7c5b18a190b211ff66e43ac09dbcacd"
+    },
+    {
+      "path": "common/characters/GRE.txt",
+      "size": 35966,
+      "sha256": "2dca943a747b247a6a9006fc1048c4380f74fe7ab451a7e59f471eff379e36f1"
+    },
+    {
+      "path": "common/characters/GUA.txt",
+      "size": 8180,
+      "sha256": "d1d1ad4a3cb2821bb55b7af02827a6a929a0abd6d85b813f4ba0d7bda4ca73bd"
+    },
+    {
+      "path": "common/characters/HAI.txt",
+      "size": 8092,
+      "sha256": "7ffd5a22b7204ebf987465887adcd794256d2a261245ad1724d34067f2089cee"
+    },
+    {
+      "path": "common/characters/HAN.txt",
+      "size": 303,
+      "sha256": "7d7177f76c661b592cb3ec9938b549afd141b19b3cd9f43af7dd8b4f0c0e64af"
+    },
+    {
+      "path": "common/characters/HES.txt",
+      "size": 314,
+      "sha256": "cb84f9e5424d3d6a3016cf753846f90b2ccac323c7caf64479c9d0f8a4d808d4"
+    },
+    {
+      "path": "common/characters/HOL.txt",
+      "size": 23315,
+      "sha256": "8e623aeca6b38d8e6f0c479dec794fe0a55ab424bdc35b5c45b910b8975274bb"
+    },
+    {
+      "path": "common/characters/HON.txt",
+      "size": 9572,
+      "sha256": "069f6f8a34ba75b9c8534a694435b1f5c01d5a0b201770d5bf4daf850c46a1e0"
+    },
+    {
+      "path": "common/characters/HUN.txt",
+      "size": 69192,
+      "sha256": "2ed9df56b138c6101874829986cf967f048d33864a2bbf094b9263b8dcea52c9"
+    },
+    {
+      "path": "common/characters/IA.txt",
+      "size": 4090,
+      "sha256": "cf3efdc18de41835ed1135e4cb7afccc542c3e6825e4fe916b32e67b9f12184b"
+    },
+    {
+      "path": "common/characters/ICE.txt",
+      "size": 14998,
+      "sha256": "4a6c3bb5932bc0080907b45479bb7fad39f7984740b9640e139da8a814c13eb0"
+    },
+    {
+      "path": "common/characters/IMO.txt",
+      "size": 317,
+      "sha256": "0992b69b2b34e88b070d7ad347f65a4c4b7439738a7ed78da4bc7fc4da3b3685"
+    },
+    {
+      "path": "common/characters/INS.txt",
+      "size": 59147,
+      "sha256": "cc7362cd54d18e5c50c5d0f0ec95b39a1a2c132416a8942df280ccc0f478892b"
+    },
+    {
+      "path": "common/characters/IRE.txt",
+      "size": 8789,
+      "sha256": "0d4bc4800204b2f212673bed9e29bbd9f4e91aba740f77c2926abe2d99cc7e90"
+    },
+    {
+      "path": "common/characters/IRQ.txt",
+      "size": 40300,
+      "sha256": "4e49014c7776a95983734b717ce4e5561fcedd9e4d8d47e9f741d9e4a810812b"
+    },
+    {
+      "path": "common/characters/ISR.txt",
+      "size": 371,
+      "sha256": "a30702aea4f07c266d651faaea43048ee27e9e2f5ab8d6f0858bb35b92c4ab07"
+    },
+    {
+      "path": "common/characters/ITA.txt",
+      "size": 75373,
+      "sha256": "f0b8e69528e482cec26d4f16f97611a0da141f57d0c5da0349f2222304c673fa"
+    },
+    {
+      "path": "common/characters/JAP.txt",
+      "size": 107396,
+      "sha256": "c3069ed4aac48d54df1df9f41810a2d493a678b7a1a60c1e2b120dc171135895"
+    },
+    {
+      "path": "common/characters/JOR.txt",
+      "size": 367,
+      "sha256": "6c8660ffe48767e9727336182ab8e8cada430cef5b4f19dd9609cdad0268fe39"
+    },
+    {
+      "path": "common/characters/KAL.txt",
+      "size": 588,
+      "sha256": "6ee506fd0de427cd0b7c90d097b2a1fc88d2c2d6045b59c8c36fd79b237e992a"
+    },
+    {
+      "path": "common/characters/KAR.txt",
+      "size": 1354,
+      "sha256": "d19002b7719b3e1a2ef6f88ab400bd926ef9f33b40d65423adbf011488e937e8"
+    },
+    {
+      "path": "common/characters/KAT.txt",
+      "size": 351,
+      "sha256": "f9b6138495acabde27f9f3211787a417b1222bd03a5edb4be75f7ea52072ef5c"
+    },
+    {
+      "path": "common/characters/KBK.txt",
+      "size": 274,
+      "sha256": "c6ade5b6d931c708c4fda9de81c3fb982aa573e9bf3749fde2948e8b02208da0"
+    },
+    {
+      "path": "common/characters/KHI.txt",
+      "size": 574,
+      "sha256": "55b808143cad50ed717761a150c67bc8fb20c7648c03ce7f39ce81d68d603285"
+    },
+    {
+      "path": "common/characters/KKP.txt",
+      "size": 288,
+      "sha256": "ce03f5603b08200a728e5feb1d97b08d422a23ea8b833f1c1f1a1d48172a7ef8"
+    },
+    {
+      "path": "common/characters/KOM.txt",
+      "size": 406,
+      "sha256": "2d35efacea0c3d3d8965967b447811968796c16185b1a0ca4f7cc31c079d1ee8"
+    },
+    {
+      "path": "common/characters/KOR.txt",
+      "size": 2799,
+      "sha256": "b4bd6278fe677295e0469bbac6311db861fe2e1f0172dc95e200058f0cdada4c"
+    },
+    {
+      "path": "common/characters/KUB.txt",
+      "size": 778,
+      "sha256": "f42500120af234267f46bd8573e7d8f7bdfabc0bcde27dbd2bb6ba3723090bae"
+    },
+    {
+      "path": "common/characters/KUR.txt",
+      "size": 8453,
+      "sha256": "462adb6f6a1e6ddcf5cf413749663ce3f1610d6c5f55d7da40255aadd836fab7"
+    },
+    {
+      "path": "common/characters/KUW.txt",
+      "size": 8176,
+      "sha256": "898b97dcee6dc7885f40f556edfad6fb8493880bd6e4d92626e6c8ad93548ee8"
+    },
+    {
+      "path": "common/characters/LAO.txt",
+      "size": 1282,
+      "sha256": "7b05aa5cbcfe5d92f4f171b95e080231830410a40a7b3297c93fc9275e4129ed"
+    },
+    {
+      "path": "common/characters/LAT.txt",
+      "size": 16335,
+      "sha256": "80fdf2484c2325430acd6146694042d44d6b45f1d457ab15ed9d400676cf07c4"
+    },
+    {
+      "path": "common/characters/LBV.txt",
+      "size": 352,
+      "sha256": "07ea1c4b2ce6492f956b6701c9d4bbb598a873f8ec4062e4118e9f3aea1d6cdf"
+    },
+    {
+      "path": "common/characters/LEB.txt",
+      "size": 697,
+      "sha256": "6256ee54662257e77ca596acfd1efd01f48a27f3b45a2555da6113da01a8146c"
+    },
+    {
+      "path": "common/characters/LIB.txt",
+      "size": 5774,
+      "sha256": "049b52d968bd4d7a0968b17577dec922d621727e7426e088413b5aefd34c042a"
+    },
+    {
+      "path": "common/characters/LIT.txt",
+      "size": 19399,
+      "sha256": "1a65b5a1bfa490f7118d4f00c2d4778882a9b87c99d273036256962239107190"
+    },
+    {
+      "path": "common/characters/LUX.txt",
+      "size": 12208,
+      "sha256": "303c8ad927c5334087f8eb3ef131b0e02a76c09601da08a83fbfde35a9866522"
+    },
+    {
+      "path": "common/characters/MAL.txt",
+      "size": 1237,
+      "sha256": "3af34f03c9995f7ee4f300bcfa0d9be14a3fd37f324de3d6932244b2eece3c20"
+    },
+    {
+      "path": "common/characters/MAN.txt",
+      "size": 18320,
+      "sha256": "370bad5b96474531d6988608f93b2c58f857e46f258e11d36540d6896c790c62"
+    },
+    {
+      "path": "common/characters/MEK.txt",
+      "size": 311,
+      "sha256": "8cbc052ca25289730bf01bb3e09d5dc4be65e7c5ab733362df7b5dd83819e321"
+    },
+    {
+      "path": "common/characters/MEL.txt",
+      "size": 292,
+      "sha256": "c44d5bf91be4ab5c4f6e14a8b9faab00d2c1dd1de5393702934be0b4915ee842"
+    },
+    {
+      "path": "common/characters/MEN.txt",
+      "size": 8743,
+      "sha256": "67213e1ab17cc872ebb37c08d35f0da871124b8808192bcebc146018220562b0"
+    },
+    {
+      "path": "common/characters/MEX.txt",
+      "size": 20931,
+      "sha256": "4d9e2e5f11aa995d817a0b744e4a63b384c9121610f6046374ac4fa28cd2f7b7"
+    },
+    {
+      "path": "common/characters/MNT.txt",
+      "size": 1709,
+      "sha256": "b6c797fca234c6b1f3d1419fc8e52fadd206118a83daa0f8991e6de9756fb956"
+    },
+    {
+      "path": "common/characters/MON.txt",
+      "size": 8378,
+      "sha256": "f4c39abca6ea61c6eb5cf3185f0b7b4348bd16266d185919d2a12463bf338ebc"
+    },
+    {
+      "path": "common/characters/NEP.txt",
+      "size": 8479,
+      "sha256": "f3dadaf3850fabd1a38ca926b39b75949f46fe22340aa0ec31be6a273f8b835a"
+    },
+    {
+      "path": "common/characters/NIC.txt",
+      "size": 8235,
+      "sha256": "438a1de84fda360c9f4511926a7307ad997062c4585f1b2d71c42fe05e74e1c2"
+    },
+    {
+      "path": "common/characters/NOA.txt",
+      "size": 278,
+      "sha256": "1241c1abad0d86ff1f84437e42b9b9673c5c96850e7a094f7290b6ffec12c0ff"
+    },
+    {
+      "path": "common/characters/NOR.txt",
+      "size": 38291,
+      "sha256": "8636b4ab595fd9f6bf02da00dcfd22a0c5ec20c612f931656a4fd11c1063c4a9"
+    },
+    {
+      "path": "common/characters/NZL.txt",
+      "size": 14012,
+      "sha256": "b0390615eb9ef75aa6d6cf510995169af6fbc5e5685c060fe91fc1f250e3b205"
+    },
+    {
+      "path": "common/characters/OKN.txt",
+      "size": 319,
+      "sha256": "5e9b171b57ea75654ed901eaabb4c62209d733c59040d43959e8671ef1e0890e"
+    },
+    {
+      "path": "common/characters/OMA.txt",
+      "size": 7805,
+      "sha256": "1ffb2e9f602a1b7e1f1466739d26781271fd7cfac6d44d3e271df8e700e29470"
+    },
+    {
+      "path": "common/characters/PAL.txt",
+      "size": 408,
+      "sha256": "442f4957ce4636523f508be516caaed01852972f0dcd8e7cebe4b379d6ca9713"
+    },
+    {
+      "path": "common/characters/PAN.txt",
+      "size": 9172,
+      "sha256": "4e31967c9586f69bc89ef86717a7a7b8d0926755bb13a0701e6a699ee55ee122"
+    },
+    {
+      "path": "common/characters/PAR.txt",
+      "size": 28245,
+      "sha256": "600c12a59fd7a9747c6687581998149734b987c962525d949699fd814bb51b7d"
+    },
+    {
+      "path": "common/characters/PER.txt",
+      "size": 34522,
+      "sha256": "400aedc84a534eb123cec2033fa15d7a452fc0a096de835280cd5876f4a10ef0"
+    },
+    {
+      "path": "common/characters/PHI.txt",
+      "size": 35864,
+      "sha256": "b00498356b63f398548cd9e00453a2f418f99458a38846f05daef7eef98e20e2"
+    },
+    {
+      "path": "common/characters/POL.txt",
+      "size": 33655,
+      "sha256": "2cf2a39ba52a88f4ad5e3fb581c8fb933714c3fa3adfce3eea2c3710f454ee4e"
+    },
+    {
+      "path": "common/characters/POR.txt",
+      "size": 26922,
+      "sha256": "829d12a876b63772b8a5626f26e154739f71ccaa4a607ac134b543f4b302c45a"
+    },
+    {
+      "path": "common/characters/PRC.txt",
+      "size": 63137,
+      "sha256": "2d25ba1276480fc88ed866a702597a8c2bda0057cd0072c5a5512637b4bcdf53"
+    },
+    {
+      "path": "common/characters/PRE.txt",
+      "size": 652,
+      "sha256": "86340f8c342e9c59f2f19adf29e723e55237fd0e9d4efc0990726890287f67bb"
+    },
+    {
+      "path": "common/characters/PRU.txt",
+      "size": 11019,
+      "sha256": "a3da185cae7709903990a4bdbe2dcf1863d71a1c3741fa469e80de7d41b3fc74"
+    },
+    {
+      "path": "common/characters/RAJ.txt",
+      "size": 65136,
+      "sha256": "3c849264d90f7cf4b62557fcce200b1ab2221ba6ba4f5eae4849203b4b526ed0"
+    },
+    {
+      "path": "common/characters/RAP.txt",
+      "size": 1094,
+      "sha256": "3eb8fbdcdd22a42967beb0c52e25fe53b8e167e14e3cb630b9817c8bd5ea9fe3"
+    },
+    {
+      "path": "common/characters/RHI.txt",
+      "size": 333,
+      "sha256": "34e38e70c681ac7d9af5832e3cf258ed426ee74cb0a4bc43aee9292caff898da"
+    },
+    {
+      "path": "common/characters/RIF.txt",
+      "size": 342,
+      "sha256": "abaee6978a7a607a4f2cf9330d319b1ec564edfd6fdf4f980f0cb6956dcf9d97"
+    },
+    {
+      "path": "common/characters/RKA.txt",
+      "size": 384,
+      "sha256": "f036f7c6fd52e1e5e40d3b0f6b9e37019ab9221e8363b1da2288fe3a89dab143"
+    },
+    {
+      "path": "common/characters/RKB.txt",
+      "size": 364,
+      "sha256": "15039a9338bf2543364d1c3775c23f09083d9197c608f7bb4a44b5118a4272ea"
+    },
+    {
+      "path": "common/characters/RKH.txt",
+      "size": 810,
+      "sha256": "09f62d66fb5d2df84d3ea7283d50a40208dc705aa15d74678ef9e2689ee4b38d"
+    },
+    {
+      "path": "common/characters/RKI.txt",
+      "size": 389,
+      "sha256": "7e487a85d3121cd3330ae582fec50a688efae7233ade9429ebfb61284a72b222"
+    },
+    {
+      "path": "common/characters/RKK.txt",
+      "size": 389,
+      "sha256": "d79754f2d71e748c37506e768264cf37e5d2b70da1e153d89b76328cd67a8d0c"
+    },
+    {
+      "path": "common/characters/RKM.txt",
+      "size": 380,
+      "sha256": "87d4c4ec3dcf10c7e7ce9ebd6c95223725be164fe9cf7f51ed9b8b0bd09da568"
+    },
+    {
+      "path": "common/characters/RKO.txt",
+      "size": 374,
+      "sha256": "07314c9c9d4cc9547d069fedcfe675e009200452af3a7e4a5a0592f0df1676df"
+    },
+    {
+      "path": "common/characters/RKT.txt",
+      "size": 384,
+      "sha256": "5b46166e3d65b82829f4040a217e3dd77c2739b50d9e439acaad950047b15972"
+    },
+    {
+      "path": "common/characters/RKU.txt",
+      "size": 359,
+      "sha256": "cdaa0c1afd02b72f31937e004b0a93fb68563adb65804cfb1baeccc5f426a507"
+    },
+    {
+      "path": "common/characters/RNA.txt",
+      "size": 374,
+      "sha256": "953e5e83a3f3844216fd5be52f486ba4a9fd739e80c3669131d03993fef50619"
+    },
+    {
+      "path": "common/characters/RNG.txt",
+      "size": 614,
+      "sha256": "5e1bd306c7a1568f22b1605fb83873fd303ec6a074404ce270062762ba21670d"
+    },
+    {
+      "path": "common/characters/ROM.txt",
+      "size": 11631,
+      "sha256": "fdd977ec6930cde2bdc3d230011f33220c2486438c4171c4b85a4a28187f1201"
+    },
+    {
+      "path": "common/characters/RUT.txt",
+      "size": 1561,
+      "sha256": "c685336a2121a0c7b78aedec7136058b707f7e17282f72f503007d1f653fd910"
+    },
+    {
+      "path": "common/characters/RWA.txt",
+      "size": 8184,
+      "sha256": "30c4a0f8bcdeef1780fe8444be5f9c48564c364beecc95d0d102f386d51b54fd"
+    },
+    {
+      "path": "common/characters/SAF.txt",
+      "size": 10486,
+      "sha256": "97af3e608ab5ff4a66f01e7d30142cc1e09fdfc6853a2804730322b14aecdbdc"
+    },
+    {
+      "path": "common/characters/SAU.txt",
+      "size": 5359,
+      "sha256": "f5173d49b6691976e9b43cc014eb3f314cd838cbd29dc9fb58bf6a39c4487577"
+    },
+    {
+      "path": "common/characters/SAX.txt",
+      "size": 315,
+      "sha256": "8f60ddf446cf60c163d787f0a044f8de91521cfc1bd28398b80189c185bb885e"
+    },
+    {
+      "path": "common/characters/SHL.txt",
+      "size": 315,
+      "sha256": "1a304bb0d1ce3ab31256d6b7be520ae6ae4f5b2e24bc7791824cf53a4bc1aa70"
+    },
+    {
+      "path": "common/characters/SIA.txt",
+      "size": 41215,
+      "sha256": "3acfd31a98f457685de31d50487ebdbddc4327cd1c6282a84f0c86cbffe51a0e"
+    },
+    {
+      "path": "common/characters/SIL.txt",
+      "size": 727,
+      "sha256": "ef1affc25e504756a3222c0b152efac796c067395450fee3d46c8989b79bfae5"
+    },
+    {
+      "path": "common/characters/SLO.txt",
+      "size": 13971,
+      "sha256": "dd03cae21824ad9ebb2d9b1c7af29d6ff27d4c89cf2b20c49189120ce12f0f62"
+    },
+    {
+      "path": "common/characters/SOK.txt",
+      "size": 328,
+      "sha256": "615c1201a75155d244954930ba2f0d8615161f4111aa5aed839f920fd285c6ff"
+    },
+    {
+      "path": "common/characters/SOV.txt",
+      "size": 90538,
+      "sha256": "a4e81f38a80c525291b7fdacdbe37900b18593d4293ad4647bfe1a860c6f2d24"
+    },
+    {
+      "path": "common/characters/SPR.txt",
+      "size": 95693,
+      "sha256": "400c37a8752a52ee78542f84e742329cf7721e900ac84a2e4451ffa02c4a983d"
+    },
+    {
+      "path": "common/characters/SWE.txt",
+      "size": 43032,
+      "sha256": "42a3f5241eb3218410e6acdd6854bd1aa5e645544d31b760ab48297f91374856"
+    },
+    {
+      "path": "common/characters/SWI.txt",
+      "size": 54344,
+      "sha256": "a4d8772ed0bd921ccfea69fc4ddfcb739ba08cb4b0b7825b762d7daea6391b7a"
+    },
+    {
+      "path": "common/characters/SYR.txt",
+      "size": 913,
+      "sha256": "1242448afbe169096699cda8cd78e4bd778ace09900cadb1f6341f0f6419ad71"
+    },
+    {
+      "path": "common/characters/TAN.txt",
+      "size": 7654,
+      "sha256": "325e310dd39a6390912586cdeb0627009d3951954e749d34c48bab2c39e516c8"
+    },
+    {
+      "path": "common/characters/TAT.txt",
+      "size": 318,
+      "sha256": "5a271bdcd3e8e541d2f457ff7eab1a77f95f23b8c8e1ff11664ccb9fc15b61f9"
+    },
+    {
+      "path": "common/characters/THU.txt",
+      "size": 294,
+      "sha256": "16d4d3481cb883786dea816c8c5f88b8d40ee03c2e73a3ce70b68e69813582f8"
+    },
+    {
+      "path": "common/characters/TIB.txt",
+      "size": 9813,
+      "sha256": "b3b105ab8cc64a7a54d8202885ec2954e40bfd996670bf1c728716813188dc8c"
+    },
+    {
+      "path": "common/characters/TOS.txt",
+      "size": 449,
+      "sha256": "854b046e5f70392b25ae05ac74bc7f5ecb1a34cd50197a18f560c4f9211c9ee4"
+    },
+    {
+      "path": "common/characters/TTS.txt",
+      "size": 372,
+      "sha256": "53f3d716b144ae4d63dc106adad6d79b1ee18463b7c5d31abbde6ac3edbe1309"
+    },
+    {
+      "path": "common/characters/TUR.txt",
+      "size": 58110,
+      "sha256": "0efc10a29612372d749eb5af4ce91730016ff092cce67c0b5bbe424bc396a47e"
+    },
+    {
+      "path": "common/characters/UBD.txt",
+      "size": 631,
+      "sha256": "303f77b968dae3377ab8ea241b1ca80384b88cc1e09c424f69ef025eac102334"
+    },
+    {
+      "path": "common/characters/UDM.txt",
+      "size": 261,
+      "sha256": "780f56d2e5384666b8b552db1bdd1f410992c5df3f5d10aa9b65129f6d972adf"
+    },
+    {
+      "path": "common/characters/UKR.txt",
+      "size": 1888,
+      "sha256": "501266b44055b4ba260aad774a506e3f907fb62f43b265d9ad0f2856b781c09d"
+    },
+    {
+      "path": "common/characters/URG.txt",
+      "size": 16337,
+      "sha256": "06973584c2fb9f78c0cc552e57e8a6e720edc9472b3e2b3abe53daf53f3aaff8"
+    },
+    {
+      "path": "common/characters/USA.txt",
+      "size": 39256,
+      "sha256": "c3cf03aca22bb22109ee7f5caf7f2d9c41abc567bb6b6972a5a75340d6ea7da7"
+    },
+    {
+      "path": "common/characters/VEN.txt",
+      "size": 8432,
+      "sha256": "174a7e55e99bd8778055c32d6d9d731fc8abc1bfeb81e3046937851a764b57f2"
+    },
+    {
+      "path": "common/characters/VGE.txt",
+      "size": 538,
+      "sha256": "cb4b96097741a612838c1c7249391f4cacf7229939c225a84e43a8c6fe2494ab"
+    },
+    {
+      "path": "common/characters/VIN.txt",
+      "size": 1305,
+      "sha256": "f6473b2618cb26d302ee8ec689d0f8eb630c1158471e188b08c2fac6ed8c8c17"
+    },
+    {
+      "path": "common/characters/WUR.txt",
+      "size": 315,
+      "sha256": "f3efd1c77c67e68b136a7ac06ae38cc22ae424aaed4c9f4e9aa918cf6e5b903c"
+    },
+    {
+      "path": "common/characters/Warlords_China.txt",
+      "size": 52023,
+      "sha256": "918f706d09c091b1fea0b3e3af7c73ea9be46ca761345fc4840f86707cf61ed1"
+    },
+    {
+      "path": "common/characters/YAK.txt",
+      "size": 565,
+      "sha256": "0db14178ed671707f28ccf98627ef5585992b17467d507869600afce9ad473c9"
+    },
+    {
+      "path": "common/characters/YEM.txt",
+      "size": 7835,
+      "sha256": "19141989f089fec32ff1beaf0073418dff1f796c6cf1fe92f79aaa52a9812e9d"
+    },
+    {
+      "path": "common/characters/YUG.txt",
+      "size": 12528,
+      "sha256": "f4631ccfe9c5da1979466fce6f1a85ce8074dc8773781d849856879d70b77fee"
+    },
+    {
+      "path": "descriptor.mod",
+      "size": 209,
+      "sha256": "64a3cfc6718c30d19669b04314cc65aaa6f18eb730b51d0dc185b7ced457b6d1"
+    },
+    {
+      "path": "localisation/english/zz_v129k_verified_real_names_l_english.yml",
+      "size": 2762,
+      "sha256": "ac7cf7c86aaff7d52bc61fc7bba63b419906280f9f0d9b5b6ab128b923405afa"
+    },
+    {
+      "path": "localisation/english/zz_v129l_name_localisation_l_english.yml",
+      "size": 5661,
+      "sha256": "f7387092d8ebd44b9db5cddcaf1e72d62b1f905296e76fbd48482a70c2db2052"
+    },
+    {
+      "path": "localisation/english/zz_v130c3_COL_verified_names_l_english.yml",
+      "size": 586,
+      "sha256": "f1684822c04825c4c8c67d1c38d9892ad8b9824c4ffd19787099f63a50398fec"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/cbio_replace_alias_whitelist_l_simp_chinese.yml",
+      "size": 670,
+      "sha256": "8d26a9e92e4c32767b31072eef2e535ec03aba0b99cd35a14e5491308eed16d8"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/cbio_replace_name_overrides_whitelist_l_simp_chinese.yml",
+      "size": 5825,
+      "sha256": "1b5f7ba9c624f970f5f0fb8c8aca04512e70f35d2ae2319378f01f2734cad713"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/cbio_replace_special_ui_whitelist_l_simp_chinese.yml",
+      "size": 1869,
+      "sha256": "ef71e0cd5f683d77f73d5b7d9fb5e3b6d85eaf855e8f04196e85e30335873f3c"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/cbio_replace_vanilla_desc_whitelist_l_simp_chinese.yml",
+      "size": 64987,
+      "sha256": "d675d1c15c19a5f7a74418dc96161f339f085159bffa3f8c0a623fbacb7be266"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v116c_ARG_date_spacing_hotfix_l_simp_chinese.yml",
+      "size": 88894,
+      "sha256": "8c54cc5e852ffd4024e50c544622471d0e8a599c28acbf722bba385d0894e94d"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v117a_PHI_bios_l_simp_chinese.yml",
+      "size": 87564,
+      "sha256": "5086a02d756076e527992703f55d6394594740b2584afc01a820f2274a9afe96"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v118d_NOR_bios_l_simp_chinese.yml",
+      "size": 116130,
+      "sha256": "957590708eca6ab7a8bf73faae9c6a3c8417b19d4fa9a300c61e45d200419f27"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v119c_BEL_bios_l_simp_chinese.yml",
+      "size": 62733,
+      "sha256": "43be9d64628e76a638a7a1008bbe509927a1e354d5a76dc0f55da169e110615b"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v120c_B22_minor_tags_l_simp_chinese.yml",
+      "size": 30917,
+      "sha256": "ed8169aa0a221d0981e5918f25cac82fb485f3e5c00b3457d218e76c479cae44"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v121f_B23_minor_tags_logfix_l_simp_chinese.yml",
+      "size": 115091,
+      "sha256": "2c8b8e1b725b6e2c2db382c070893afa1c11d722874c1914930bc67bf36841ac"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v124f_B26-B28_desc_alias_l_simp_chinese.yml",
+      "size": 6347,
+      "sha256": "0f70c479a29f3c95cc12977867643bd8e7cd7210a5870a20f11d67e9da6112d1"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v125b_B29-B31_desc_alias_l_simp_chinese.yml",
+      "size": 7644,
+      "sha256": "bf46599498932459bb656d8fae695e8263eff13a468add057f22a5c857ec6363"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v126a_B32_GRE_alias_l_simp_chinese.yml",
+      "size": 3082,
+      "sha256": "3883d0ddfb143cf0e4c2d7513e094a4fb7dfebbc33c4c29c2f0132c3387d0d71"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v126c_B33_B34_alias_l_simp_chinese.yml",
+      "size": 5166,
+      "sha256": "36793b454f17eadb6b52608942df8531c7bdbe7df9b6e5c240835ac44628d4e4"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v126d_BALTIC_GetLeader_logfix_l_simp_chinese.yml",
+      "size": 579,
+      "sha256": "925c7502354f6048567f6ef97876444bc1189efe795a4d5669676b64c6c084da"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v127a_B35_B36_DEN_CAN_alias_l_simp_chinese.yml",
+      "size": 5601,
+      "sha256": "dbed31e408ce473799caa48477d73830805153d8cad119415135482b893c4ec8"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v127b_dynamic_role_display_hotfix_l_simp_chinese.yml",
+      "size": 461,
+      "sha256": "bf2c40d6b72dd6d8c1858e489d4e1986a92ed012791ad0bc7159b7157bec1343"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v127c_placeholder_name_dehan_l_simp_chinese.yml",
+      "size": 469,
+      "sha256": "b9430ab0851c338d9cc791d6363b3ea5c71a22ddf81133eb2438eae043732456"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v128a_COG_IRE_PAR_desc_alias_l_simp_chinese.yml",
+      "size": 62589,
+      "sha256": "249e1e663d9bacf023c8b26ed45292ff5f4b3670e8852e0fd61c3f41952638a2"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v129f_name_desc_aliases_and_restore_l_simp_chinese.yml",
+      "size": 9280,
+      "sha256": "efd6f664a258badd01217c609967e005cb1d6264bbfb8cc533b833ab1b9722d0"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v129g_B52-B62_name_desc_aliases_l_simp_chinese.yml",
+      "size": 101580,
+      "sha256": "9e97baa22043af95b0c867f8b66f5ea4401d6214750b78125029a86a4f8f3190"
+    },
+    {
+      "path": "localisation/replace/simp_chinese/zz_v129h_unverified_name_restore_l_simp_chinese.yml",
+      "size": 1987,
+      "sha256": "c11841cca1117ed2c492ca45d9f405f103129302743820619276f936913131db"
+    },
+    {
+      "path": "localisation/simp_chinese/chi_all_bio_l_simp_chinese.yml",
+      "size": 54074,
+      "sha256": "ffba42b681bb92feea78d6fadbd5c4d97d80dd8464268ae3daac6dc08c56b0f8"
+    },
+    {
+      "path": "localisation/simp_chinese/east_asia_leaders_bio_l_simp_chinese.yml",
+      "size": 6324,
+      "sha256": "2ea0457ad3781c573878cbb47c613f86c9f79734db0678a92bee6603c64fb233"
+    },
+    {
+      "path": "localisation/simp_chinese/prc_all_bio_l_simp_chinese.yml",
+      "size": 57125,
+      "sha256": "4cbc6456e078fdff419d80ad068e980d5fb104d3e07d490794158a5c1839a2ac"
+    },
+    {
+      "path": "localisation/simp_chinese/warlords_china_bio_l_simp_chinese.yml",
+      "size": 4176,
+      "sha256": "3ea6184927cf879002a1781f29abbc77c950532d625595030f3b8ca5aee64650"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_asia_leaders_bio_l_simp_chinese.yml",
+      "size": 356,
+      "sha256": "a8afb0028e57e50a1a283148b67eaf3eb1b80f189d2cf4c55ceb13506efee3d6"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_japan_bio_v74_l_simp_chinese.yml",
+      "size": 121524,
+      "sha256": "1966f6107c50b0113fb4b874595e22be6c234f199ebc257c93026a741cf3aac2"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_missing_1936_leaders_bio_l_simp_chinese.yml",
+      "size": 19,
+      "sha256": "00f320c6d8d4ac8a096b145a452998b68c27d8f624378ef2ec2d4505043d2d6b"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_missing_1939_leaders_bio_l_simp_chinese.yml",
+      "size": 1236,
+      "sha256": "4d5dc37cd7e225594f467a0c9b5921b16082345f52ecc062b82fece5a5c8479e"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_missing_1939_leaders_v65_l_simp_chinese.yml",
+      "size": 783,
+      "sha256": "bdd9dd305ed320b6e980662d0129313b2db3c21c1a539151d39185bbdb7f2841"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_reviewed_leaders_bio_l_simp_chinese.yml",
+      "size": 56664,
+      "sha256": "456120421d4d7da843a9c0d08865a72a7083bb040f6c97105b48f208930997ee"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_user_modified_china_bios_l_simp_chinese.yml",
+      "size": 11246,
+      "sha256": "fd80dd5ee318f8c55170dc582d2c161ce8338c72bf883c417044c09481402c7f"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v104_eng_dyn_l_simp_chinese.yml",
+      "size": 13056,
+      "sha256": "6f2ba30abc6b7af3a3f820e9609599ebe80661a62fcbd501a91ce8650e545e08"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v105_eng_cleanup_l_simp_chinese.yml",
+      "size": 36774,
+      "sha256": "e71c347a39b729619949fb115c7f7905ce5529575f4ddd5e86e6ee0860c6cf8c"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v106_targets_l_simp_chinese.yml",
+      "size": 19,
+      "sha256": "00f320c6d8d4ac8a096b145a452998b68c27d8f624378ef2ec2d4505043d2d6b"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v108_world_ui_l_simp_chinese.yml",
+      "size": 5639,
+      "sha256": "0e19432f58dc1fce0717012e3e5980505746a3922506344a6745e1dfe9ddc576"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v110_repl_leader_l_simp_chinese.yml",
+      "size": 2563,
+      "sha256": "3702a0ecc6940008f4f784742fbf34ec3d0cfa7adf731dd714cfebe41a9306e2"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v112_italy_l_simp_chinese.yml",
+      "size": 227270,
+      "sha256": "e15610c5b72a8d7ed47d2ebb06b4c7a4bd380ec39f87f61179b5ac279e28efce"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v113_fr_dyn_l_simp_chinese.yml",
+      "size": 183452,
+      "sha256": "845a263de1ce748f878a18cbbad8bf568abd57e3d2054b2565d630db20a86311"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v113b_dyn_alias_l_simp_chinese.yml",
+      "size": 26464,
+      "sha256": "b03f0e964d14f526fc0b20ce091da41f832b130ad3519eb374ac49f5412e0e73"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v113c_china_l_simp_chinese.yml",
+      "size": 96397,
+      "sha256": "0a61354bab884ac395f5f20a5124a97935505fd40e5699542a575b85c47ae6c0"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v113d_cnfix_l_simp_chinese.yml",
+      "size": 2418,
+      "sha256": "904e37bfcfeab560d62ed5fea761ac0cf3195d8e073983edaa047455d892974b"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v113e_china_l_simp_chinese.yml",
+      "size": 4294,
+      "sha256": "f8fb74665518d07d79e238f1a64c4b5452b53c6467218c01593c21cc622fd056"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v114_chile_l_simp_chinese.yml",
+      "size": 181975,
+      "sha256": "2c6824c734a4569135e3201420727207f36668494b5b8c0c8015b54e86cb56e7"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v114l_cze_l_simp_chinese.yml",
+      "size": 183927,
+      "sha256": "99a08e7d4a54ae61c9abc917b6a570e199a1cf046892497a99a6ac619b9d533c"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v114n_raj_l_simp_chinese.yml",
+      "size": 197808,
+      "sha256": "d140cd6dcce8944fbb7907db84513e81fa4c1bf2b2bf656465c6bd4638c32df6"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v114o_spr_l_simp_chinese.yml",
+      "size": 189831,
+      "sha256": "2ddd3272ba55f2097eaf2ad29437c7abbcc8b2d8bd3751364dcbd97d0b6c2a44"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v114p_thoma_hotfix_l_simp_chinese.yml",
+      "size": 505,
+      "sha256": "7e5291307b2f0ae9b55180bd8a4bf3eb3b5d07c7528f69909417d19bc1c09d2c"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v114r_ast_fin_hun_l_simp_chinese.yml",
+      "size": 1049934,
+      "sha256": "e70d7cc06a74b92e20cf60ef30a72621148231debeb20df6225f3a0de09abb8f"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v114t_aut_tur_bra_bios_l_simp_chinese.yml",
+      "size": 560201,
+      "sha256": "0f3556001eafa92eed18dfcc9f567f0190e8973e9e553ba254f15227ccc4cfd6"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v115_8countries_bios_l_simp_chinese.yml",
+      "size": 806713,
+      "sha256": "7c3e862c4e0f8c08e34285c8a23c0f3ec565671243236b681999009c5f0c8ff0"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v115c_dynamic_slots_alias_l_simp_chinese.yml",
+      "size": 16836,
+      "sha256": "c5af38fbd21ee05b72585cb1765022e387416339d3b1d2a530dd491ca4aae99a"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v115d_dynamic_slots_alias_l_simp_chinese.yml",
+      "size": 1322,
+      "sha256": "291da9756c18ae7d0bdce51d441184696cfd74fde0d3f4134c267a2cd1bc3f73"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v122a_B24_minor_tags_l_simp_chinese.yml",
+      "size": 66251,
+      "sha256": "21c3eb290051f6ce59b171e11abd1fe7ee4d1fa360716a2569ff76964e06af6d"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v123e_B25_minor_tags_loc_key_hotfix_l_simp_chinese.yml",
+      "size": 33502,
+      "sha256": "3468cddbc80d13909481c9534fb16aa061039026ab425c491a366ae6a066aad5"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v124f_B26-B28_ETH_HOL_ROM_bios_l_simp_chinese.yml",
+      "size": 82784,
+      "sha256": "4b28a15a002e09c02897327c0de1d46bf6a5e9f24b992e94caf5bf3dbdc30147"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v125b_B29-B31_POR_MEX_YUG_bios_l_simp_chinese.yml",
+      "size": 114244,
+      "sha256": "664c81dc6d847aa08e9e184ec3bcc583b5f2b69c15795a8538b17470698ef83d"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v126a_B32_GRE_bios_l_simp_chinese.yml",
+      "size": 43213,
+      "sha256": "2bbf12b9f549f53ac95a99a3081c29a60e49db430ae23bf25bf797daeb7d9273"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v126c_B33_LIT_bios_l_simp_chinese.yml",
+      "size": 34943,
+      "sha256": "16c5f89447f2e9b37c8ac0b19605b3b32f0a41c7603f0f1c9f01632b3aacbd87"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v126c_B34_AFG_bios_l_simp_chinese.yml",
+      "size": 40641,
+      "sha256": "529808965a1ed2e821a4ba234eccc9f3a9bc31e2e6bf651c1a6d97e8daacfbdf"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v126c_GRE_tsarpalis_hotfix_l_simp_chinese.yml",
+      "size": 1109,
+      "sha256": "6af29dd20681dcad4feee7813a95afb8e27aacd4d4c7ee448381c568d4102745"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v127a_B35_B36_DEN_CAN_bios_l_simp_chinese.yml",
+      "size": 88090,
+      "sha256": "5416794304b7626bef74f1a93f14d33e5834cfa22786650c3dd41d2216e4aff9"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v128a_COG_IRE_PAR_bios_l_simp_chinese.yml",
+      "size": 58878,
+      "sha256": "6220dd2e28f2287491e8d172a32cab36ce9a9ed2cdace78727e70486a80d9b52"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129b_B40_B45_COS_bios_l_simp_chinese.yml",
+      "size": 32975,
+      "sha256": "104317458b702ea6c5b0bd638d4285f58306fcb40086554e9e8ba6f5229ccb87"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129d_zhou_lei_gxc_hon_hotfix_l_simp_chinese.yml",
+      "size": 10158,
+      "sha256": "e8a1e926bd98076dd0b45253a01a10045f20898a30de9c7cbc466c555c93ca97"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129e_name_display_and_hon_hotfix_l_simp_chinese.yml",
+      "size": 305,
+      "sha256": "eefa1475922ad2cb6be7e58c5fea85025a79bfcb6aad3f679657f9cf9078632d"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129f_HON_ELS_NIC_NZL_LAT_bios_l_simp_chinese.yml",
+      "size": 55636,
+      "sha256": "5e8f0fb962c1b522c0b581a46b92d8e866037af30befac7e9ac97bb26b68dfd3"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129g_B52-B62_bios_l_simp_chinese.yml",
+      "size": 151127,
+      "sha256": "c3493180ad9322c6a031c1639129c5753ef9d747d52256b70bf0404c4c6c3124"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129h_PRU_ECU_advisor_desc_l_simp_chinese.yml",
+      "size": 15675,
+      "sha256": "a2f5c104ce819a81807d82bbd1d64c9b68d0cb39e2af147aa591cb8e004d46b0"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129k_verified_real_names_l_simp_chinese.yml",
+      "size": 3318,
+      "sha256": "adc2787a832aa22601cbf47f172db291adabca8a0b577e575518228d42241350"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v129l_name_localisation_l_simp_chinese.yml",
+      "size": 7098,
+      "sha256": "f677240ae569512a2e379dbabf3c3cfd6d3de7f83688a8542830092e24f8f171"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v130c3_COL_verified_names_l_simp_chinese.yml",
+      "size": 672,
+      "sha256": "6a0574cfe3c1836a2e567c43d2cc4790cae4a6b4c5a193812547163e90cf7a9b"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v130c3_URG_COL_advisor_alias_l_simp_chinese.yml",
+      "size": 1569,
+      "sha256": "546742cb2764870874ec6cc7d7348713f28b8939c5cd0e2a3aa74e4f001eed4c"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v130c3_URG_COL_bios_l_simp_chinese.yml",
+      "size": 27061,
+      "sha256": "c38cdebd15f74c381de7cd27bd90d6691f71be46bf060f256f3543226c3623cd"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_v130c6_fu_zuoyi_advisor_desc_alias_l_simp_chinese.yml",
+      "size": 62,
+      "sha256": "ff38a1d0a8792e1a3fac06df9c084e14df6cdb6ae5245861985b2985c4b09b7f"
+    },
+    {
+      "path": "localisation/simp_chinese/zzzz_dynamic_leader_fix_v86_l_simp_chinese.yml",
+      "size": 19,
+      "sha256": "00f320c6d8d4ac8a096b145a452998b68c27d8f624378ef2ec2d4505043d2d6b"
+    },
+    {
+      "path": "localisation/simp_chinese/zzzz_extra_germany_sov_white_bios_l_simp_chinese.yml",
+      "size": 1343,
+      "sha256": "360386f37306b7ae9dc50faaa150c1fadd88a2d4f92ac82ae2890713b5db1666"
+    },
+    {
+      "path": "localisation/simp_chinese/zzzz_ger_bio_v86_l_simp_chinese.yml",
+      "size": 105013,
+      "sha256": "84dbc827154fb2c926a52ea11657716205e2f9938a404c41ca0f6df169f52b4b"
+    },
+    {
+      "path": "localisation/simp_chinese/zzzz_sov_bio_l_simp_chinese.yml",
+      "size": 78454,
+      "sha256": "602c229e5af1efd6e93ccc27c66e52a412e2c6f0cb500a00c86d4e638de92464"
+    },
+    {
+      "path": "localisation/simp_chinese/zzzzz_ger_advisor_idea_desc_v86_l_simp_chinese.yml",
+      "size": 54101,
+      "sha256": "81eff6aac2773e250355cc56e89c3a531a7d1123da4a1913b4c9807e7a8f0605"
+    },
+    {
+      "path": "localisation/simp_chinese/zzzzzz_eng_user_reviewed_v103_l_simp_chinese.yml",
+      "size": 68262,
+      "sha256": "968469a0072da214ad91acccc9b8f6b18916cfe864d7a5f1fa1bca737903e25b"
+    },
+    {
+      "path": "localisation/simp_chinese/zzzzzzzzzzz_v109_usa_reviewed_bios_l_simp_chinese.yml",
+      "size": 158073,
+      "sha256": "3c02b2cd7ee4348d7ee9f4a16849f5bfa2079ac9cbb80960cae4a98656967b1a"
+    },
+    {
+      "path": "thumbnail.png",
+      "size": 482213,
+      "sha256": "7749518a827c40bee7aa75ec07ab511f517ae3551eb6b2c197ed3c03d1473b08"
+    }
+  ]
+}

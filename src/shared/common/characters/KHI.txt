@@ -1,0 +1,31 @@
+characters = {
+	KHI_nedirbay_aytakov = {
+		name = "Nedirbay Aytakov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Nedirbay_Aytakov
+			}
+		}
+		country_leader = {
+			desc = CBIO_KHI_nedirbay_aytakov_desc
+			ideology = leninism
+			expire = "1938.1.1.1"
+			id = -1
+		}
+	}
+	KHI_junaid_khan = {
+		name = CBIO_NAME_KHI_junaid_khan 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Junaid_Khan_Muhammet-Kurban_Serdar
+			}
+		}
+		country_leader = {
+			desc = CBIO_KHI_junaid_khan_desc
+			ideology = fascism_ideology
+			expire = "1938.1.1.1"
+			id = -1
+		}
+	}
+}
+	

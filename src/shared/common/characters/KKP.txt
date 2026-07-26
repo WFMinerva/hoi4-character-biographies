@@ -1,0 +1,17 @@
+characters={
+	KKP_islam_sadyk = {
+		name = CBIO_NAME_KKP_islam_sadyk 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Islam_Sadyk-ogly_Aliyev
+			}
+		}
+		country_leader = {
+			desc = CBIO_KKP_islam_sadyk_desc
+			ideology = stalinism
+			expire = "1944.1.1.1"
+			id = -1
+		}
+	}
+}
+	

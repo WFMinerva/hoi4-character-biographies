@@ -1,0 +1,17 @@
+characters = {
+	BSK_yakov_bykin = {
+		name = "Yakov Borisovich Bykin" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Yakov_Borisovich_Bykin
+			}
+		}
+		country_leader = {
+			desc = CBIO_BSK_yakov_bykin_desc
+			ideology = leninism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

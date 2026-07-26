@@ -1,0 +1,17 @@
+characters = {
+	CHU_gerasim_ivanov = {
+		name = "Gerasim Ivanovich Ivanov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Gerasim_Ivanovich_Ivanov
+			}
+		}
+		country_leader = {
+			desc = CBIO_CHU_gerasim_ivanov_desc
+			ideology = leninism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

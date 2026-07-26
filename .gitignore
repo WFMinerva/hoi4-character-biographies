@@ -1,0 +1,29 @@
+# Generated outputs
+/build/
+/releases/
+/audit/reports/*
+!audit/reports/.gitkeep
+
+# Local baseline binary inputs (kept in initialization package, not committed)
+/baseline_inputs/*.zip
+/baseline_inputs/*.png
+
+# Local game reference configuration and copyrighted game files
+/reference/vanilla_path.json
+/reference/vanilla/
+/reference/*.zip
+
+# Game logs and saves
+*.log
+*.sav
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Office temporary files
+~$*

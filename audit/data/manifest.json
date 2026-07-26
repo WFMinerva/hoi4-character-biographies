@@ -1,0 +1,60 @@
+{
+  "description": "v130a-v130b历史审计底库，保留原始内容",
+  "files": [
+    {
+      "file": "v130a-1d_总览与优先问题.json",
+      "size_bytes": 2535123,
+      "sha256": "de417a86151aa24501bf474a1c6f6464f73ffe8495ea1c7001a671185d009a46"
+    },
+    {
+      "file": "v130a-1d_总览与优先问题.xlsx",
+      "size_bytes": 381820,
+      "sha256": "97ccac709a1e8952187ada04748e1d9c382c14ea0c2228aaa0748255abb6677d"
+    },
+    {
+      "file": "v130a-2_静态身份全量表.xlsx",
+      "size_bytes": 977509,
+      "sha256": "86e1f787809f907779ff9025e0d767a0857468df21803e3cdda611dc37af7cfd"
+    },
+    {
+      "file": "v130a-2_静态身份扫描摘要.json",
+      "size_bytes": 889,
+      "sha256": "6fd6133ce19e9fbbd4fc3ca004ac93c37dbc7e7143096c0a61c18d75d7439c12"
+    },
+    {
+      "file": "v130a-3_动态显示路径全量表.xlsx",
+      "size_bytes": 1340572,
+      "sha256": "106d6c3bbf6849c5f7938227f6353ed7d6875e212569ae2f6ba0e417ceb8151d"
+    },
+    {
+      "file": "v130a-3_动态显示路径扫描数据.json",
+      "size_bytes": 9213220,
+      "sha256": "6fdeb2aaf4e3b1591163207f9492082017a8429523b4cd7a730012f653ae66c8"
+    },
+    {
+      "file": "v130a-4b_本地化与文件哈希审计.xlsx",
+      "size_bytes": 3756725,
+      "sha256": "9d3d9db53c7e44b55243cd0cbe7cbf419214ef533f05a7b67f89e33f1535eaa2"
+    },
+    {
+      "file": "v130a-4b_本地化与文件哈希扫描数据.json",
+      "size_bytes": 19624460,
+      "sha256": "da4295d1008640e500c0565dac31acb126fe550a13b1c504e5c367dbedd76e8d"
+    },
+    {
+      "file": "v130a_全量审计总报告.md",
+      "size_bytes": 28537,
+      "sha256": "ba3c6d4a78c14445aa32e76261a3034bbe7ef983de99c9bb42dec2e435b1b629"
+    },
+    {
+      "file": "v130b_只读复核报告.md",
+      "size_bytes": 4971,
+      "sha256": "32a4dac0176049bb3850c3c92e0d6ff59cc371d1a92bdd6a1b266c949982c460"
+    },
+    {
+      "file": "v130b_只读复核表.xlsx",
+      "size_bytes": 41126,
+      "sha256": "09b0a94996f3f26c16ac115a9aca870d56a3aafadde288779f532e4f7c23017a"
+    }
+  ]
+}

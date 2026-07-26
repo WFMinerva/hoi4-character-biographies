@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "baseline": "v130c7-stable",
+  "rules": [
+    {
+      "id": "project_pure_bio",
+      "status": "confirmed",
+      "decision": "项目主线为纯人物小传，不主动加入玩法内容。"
+    },
+    {
+      "id": "scenarios",
+      "status": "confirmed",
+      "decision": "默认测试1936和1939剧本。"
+    },
+    {
+      "id": "class_c_nonleader",
+      "status": "confirmed",
+      "decision": "C类非领袖原则上不写。"
+    },
+    {
+      "id": "scientists",
+      "status": "confirmed",
+      "decision": "科学家默认不写，只保留结构底库。"
+    },
+    {
+      "id": "ai_text_review",
+      "status": "confirmed",
+      "decision": "AI或外部写手正文未经人工审核不得进入发布源码。"
+    },
+    {
+      "id": "gui_tooltip_route",
+      "status": "closed",
+      "decision": "统一GUI Tooltip路线终止，采用身份desc和动态路径精确补挂。"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Fu Zuoyi",
+      "keys": [
+        "CHI_fu_zuoyi_desc",
+        "SHX_fu_zuoyi_desc"
+      ],
+      "classification": "real_person",
+      "decision": "SHX别名复用CHI正文主键，不维护第二套正文。",
+      "status": "confirmed"
+    },
+    {
+      "entity": "Aisin-Gioro Puyi",
+      "keys": [
+        "MAN_aisin_gioro_puyi_desc"
+      ],
+      "classification": "real_person",
+      "decision": "静态和完整版动态身份复用同一正文，不改技能、特质或上台逻辑。",
+      "status": "confirmed"
+    },
+    {
+      "entity": "Tadashige Daigo",
+      "keys": [
+        "CBIO_JAP_tadashige_daigo_desc"
+      ],
+      "classification": "real_person",
+      "decision": "v130c7人工审定正文为当前主文，不得被旧短文覆盖。",
+      "status": "confirmed"
+    }
+  ],
+  "protected_files": [
+    {
+      "paths": [
+        "history/countries/EGY - Egypt.txt",
+        "history/countries/ISR - Israel.txt",
+        "history/countries/JOR - Jordan.txt",
+        "history/countries/LEB - Lebanon.txt",
+        "history/countries/LIB - Liberia.txt",
+        "history/countries/PAL - Palestine.txt",
+        "history/countries/SYR - Syria.txt"
+      ],
+      "decision": "保护18个运行时领袖小传，未经新版语义审计不得删除。",
+      "status": "confirmed"
+    }
+  ],
+  "placeholder_name_restores": {
+    "SHX": [
+      "SHX_cheng_zhao",
+      "SHX_huang_peng",
+      "SHX_kong_fang",
+      "SHX_liao_ting",
+      "SHX_luo_zhao",
+      "SHX_ma_tian",
+      "SHX_min_lan_tung_tin",
+      "SHX_peng_dong",
+      "SHX_qu_yangke",
+      "SHX_sun_li",
+      "SHX_tan_fang",
+      "SHX_wang_li_sun",
+      "SHX_yang_lu",
+      "SHX_zhang_shen",
+      "SHX_zhu_ting"
+    ],
+    "MEN": [
+      "MEN_sonin_xiangying",
+      "MEN_zhao_zhanshan",
+      "MEN_songgotu_shangzhi",
+      "MEN_hesehn_tiemei",
+      "MEN_guan_xingde",
+      "MEN_deng_linge",
+      "MEN_hung_zhehuang",
+      "MEN_yonimitsu_kasahara",
+      "MEN_nalan_kang_an",
+      "MEN_songgotu_zhanshan",
+      "MEN_megata_toshiro"
+    ],
+    "MAN": [
+      "MAN_changlin_linge",
+      "MAN_hung_zhehuang",
+      "MAN_xian_yuan",
+      "MAN_deng_linge",
+      "MAN_guan_xingde",
+      "MAN_yin_zuoqian",
+      "MAN_yonimitsu_kasahara",
+      "MAN_hesehn_tiemei",
+      "MAN_megata_toshiro",
+      "MAN_songgotu_zhanshan"
+    ],
+    "decision": "这些已裁定为占位非领袖，不写小传，简中显示恢复拉丁字母原名。"
+  }
+}

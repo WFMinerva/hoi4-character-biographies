@@ -1,0 +1,31 @@
+characters={
+	YAK_pavel_pevznyak = {
+		name = CBIO_NAME_YAK_pavel_pevznyak 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Pavel_Pevznyak
+			}
+		}
+		country_leader = {
+			desc = CBIO_YAK_pavel_pevznyak_desc
+			ideology = stalinism
+			expire = "1943.1.1.1"
+			id = -1
+		}
+	}
+	YAK_anatoly_pepelyayev = {
+		name = "Anatoly Pepelyayev" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Anatoly_Pepelyayev
+			}
+		}
+		country_leader = {
+			desc = CBIO_YAK_anatoly_pepelyayev_desc
+			ideology = oligarchism
+			expire = "1960.1.1.1"
+			id = -1
+		}
+	}
+}
+	

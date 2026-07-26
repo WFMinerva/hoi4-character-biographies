@@ -1,0 +1,21 @@
+characters = {
+
+	# Lluís Companys i Jover
+	CAT_lluis_companys = { 
+		name = CAT_lluis_companys
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CAT_lluis_companys
+			}
+		}
+		country_leader = {
+			desc = CBIO_CAT_lluis_companys_desc
+			ideology = liberalism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	
+}

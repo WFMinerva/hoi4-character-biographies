@@ -1,0 +1,17 @@
+characters = {
+	MEL_zinovy_zhadinov = {
+		name = CBIO_NAME_MEL_zinovy_zhadinov 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Zinovy_Zhadinov
+			}
+		}
+		country_leader = {
+			desc = CBIO_MEL_zinovy_zhadinov_desc
+			ideology = marxism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
