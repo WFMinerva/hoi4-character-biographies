@@ -1,5 +1,7 @@
 # 已确认的人工裁定与长期例外
 
+> 总入口：根目录`AGENTS.md`；当前版本状态以`docs/CURRENT_BASELINE.md`为准。
+
 本文件只记录已明确确认、会影响后续自动判断的裁定。新的裁定应同时更新`workbench/decisions/human_decisions.json`。
 
 ## 长期项目裁定

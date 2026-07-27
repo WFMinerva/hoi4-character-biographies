@@ -1,4 +1,54 @@
-# 钢四人物小传MOD：Codex强制维护规则
+# 钢四人物小传MOD：总入口与强制维护规则
+
+本文件是仓库总入口。任何接手者先读本文件的快照、待办、目录地图和阅读顺序，再按任务深入对应文档。
+
+## 0.1 当前状态快照（2026-07-27）
+
+> 时效提醒：本快照是静态文本，可能过期。接手时先核对`docs/CURRENT_BASELINE.md`的版本号和`git log`/`git status`的实际状态；冲突时以基准卡和Git实际状态为准，并更新本节。
+
+- 当前版本：v130d-stable（兼容版`china_bio_lite_v130d.zip` + 完整版`china_bio_v130d.zip`），用户实机确认通过（1936剧本显示正常，error.log零报错），是当前稳定基准。
+- 游戏版本口径：HOI4 1.19.x（原版参考已配置于`reference/vanilla_path.json`，指向1.19.2）。
+- 测试口径：1936、1939剧本。
+- v130d相对v130c7的变更：傅作义SHX顾问/溥仪MAN理论家补挂desc别名；蒋有芬（SIK）、韩乙奴（XSM）核实为真人，恢复中文名并入审定小传；完成6421条静态身份覆盖对账（档1已结案）。
+- 工作区状态：档1复核结论已提交（档1全部结案）；`workbench/pending_text/`为空，无待审正文。
+
+## 0.2 当前待办（按优先级）
+
+1. 静态身份对账收尾（未排期，需用户发起）：档3共364条、待裁定区1579条尚未裁定，底账见`workbench/import_lists/`。
+2. HOI4发布新游戏版本时：以新原版文件为底重建`src/full_only/`全部覆盖（规则见第9节、`docs/KNOWN_RISKS.md`第1条），并重新跑全量审计。
+3. 兼容版1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山）：已裁定不修复，仅登记，见`docs/KNOWN_RISKS.md`第9条。
+
+## 0.3 目录地图
+
+| 路径 | 用途 | 能不能动 |
+| --- | --- | --- |
+| `src/shared/` | 两版本共同MOD源码（255文件） | 受第5/6节约束，改动须过审计；先读`src/shared/AGENTS.md` |
+| `src/full_only/` | 完整版动态路径覆盖（207文件） | 高风险，先读`src/full_only/AGENTS.md`和第9节 |
+| `packaging/lite/`、`packaging/full/` | 两版本包元数据（descriptor/outer.mod） | 版本号变更时才动 |
+| `tools/` | 审计/构建/校验脚本 | 可维护，先读`tools/AGENTS.md`；默认只读、不得静默改src |
+| `audit/baselines/` | v130d基线manifest与编码基线 | 机器生成，只由`build_release.py --baseline`重建 |
+| `audit/allowlists/` | 非desc差异临时例外登记 | 按第6节流程逐任务登记 |
+| `audit/data/` | v130a—v130b历史机器底库（约37MB） | 只读参考资料，不得当作确认BUG |
+| `audit/reports/` | 审计报告输出目录 | 工具写入 |
+| `workbench/` | 人工工作台（待审/审定正文、裁定、对账底账） | 日常工作区，见`workbench/README.md` |
+| `docs/` | 活跃指引文档 | 可维护，保持第0.4节阅读链有效 |
+| `docs/archive/` | 历史文档（2026-07-27归档） | 只读追溯，不得反向覆盖现行规则 |
+| `build/` | 构建暂存（工具输出） | 工具写入，勿手改 |
+| `releases/` | 当前发布包（v130d双zip） | 只由`build_release.py`产出；`releases/archive/`为旧测试包 |
+| `baseline_inputs/` | 历史原始包与封面素材 | 只读 |
+| `reference/` | 原版游戏路径配置 | 只改`vanilla_path.json`指向本机安装路径 |
+| `.git/` | Git仓库 | 禁止`reset --hard`/`clean -fd`等破坏性操作 |
+
+## 0.4 推荐阅读顺序（AI接手后）
+
+1. 本文件（总入口+全部强制规则）。
+2. `docs/CURRENT_BASELINE.md`——版本状态唯一裁决点。
+3. `docs/HUMAN_DECISIONS.md` + `workbench/decisions/human_decisions.json`——人工裁定台账。
+4. `docs/CODEX_WORKFLOW.md`——日常七步流程；`docs/RELEASE_CHECKLIST.md`——发布闸门。
+5. `docs/KNOWN_RISKS.md` + `docs/INCIDENTS_AND_SOLUTIONS.md`——风险边界与典型故障。
+6. 按任务选读：`docs/ENGINEERING_PLAYBOOK.md`（工程）、`docs/TEXT_PROCESSING_PLAYBOOK.md`（文本）、`docs/LOCAL_REPOSITORY_GUIDE.md`（环境/初始化）、`docs/AUDIT_DATA_GUIDE.md`（底库用法）。
+7. 进入`src/shared/`、`src/full_only/`、`tools/`前，先读各目录下的`AGENTS.md`。
+8. 只有追溯历史时才读`docs/archive/`（其中PROJECT_RULES_FULL为对话串时代旧规范，与现行体系平行，仅供参考）。
 
 ## 1. 项目定位
 
@@ -22,7 +72,7 @@
 3. `docs/CURRENT_BASELINE.md`；
 4. `workbench/approved_text/`；
 5. 当前Git稳定源码；
-6. `docs/PROJECT_RULES_FULL.md`及各经验手册；
+6. `docs/archive/PROJECT_RULES_FULL.md`（历史参考）及各活跃经验手册；
 7. `audit/data/`机器底库和历史交接资料。
 
 旧包、旧表或旧报告不得覆盖当前稳定基准。历史文档中的“测试版”状态不得覆盖用户后续实机确认。

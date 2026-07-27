@@ -1,5 +1,7 @@
 # 发布闸门
 
+> 总入口：根目录`AGENTS.md`；当前版本状态以`docs/CURRENT_BASELINE.md`为准。
+
 ## 静态检查
 
 - [ ] `python tools/audit_all.py`全部通过

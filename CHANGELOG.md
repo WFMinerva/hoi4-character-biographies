@@ -1,5 +1,13 @@
 # Changelog
 
+## 仓库整理（2026-07-27，非MOD内容变更）
+
+- 根`AGENTS.md`升级为总入口：新增状态快照、当前待办、目录地图和推荐阅读顺序，原11节强制规则保留。
+- 7份历史文档（两份HANDOFF、v130c7测试清单、迁移/验证报告3份、旧常驻规范PROJECT_RULES_FULL）归档至`docs/archive/`，原文未改。
+- 两个v130c7工坊封面测试包移至`releases/archive/`。
+- 活跃docs统一加入口指引行；新增`workbench/README.md`、`docs/archive/README.md`；`PACKAGE_CONTENTS.md`重写为快速索引。
+- MOD源码、构建产物与发布包内容零变化。
+
 ## v130d-stable
 
 - 傅作义 SHX 政治顾问身份块补挂`SHX_fu_zuoyi_desc`（别名复用主键）。

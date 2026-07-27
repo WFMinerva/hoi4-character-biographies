@@ -1,5 +1,7 @@
 # Codex日常维护流程
 
+> 总入口：根目录`AGENTS.md`；当前版本状态以`docs/CURRENT_BASELINE.md`为准。
+
 ## 1. 任务开始
 
 ```powershell
