@@ -1,0 +1,20 @@
+name: audit
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # tags are needed for diff base resolution
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Canary-test the audit checks
+        run: python tools/self_test.py
+      - name: Daily audit (vanilla compare skipped — no game files on CI)
+        run: python tools/audit_all.py --skip-vanilla

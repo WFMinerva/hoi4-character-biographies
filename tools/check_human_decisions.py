@@ -1,5 +1,6 @@
 from __future__ import annotations
 import re
+from pathlib import Path
 from common import ROOT, load_json, read_utf8
 
 line_re=re.compile(r'^\s*([^#\s][^:]*?):(?:\d+)?\s+"(.*)"\s*(?:#.*)?$')
@@ -28,6 +29,20 @@ for p in (ROOT/'src/full_only').rglob('*.txt'):
 require(pu_ref>=1,'完整版溥仪动态身份desc补挂缺失')
 
 decisions=load_json(ROOT/'workbench/decisions/human_decisions.json')
+
+# Parity: every actionable item in the machine-readable ledger must also
+# appear in the human-readable ledger docs/HUMAN_DECISIONS.md.
+md_path=ROOT/'docs/HUMAN_DECISIONS.md'
+md=read_utf8(md_path) if md_path.exists() else ''
+require(md_path.exists(),'docs/HUMAN_DECISIONS.md缺失')
+for ent in decisions.get('entities',[]):
+    for key in ent.get('keys',[]):
+        require(key in md,f'裁定台账md未提及实体key: {key} ({ent.get("entity")})')
+for group in decisions.get('protected_files',[]):
+    for path in group.get('paths',[]):
+        tag=Path(path).name.split(' ')[0]
+        require(tag in md,f'裁定台账md未提及保护文件: {path}')
+
 for tag,keys in decisions.get('placeholder_name_restores',{}).items():
     if tag=='decision': continue
     for key in keys:

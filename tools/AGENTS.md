@@ -5,14 +5,16 @@
 ## 入口边界
 
 - `verify_initial_baseline.py`：只用于首次迁移或基线损坏调查，不得放回日常审计入口。
-- `audit_all.py` / `audit_worktree.py`：日常维护入口，检查当前差异是否合法。
+- `audit_all.py` / `audit_worktree.py`：日常维护入口，检查当前差异是否合法。`--skip-vanilla`跳过原版比对（仅供CI等无游戏文件环境使用，本地日常审计不得使用）。
+- `self_test.py`：审计工具的金丝雀测试。用`CBIO_ROOT`环境变量把各检查器重定向到合成fixture，验证每个检查器对干净树通过、对注入故障拦截。改动任何`check_*.py`或`common.py`后必须运行。
+- `check_snapshot.py`：校验`AGENTS.md`状态快照与`docs/CURRENT_BASELINE.md`版本一致且带日期。
 - `compare_with_vanilla.py`：只读比较完整版与原版，必须忽略`desc`赋值但保留其他全部脚本token。
 - `build_release.py`：只从`src/`与`packaging/`构建，不得把`audit/`、`docs/`、`workbench/`、日志或历史ZIP装入MOD。
 
 ## 开发要求
 
-- 新检查器必须能在v130c7稳定基线上通过。
-- 必须为误报和漏报分别设计测试。
+- 新检查器必须能在当前稳定基线上通过。
+- 必须为误报和漏报分别设计测试（在`self_test.py`登记金丝雀用例）。
 - 不得以简单全文件字符串替换实现高风险脚本修复。
 - 对Git差异的检查必须包含未跟踪的`src/`文件。
 - 对原版语义的检查不得仅比较行数、哈希或去空白文本。

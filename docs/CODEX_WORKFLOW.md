@@ -50,10 +50,14 @@ python tools/audit_all.py
 - 本地化语法、重复key和缺失正文；
 - 别名缺失与循环；
 - 审稿残留和空正文；
+- 人工裁定落实及台账md/json一致性；
+- `AGENTS.md`快照与基准卡版本一致性；
 - 脚本括号和引号；
 - `desc`层级语义；
 - 当前Git差异白名单；
 - 完整版去除`desc`后与原版脚本语义一致。
+
+改动`tools/`下任何检查器后，先运行`python tools/self_test.py`（金丝雀测试）再跑审计。
 
 `verify_initial_baseline.py`只用于首次迁移，不属于日常审计。
 

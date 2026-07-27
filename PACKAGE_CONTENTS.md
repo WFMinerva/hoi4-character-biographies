@@ -17,6 +17,7 @@
 - `docs/INCIDENTS_AND_SOLUTIONS.md`、`docs/KNOWN_RISKS.md`：故障与风险
 - `docs/LOCAL_REPOSITORY_GUIDE.md`、`docs/AUDIT_DATA_GUIDE.md`：环境与底库
 - `docs/WORKSHOP_UPLOAD.md`：工坊上传流程
+- `docs/PROJECT_MANAGEMENT_PLAYBOOK.md`：可迁移的AI协作项目管理方法论（与本MOD无关，供新项目复用）
 - `docs/STEAM_FULL_BBCODE.txt`、`docs/STEAM_LITE_BBCODE.txt`：工坊页面文案
 
 历史文档已归档至`docs/archive/`（含旧常驻规范`PROJECT_RULES_FULL.md`），仅供追溯。

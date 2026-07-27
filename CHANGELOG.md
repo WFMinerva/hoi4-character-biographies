@@ -1,5 +1,17 @@
 # Changelog
 
+## 审计体系加固（2026-07-27，非MOD内容变更）
+
+- 新增`tools/self_test.py`：金丝雀测试，经`CBIO_ROOT`把检查器重定向到合成fixture，验证9个用例（干净通过+注入故障必拦截）；`check_diff_whitelist`/`compare_with_vanilla`因依赖git历史和原版文件不在范围内。
+- `check_human_decisions.py`新增台账parity检查：`human_decisions.json`的实体key与保护文件必须出现在`docs/HUMAN_DECISIONS.md`。
+- 新增`tools/check_snapshot.py`：`AGENTS.md`快照版本与日期必须与基准卡一致，已接入日常审计。
+- `audit_worktree.py`新增`--skip-vanilla`（仅供CI）；新增`.github/workflows/audit.yml`：push/PR时先跑self_test再跑日常审计。
+- MOD源码零变化。
+
+## 项目管理手册（2026-07-27，非MOD内容变更）
+
+- 新增`docs/PROJECT_MANAGEMENT_PLAYBOOK.md`：可迁移的AI协作项目管理方法论，含新项目引导词、十条核心原则、仓库骨架模板和AGENTS.md填空骨架。
+
 ## 经验回填（2026-07-27，非MOD内容变更）
 
 - 旧规范`docs/archive/PROJECT_RULES_FULL.md`差距核对：12条仍有效规则回填活跃文档——idea_token顾问显示路径、`POLITICS_*_DESC`路径、动态命令清单补全、"某人不显示"排查顺序、replace覆盖机制、版本兼容触发条件与覆盖四分类、日志关键词与debug归因、动态路径双重验证与P0—P3分级、写作素材细则、工坊文案双轨口径、核心UI本地化禁令（均进ENGINEERING/TEXT/RELEASE/KNOWN_RISKS对应章节）。

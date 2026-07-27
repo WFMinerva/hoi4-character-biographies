@@ -10,6 +10,10 @@ import subprocess
 from typing import Iterable, Iterator
 
 ROOT = Path(__file__).resolve().parents[1]
+# self_test.py sets CBIO_ROOT to redirect all checks at a synthetic fixture tree.
+_override = os.environ.get("CBIO_ROOT")
+if _override:
+    ROOT = Path(_override).expanduser().resolve()
 SOURCE_ROOTS = (ROOT / "src" / "shared", ROOT / "src" / "full_only")
 TEXT_SUFFIXES = {".txt", ".yml", ".mod", ".md", ".json", ".csv", ".py", ".ps1"}
 
