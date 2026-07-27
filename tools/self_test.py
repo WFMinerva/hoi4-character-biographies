@@ -17,6 +17,13 @@ import sys
 import tempfile
 from pathlib import Path
 
+# CI runners default stdout to a legacy codepage; this script prints Chinese.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 REAL_ROOT = Path(__file__).resolve().parents[1]
 TOOLS = REAL_ROOT / "tools"
 

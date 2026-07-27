@@ -7,7 +7,15 @@ import json
 import os
 import re
 import subprocess
+import sys
 from typing import Iterable, Iterator
+
+# CI runners default stdout to a legacy codepage; audit output is Chinese.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 ROOT = Path(__file__).resolve().parents[1]
 # self_test.py sets CBIO_ROOT to redirect all checks at a synthetic fixture tree.
