@@ -34,6 +34,16 @@
 - [ ] `text.log`无新增缺失本地化
 - [ ] `game.log`和`setup.log`无相关异常
 - [ ] 无关原版事件、国策、决议和动态流程未受影响
+- [ ] 动态路径双重验证：目标人物按原版逻辑正常上台/获得身份，**且**上台后悬浮显示小传；错误人物上台但有小传不算通过
+
+测试优先级：P0本轮改过的路径必测；P1历史问题路径回归；P2新增`<idea_token>_desc`顾问路径抽测；P3纯静态`desc`补挂抽测。
+
+## 工坊发布文案
+
+- 玩家版（changenote、工坊更新说明）：写新增国家/人物、玩家可感知的修复、是否建议重新订阅；不写脚本路径、key名和debug过程。
+- 开发版（CHANGELOG、提交说明）：写数量、文件和证据分级；未经用户确认不得写"人工确认完成"。
+- 工坊页面固定说明含"Made in a Chinese-language environment; not tested in English"。
+- 上传流程见`docs/WORKSHOP_UPLOAD.md`；页面简介文案见`docs/STEAM_FULL_BBCODE.txt`、`docs/STEAM_LITE_BBCODE.txt`。
 
 ## 状态
 

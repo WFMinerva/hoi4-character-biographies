@@ -65,6 +65,8 @@ python tools/build_release.py --version v130c8-test
 
 构建输出在`releases/`，不提交Git。
 
+实机测试前把构建结果部署到游戏mod目录：`C:\Users\51209\Documents\Paradox Interactive\Hearts of Iron IV\mod\`。开发期目录名加`_dev`后缀与正式版区分；转正后删除dev目录。
+
 ## 6. 实机测试
 
 分别测试两个版本的1936和1939剧本，检查目标人物、动态路径、无关原版流程以及：
@@ -73,6 +75,8 @@ python tools/build_release.py --version v130c8-test
 - `text.log`
 - `game.log`
 - `setup.log`
+
+日志位于`C:\Users\51209\Documents\Paradox Interactive\Hearts of Iron IV\logs\`。部署后由Codex先自查日志再向用户汇报，不要让用户转发日志。日志解释和原版噪声归因见`docs/ENGINEERING_PLAYBOOK.md`第10节。
 
 ## 7. 稳定化
 

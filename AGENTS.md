@@ -14,9 +14,10 @@
 
 ## 0.2 当前待办（按优先级）
 
-1. 静态身份对账收尾（未排期，需用户发起）：档3共364条、待裁定区1579条尚未裁定，底账见`workbench/import_lists/`。
-2. HOI4发布新游戏版本时：以新原版文件为底重建`src/full_only/`全部覆盖（规则见第9节、`docs/KNOWN_RISKS.md`第1条），并重新跑全量审计。
-3. 兼容版1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山）：已裁定不修复，仅登记，见`docs/KNOWN_RISKS.md`第9条。
+1. 静态身份对账收尾（未排期，需用户发起）：档3共364条、待裁定区1579条尚未裁定，底账见`workbench/import_lists/`。**口径警告**：底账未计入顾问`<idea_token>_desc`自动显示路径（档1曾因此全部误报），推进前必须先按该路径重新核，见`docs/ENGINEERING_PLAYBOOK.md`第4节。
+2. v130d工坊上传：v130d尚未上传Steam工坊。上传按`docs/WORKSHOP_UPLOAD.md`执行（VDF待新建，steamcmd由用户本人操作）；上传时同步更新兼容版页面描述，点名1939缺口（待办4）。
+3. HOI4发布新游戏版本时：以新原版文件为底重建`src/full_only/`全部覆盖（规则见第9节、`docs/KNOWN_RISKS.md`第1条），并重新跑全量审计。
+4. 兼容版1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山）：已裁定不修复，仅登记，见`docs/KNOWN_RISKS.md`第9条。
 
 ## 0.3 目录地图
 
@@ -44,7 +45,7 @@
 1. 本文件（总入口+全部强制规则）。
 2. `docs/CURRENT_BASELINE.md`——版本状态唯一裁决点。
 3. `docs/HUMAN_DECISIONS.md` + `workbench/decisions/human_decisions.json`——人工裁定台账。
-4. `docs/CODEX_WORKFLOW.md`——日常七步流程；`docs/RELEASE_CHECKLIST.md`——发布闸门。
+4. `docs/CODEX_WORKFLOW.md`——日常七步流程；`docs/RELEASE_CHECKLIST.md`——发布闸门；发布上传时另读`docs/WORKSHOP_UPLOAD.md`。
 5. `docs/KNOWN_RISKS.md` + `docs/INCIDENTS_AND_SOLUTIONS.md`——风险边界与典型故障。
 6. 按任务选读：`docs/ENGINEERING_PLAYBOOK.md`（工程）、`docs/TEXT_PROCESSING_PLAYBOOK.md`（文本）、`docs/LOCAL_REPOSITORY_GUIDE.md`（环境/初始化）、`docs/AUDIT_DATA_GUIDE.md`（底库用法）。
 7. 进入`src/shared/`、`src/full_only/`、`tools/`前，先读各目录下的`AGENTS.md`。

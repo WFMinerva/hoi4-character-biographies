@@ -1,5 +1,12 @@
 # Changelog
 
+## 经验回填（2026-07-27，非MOD内容变更）
+
+- 旧规范`docs/archive/PROJECT_RULES_FULL.md`差距核对：12条仍有效规则回填活跃文档——idea_token顾问显示路径、`POLITICS_*_DESC`路径、动态命令清单补全、"某人不显示"排查顺序、replace覆盖机制、版本兼容触发条件与覆盖四分类、日志关键词与debug归因、动态路径双重验证与P0—P3分级、写作素材细则、工坊文案双轨口径、核心UI本地化禁令（均进ENGINEERING/TEXT/RELEASE/KNOWN_RISKS对应章节）。
+- 两个会话导出（2026-07-26/27）挖掘回填：部署后Codex自查日志分工、mod目录部署步骤、工坊上传SOP（新建`docs/WORKSHOP_UPLOAD.md`，含两个publishedfileid）、编辑工具丢BOM故障（INCIDENTS第11条）、difflib人名误配禁令、档3/待裁定区口径警告。
+- `AGENTS.md`待办新增：v130d工坊上传；对账收尾加口径警告。
+- MOD源码、构建产物与发布包内容零变化。
+
 ## 仓库整理（2026-07-27，非MOD内容变更）
 
 - 根`AGENTS.md`升级为总入口：新增状态快照、当前待办、目录地图和推荐阅读顺序，原11节强制规则保留。
