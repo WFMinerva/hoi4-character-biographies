@@ -90,6 +90,8 @@
 
 **原因**：ZIP条目顺序、压缩器和时间戳元数据不同。
 
+**2026-07-28 复核**：在系统临时目录复制 `src/`、`packaging/` 和 `tools/` 后，连续两次运行当前 `build_release.py --baseline`；兼容版与完整版的第二次 ZIP 均与第一次 SHA-256 不同，条目元数据也不同（静态确认）。当前构建器虽按路径排序，但每轮重建暂存目录并用默认 `ZipFile.write` 写入，新增 descriptor/outer 文件的时间戳会进入 ZIP。本次没有覆盖仓库 `releases/`，也没有改变 v130d 稳定基准。
+
 **解决**：比较规范化包内相对路径、文件大小和每个文件SHA-256。
 
 **防复发**：首次迁移用`verify_initial_baseline.py`和`verify_build.py`做文件级等价，不用ZIP整体哈希作为唯一依据。
