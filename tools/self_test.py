@@ -5,12 +5,13 @@ the check passes on the pristine fixture, then inject one deliberate fault
 and assert the check fails. A check that cannot catch its own canary is
 reported here before it can silently weaken the daily audit gate.
 
-check_diff_whitelist.py and compare_with_vanilla.py are out of scope: they
-require a git history and the vanilla game files respectively.
+Git-backed and vanilla-backed checks receive synthetic dependencies inside
+their fixture, so every daily checker has at least one canary.
 """
 from __future__ import annotations
 
 import os
+import json
 import shutil
 import subprocess
 import sys
@@ -54,6 +55,33 @@ def run(script: str, fixture: Path) -> subprocess.CompletedProcess[str]:
         [sys.executable, str(TOOLS / script)], cwd=fixture, env=env,
         stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
         text=True, encoding="utf-8", errors="replace",
+    )
+
+
+def git(fixture: Path, *args: str) -> None:
+    result = subprocess.run(
+        ["git", *args], cwd=fixture, stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace",
+    )
+    if result.returncode != 0:
+        raise AssertionError(f"fixture Git命令失败: git {' '.join(args)}\n{result.stdout}")
+
+
+def setup_git_fixture(fx: Path) -> None:
+    git(fx, "init")
+    git(fx, "config", "user.email", "selftest@example.invalid")
+    git(fx, "config", "user.name", "CBIO self-test")
+    git(fx, "add", ".")
+    git(fx, "commit", "-m", "pristine fixture")
+
+
+def setup_vanilla_fixture(fx: Path) -> None:
+    vanilla = fx / "reference" / "vanilla"
+    shutil.copytree(fx / "src" / "full_only", vanilla)
+    (fx / "reference").mkdir(parents=True, exist_ok=True)
+    (fx / "reference" / "vanilla_path.json").write_text(
+        json.dumps({"path": str(vanilla)}, ensure_ascii=False),
+        encoding="utf-8",
     )
 
 
@@ -119,11 +147,25 @@ def fault_ledger_parity(fx: Path) -> None:
     p.write_text(text.replace("SIK_chiang_yufen_desc", "SIK_removed_desc"), encoding="utf-8")
 
 
+def fault_ledger_reverse_parity(fx: Path) -> None:
+    p = fx / "docs/HUMAN_DECISIONS.md"
+    text = p.read_text(encoding="utf-8-sig")
+    p.write_text(text + "\n<!-- ledger:rule:not_in_json status=confirmed -->\n", encoding="utf-8")
+
+
+def fault_ledger_marker_missing(fx: Path) -> None:
+    p = fx / "docs/HUMAN_DECISIONS.md"
+    text = p.read_text(encoding="utf-8-sig")
+    marker = "<!-- ledger:rule:project_pure_bio status=confirmed -->"
+    assert marker in text
+    p.write_text(text.replace(marker, "", 1), encoding="utf-8")
+
+
 def fault_snapshot_version(fx: Path) -> None:
     p = fx / "AGENTS.md"
     text = p.read_text(encoding="utf-8-sig")
     assert "v130d" in text
-    p.write_text(text.replace("v130d-stable", "v129x-stable", 1), encoding="utf-8")
+    p.write_text(text.replace("v130d-stable", "v130d2-stable", 1), encoding="utf-8")
 
 
 def fault_unbalanced_brace(fx: Path) -> None:
@@ -141,23 +183,39 @@ def fault_desc_wrong_level(fx: Path) -> None:
     rewrite_keep_bom(p, inject)
 
 
+def fault_forbidden_diff(fx: Path) -> None:
+    p = sorted((fx / "src/shared").rglob("*.txt"))[0]
+    rewrite_keep_bom(p, lambda t: t + "\nideology = fascism\n")
+
+
+def fault_vanilla_semantics(fx: Path) -> None:
+    p = sorted((fx / "src/full_only").rglob("*.txt"))[0]
+    rewrite_keep_bom(p, lambda t: t + "\nideology = fascism\n")
+
+
 CASES = [
-    ("check_encoding.py", fault_strip_bom),
-    ("check_localisation.py", fault_duplicate_key),
-    ("check_aliases.py", fault_alias_missing_target),
-    ("check_text_quality.py", fault_text_residue),
-    ("check_human_decisions.py", fault_delete_protected),
-    ("check_human_decisions.py", fault_ledger_parity),
-    ("check_snapshot.py", fault_snapshot_version),
-    ("check_script_structure.py", fault_unbalanced_brace),
-    ("check_desc_semantics.py", fault_desc_wrong_level),
+    ("check_encoding.py", fault_strip_bom, None),
+    ("check_localisation.py", fault_duplicate_key, None),
+    ("check_aliases.py", fault_alias_missing_target, None),
+    ("check_text_quality.py", fault_text_residue, None),
+    ("check_human_decisions.py", fault_delete_protected, None),
+    ("check_human_decisions.py", fault_ledger_parity, None),
+    ("check_human_decisions.py", fault_ledger_reverse_parity, None),
+    ("check_human_decisions.py", fault_ledger_marker_missing, None),
+    ("check_snapshot.py", fault_snapshot_version, None),
+    ("check_script_structure.py", fault_unbalanced_brace, None),
+    ("check_desc_semantics.py", fault_desc_wrong_level, None),
+    ("check_diff_whitelist.py", fault_forbidden_diff, setup_git_fixture),
+    ("compare_with_vanilla.py", fault_vanilla_semantics, setup_vanilla_fixture),
 ]
 
 failures = []
 with tempfile.TemporaryDirectory(prefix="cbio_selftest_") as tmp:
-    for script, fault in CASES:
+    for script, fault, setup in CASES:
         fx = Path(tmp) / (script.replace(".py", "") + "_" + fault.__name__)
         build_fixture(fx)
+        if setup:
+            setup(fx)
         clean = run(script, fx)
         if clean.returncode != 0:
             failures.append(f"{script}: 干净fixture未通过\n{clean.stdout[-800:]}")
@@ -169,7 +227,7 @@ with tempfile.TemporaryDirectory(prefix="cbio_selftest_") as tmp:
         if dirty.returncode == 0:
             failures.append(f"{script}: 未能拦截注入故障 {fault.__name__}")
 
-print(f"\nself_test: cases={len(CASES)} failures={len(failures)} (check_diff_whitelist/compare_with_vanilla 不在金丝雀范围)")
+print(f"\nself_test: cases={len(CASES)} failures={len(failures)}")
 for f in failures:
     print("FAIL", f)
 raise SystemExit(1 if failures else 0)

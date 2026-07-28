@@ -30,18 +30,42 @@ require(pu_ref>=1,'完整版溥仪动态身份desc补挂缺失')
 
 decisions=load_json(ROOT/'workbench/decisions/human_decisions.json')
 
-# Parity: every actionable item in the machine-readable ledger must also
-# appear in the human-readable ledger docs/HUMAN_DECISIONS.md.
+# Parity: machine and human ledgers must expose the exact same item IDs and
+# statuses. Markers are HTML comments, so the human document stays readable.
 md_path=ROOT/'docs/HUMAN_DECISIONS.md'
 md=read_utf8(md_path) if md_path.exists() else ''
 require(md_path.exists(),'docs/HUMAN_DECISIONS.md缺失')
+baseline_path=ROOT/'docs/CURRENT_BASELINE.md'
+baseline_md=read_utf8(baseline_path) if baseline_path.exists() else ''
+baseline_match=re.search(r'当前版本：(\S+)',baseline_md)
+expected_baseline=f'{baseline_match.group(1)}-stable' if baseline_match else None
+require(baseline_match is not None,'docs/CURRENT_BASELINE.md缺少“当前版本：”行')
+require(decisions.get('baseline')==expected_baseline,f'机器裁定台账baseline与当前基准不一致: 台账={decisions.get("baseline")} 基准={expected_baseline}')
+
+def slug(value):
+    return re.sub(r'[^a-z0-9]+','_',value.lower()).strip('_')
+
+expected_markers=set()
+for rule in decisions.get('rules',[]):
+    expected_markers.add(('rule',rule.get('id',''),rule.get('status','')))
 for ent in decisions.get('entities',[]):
+    expected_markers.add(('entity',slug(ent.get('entity','')),ent.get('status','')))
     for key in ent.get('keys',[]):
         require(key in md,f'裁定台账md未提及实体key: {key} ({ent.get("entity")})')
-for group in decisions.get('protected_files',[]):
+for index,group in enumerate(decisions.get('protected_files',[]),start=1):
+    expected_markers.add(('protected',f'group_{index}',group.get('status','')))
     for path in group.get('paths',[]):
         tag=Path(path).name.split(' ')[0]
         require(tag in md,f'裁定台账md未提及保护文件: {path}')
+if decisions.get('placeholder_name_restores'):
+    expected_markers.add(('placeholder','placeholder_name_restores','confirmed'))
+
+marker_re=re.compile(r'<!--\s*ledger:(rule|entity|protected|placeholder):([a-z0-9_]+)\s+status=([a-z_]+)\s*-->')
+actual_markers=set(marker_re.findall(md))
+for marker in sorted(expected_markers-actual_markers):
+    errors.append(f'裁定台账md缺少ledger标记: {marker}')
+for marker in sorted(actual_markers-expected_markers):
+    errors.append(f'裁定台账md存在JSON没有的ledger标记: {marker}')
 
 for tag,keys in decisions.get('placeholder_name_restores',{}).items():
     if tag=='decision': continue

@@ -65,7 +65,7 @@ git switch -c fix/任务英文短名
 
 ```powershell
 python tools/audit_all.py
-python tools/build_release.py --version v130c8-test
+python tools/build_release.py --version <下一版本>-test
 ```
 
 实机测试通过并由用户明确确认后，才能合并`main`和创建稳定标签。

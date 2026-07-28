@@ -64,7 +64,7 @@ python tools/audit_all.py
 ## 5. 构建与验证
 
 ```powershell
-python tools/build_release.py --version v130c8-test
+python tools/build_release.py --version <下一版本>-test
 ```
 
 构建输出在`releases/`，不提交Git。
@@ -91,7 +91,7 @@ git add .
 git commit -m "fix: ..."
 git switch main
 git merge --no-ff fix/...
-git tag v130c8-stable
+git tag <下一版本>-stable
 ```
 
 随后更新`docs/CURRENT_BASELINE.md`、`CHANGELOG.md`和必要的人工裁定台账。

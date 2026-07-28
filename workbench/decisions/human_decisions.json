@@ -28,9 +28,24 @@
       "decision": "AI或外部写手正文未经人工审核不得进入发布源码。"
     },
     {
+      "id": "edition_scope",
+      "status": "confirmed",
+      "decision": "完整版聚焦动态显示覆盖；兼容版不为运行时人物覆盖原版国策、事件、决议和国家历史。"
+    },
+    {
+      "id": "editions_mutually_exclusive",
+      "status": "confirmed",
+      "decision": "完整版和兼容版不能同时启用。"
+    },
+    {
       "id": "gui_tooltip_route",
       "status": "closed",
       "decision": "统一GUI Tooltip路线终止，采用身份desc和动态路径精确补挂。"
+    },
+    {
+      "id": "long_bio_warning",
+      "status": "confirmed",
+      "decision": "正文超过500字符不视为问题，check_text_quality的超字数警告仅提示、不需要精简或整改。"
     }
   ],
   "entities": [

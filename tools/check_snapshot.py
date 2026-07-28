@@ -22,7 +22,7 @@ if m and snap:
     sm=re.search(r'当前版本：([A-Za-z0-9._-]+)',section)
     if not sm:
         errors.append('AGENTS.md快照缺少“当前版本：”行')
-    elif not sm.group(1).startswith(version):
+    elif sm.group(1) not in {version, f'{version}-stable'}:
         errors.append(f'AGENTS.md快照版本与基准卡不一致: 基准卡={version} 快照={sm.group(1)}')
     if not re.search(r'\d{4}-\d{2}-\d{2}',section):
         errors.append('AGENTS.md快照缺少日期（YYYY-MM-DD）')
