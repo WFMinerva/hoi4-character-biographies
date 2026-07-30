@@ -164,8 +164,8 @@ def fault_ledger_marker_missing(fx: Path) -> None:
 def fault_snapshot_version(fx: Path) -> None:
     p = fx / "AGENTS.md"
     text = p.read_text(encoding="utf-8-sig")
-    assert "v130d" in text
-    p.write_text(text.replace("v130d-stable", "v130d2-stable", 1), encoding="utf-8")
+    assert "v130e" in text
+    p.write_text(text.replace("v130e-stable", "v130e2-stable", 1), encoding="utf-8")
 
 
 def fault_unbalanced_brace(fx: Path) -> None:

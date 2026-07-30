@@ -37,7 +37,7 @@ for p in iter_source_files():
         errors.append(f'混合换行: {rel}')
     style='crlf' if crlf else 'lf'
     if rel in baseline and baseline[rel].get('line_ending') not in (None,'none',style):
-        errors.append(f'换行风格偏离v130d基线: {rel}: expected={baseline[rel]["line_ending"]} got={style}')
+        errors.append(f'换行风格偏离v130e基线: {rel}: expected={baseline[rel]["line_ending"]} got={style}')
     counts[suffix or '<none>']+=1
 for x in warnings: print('WARN',x)
 for x in errors: print('ERROR',x)

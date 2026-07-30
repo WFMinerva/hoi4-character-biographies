@@ -61,4 +61,4 @@ F:\steamcmd\steamcmd.exe +login <Steam用户名> +workshop_build_item F:\steamcm
 
 - steamcmd只更新文件内容、预览图和changenote；页面标题、简介、标签需在网页手动编辑。
 - 页面简介以`docs/STEAM_FULL_BBCODE.txt`、`docs/STEAM_LITE_BBCODE.txt`为底稿，改动后两边同步。
-- v130d上传时：兼容版页面描述应点名1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山），见`docs/KNOWN_RISKS.md`第9条。
+- v130e上传时：兼容版页面描述应点名1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山），见`docs/KNOWN_RISKS.md`第9条。

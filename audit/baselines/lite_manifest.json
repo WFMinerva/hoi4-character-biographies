@@ -1,12 +1,12 @@
 {
-  "root": "china_bio_lite_v130d",
-  "outer_mod": "china_bio_lite_v130d.mod",
+  "root": "china_bio_lite_v130e",
+  "outer_mod": "china_bio_lite_v130e.mod",
   "file_count": 256,
   "files": [
     {
-      "path": "__outer__/china_bio_lite_v130d.mod",
-      "size": 170,
-      "sha256": "93d5d1dea3dbd12b31d22c5633e705146024f72fc869149a4980ac9988f83ee9"
+      "path": "__outer__/china_bio_lite_v130e.mod",
+      "size": 173,
+      "sha256": "4524093d8a5768984bfb9040f7060b7bc65d8b485285d1d7319e9176f4567cfe"
     },
     {
       "path": "common/characters/ABK.txt",
@@ -845,8 +845,8 @@
     },
     {
       "path": "descriptor.mod",
-      "size": 170,
-      "sha256": "93d5d1dea3dbd12b31d22c5633e705146024f72fc869149a4980ac9988f83ee9"
+      "size": 173,
+      "sha256": "4524093d8a5768984bfb9040f7060b7bc65d8b485285d1d7319e9176f4567cfe"
     },
     {
       "path": "localisation/english/zz_v129k_verified_real_names_l_english.yml",
@@ -1255,8 +1255,8 @@
     },
     {
       "path": "localisation/simp_chinese/zzzz_ger_bio_v86_l_simp_chinese.yml",
-      "size": 105013,
-      "sha256": "84dbc827154fb2c926a52ea11657716205e2f9938a404c41ca0f6df169f52b4b"
+      "size": 104744,
+      "sha256": "21331f81409bc70bbded3ecdc2958c6614315f277cb94ff50b49b6af76ac5c96"
     },
     {
       "path": "localisation/simp_chinese/zzzz_sov_bio_l_simp_chinese.yml",

@@ -6,11 +6,11 @@
 
 > 时效提醒：本节负责当前工作状态和待办，可能过期。稳定版本和发布物以`docs/CURRENT_BASELINE.md`为准，语义裁定以人工裁定台账为准；先核对`git log`/`git status`，冲突时标记为“待验证”并更新对应事实源，不得让历史文档反向覆盖。
 
-- 当前版本：v130d-stable（兼容版`china_bio_lite_v130d.zip` + 完整版`china_bio_v130d.zip`），用户实机确认通过（1936剧本显示正常，error.log零报错），是当前稳定基准。
+- 当前版本：v130e-stable（兼容版`china_bio_lite_v130e.zip` + 完整版`china_bio_v130e.zip`），用户实机确认德国女皇线在完整版1936剧本中正常上台并显示审定小传，是当前稳定基准。
 - 游戏版本口径：HOI4 1.19.x（原版参考已配置于`reference/vanilla_path.json`，指向1.19.2）。
 - 测试口径：1936、1939剧本。
 - v130d相对v130c7的变更：傅作义SHX顾问/溥仪MAN理论家补挂desc别名；蒋有芬（SIK）、韩乙奴（XSM）核实为真人，恢复中文名并入审定小传；完成6421条静态身份覆盖对账（档1已结案）。
-- 未发布维护：德国女皇线`GER_victoria`已确认是威廉二世独女维多利亚·路易丝，旧正文误写为威廉二世之妹；修订正文已于2026-07-30经用户逐字审定入源码并通过全量静态审计，尚未实机确认，不改变v130d稳定基准。
+- v130e相对v130d的变更：德国女皇线`GER_victoria`已确认是威廉二世独女维多利亚·路易丝，旧正文误写为威廉二世之妹；修订正文已于2026-07-30经用户逐字审定，并在完整版1936剧本动态上台路径中实机确认显示正常。兼容版仅包含正文，不覆盖该动态事件，因此不负责此路径的小传显示。
 - 工作区状态：档1复核结论已提交（档1全部结案）；`workbench/pending_text/`为空，无待审正文。
 
 ### 0.1.1 事实源职责与证据等级
@@ -24,7 +24,7 @@
 ## 0.2 当前待办（按优先级）
 
 1. 静态身份对账收尾（未排期，需用户发起）：档3共364条、待裁定区1579条尚未裁定，底账见`workbench/import_lists/`。**口径警告**：底账未计入顾问`<idea_token>_desc`自动显示路径（档1曾因此全部误报），推进前必须先按该路径重新核，见`docs/ENGINEERING_PLAYBOOK.md`第4节。
-2. v130d工坊上传：v130d尚未上传Steam工坊。上传按`docs/WORKSHOP_UPLOAD.md`执行（VDF待新建，steamcmd由用户本人操作）；上传时同步更新兼容版页面描述，点名1939缺口（待办4）。
+2. v130e工坊上传：v130e尚未上传Steam工坊。上传按`docs/WORKSHOP_UPLOAD.md`执行（VDF待新建，steamcmd由用户本人操作）；上传时同步更新兼容版页面描述，点名1939缺口（待办4）。
 3. HOI4发布新游戏版本时：以新原版文件为底重建`src/full_only/`全部覆盖（规则见第9节、`docs/KNOWN_RISKS.md`第1条），并重新跑全量审计。
 4. 兼容版1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山）：已裁定不修复，仅登记，见`docs/KNOWN_RISKS.md`第9条。
 
@@ -36,7 +36,7 @@
 | `src/full_only/` | 完整版动态路径覆盖（207文件） | 高风险，先读`src/full_only/AGENTS.md`和第9节 |
 | `packaging/lite/`、`packaging/full/` | 两版本包元数据（descriptor/outer.mod） | 版本号变更时才动 |
 | `tools/` | 审计/构建/校验脚本 | 可维护，先读`tools/AGENTS.md`；默认只读、不得静默改src |
-| `audit/baselines/` | v130d基线manifest与编码基线 | 机器生成，只由`build_release.py --baseline`重建 |
+| `audit/baselines/` | v130e基线manifest与编码基线 | 机器生成，只由`build_release.py --baseline`重建 |
 | `audit/allowlists/` | 非desc差异临时例外登记 | 按第6节流程逐任务登记 |
 | `audit/data/` | v130a—v130b历史机器底库（约37MB） | 只读参考资料，不得当作确认BUG |
 | `audit/reports/` | 审计报告输出目录 | 工具写入 |
@@ -44,7 +44,7 @@
 | `docs/` | 活跃指引文档 | 可维护，保持第0.4节阅读链有效 |
 | `docs/archive/` | 历史文档（2026-07-27归档） | 只读追溯，不得反向覆盖现行规则 |
 | `build/` | 构建暂存（工具输出） | 工具写入，勿手改 |
-| `releases/` | 当前发布包（v130d双zip） | 只由`build_release.py`产出；`releases/archive/`为旧测试包 |
+| `releases/` | 当前发布包（v130e双zip） | 只由`build_release.py`产出；`releases/archive/`为旧测试包 |
 | `baseline_inputs/` | 历史原始包与封面素材 | 只读 |
 | `reference/` | 原版游戏路径配置 | 只改`vanilla_path.json`指向本机安装路径 |
 | `.git/` | Git仓库 | 禁止`reset --hard`/`clean -fd`等破坏性操作 |
