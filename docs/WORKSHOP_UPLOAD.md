@@ -4,8 +4,9 @@
 
 ## 分工
 
-- **Codex可以做**：暂存内容、`diff -r`核对、起草VDF和changenote。
-- **必须用户本人做**：执行steamcmd命令（密码和Steam Guard验证码不经Codex）；工坊页面的标题、简介、标签只能在网页手动修改。
+- **Codex负责做到登录前**：构建正式包、解压到独立暂存目录、逐文件哈希核对、生成VDF和changenote、核对物品ID与缩略图路径。
+- **必须用户本人做**：使用账号`wendu1991`执行steamcmd命令并输入密码和Steam Guard验证码；密码和验证码不得写入命令、VDF、仓库或记忆。
+- **上传后由Codex收尾**：读取`F:\steamcmd\logs\workshop_log.txt`，分别确认两个物品均出现`Upload finished ... : OK`，记录Manifest ID并更新仓库状态。
 - AGENTS.md第11节禁令不变：Codex不得自行上传工坊。
 
 ## 工坊物品ID
@@ -13,7 +14,10 @@
 - 兼容版：`3736859636`
 - 完整版：`3762643540`
 
-更新已有物品时`publishedfileid`不变，订阅者自动收到更新。本MOD的VDF尚未建立（`F:\steamcmd\`下现有VDF属于其他MOD），首次上传需新建。
+更新已有物品时`publishedfileid`不变，订阅者自动收到更新。VDF采用版本化文件名：
+
+- `F:\steamcmd\hoi4_china_bio_lite_<版本>.vdf`
+- `F:\steamcmd\hoi4_china_bio_full_<版本>.vdf`
 
 ## 上传三步
 
@@ -39,26 +43,35 @@ F:\steamcmd\workshop_content\<MOD目录名>\
 {
 	"appid"		"394360"
 	"publishedfileid"		"<工坊物品ID>"
-	"contentfolder"		"F:\steamcmd\workshop_content\<MOD目录名>"
-	"previewfile"		"F:\steamcmd\workshop_content\<MOD目录名>\thumbnail.png"
+	"contentfolder"		"F:/steamcmd/workshop_content/<MOD目录名>"
+	"previewfile"		"F:/steamcmd/workshop_content/<MOD目录名>/thumbnail.png"
 	"changenote"		"<本次更新的变更说明>"
 }
 ```
 
-每次上传前更新`changenote`；changenote按`docs/RELEASE_CHECKLIST.md"工坊发布文案"节的玩家版口径写。
+每次上传前更新`changenote`；changenote按`docs/RELEASE_CHECKLIST.md`“工坊发布文案”节的玩家版口径写。路径统一使用正斜杠，避免反斜杠转义。默认不在VDF中加入`title`或`description`，不修改工坊标题、简介和简介中的版本号；只有用户当次明确要求时才改。
 
 ### 3. 执行上传（用户本人操作）
 
-```text
-F:\steamcmd\steamcmd.exe +login <Steam用户名> +workshop_build_item F:\steamcmd\<项目>.vdf +quit
+同一账号拥有两个物品。准备完成后优先一次登录连续上传两项：
+
+```powershell
+F:\steamcmd\steamcmd.exe +login wendu1991 +workshop_build_item F:\steamcmd\hoi4_china_bio_lite_<版本>.vdf +workshop_build_item F:\steamcmd\hoi4_china_bio_full_<版本>.vdf +quit
 ```
 
-- 账号名直接写，不加尖括号；密码和Steam Guard验证码按提示输入。
-- 成功标志：`Upload finished for workshop item <ID> : OK`。
-- 可查看`F:\steamcmd\logs\workshop_log.txt`确认结果。
+- 密码和Steam Guard验证码由用户按提示输入。
+- 必须看到兼容版`3736859636`和完整版`3762643540`各自的`Upload finished ... : OK`；只出现一个`OK`不算双版本上传完成。
+- 若连续命令只执行了一项，使用同一账号单独重跑缺失项；本机通常会复用刚完成的登录验证。
+- 最终以`F:\steamcmd\logs\workshop_log.txt`为准，不以终端窗口一闪而过或页面更新时间作为唯一证据。
 
-## 上传前后的文案同步
+## 默认文案边界
 
-- steamcmd只更新文件内容、预览图和changenote；页面标题、简介、标签需在网页手动编辑。
-- 页面简介以`docs/STEAM_FULL_BBCODE.txt`、`docs/STEAM_LITE_BBCODE.txt`为底稿，改动后两边同步。
-- v130e上传时：兼容版页面描述应点名1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山），见`docs/KNOWN_RISKS.md`第9条。
+- 默认只更新文件内容、预览图和changenote。
+- 工坊标题、简介、标签和简介版本号一律保持现状，除非用户在当前上传任务中明确要求修改。
+- 如果用户明确要求修改简介，以`docs/STEAM_FULL_BBCODE.txt`、`docs/STEAM_LITE_BBCODE.txt`为底稿，修改前先展示精确差异。
+
+## 2026-07-30实测记录
+
+- v130e兼容版：物品`3736859636`，Manifest `5995984417193478401`，日志确认`OK`。
+- v130e完整版：物品`3762643540`，Manifest `8131297658874109917`，日志确认`OK`。
+- 两个暂存目录与正式ZIP内MOD目录逐文件哈希一致；两份VDF均未包含`title`或`description`。
