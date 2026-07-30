@@ -1,5 +1,5 @@
 {
-  "baseline": "v130d",
+  "baseline": "v130e",
   "normalized_comparison": {
     "common_paths": 255,
     "same_content_paths": 254,
@@ -7,21 +7,21 @@
       "descriptor.mod"
     ],
     "lite_only_paths": [
-      "__outer__/china_bio_lite_v130d.mod"
+      "__outer__/china_bio_lite_v130e.mod"
     ],
     "full_only_paths_count": 207,
     "full_only_mod_files_count": 206
   },
   "lite_zip": {
-    "filename": "china_bio_lite_v130d.zip",
-    "sha256": "d3ff26dcf1b722897b1980593f1c9a2536b7b3427cd2bf4160ab962db78e5101",
-    "root": "china_bio_lite_v130d",
+    "filename": "china_bio_lite_v130e.zip",
+    "sha256": "b30febfc2b9c0cbe8fbb880ebd3c442b225d9024b8193f1f3d2287097ed913c1",
+    "root": "china_bio_lite_v130e",
     "files": 256
   },
   "full_zip": {
-    "filename": "china_bio_v130d.zip",
-    "sha256": "80ab42cda49fb4af461d0fe74de9f72e5d288e76b0ea6e1c1f3f673c375ea02e",
-    "root": "china_bio_v130d",
+    "filename": "china_bio_v130e.zip",
+    "sha256": "c00f9828393a1bbec8ee646f591176d71e313b238bdf4a9814b2c3ce09a26b02",
+    "root": "china_bio_v130e",
     "files": 462
   }
 }

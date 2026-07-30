@@ -1,12 +1,12 @@
 {
-  "root": "china_bio_v130d",
-  "outer_mod": "china_bio_v130d.mod",
+  "root": "china_bio_v130e",
+  "outer_mod": "china_bio_v130e.mod",
   "file_count": 462,
   "files": [
     {
-      "path": "__outer__/china_bio_v130d.mod",
-      "size": 160,
-      "sha256": "2e1e0def7cd6256225274cfdac5c33e57c51732a598e9277f5a11621a892aaa0"
+      "path": "__outer__/china_bio_v130e.mod",
+      "size": 163,
+      "sha256": "f0a861bc8b6f06f18a753a1e9ffc6a38ab92a86e1e6fd75a3f7d36dab3e6c2c0"
     },
     {
       "path": "common/characters/ABK.txt",
@@ -1150,8 +1150,8 @@
     },
     {
       "path": "descriptor.mod",
-      "size": 160,
-      "sha256": "2e1e0def7cd6256225274cfdac5c33e57c51732a598e9277f5a11621a892aaa0"
+      "size": 163,
+      "sha256": "f0a861bc8b6f06f18a753a1e9ffc6a38ab92a86e1e6fd75a3f7d36dab3e6c2c0"
     },
     {
       "path": "events/AAT_Denmark.txt",
@@ -2285,8 +2285,8 @@
     },
     {
       "path": "localisation/simp_chinese/zzzz_ger_bio_v86_l_simp_chinese.yml",
-      "size": 105013,
-      "sha256": "84dbc827154fb2c926a52ea11657716205e2f9938a404c41ca0f6df169f52b4b"
+      "size": 104744,
+      "sha256": "21331f81409bc70bbded3ecdc2958c6614315f277cb94ff50b49b6af76ac5c96"
     },
     {
       "path": "localisation/simp_chinese/zzzz_sov_bio_l_simp_chinese.yml",

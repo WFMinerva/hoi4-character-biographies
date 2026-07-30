@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "baseline": "v130d-stable",
+  "baseline": "v130e-stable",
   "rules": [
     {
       "id": "project_pure_bio",
@@ -93,6 +93,15 @@
       ],
       "classification": "real_person",
       "decision": "v130d核实为真人：韩乙奴，青海循化撒拉族，马步芳部下，1949年12月13日循化查加沟暴乱主谋。中文名有原版官方简中及查加沟战斗多条中文史料佐证，已从拉丁名白名单移除、恢复中文名。英文维基称军官、中文来源称保长/县长，职务记载不一致，正文不坐实职务。正文已经用户审定入包。",
+      "status": "confirmed"
+    },
+    {
+      "entity": "Viktoria Luise",
+      "keys": [
+        "CBIO_GER_victoria_desc"
+      ],
+      "classification": "real_person",
+      "decision": "原版GER_victoria指向威廉二世独女维多利亚·路易丝（1892—1980）；旧正文误写为威廉二世之妹维多利亚公主（1866—1929）。2026年7月30日用户已逐字审定替换正文；保持主键及角色、事件、国策、特质和继位逻辑不变。",
       "status": "confirmed"
     }
   ],
