@@ -42,16 +42,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3762643540
 
 这不是文本缺失，而是兼容版有意保留的技术边界。
 
-当前已知的1939剧本动态领袖缺口包括：
-
-[list]
-[*]中共NCNS路线下通过国策动态获得领袖身份的毛泽东；
-[*]蒙疆的德王；
-[*]蒙古的乔巴山。
-[/list]
-
-上述人物在完整版中具有动态路径小传；兼容版为避免覆盖相关国策或国家历史文件，不修复这些路径。
-
 如主要游玩原版，并希望动态领袖也尽可能显示小传，请使用全量版：
 https://steamcommunity.com/sharedfiles/filedetails/?id=3762643540
 
