@@ -49,10 +49,10 @@ def build_fixture(dst: Path) -> None:
             shutil.copy2(src, target)
 
 
-def run(script: str, fixture: Path) -> subprocess.CompletedProcess[str]:
+def run(script: str, fixture: Path, *args: str) -> subprocess.CompletedProcess[str]:
     env = dict(os.environ, CBIO_ROOT=str(fixture))
     return subprocess.run(
-        [sys.executable, str(TOOLS / script)], cwd=fixture, env=env,
+        [sys.executable, str(TOOLS / script), *args], cwd=fixture, env=env,
         stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
         text=True, encoding="utf-8", errors="replace",
     )
@@ -81,6 +81,42 @@ def setup_vanilla_fixture(fx: Path) -> None:
     (fx / "reference").mkdir(parents=True, exist_ok=True)
     (fx / "reference" / "vanilla_path.json").write_text(
         json.dumps({"path": str(vanilla)}, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+
+def setup_cbio_logs(fx: Path) -> None:
+    """合成日志fixture：全部行均命中白名单（干净用例）。"""
+    logs = fx / "synthetic_logs"
+    logs.mkdir(parents=True, exist_ok=True)
+    (logs / "error.log").write_text(
+        "[15:00:41][no_game_date][virtualfilesystem_physfs.cpp:1260]: Error setting buffer for file: gfx/models/units/planes/fighter_1_kamikaze.mesh. File may not read/write correctly.\n"
+        "[15:01:13][no_game_date][gfx_dx11.cpp:84]: Failed to create 2D texture (format=87, mips=1: Not enough memory resources are available to complete this operation.\n"
+        " (0x8007000e)\n"
+        "[15:02:30][1936.01.01.12][gamelobby.cpp:1779]: Exception in: remotefile.cpp, line: 238. Description: Failed allocate data buffer.\n",
+        encoding="utf-8",
+    )
+    (logs / "game.log").write_text(
+        "[15:02:40][1936.01.01.12][frontend.cpp:682]: Launching SINGLEPLAYER-game\nConflict Risk detected\n",
+        encoding="utf-8",
+    )
+    (logs / "setup.log").write_text("[load] china_bio shared file loaded\n", encoding="utf-8")
+    (logs / "code_revisions.log").write_text(
+        "game_hash_short: a729d47bd\ngame_timestamp: 2026-06-29 15:17:03 +0200\n",
+        encoding="utf-8",
+    )
+
+
+def cbio_logs_args(fx: Path) -> list[str]:
+    return ["--logs", str(fx / "synthetic_logs"), "--out", str(fx / "cbio_result.json")]
+
+
+def fault_cbio_new_signature(fx: Path) -> None:
+    """注入白名单外的错误签名行，判读工具必须拦截（FAIL）。"""
+    p = fx / "synthetic_logs" / "error.log"
+    p.write_text(
+        p.read_text(encoding="utf-8")
+        + "\n[16:00:00][1936.01.01.12][selftest.cpp:1]: CBIO selftest injected unknown error\n",
         encoding="utf-8",
     )
 
@@ -194,34 +230,36 @@ def fault_vanilla_semantics(fx: Path) -> None:
 
 
 CASES = [
-    ("check_encoding.py", fault_strip_bom, None),
-    ("check_localisation.py", fault_duplicate_key, None),
-    ("check_aliases.py", fault_alias_missing_target, None),
-    ("check_text_quality.py", fault_text_residue, None),
-    ("check_human_decisions.py", fault_delete_protected, None),
-    ("check_human_decisions.py", fault_ledger_parity, None),
-    ("check_human_decisions.py", fault_ledger_reverse_parity, None),
-    ("check_human_decisions.py", fault_ledger_marker_missing, None),
-    ("check_snapshot.py", fault_snapshot_version, None),
-    ("check_script_structure.py", fault_unbalanced_brace, None),
-    ("check_desc_semantics.py", fault_desc_wrong_level, None),
-    ("check_diff_whitelist.py", fault_forbidden_diff, setup_git_fixture),
-    ("compare_with_vanilla.py", fault_vanilla_semantics, setup_vanilla_fixture),
+    ("check_encoding.py", fault_strip_bom, None, None),
+    ("check_localisation.py", fault_duplicate_key, None, None),
+    ("check_aliases.py", fault_alias_missing_target, None, None),
+    ("check_text_quality.py", fault_text_residue, None, None),
+    ("check_human_decisions.py", fault_delete_protected, None, None),
+    ("check_human_decisions.py", fault_ledger_parity, None, None),
+    ("check_human_decisions.py", fault_ledger_reverse_parity, None, None),
+    ("check_human_decisions.py", fault_ledger_marker_missing, None, None),
+    ("check_snapshot.py", fault_snapshot_version, None, None),
+    ("check_script_structure.py", fault_unbalanced_brace, None, None),
+    ("check_desc_semantics.py", fault_desc_wrong_level, None, None),
+    ("check_diff_whitelist.py", fault_forbidden_diff, setup_git_fixture, None),
+    ("compare_with_vanilla.py", fault_vanilla_semantics, setup_vanilla_fixture, None),
+    ("check_logs_cbio.py", fault_cbio_new_signature, setup_cbio_logs, cbio_logs_args),
 ]
 
 failures = []
 with tempfile.TemporaryDirectory(prefix="cbio_selftest_") as tmp:
-    for script, fault, setup in CASES:
+    for script, fault, setup, args_fn in CASES:
         fx = Path(tmp) / (script.replace(".py", "") + "_" + fault.__name__)
         build_fixture(fx)
         if setup:
             setup(fx)
-        clean = run(script, fx)
+        extra = args_fn(fx) if args_fn else []
+        clean = run(script, fx, *extra)
         if clean.returncode != 0:
             failures.append(f"{script}: 干净fixture未通过\n{clean.stdout[-800:]}")
             continue
         fault(fx)
-        dirty = run(script, fx)
+        dirty = run(script, fx, *extra)
         status = "OK" if dirty.returncode != 0 else "MISS"
         print(f"{status}  {script} + {fault.__name__}: 干净=通过, 故障={'拦截' if dirty.returncode != 0 else '漏检!'}")
         if dirty.returncode == 0:

@@ -2,7 +2,7 @@
 
 本文件是仓库总入口。任何接手者先读本文件的快照、待办、目录地图和阅读顺序，再按任务深入对应文档。
 
-## 0.1 当前状态快照（2026-07-30）
+## 0.1 当前状态快照（2026-08-20）
 
 > 时效提醒：本节负责当前工作状态和待办，可能过期。稳定版本和发布物以`docs/CURRENT_BASELINE.md`为准，语义裁定以人工裁定台账为准；先核对`git log`/`git status`，冲突时标记为“待验证”并更新对应事实源，不得让历史文档反向覆盖。
 
@@ -12,6 +12,7 @@
 - v130d相对v130c7的变更：傅作义SHX顾问/溥仪MAN理论家补挂desc别名；蒋有芬（SIK）、韩乙奴（XSM）核实为真人，恢复中文名并入审定小传；完成6421条静态身份覆盖对账（档1已结案）。
 - v130e相对v130d的变更：德国女皇线`GER_victoria`已确认是威廉二世独女维多利亚·路易丝，旧正文误写为威廉二世之妹；修订正文已于2026-07-30经用户逐字审定，并在完整版1936剧本动态上台路径中实机确认显示正常。兼容版仅包含正文，不覆盖该动态事件，因此不负责此路径的小传显示。
 - 工作区状态：档1复核结论已提交（档1全部结案）；`workbench/pending_text/`为空，无待审正文。
+- 2026-08-20 维护者换机接手（Codex 维护机 → 本机）：落地文档体系——新增`docs/maintenance/`（三级流程、开发交接快照、机主开工手册）与`docs/testing/`（实机归档、黄金存档制度）及配套`tools/check_logs_cbio.py`；MOD 源码零变化。详见`docs/maintenance/开发状态快照与交接.md`。
 
 ### 0.1.1 事实源职责与证据等级
 
@@ -42,6 +43,8 @@
 | `workbench/` | 人工工作台（待审/审定正文、裁定、对账底账） | 日常工作区，见`workbench/README.md` |
 | `docs/` | 活跃指引文档 | 可维护，保持第0.4节阅读链有效 |
 | `docs/archive/` | 历史文档（2026-07-27归档） | 只读追溯，不得反向覆盖现行规则 |
+| `docs/maintenance/` | 三级流程、开发交接快照、机主开工手册 | 可维护，先读《维护与重构标准流程_适配版》 |
+| `docs/testing/` | 实机回归归档与黄金存档制度 | 按制度写入 |
 | `build/` | 构建暂存（工具输出） | 工具写入，勿手改 |
 | `releases/` | 当前发布包（v130e双zip） | 只由`build_release.py`产出；`releases/archive/`为旧测试包 |
 | `baseline_inputs/` | 历史原始包与封面素材 | 只读 |
@@ -53,7 +56,7 @@
 1. 本文件（总入口+全部强制规则）。
 2. `docs/CURRENT_BASELINE.md`——版本状态唯一裁决点。
 3. `docs/HUMAN_DECISIONS.md` + `workbench/decisions/human_decisions.json`——人工裁定台账。
-4. `docs/CODEX_WORKFLOW.md`——日常七步流程；`docs/RELEASE_CHECKLIST.md`——发布闸门；发布上传时另读`docs/WORKSHOP_UPLOAD.md`。
+4. `docs/maintenance/维护与重构标准流程_适配版.md`——三级流程与三扇门；判级后按`docs/CODEX_WORKFLOW.md`执行。`docs/RELEASE_CHECKLIST.md`——发布闸门；发布上传时另读`docs/WORKSHOP_UPLOAD.md`。
 5. `docs/KNOWN_RISKS.md` + `docs/INCIDENTS_AND_SOLUTIONS.md`——风险边界与典型故障。
 6. 按任务选读：`docs/ENGINEERING_PLAYBOOK.md`（工程）、`docs/TEXT_PROCESSING_PLAYBOOK.md`（文本）、`docs/LOCAL_REPOSITORY_GUIDE.md`（环境/初始化）、`docs/AUDIT_DATA_GUIDE.md`（底库用法）。
 7. 进入`src/shared/`、`src/full_only/`、`tools/`前，先读各目录下的`AGENTS.md`。
@@ -70,9 +73,10 @@
 1. 阅读`docs/CURRENT_BASELINE.md`、`docs/HUMAN_DECISIONS.md`以及与任务相关的经验文档。
 2. 执行`git status --short`，不得覆盖未提交的用户改动。
 3. 先做只读扫描，列出已确认事实、推测、涉及文件、最小方案、允许diff和测试项目。
-4. 未获得明确修改指令前不得写入源码。
-5. 任务范围明确时不得顺手修复其他问题。
-6. 机器底库只用于找候选，不得把机器候选直接写成确认BUG。
+4. 先按`docs/maintenance/维护与重构标准流程_适配版.md`判级（A/B/C）并走对应门；三扇门（需求对齐/方案拍板/提交确认）必须等机主拍板；推送仅凭「推送」二字。
+5. 未获得明确修改指令前不得写入源码。
+6. 任务范围明确时不得顺手修复其他问题。
+7. 机器底库只用于找候选，不得把机器候选直接写成确认BUG。
 
 ## 3. 来源优先级
 

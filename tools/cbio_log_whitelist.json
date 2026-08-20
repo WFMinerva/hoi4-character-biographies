@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "log": "error.log",
+      "pattern": "Error setting buffer for file: gfx/",
+      "regex": false,
+      "note": "原版/系统图形缓冲噪声（virtualfilesystem_physfs），2026-08-20 现网日志确认",
+      "sample": "[15:00:41][no_game_date][virtualfilesystem_physfs.cpp:1260]: Error setting buffer for file: gfx/models/units/planes/fighter_1_kamikaze.mesh. File may not read/write correctly."
+    },
+    {
+      "log": "error.log",
+      "pattern": "Failed to create 2D texture",
+      "regex": false,
+      "note": "原版/系统显存不足噪声（gfx_dx11），2026-08-20 现网日志确认",
+      "sample": "[15:01:13][no_game_date][gfx_dx11.cpp:84]: Failed to create 2D texture (height=1440, width=1920, format=87, mips=1: Not enough memory resources are available to complete this operation."
+    },
+    {
+      "log": "error.log",
+      "pattern": "0x8007000e",
+      "regex": false,
+      "note": "「Failed to create 2D texture」错误的续行（显存不足错误码），2026-08-20 现网日志确认",
+      "sample": " (0x8007000e)"
+    },
+    {
+      "log": "error.log",
+      "pattern": "Failed allocate data buffer",
+      "regex": false,
+      "note": "原版 remotefile 内存分配失败噪声，2026-08-20 现网日志确认",
+      "sample": "[15:02:30][1936.01.01.12][gamelobby.cpp:1779]: Exception in: C:\\mnt\\gsg\\hoi4\\hoi4_merged\\clausewitz\\clausewitzlib\\remotefile.cpp, line: 238. Description: Failed allocate data buffer."
+    },
+    {
+      "log": "game.log",
+      "pattern": "Conflict Risk",
+      "regex": false,
+      "note": "已知原版加载杂音（《开局一键爽玩》tools/log_noise_whitelist.json 同款条目；本机触发样本待首轮实机收录）",
+      "sample": "Conflict Risk（本机触发样本待首轮实机收录）"
+    }
+  ]
+}

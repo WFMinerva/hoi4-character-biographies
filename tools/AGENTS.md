@@ -10,6 +10,7 @@
 - `check_snapshot.py`：校验`AGENTS.md`状态快照与`docs/CURRENT_BASELINE.md`版本一致且带日期。
 - `compare_with_vanilla.py`：只读比较完整版与原版，必须忽略`desc`赋值但保留其他全部脚本token。
 - `build_release.py`：只从`src/`与`packaging/`构建，不得把`audit/`、`docs/`、`workbench/`、日志或历史ZIP装入MOD。
+- `check_logs_cbio.py`：实机日志判读工具（非审计门禁检查器，不接入`audit_all.py`；输出仅`audit/reports/`；金丝雀用例见`self_test.py`）。
 
 ## 开发要求
 
