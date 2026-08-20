@@ -1,13 +1,14 @@
 # Steam工坊上传流程
 
 > 总入口：根目录`AGENTS.md`。本流程依据`F:\steamcmd\STEAMCMD_工坊上传指南.md`整理，该指南已在本机其他HOI4 MOD实测通过。
+> 路径口径：文中 `F:\steamcmd` 为旧机示例路径；实际操作在机主装有 steamcmd 的机器执行，一切路径以《开发状态快照与交接》1.1 表为准。
 
 ## 分工
 
-- **Codex负责做到登录前**：构建正式包、解压到独立暂存目录、逐文件哈希核对、生成VDF和changenote、核对物品ID与缩略图路径。
+- **AI负责做到登录前**：构建正式包、解压到独立暂存目录、逐文件哈希核对、生成VDF和changenote、核对物品ID与缩略图路径。
 - **必须用户本人做**：使用账号`wendu1991`执行steamcmd命令并输入密码和Steam Guard验证码；密码和验证码不得写入命令、VDF、仓库或记忆。
-- **上传后由Codex收尾**：读取`F:\steamcmd\logs\workshop_log.txt`，分别确认两个物品均出现`Upload finished ... : OK`，记录Manifest ID并更新仓库状态。
-- AGENTS.md第11节禁令不变：Codex不得自行上传工坊。
+- **上传后由AI收尾**：读取`<steamcmd目录>\logs\workshop_log.txt`，分别确认两个物品均出现`Upload finished ... : OK`，记录Manifest ID并更新仓库状态。
+- AGENTS.md第11节禁令不变：AI不得自行上传工坊。
 
 ## 工坊物品ID
 

@@ -1,16 +1,17 @@
-# 钢四人物小传：Codex本地长期维护仓库
+# 钢四人物小传：本地仓库环境与初始化
 
-> 总入口：根目录`AGENTS.md`；当前版本状态以`docs/CURRENT_BASELINE.md`为准。
+> 总入口：根目录`AGENTS.md`；当前版本状态以`docs/CURRENT_BASELINE.md`为准。本机环境（Python/Git/游戏路径/steamcmd）以 `docs/maintenance/开发状态快照与交接.md` 1.1 表为唯一口径，本文只讲仓库初始化与日常命令。
 
 本仓库由用户实机确认的v130c7双版本包初始化，并在v2中补齐项目经验、机器审计底库和日常发布闸门。
 
 ## 源码模型
 
-- `src/shared/`：完整版与兼容版共同文件，共254个MOD文件。
-- `src/full_only/`：仅完整版需要的动态人物路径覆盖，共206个MOD文件。
+- `src/shared/`：完整版与兼容版共同文件，共255个MOD文件。
+- `src/full_only/`：仅完整版需要的动态人物路径覆盖，共207个MOD文件。
 - `packaging/`：两个版本各自的`descriptor.mod`和外层`.mod`模板。
 - `audit/data/`：v130a—v130b历史机器底库和语义复核资料。
-- `workbench/templates/`：国家扫描和最终入包清单模板。
+- `workbench/templates/`：任务卡与扫描/入包清单模板。
+- `workbench/cards/`：任务卡存放区（机制见`docs/scaffold/任务卡机制说明.md`）。
 - `workbench/decisions/`：结构化人工裁定。
 
 兼容版=`shared`；完整版=`shared + full_only`。
@@ -48,7 +49,7 @@ reference/vanilla_path.json
 把路径改为本机HOI4 v1.19.2原版目录或ZIP。也可以设置环境变量：
 
 ```powershell
-$env:HOI4_VANILLA_PATH="D:\HOI4-Modding\_reference\Hearts of Iron IV-v1.19.2.zip"
+$env:HOI4_VANILLA_PATH="<本机HOI4原版目录或ZIP>"
 ```
 
 只要`src/full_only/`发生变化，日常审计就会要求原版参考，并验证去除`desc`后全部脚本语义与原版一致。
@@ -61,7 +62,7 @@ git status --short
 git switch -c fix/任务英文短名
 ```
 
-先让Codex只读扫描。人工批准后修改，然后执行：
+先让AI只读扫描。人工批准后修改，然后执行：
 
 ```powershell
 python tools/audit_all.py

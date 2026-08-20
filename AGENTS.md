@@ -7,11 +7,11 @@
 > 时效提醒：本节负责当前工作状态和待办，可能过期。稳定版本和发布物以`docs/CURRENT_BASELINE.md`为准，语义裁定以人工裁定台账为准；先核对`git log`/`git status`，冲突时标记为“待验证”并更新对应事实源，不得让历史文档反向覆盖。
 
 - 当前版本：v130e-stable（兼容版`china_bio_lite_v130e.zip` + 完整版`china_bio_v130e.zip`），用户实机确认德国女皇线在完整版1936剧本中正常上台并显示审定小传，是当前稳定基准；2026-07-30已上传Steam工坊（兼容版物品`3736859636`，完整版物品`3762643540`）。
-- 游戏版本口径：HOI4 1.19.x（原版参考已配置于`reference/vanilla_path.json`，指向1.19.2）。
+- 游戏版本口径：HOI4 1.19.x（本机原版参考未配置——涉及`src/full_only/`改动前，先按`reference/README.md`配置`reference/vanilla_path.json`指向1.19.2）。
 - 测试口径：1936、1939剧本。
 - v130d相对v130c7的变更：傅作义SHX顾问/溥仪MAN理论家补挂desc别名；蒋有芬（SIK）、韩乙奴（XSM）核实为真人，恢复中文名并入审定小传；完成6421条静态身份覆盖对账（档1已结案）。
 - v130e相对v130d的变更：德国女皇线`GER_victoria`已确认是威廉二世独女维多利亚·路易丝，旧正文误写为威廉二世之妹；修订正文已于2026-07-30经用户逐字审定，并在完整版1936剧本动态上台路径中实机确认显示正常。兼容版仅包含正文，不覆盖该动态事件，因此不负责此路径的小传显示。
-- 工作区状态：档1复核结论已提交（档1全部结案）；`workbench/pending_text/`为空，无待审正文。
+- 工作区状态：档1复核结论已提交（档1全部结案）；`workbench/pending_text/`为空，无待审正文。2026-08-20立项「项目结构优化」（文档层瘦身+双入口+孵化脚手架，C流程，进行中，详见`docs/maintenance/开发状态快照与交接.md`变更记录#3）。
 - 2026-08-20 维护者换机接手（Codex 维护机 → 本机）：落地文档体系——新增`docs/maintenance/`（三级流程、开发交接快照、机主开工手册）与`docs/testing/`（实机归档、黄金存档制度）及配套`tools/check_logs_cbio.py`；MOD 源码零变化。详见`docs/maintenance/开发状态快照与交接.md`。
 
 ### 0.1.1 事实源职责与证据等级
@@ -40,8 +40,8 @@
 | `audit/allowlists/` | 非desc差异临时例外登记 | 按第6节流程逐任务登记 |
 | `audit/data/` | v130a—v130b历史机器底库（约37MB） | 只读参考资料，不得当作确认BUG |
 | `audit/reports/` | 审计报告输出目录 | 工具写入 |
-| `workbench/` | 人工工作台（待审/审定正文、裁定、对账底账） | 日常工作区，见`workbench/README.md` |
-| `docs/` | 活跃指引文档 | 可维护，保持第0.4节阅读链有效 |
+| `workbench/` | 人工工作台（待审/审定正文、裁定、对账底账） | 日常工作区，见`workbench/README.md`；`workbench/cards/`为任务卡存放区 |
+| `docs/` | 活跃指引文档 | 可维护，保持第0.4节阅读链有效；`docs/scaffold/`为孵化脚手架层（可迁移方法论+任务卡机制） |
 | `docs/archive/` | 历史文档（2026-07-27归档） | 只读追溯，不得反向覆盖现行规则 |
 | `docs/maintenance/` | 三级流程、开发交接快照、机主开工手册 | 可维护，先读《维护与重构标准流程_适配版》 |
 | `docs/testing/` | 实机回归归档与黄金存档制度 | 按制度写入 |
@@ -58,7 +58,7 @@
 3. `docs/HUMAN_DECISIONS.md` + `workbench/decisions/human_decisions.json`——人工裁定台账。
 4. `docs/maintenance/维护与重构标准流程_适配版.md`——三级流程与三扇门；判级后按`docs/CODEX_WORKFLOW.md`执行。`docs/RELEASE_CHECKLIST.md`——发布闸门；发布上传时另读`docs/WORKSHOP_UPLOAD.md`。
 5. `docs/KNOWN_RISKS.md` + `docs/INCIDENTS_AND_SOLUTIONS.md`——风险边界与典型故障。
-6. 按任务选读：`docs/ENGINEERING_PLAYBOOK.md`（工程）、`docs/TEXT_PROCESSING_PLAYBOOK.md`（文本）、`docs/LOCAL_REPOSITORY_GUIDE.md`（环境/初始化）、`docs/AUDIT_DATA_GUIDE.md`（底库用法）。
+6. 按任务选读：`docs/ENGINEERING_PLAYBOOK.md`（工程）、`docs/TEXT_PROCESSING_PLAYBOOK.md`（文本）、`docs/LOCAL_REPOSITORY_GUIDE.md`（环境/初始化）、`docs/AUDIT_DATA_GUIDE.md`（底库用法）。新任务开工前另读`docs/scaffold/任务卡机制说明.md`并复制`workbench/templates/任务卡模板.md`。
 7. 进入`src/shared/`、`src/full_only/`、`tools/`前，先读各目录下的`AGENTS.md`。
 8. 只有追溯历史时才读`docs/archive/`（其中PROJECT_RULES_FULL为对话串时代旧规范，与现行体系平行，仅供参考）。
 
