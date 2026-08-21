@@ -85,7 +85,7 @@
 ## 状态裁定
 
 - v130c7在原交接单中仍称测试版，是因为交接单早于实机确认。
-- 用户后续已实机确认并上传工坊，`v130c7-stable`成为当时的稳定基准；当前稳定基准已更新为`v130d-stable`。
+- 用户后续已实机确认并上传工坊，`v130c7-stable`成为当时的稳定基准；当前稳定基准已更新为`v130e-stable`。
 - 历史文档不得反向覆盖该状态。
 
 <!-- ledger:placeholder:placeholder_name_restores status=confirmed -->
