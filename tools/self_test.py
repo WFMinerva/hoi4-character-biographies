@@ -197,11 +197,17 @@ def fault_ledger_marker_missing(fx: Path) -> None:
     p.write_text(text.replace(marker, "", 1), encoding="utf-8")
 
 
-def fault_snapshot_version(fx: Path) -> None:
+def fault_snapshot_pointer_missing(fx: Path) -> None:
     p = fx / "AGENTS.md"
     text = p.read_text(encoding="utf-8-sig")
-    assert "v130e" in text
-    p.write_text(text.replace("v130e-stable", "v130e2-stable", 1), encoding="utf-8")
+    assert "docs/CURRENT_BASELINE.md" in text
+    p.write_text(text.replace("docs/CURRENT_BASELINE.md", "docs/BASELINE_ARCHIVE.md"), encoding="utf-8")
+
+
+def fault_snapshot_version_reembedded(fx: Path) -> None:
+    p = fx / "AGENTS.md"
+    text = p.read_text(encoding="utf-8-sig")
+    p.write_text(text + "\n当前版本：v999-test\n", encoding="utf-8")
 
 
 def fault_unbalanced_brace(fx: Path) -> None:
@@ -238,7 +244,8 @@ CASES = [
     ("check_human_decisions.py", fault_ledger_parity, None, None),
     ("check_human_decisions.py", fault_ledger_reverse_parity, None, None),
     ("check_human_decisions.py", fault_ledger_marker_missing, None, None),
-    ("check_snapshot.py", fault_snapshot_version, None, None),
+    ("check_snapshot.py", fault_snapshot_pointer_missing, None, None),
+    ("check_snapshot.py", fault_snapshot_version_reembedded, None, None),
     ("check_script_structure.py", fault_unbalanced_brace, None, None),
     ("check_desc_semantics.py", fault_desc_wrong_level, None, None),
     ("check_diff_whitelist.py", fault_forbidden_diff, setup_git_fixture, None),

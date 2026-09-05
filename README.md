@@ -112,12 +112,12 @@ Other Hearts of Iron IV projects:
 
 本仓库的维护流程、事实源与红线以中文文档为准。新接手请按以下读链顺序阅读：
 
-1. 根目录 [`AGENTS.md`](./AGENTS.md)——总入口：状态快照、待办、目录地图（哪个目录能改）、强制规则、推荐阅读顺序。
+1. 根目录 [`AGENTS.md`](./AGENTS.md)——总入口：项目定位、任务路由、安全红线与权威文档指针。
 2. [`docs/CURRENT_BASELINE.md`](./docs/CURRENT_BASELINE.md)——稳定版本与发布物唯一裁决点。
 3. [`docs/HUMAN_DECISIONS.md`](./docs/HUMAN_DECISIONS.md)——已确认的人工裁定与长期例外。
-4. [`docs/maintenance/维护与重构标准流程_适配版.md`](./docs/maintenance/维护与重构标准流程_适配版.md)——动手前的三级流程（A/B/C）与三扇门。
-5. [`docs/maintenance/开发状态快照与交接.md`](./docs/maintenance/开发状态快照与交接.md)——开发串与机器环境交接（环境表、变更记录、开场命令）。
-6. 按任务选读：工程/文本/故障/风险手册、发布闸门（见 `AGENTS.md` 第 0.4 节完整读链）。
+4. [`docs/maintenance/维护与重构标准流程_适配版.md`](./docs/maintenance/维护与重构标准流程_适配版.md)——三类任务通道（讨论与只读/小型变更/高风险变更）。
+5. [`docs/KNOWN_RISKS.md`](./docs/KNOWN_RISKS.md)——高风险边界速查。
+6. 按任务选读：工程/文本/故障手册、发布闸门等（见 `AGENTS.md` 权威文档指针节）。
 
 ### 快速上手
 
@@ -146,6 +146,6 @@ python tools/audit_all.py
 
 ### 开新任务
 
-新任务（新人物批次/新游戏版本/新接手）按任务卡机制开工：读 [`docs/scaffold/任务卡机制说明.md`](./docs/scaffold/任务卡机制说明.md)，复制 [`workbench/templates/任务卡模板.md`](./workbench/templates/任务卡模板.md) 为 `workbench/cards/<NNN>_<任务名>.md`。
+高风险任务中需要跨对话、跨多步骤推进或确有复杂决策需要持久交接的，按任务卡机制开工：读 [`docs/scaffold/任务卡机制说明.md`](./docs/scaffold/任务卡机制说明.md)，复制 [`workbench/templates/任务卡模板.md`](./workbench/templates/任务卡模板.md) 为 `workbench/cards/<NNN>_<任务名>.md`。普通讨论、只读检查与小型变更不建卡；高风险任务不建卡时，其需求门、方案门、验证与提交前独立复验仍必须执行。
 
-> 提交与推送纪律：未经机主确认不 git commit；推送仅凭机主「推送」二字。
+> 提交与推送纪律：提交、合并、标签与发布须经机主明确授权；推送涉及外部写入，仅凭机主明确说出「推送」。
