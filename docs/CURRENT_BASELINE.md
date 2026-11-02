@@ -4,34 +4,27 @@
 
 ## 版本状态
 
-- 当前版本：v130e
+- 当前版本：v130g
 - 当前主线：纯人物小传双版本
 - 当前测试口径：1936、1939
-- 状态：用户实机确认德国女皇线在完整版1936剧本中正常上台并显示审定小传，作为当前稳定基准
-
-## 候选版本（未转正）
-
-- 候选：v130g（HOI4 1.19.4.1 全量重建，2026-11-02 构建并提交合并 `main`）。
-- 完整版：`china_bio_v130g.zip` SHA-256 `3bac28fd939da16f539172bd92adf9175ef189c714371fc1df731605ed205afa`（规范化文件数 462）。
-- 兼容版：`china_bio_lite_v130g.zip` SHA-256 `52de98ce748abd00d0e1d19f6415169776e159299a8125875647b3fa01f53edc`（256）。
-- 证据：静态审计全绿；独立复检两轮 PASS（含 Must-fix 后复检）；实机归档 `docs/testing/v130g-test2/`；发布与上传交接 `docs/maintenance/2026-11-02_v130g发布与上传交接.md`；日志白名单 89 条（仅适用 HOI4 1.19.4.1）。
-- 转正条件：机主实机确认 → 工坊上传 → 本文件“版本状态/两版基准”改为 v130g → 打 `v130g-stable` 标签。
-- 未转正前，上文 v130e 仍是唯一稳定基准；`v130g-test1`/`v130g-test2` 测试包作废，不得部署或上传。
+- 状态：用户 2026-11-02 手动实测确认（完整版 1936 开局，`error.log` 0 字节）；同日双包上传 Steam 工坊并转正为稳定基准
 
 ## 兼容版基准
 
-- 原始文件：`china_bio_lite_v130e.zip`
-- SHA-256：`b30febfc2b9c0cbe8fbb880ebd3c442b225d9024b8193f1f3d2287097ed913c1`
-- 内部目录：`china_bio_lite_v130e`
+- 原始文件：`china_bio_lite_v130g.zip`
+- SHA-256：`52de98ce748abd00d0e1d19f6415169776e159299a8125875647b3fa01f53edc`
+- 内部目录：`china_bio_lite_v130g`
 - 规范化文件数：256
+- 工坊：物品`3736859636`，Manifest `4025348432515992234`，2026-11-02 11:27 上传（`workshop_log.txt` 记录 `OK`）
 - 工坊定位：兼容优先，尽量不覆盖国策、事件、决议和国家历史脚本。
 
 ## 完整版基准
 
-- 原始文件：`china_bio_v130e.zip`
-- SHA-256：`c00f9828393a1bbec8ee646f591176d71e313b238bdf4a9814b2c3ce09a26b02`
-- 内部目录：`china_bio_v130e`
+- 原始文件：`china_bio_v130g.zip`
+- SHA-256：`3bac28fd939da16f539172bd92adf9175ef189c714371fc1df731605ed205afa`
+- 内部目录：`china_bio_v130g`
 - 规范化文件数：462
+- 工坊：物品`3762643540`，Manifest `2613996748925903739`，2026-11-02 11:27 上传（`workshop_log.txt` 记录 `OK`）
 - 工坊定位：覆盖优先，保留必要的动态领袖和动态身份路径覆盖。
 
 ## 源码拆分证据
@@ -48,6 +41,15 @@
 兼容版 = shared + lite packaging
 完整版 = shared + full_only + full packaging
 ```
+
+## v130g在v130e基础上的变更
+
+- 为 HOI4 1.19.4.1 全量重建完整版覆盖：以新版原版为底重建 206 个覆盖路径（重写 140 个 MOD 文件），除批准的 `desc`/姓名外与原版脚本 token 零差异；保留工坊 v130f 的 5 项已发布实质变化（`PHI` Laurel 顾问、`NSB_Poland` Karl Albrecht、`SEA_Japan` Laurel 8 处、两份本地化正文修正）。
+- 修复 `GOE_Raj` 分治链：真纳/蒙巴顿 `desc` 归位各自 `.7` 块，尼赫鲁迁至 `.12`，甘地改由 shared 静态 `desc` 继承；旧 `.9` 不写任何人。
+- 项目键人物 `desc` 821（v130e 为 822：甘地转静态继承后减 1）、非项目键动态 `desc` 56、七国保护 18。
+- 日志白名单 89 条，逐条标注**仅适用 HOI4 1.19.4.1**；游戏升级后必须重新判定。
+- 未新增正文批次，未改玩法、人物属性、角色 ID、国策/事件/决议逻辑。
+- 证据：`docs/maintenance/2026-11-01_HOI4_1.19.4.1全量重建方案.md`、独立复检两轮 PASS、实机归档 `docs/testing/v130g-test2/`、开发版更新日志 `CHANGELOG.md`。
 
 ## v130e在v130d基础上的变更
 
@@ -72,6 +74,7 @@
 
 ## 历史基准
 
+- v130e-stable：双包 `china_bio_v130e.zip` / `china_bio_lite_v130e.zip`，见 git 标签与本文件历史；
 - v130d-stable：见git标签与本文件历史；
 - v130c7-stable：见git标签与`baseline_inputs/`原始包。
 

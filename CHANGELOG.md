@@ -1,16 +1,17 @@
 # Changelog
 
-## v130g（HOI4 1.19.4.1 全量重建，2026-11-02）
+## v130g-stable（HOI4 1.19.4.1 全量重建，2026-11-02）
 
-- 任务分支 `fix/hoi4-1.19.4.1-rebase`（比较基线 `4508aee`），机主授权提交并合并 `main`；**尚未上传工坊、尚未更新稳定基准**。
+- 任务分支 `fix/hoi4-1.19.4.1-rebase`（比较基线 `4508aee`），已合并 `main`；2026-11-02 用户手动实测确认后上传 Steam 工坊并转正，标签 `v130g-stable`。
 - 重建口径：以 HOI4 1.19.4.1 原版为底、以工坊 v130f 为人物叠加来源，重建 `src/` 140 个文件；完整版 206 个覆盖路径全部保留，`shared` 167 个人物文件全部核验（23 个漂移文件重建）。剔除获批 `desc`/姓名后，全部 TXT 与原版 token 零差异。
 - 项目键人物 `desc` 821（较 v130e 的 822 减少 1：甘地改由 shared 静态 `desc` 继承）、非项目键动态 `desc` 56、七国保护 18，`check_rebuild_overlay.py errors=0`。
 - 保留工坊 v130f 的 5 个已发布实质变化：`PHI` Laurel 顾问 `desc`、`NSB_Poland` Karl Albrecht、`SEA_Japan` Laurel 8 处、两份本地化正文修正（Karl Albrecht、Franz Ritter von Epp）。
 - 修复 v130g-test1 暴露的 `GOE_Raj` 分治链错挂：真纳/蒙巴顿 `desc` 归位到各自 `.7` 块；尼赫鲁迁到新版 `.12`；甘地改为继承 shared 静态 `desc`；旧 `.9` 不写任何人。
 - 新增工具：`rebuild_with_vanilla.py`（dry-run 优先、`--apply` 才写、`--restore` 逐文件哈希恢复）、`check_rebuild_overlay.py`、`check_rebuild_whitespace.py`；扩展 `verify_build.py`（支持测试/正式版本）、`check_diff_whitelist.py`（精确例外）、`self_test.py`（23 例）。
 - 日志判读：按机主 2026-11-02 白名单裁定入库 89 条（A 组 41 + B 组 24 + 兼容版行号变体 10 + `GOE_Persia` 9 + 既有 5），逐条标注「仅适用 HOI4 1.19.4.1」；复跑 `check_logs_cbio` 1936/1939/交互及兼容版两轮全部 PASS。
-- 证据分级：静态确认（`audit_all.py --require-vanilla --base 4508aee` 全绿；独立复检 PASS，含 `GOE_Raj` 分治链逐项）；实机确认（AI 代跑 1936/1939/交互，16 截图 + 7 组脱敏日志，归档 `docs/testing/v130g-test2/`）；**用户确认：待机主工坊上传前确认，尚未完成**。
+- 证据分级：静态确认（`audit_all.py --require-vanilla --base 4508aee` 全绿；独立复检 PASS，含 `GOE_Raj` 分治链逐项）；实机确认（AI 代跑 1936/1939/交互，16 截图 + 7 组脱敏日志，归档 `docs/testing/v130g-test2/`）；**用户确认：2026-11-02 手动实测（完整版 1936 开局，`error.log` 0 字节）**。
 - 正式包（`releases/`）：完整版 `china_bio_v130g.zip` SHA-256 `3bac28fd939da16f539172bd92adf9175ef189c714371fc1df731605ed205afa`；兼容版 `china_bio_lite_v130g.zip` SHA-256 `52de98ce748abd00d0e1d19f6415169776e159299a8125875647b3fa01f53edc`；两包均经 `verify_build.py --version v130g` 与语义 manifest（字节 `9b10f30e…`，语义 `af8cc612…`）逐字节核对。
+- 工坊上传（2026-11-02 11:27，`workshop_log.txt` 两项 `OK`）：兼容版物品`3736859636` Manifest `4025348432515992234`；完整版物品`3762643540` Manifest `2613996748925903739`。
 - 未做：自然焦点链全量实机回归、P0/P1 全人物矩阵、B 组无 MOD 等时长对照（机主裁定不做）。
 
 ## v130e-stable

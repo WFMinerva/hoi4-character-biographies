@@ -57,3 +57,4 @@
 - 复跑结果（`audit/reports/cbio_v130g_test2c_*.json`）：完整版 1936/1939/交互 PASS，兼容版 1936/1939 PASS。
 - 正式包（替代 test2 测试包，版本号 `v130g`）：`china_bio_v130g.zip` SHA-256 `3bac28fd939da16f539172bd92adf9175ef189c714371fc1df731605ed205afa`；`china_bio_lite_v130g.zip` SHA-256 `52de98ce748abd00d0e1d19f6415169776e159299a8125875647b3fa01f53edc`；`verify_build.py --version v130g` 逐字节通过。
 - v130g-test2 测试包与 v130g-test1 一律作废，不得部署或上传。
+- 转正（2026-11-02）：机主手动实测（完整版 1936，`error.log` 0 字节）后双包上传工坊（兼容版 Manifest `4025348432515992234`、完整版 `2613996748925903739`），`docs/CURRENT_BASELINE.md` 更新为 v130g，标签 `v130g-stable`。

@@ -76,3 +76,11 @@ F:\steamcmd\steamcmd.exe +login wendu1991 +workshop_build_item F:\steamcmd\hoi4_
 - v130e兼容版：物品`3736859636`，Manifest `5995984417193478401`，日志确认`OK`。
 - v130e完整版：物品`3762643540`，Manifest `8131297658874109917`，日志确认`OK`。
 - 两个暂存目录与正式ZIP内MOD目录逐文件哈希一致；两份VDF均未包含`title`或`description`。
+
+## 2026-11-02 v130g实测记录
+
+- 上传命令（本机路径）：`D:\steamcmd\steamcmd.exe +login wendu1991 +workshop_build_item D:\steamcmd\hoi4_china_bio_lite_v130g.vdf +workshop_build_item D:\steamcmd\hoi4_china_bio_full_v130g.vdf +quit`，机主本人执行（复用本机已缓存凭据）。
+- v130g兼容版：物品`3736859636`，Manifest `4025348432515992234`，`workshop_log.txt` 记录 `Upload finished ... : OK`（11:27:26）。
+- v130g完整版：物品`3762643540`，Manifest `2613996748925903739`，`workshop_log.txt` 记录 `Upload finished ... : OK`（11:27:45）。
+- 上传前用户已手动实机确认（完整版 1936 开局，`error.log` 0 字节）；上传后转正 `v130g-stable`。
+- 暂存目录与正式ZIP逐文件哈希一致；VDF 未包含 `title`/`description`，changenote 按玩家版口径。
