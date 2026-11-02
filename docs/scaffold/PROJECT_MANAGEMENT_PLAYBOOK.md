@@ -86,4 +86,4 @@ reference/                # 本机路径配置（gitignore，附example）
 
 ## 6. 本手册自身的维护
 
-发现新的通用方法论时追加到对应章节；项目特定内容不要写进来（那属于各项目的AGENTS.md和手册）。本手册的最新副本存放在《钢四人物小传》仓库`docs/PROJECT_MANAGEMENT_PLAYBOOK.md`。
+发现新的通用方法论时追加到对应章节；项目特定内容不要写进来（那属于各项目的AGENTS.md和手册）。本手册的最新副本存放在《钢四人物小传》仓库`docs/scaffold/PROJECT_MANAGEMENT_PLAYBOOK.md`。

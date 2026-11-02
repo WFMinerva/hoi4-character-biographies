@@ -2,6 +2,8 @@
 
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=3736859636)
 
+> 维护者请跳至文末「开发者入口」；仓库维护规则以中文文档为准。
+
 A historical biography expansion mod for **Hearts of Iron IV**.
 
 This project adds detailed historical biographies to characters that appear throughout the game, including national leaders, political advisors, army commanders, naval commanders, and other historically significant figures.
@@ -103,3 +105,47 @@ Other Hearts of Iron IV projects:
 
 - One-Click Navy Builder
 - One-Click Sandbox Start
+
+---
+
+## For Maintainers / 开发者入口（中文）
+
+本仓库的维护流程、事实源与红线以中文文档为准。新接手请按以下读链顺序阅读：
+
+1. 根目录 [`AGENTS.md`](./AGENTS.md)——总入口：项目定位、任务路由、安全红线与权威文档指针。
+2. [`docs/CURRENT_BASELINE.md`](./docs/CURRENT_BASELINE.md)——稳定版本与发布物唯一裁决点。
+3. [`docs/HUMAN_DECISIONS.md`](./docs/HUMAN_DECISIONS.md)——已确认的人工裁定与长期例外。
+4. [`docs/maintenance/维护与重构标准流程_适配版.md`](./docs/maintenance/维护与重构标准流程_适配版.md)——三类任务通道（讨论与只读/小型变更/高风险变更）。
+5. [`docs/KNOWN_RISKS.md`](./docs/KNOWN_RISKS.md)——高风险边界速查。
+6. 按任务选读：工程/文本/故障手册、发布闸门等（见 `AGENTS.md` 权威文档指针节）。
+
+### 快速上手
+
+```powershell
+git clone https://github.com/WFMinerva/hoi4-character-biographies.git
+cd hoi4-character-biographies
+# 日常维护：先跑审计留底
+python tools/audit_all.py
+```
+
+- 涉及 `src/full_only/` 改动前，先按 [`reference/README.md`](./reference/README.md) 配置本机 HOI4 原版参考（`reference/vanilla_path.json`）。
+- 发布构建与工坊上传纪律见 [`docs/RELEASE_CHECKLIST.md`](./docs/RELEASE_CHECKLIST.md) 与 [`docs/WORKSHOP_UPLOAD.md`](./docs/WORKSHOP_UPLOAD.md)。
+
+### 目录速览
+
+| 路径 | 用途 |
+| --- | --- |
+| `src/shared/` | 两版本共同 MOD 源码（兼容版=`shared`） |
+| `src/full_only/` | 完整版动态路径覆盖（完整版=`shared+full_only`） |
+| `packaging/` | 两版本包元数据（descriptor/outer.mod） |
+| `tools/` | 审计/构建/校验脚本（先读 `tools/AGENTS.md`） |
+| `audit/` | 机器底库、基线 manifest、例外登记、报告 |
+| `workbench/` | 人工工作台：待审/审定正文、裁定台账、对账底账、任务卡 |
+| `docs/scaffold/` | 孵化脚手架：可迁移方法论与任务卡机制 |
+| `docs/archive/` | 历史文档（只读追溯，不覆盖现行规则） |
+
+### 开新任务
+
+高风险任务中需要跨对话、跨多步骤推进或确有复杂决策需要持久交接的，按任务卡机制开工：读 [`docs/scaffold/任务卡机制说明.md`](./docs/scaffold/任务卡机制说明.md)，复制 [`workbench/templates/任务卡模板.md`](./workbench/templates/任务卡模板.md) 为 `workbench/cards/<NNN>_<任务名>.md`。普通讨论、只读检查与小型变更不建卡；高风险任务不建卡时，其需求门、方案门、验证与提交前独立复验仍必须执行。
+
+> 提交与推送纪律：提交、合并、标签与发布须经机主明确授权；推送涉及外部写入，仅凭机主明确说出「推送」。

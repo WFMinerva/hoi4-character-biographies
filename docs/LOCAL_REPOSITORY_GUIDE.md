@@ -1,16 +1,17 @@
-# 钢四人物小传：Codex本地长期维护仓库
+# 钢四人物小传：本地仓库环境与初始化
 
-> 总入口：根目录`AGENTS.md`；当前版本状态以`docs/CURRENT_BASELINE.md`为准。
+> 总入口：根目录`AGENTS.md`；当前版本状态以`docs/CURRENT_BASELINE.md`为准。本机环境（Python/Git/游戏路径/steamcmd/模型配置）以本机运行时实际为准，不写入共享文档。新机器上手需确认：Python 与 Git 可用；动 `src/full_only/` 前按`reference/README.md`配置 `reference/vanilla_path.json` 指向本机 HOI4 原版；需要上传工坊的机器装有 steamcmd。本文只讲仓库初始化与日常命令。
 
 本仓库由用户实机确认的v130c7双版本包初始化，并在v2中补齐项目经验、机器审计底库和日常发布闸门。
 
 ## 源码模型
 
-- `src/shared/`：完整版与兼容版共同文件，共254个MOD文件。
-- `src/full_only/`：仅完整版需要的动态人物路径覆盖，共206个MOD文件。
+- `src/shared/`：完整版与兼容版共同文件，共255个MOD文件。
+- `src/full_only/`：仅完整版需要的动态人物路径覆盖，共207个MOD文件。
 - `packaging/`：两个版本各自的`descriptor.mod`和外层`.mod`模板。
 - `audit/data/`：v130a—v130b历史机器底库和语义复核资料。
-- `workbench/templates/`：国家扫描和最终入包清单模板。
+- `workbench/templates/`：任务卡与扫描/入包清单模板。
+- `workbench/cards/`：任务卡存放区（机制见`docs/scaffold/任务卡机制说明.md`）。
 - `workbench/decisions/`：结构化人工裁定。
 
 兼容版=`shared`；完整版=`shared + full_only`。
@@ -48,7 +49,7 @@ reference/vanilla_path.json
 把路径改为本机HOI4 v1.19.2原版目录或ZIP。也可以设置环境变量：
 
 ```powershell
-$env:HOI4_VANILLA_PATH="D:\HOI4-Modding\_reference\Hearts of Iron IV-v1.19.2.zip"
+$env:HOI4_VANILLA_PATH="<本机HOI4原版目录或ZIP>"
 ```
 
 只要`src/full_only/`发生变化，日常审计就会要求原版参考，并验证去除`desc`后全部脚本语义与原版一致。
@@ -61,7 +62,7 @@ git status --short
 git switch -c fix/任务英文短名
 ```
 
-先让Codex只读扫描。人工批准后修改，然后执行：
+先让AI只读扫描。人工批准后修改，然后执行：
 
 ```powershell
 python tools/audit_all.py
@@ -72,11 +73,11 @@ python tools/build_release.py --version <下一版本>-test
 
 ## 文档入口
 
-总入口为根目录`AGENTS.md`（含状态快照、待办、目录地图和推荐阅读顺序）。活跃文档：
+总入口为根目录`AGENTS.md`（任务路由、安全红线与权威文档指针）。活跃文档：
 
 - `docs/CURRENT_BASELINE.md`：当前版本基准；
 - `docs/HUMAN_DECISIONS.md`：人工裁定；
-- `docs/CODEX_WORKFLOW.md`：日常维护流程；
+- `docs/maintenance/维护与重构标准流程_适配版.md`：任务分类与执行流程；
 - `docs/ENGINEERING_PLAYBOOK.md`：代码和脚本经验；
 - `docs/TEXT_PROCESSING_PLAYBOOK.md`：人物文本写作与清洗经验；
 - `docs/INCIDENTS_AND_SOLUTIONS.md`：已遇故障、原因和防复发措施；
