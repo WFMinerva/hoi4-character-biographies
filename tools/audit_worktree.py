@@ -15,9 +15,10 @@ checks=[
  ('check_script_structure.py',[]),
  ('check_desc_semantics.py',[]),
  ('check_diff_whitelist.py',(['--base',args.base] if args.base else [])),
- ('check_rebuild_whitespace.py',(['--base',args.base] if args.base else [])),
 ]
 if not args.skip_vanilla:
+    # 以下检查器依赖原版参考（CI 无游戏文件，--skip-vanilla 时整体跳过）
+    checks.append(('check_rebuild_whitespace.py',(['--base',args.base] if args.base else [])))
     checks.append(('compare_with_vanilla.py',(['--base',args.base] if args.base else [])+(['--require'] if args.require_vanilla else [])))
     checks.append(('check_rebuild_overlay.py',[]))
 failed=[]
