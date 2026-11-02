@@ -1,0 +1,43 @@
+[10:10:44][no_game_date]: 4489 defines loaded
+[10:11:03][no_game_date]: Loaded 13414 provinces.
+[10:11:07][no_game_date]: Resetting game
+[10:11:09][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+[10:11:10][1936.01.01.12]: Executing History from 2.1.1.1 to  1936.1.1.12
+[10:13:37][1936.01.01.12]: Resetting game
+[10:13:40][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+[10:13:40][1939.08.14.12]: Executing History from 2.1.1.1 to  1939.8.14.12
+[10:13:40][1939.08.14.12]: Fully cantons activated
+[10:13:40][1939.08.14.12]: [10:13:40][1939.08.14.12]: Very cantons activated
+[10:13:40][1939.08.14.12]: [10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Enumerating effects:
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4440: 1 SumSoFar=0
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4441: 1 SumSoFar=1
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4442: 1 SumSoFar=2
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4443: 1 SumSoFar=3
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Total=4.0000
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Rolled=2.3602
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Executing=common/scripted_effects/00_scripted_effects.txt:4442
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Enumerating effects:
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4440: 1 SumSoFar=0
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4441: 1 SumSoFar=1
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4442: 1 SumSoFar=2
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4443: 1 SumSoFar=3
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Total=4.0000
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Rolled=3.2080
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Executing=common/scripted_effects/00_scripted_effects.txt:4443
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Enumerating effects:
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4440: 1 SumSoFar=0
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4441: 1 SumSoFar=1
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4442: 1 SumSoFar=2
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4443: 1 SumSoFar=3
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Total=4.0000
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Rolled=1.8016
+[10:13:40][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Executing=common/scripted_effects/00_scripted_effects.txt:4441
+[10:14:14][1939.08.14.12]: 
+
+		[[ Launching SINGLEPLAYER-game ]]
+	Start-date: 1939.8.14.12
+
+[10:14:17][1939.08.14.12]: Start RestoreDeviceObjects
+[10:14:20][1939.08.14.12]: End RestoreDeviceObjects
+[10:14:20][1939.08.14.12]: Something went wrong with the Conflict Risk stuff
+[10:14:20][1939.08.14.12]: 

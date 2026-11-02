@@ -316,7 +316,13 @@ characters={
 				}
 				cost = 100
 				ai_will_do = {
-					base = 200
+					base = 0
+					modifier = {
+						add = 200
+						has_navy_size = {
+							size > 0
+						}
+					}
 				}
 			}
 			advisor={
@@ -374,16 +380,22 @@ characters={
 				slot = high_command
 				idea_token = SWI_hans_oehler
 				ledger = navy
-					allowed = {
-						original_tag = SWI
+				allowed = {
+					original_tag = SWI
+				}
+				traits = {
+					navy_capital_ship_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 0
+					modifier = {
+						add = 200
+						has_navy_size = {
+							size > 0
+						}
 					}
-					traits = {
-						navy_capital_ship_2
-					}
-					cost = 100
-					ai_will_do = {
-						base = 200
-					}
+				}
 			}
 			name=SWI_hans_oehler
 			portraits={
@@ -611,9 +623,9 @@ characters={
 					
 				}		
 				traits = {
-					navy_naval_air_defense_2
+					navy_chief_decisive_battle_1
 				}
-				cost = 100
+				cost = 50
 				ai_will_do = {
 					base = 200
 				}
@@ -636,9 +648,9 @@ characters={
 						original_tag = SWI
 					}
 					traits = {
-						navy_naval_air_defense_2
+						navy_chief_decisive_battle_1
 					}
-					cost = 100
+					cost = 50
 					ai_will_do = {
 						base = 200
 					}
@@ -721,7 +733,6 @@ characters={
 			allowed = {has_dlc = "By Blood Alone"}
 
 			advisor={
-
 				desc = CBIO_SWI_oskar_bider_desc
 				cost = 100
 				
@@ -754,7 +765,6 @@ characters={
 			allowed = {NOT = {has_dlc = "By Blood Alone"}}
 
 			advisor={
-
 				desc = CBIO_SWI_oskar_bider_desc
 				cost = 100
 				
@@ -800,7 +810,13 @@ characters={
 				}
 				cost = 100
 				ai_will_do = {
-					base = 200
+					base = 0
+					modifier = {
+						add = 200
+						has_navy_size = {
+							size > 0
+						}
+					}
 				}
 			}
 			name=SWI_hermann_hessel_lorenz
@@ -825,7 +841,13 @@ characters={
 					}
 					cost = 100
 					ai_will_do = {
-						base = 200
+						base = 0
+						modifier = {
+							add = 200
+							has_navy_size = {
+								size > 0
+							}
+						}
 					}
 			}
 			name=SWI_hermann_hessel_lorenz
@@ -932,7 +954,6 @@ characters={
 			allowed = {NOT = {has_dlc = "By Blood Alone"}}
 
 			advisor={
-
 				desc = CBIO_SWI_carl_jacob_burckhardt_desc
 				slot = air_chief
 				idea_token = SWI_carl_jacob_burckhardt
@@ -1062,7 +1083,6 @@ characters={
 			}
 
 			advisor={
-
 				desc = CBIO_SWI_johannes_baumann_desc
 				slot = political_advisor
 				idea_token = SWI_johannes_baumann
@@ -2334,7 +2354,6 @@ characters={
 	SWI_adolf_furrer={
 		
 		advisor={
-		
 			desc = CBIO_SWI_adolf_furrer_desc
 			slot = high_command
 			idea_token = SWI_adolf_furrer
@@ -2547,7 +2566,6 @@ characters={
 	SWI_max_waibel={
 
 		corps_commander={
-
 			desc = CBIO_SWI_max_waibel_desc
 			traits={ militias_officer }
 			skill=2
@@ -2598,7 +2616,6 @@ characters={
 	SWI_jakob_labhart={
 		
 		advisor={
-		
 			desc = CBIO_SWI_jakob_labhart_desc
 			slot = high_command
 			idea_token = SWI_jakob_labhart_high_command
@@ -2622,7 +2639,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_SWI_jakob_labhart_desc
 			cost = 100
 			slot = theorist
@@ -2643,7 +2659,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_SWI_jakob_labhart_desc
 			slot = political_advisor
 			idea_token = SWI_jakob_labhart
@@ -2682,7 +2697,6 @@ characters={
 		}
 
 		corps_commander={
-
 			desc = CBIO_SWI_jakob_labhart_desc
 			traits={ career_officer }
 			skill=2
@@ -2758,7 +2772,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_SWI_jakob_huber_desc
 			slot = political_advisor
 			idea_token = SWI_jakob_huber
@@ -2813,7 +2826,6 @@ characters={
 			}
 
 			advisor={
-
 				desc = CBIO_SWI_roger_masson_desc
 				slot = political_advisor
 				idea_token = SWI_roger_masson

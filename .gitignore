@@ -16,6 +16,9 @@
 # Game logs and saves
 *.log
 *.sav
+# 实机回归归档的脱敏日志副本（docs/testing/<轮次>/logs/）按归档制度入库；
+# 游戏用户目录的原始日志仍被上面的 *.log 排除。
+!docs/testing/**/logs/**
 
 # Python and editors
 __pycache__/

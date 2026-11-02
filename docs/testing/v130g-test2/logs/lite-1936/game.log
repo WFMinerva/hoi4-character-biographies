@@ -1,0 +1,13 @@
+[10:37:11][no_game_date]: 4489 defines loaded
+[10:37:28][no_game_date]: Loaded 13414 provinces.
+[10:37:32][no_game_date]: Resetting game
+[10:37:34][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+[10:37:35][1936.01.01.12]: Executing History from 2.1.1.1 to  1936.1.1.12
+[10:37:39][1936.01.01.12]: 
+
+		[[ Launching SINGLEPLAYER-game ]]
+	Start-date: 1936.1.1.12
+
+[10:37:41][1936.01.01.12]: Start RestoreDeviceObjects
+[10:37:44][1936.01.01.12]: End RestoreDeviceObjects
+[10:37:44][1936.01.01.12]: Something went wrong with the Conflict Risk stuff

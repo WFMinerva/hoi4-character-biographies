@@ -779,7 +779,7 @@ characters = {
 				}
 				available = {
 					NOT = { has_government = fascism }
-					NOT = { has_idea_with_trait = minister_of_the_interior_abate }
+					NOT = { has_idea_with_trait = ETH_minister_of_the_interior_abate }
 				}
 				traits = {
 					minister_of_the_interior_aregai
@@ -831,7 +831,7 @@ characters = {
 				}
 				available = {
 					NOT = { has_government = fascism }
-					NOT = { has_idea_with_trait = minister_of_the_interior_abate }
+					NOT = { has_idea_with_trait = ETH_minister_of_the_interior_abate }
 				}
 				traits = {
 					minister_of_the_interior_aregai_no_lar
@@ -1156,7 +1156,7 @@ characters = {
 				NOT = { has_completed_focus = ETH_boarding_the_train }
 			}
 			traits  = {
-				minister_of_the_interior_abate 
+				ETH_minister_of_the_interior_abate 
 			}
 			on_add = {
 				owner = {

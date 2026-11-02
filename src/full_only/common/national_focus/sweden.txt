@@ -1757,8 +1757,9 @@ focus_tree = {
 			custom_effect_tooltip = SWE_norma_projektilfabrik_tt
 			if = {
 				limit = {
-					any_other_country = {
-						original_tag = NOR 
+					any_country_with_original_tag = {
+						exists = yes
+						original_tag_to_check = NOR 
 						NOT = { 
 							has_war_with = ROOT 
 							has_government = fascism
@@ -2960,7 +2961,8 @@ focus_tree = {
 				category = cat_anti_tank	# optional 
 				# tecnology  = technology_id # optional
 			}
-			custom_effect_tooltip = SWE_bofors_anti_tank_gun_tt
+			custom_effect_tooltip = tech_effect|SWE_bofors_antitank_gun
+			#custom_effect_tooltip = SWE_bofors_anti_tank_gun_tt
 			hidden_effect = {
 				set_technology = {
 					SWE_bofors_antitank_gun = 1
@@ -3115,8 +3117,9 @@ focus_tree = {
 		}
 
 		available = {
-			any_other_country = {
-				is_major = yes
+			any_collection_element = {
+				collection = game:all_majors
+				NOT = { tag = ROOT }
 				has_government = ROOT
 				NOT = { has_war_with = ROOT }
 			}
@@ -3462,6 +3465,9 @@ focus_tree = {
 		}
 
 		available = {
+			NOT = {
+				has_government = communism
+			}
 		}
 
 		bypass = {
@@ -3474,9 +3480,16 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			hidden_effect = { #need tt because variables dont show up in tooltip
-				remove_dynamic_modifier = {
-					modifier = SWE_folkhemmet
+			hidden_effect = {
+				if = { #need tt because variables dont show up in tooltip
+					limit = {
+						has_dynamic_modifier = {
+							modifier = SWE_folkhemmet
+						}
+					}
+					remove_dynamic_modifier = {
+						modifier = SWE_folkhemmet
+					}
 				}
 			}
 			custom_effect_tooltip = SWE_economic_deregulation_tt
@@ -3881,6 +3894,14 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_STABILITY FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
+			if = {
+				limit = {
+					has_idea = SWE_economic_deregulation_idea
+				}
+				remove_ideas = {
+					SWE_economic_deregulation_idea
+				}
+			}
 			hidden_effect = {
 				if = {
 					limit = { has_dynamic_modifier = { modifier = SWE_folkhemmet } }
@@ -5474,6 +5495,9 @@ focus_tree = {
 				limit = {
 					NOR = {
 						is_subject = no
+						NOT = {
+							has_war_with = ROOT
+						}
 					}
 				}
 				NOR = { country_event = { id = AAT_Sweden_nordic_defense_council.1 hours = 3 } }
@@ -5484,6 +5508,9 @@ focus_tree = {
 				limit = {
 					FIN = {
 						is_subject = no
+						NOT = {
+							has_war_with = ROOT
+						}
 					}
 				}
 				if = {
@@ -5502,6 +5529,9 @@ focus_tree = {
 				limit = {
 					DEN = {
 						is_subject = no
+						NOT = {
+							has_war_with = ROOT
+						}
 					}
 				}
 				DEN = { country_event = { id = AAT_Sweden_nordic_defense_council.1 hours = 3 } }
@@ -5511,6 +5541,9 @@ focus_tree = {
 				limit = {
 					ICE = {
 						is_subject = no
+						NOT = {
+							has_war_with = ROOT
+						}
 					}
 				}
 				ICE = { country_event = { id = AAT_Sweden_nordic_defense_council.1 hours = 3 } }
@@ -6114,6 +6147,9 @@ focus_tree = {
 				limit = {
 					NORDIC_is_nordic = yes 
 					is_subject = no
+					NOT = {
+						has_war_with = ROOT
+					}
 					IF= {
 						limit = { SWE = { NORDIC_is_democratic = yes }}
 						NORDIC_is_democratic = yes
@@ -8134,8 +8170,9 @@ focus_tree = {
 		relative_position_id = SWE_unify_the_national_socialist_movement
 		cost = 10
 		available = {
-			any_other_country = {
-				original_tag = GER
+			any_country_with_original_tag = {
+				exists = yes
+				original_tag_to_check = GER
 				has_government = fascism
 				NOT = { has_war_with = ROOT }
 			}
@@ -8559,7 +8596,7 @@ focus_tree = {
 	    		}
 	    	}
 	    }    
-		search_filters = {}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
 		will_lead_to_war_with = FIN
 
 		completion_reward = {
@@ -8739,7 +8776,7 @@ focus_tree = {
 			has_government = fascism
 		}
 	                
-		search_filters = {}
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
 			
@@ -8947,7 +8984,7 @@ focus_tree = {
 			has_government = fascism
 		}
 	                
-		search_filters = {}
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			custom_effect_tooltip = SWE_the_new_order_tt_2
 			drop_cosmetic_tag = yes
@@ -9631,6 +9668,9 @@ focus_tree = {
 		relative_position_id = SWE_mythologize_swedish_history
 		cost = 5
 		available = {
+			NOT = {
+				has_war_with = GER
+			}
 		}
 	                
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -10138,8 +10178,8 @@ focus_tree = {
 			}
 		}
 		available = {
-			any_other_country = {
-				is_major = yes
+			any_collection_element = {
+				collection = game:all_majors
 				is_faction_leader = yes
 				has_government = ROOT
 				NOT = { is_in_faction_with = ROOT }
@@ -10578,8 +10618,8 @@ focus_tree = {
 		relative_position_id = SWE_karnvapenprogram
 		cost = 10
 		available = {
-			any_other_country = {
-				is_major = yes
+			any_collection_element = {
+				collection = game:all_majors
 				is_faction_leader = yes
 				NOT = {
 					is_in_faction_with = ROOT

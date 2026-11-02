@@ -192,7 +192,6 @@ characters = {
 		#}
 
 		advisor = {
-
 			desc = CBIO_IRQ_abd_al_ilah_desc
 			slot = political_advisor
 			idea_token = IRQ_abd_al_ilah_regent
@@ -219,7 +218,6 @@ characters = {
 		}
 
 		field_marshal = {
-
 			desc = CBIO_IRQ_abd_al_ilah_desc
 			traits = { politically_connected organizer }
 			skill = 3
@@ -251,7 +249,6 @@ characters = {
 		#}
 
 		field_marshal = {
-
 			desc = CBIO_IRQ_ahmed_barzani_desc
 			traits = { hill_fighter organizer }
 			skill = 3
@@ -281,7 +278,6 @@ characters = {
 		}
 		
 		corps_commander = {
-		
 			desc = CBIO_IRQ_mustafa_barzani_desc
 			traits = { hill_fighter desert_fox }
 			skill = 3
@@ -536,7 +532,7 @@ characters = {
 			allowed = {
 				NOT = { has_dlc = "Graveyard of Empires" }
 			}
-			name=IRQ_hamdi_al_pachachi
+			name = IRQ_hamdi_al_pachachi
 			portraits={
 				army={
 					small="GFX_idea_generic_navy_arab_1"
@@ -612,7 +608,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_taha_al_hashemi_desc
 			slot = high_command
 			idea_token = IRQ_taha_al_hashemi_ahc
@@ -627,7 +622,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_IRQ_taha_al_hashemi_desc
 			traits = { trickster desert_fox }
 			skill = 3
@@ -807,7 +801,6 @@ characters = {
 		}
 
 		advisor={
-
 			desc = CBIO_IRQ_ali_abn_hussein_desc
 			allowed = {
 				NOT = { has_dlc = "Graveyard of Empires" }
@@ -839,7 +832,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_IRQ_jamil_al_midfai_desc
 
 				slot = political_advisor
@@ -866,7 +858,6 @@ characters = {
 			}
 
 			advisor={
-
 				desc = CBIO_IRQ_jamil_al_midfai_desc
 				
 				slot = navy_chief
@@ -931,7 +922,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_IRQ_sharaf_bin_rajeh_desc
 				slot = political_advisor
 				idea_token = IRQ_sharaf_bin_rajeh
@@ -958,7 +948,6 @@ characters = {
 		}
 
 		advisor={
-
 			desc = CBIO_IRQ_husain_al_rahhal_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -991,19 +980,16 @@ characters = {
 		}
 
 		advisor={
-
 			desc = CBIO_IRQ_maruf_al_rusafi_desc
-			allowed = {
-				has_dlc = "Graveyard of Empires" 
-			} 
 			slot = political_advisor
 			idea_token = IRQ_maruf_al_rusafi
+			allowed = {
+				original_tag = IRQ
+				has_dlc = "Graveyard of Empires"
+			}
 
 			traits  = {
 				IRQ_poet_of_freedom
-			}
-			allowed = { 
-				original_tag = IRQ
 			}
 			available = {
 				NOT = {
@@ -1012,6 +998,11 @@ characters = {
 			}
 			ai_will_do  = {
 				factor  = 0.000
+				# His poetry rallies the push for independence once the world war is over
+				modifier = {
+					IRQ_PER_should_seek_independence = yes
+					add = 10
+				}
 			}
 		}
 	}
@@ -1029,7 +1020,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_salah_al_din_al_sabbagh_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1054,7 +1044,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_salah_al_din_al_sabbagh_desc
 			slot = high_command
 			ledger = air
@@ -1075,7 +1064,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_IRQ_salah_al_din_al_sabbagh_desc
 			traits = { infantry_leader IRQ_golden_square_member }
 			skill = 2
@@ -1099,7 +1087,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_jamil_abdul_wahab_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1129,7 +1116,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_max_von_oppenheim_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1158,7 +1144,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_saib_shawkat_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1216,7 +1201,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_ARM_calouste_gulbenkian_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1251,7 +1235,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_fritz_grobba_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1280,7 +1263,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_kamil_al_jaderji_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1312,7 +1294,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_mohamed_hadid_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1343,7 +1324,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_jafar_al_timman_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1372,7 +1352,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_mohamed_mahdi_kubba_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1401,7 +1380,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_werner_junck_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1436,7 +1414,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_harry_george_smart_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1470,7 +1447,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_naji_al_suwaidi_desc
 			allowed = {
 				has_dlc = "Graveyard of Empires" 
@@ -1651,7 +1627,6 @@ characters = {
 		}
 
 		advisor={
-
 			desc = CBIO_IRQ_abdullah_desc
 
 			allowed = {
@@ -1706,7 +1681,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_IRQ_fawsi_al_kaukji_desc
 			allowed = {
 				original_tag = IRQ
@@ -1983,7 +1957,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_IRQ_kamil_shabib_desc
 				slot = high_command
 				idea_token = IRQ_kamil_shabib
@@ -2004,7 +1977,6 @@ characters = {
 			}
 
 			corps_commander = {
-
 				desc = CBIO_IRQ_kamil_shabib_desc
 				traits = { infantry_leader hill_fighter IRQ_golden_square_member }
 				skill = 2
@@ -2102,7 +2074,6 @@ characters = {
 			}
 
 			advisor={
-
 				desc = CBIO_IRQ_bakr_sidqi_desc
 				slot = high_command
 				idea_token = IRQ_bakr_sidqi

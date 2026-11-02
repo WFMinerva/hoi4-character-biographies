@@ -1,0 +1,865 @@
+[10:13:40][1939.08.14.12]: common/decisions/GER.txt:6557: add_compliance 波默恩 does not have resistance
+[10:13:40][1939.08.14.12]: common/decisions/GER.txt:6580: add_compliance 波默恩 does not have resistance
+[10:13:40][1939.08.14.12]: common/decisions/GER.txt:6580: add_compliance 摩拉维亚 does not have resistance
+[10:13:40][1939.08.14.12]: 'history/countries/ENG - Britain.txt:2012: create_equipment_variant': 'Fairey Swordfish' - Invalid icon 'GFX_ENG_nav_bomber1_medium'.
+[10:13:40][1939.08.14.12]: common/national_focus/indonesia_joint.txt:7850: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/indonesia_joint.txt:7854: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/italy.txt:2759: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/romania.txt:1314: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: Asking if SWI is a neighbor of SOV before the latter country is initialized (or otherwise has no neighbors).
+[10:13:40][1939.08.14.12]: Asking if SWI is a neighbor of GER before the latter country is initialized (or otherwise has no neighbors).
+[10:13:40][1939.08.14.12]: Asking if SWI is a neighbor of ENG before the latter country is initialized (or otherwise has no neighbors).
+[10:13:40][1939.08.14.12]: Asking if SWI is a neighbor of USA before the latter country is initialized (or otherwise has no neighbors).
+[10:13:40][1939.08.14.12]: common/national_focus/turkey.txt:184: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/turkey.txt:197: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/finland.txt:10820: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/finland.txt:10631: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/finland.txt:10635: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/finland.txt:10234: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/hungary_wuw.txt:15927: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: history/countries/AFG - Afghanistan.txt:339: diplomatic_relation: The relation(non_aggression_pact) already exists, between AFG and TUR.
+[10:13:40][1939.08.14.12]: history/countries/ARG - Argentina.txt:360: recruit_character: Character ARG_roberto_maria_ortiz cannot be assigned to ARG as it is already assigned to ARG
+[10:13:40][1939.08.14.12]: history/countries/ARG - Argentina.txt:362: retire_character: Unknown character 
+[10:13:40][1939.08.14.12]: history/countries/AST - Australia.txt:257: complete_national_focus: Unkown focus scripted AST_domestic_industries
+[10:13:40][1939.08.14.12]: history/countries/CHI - China.txt:797: add_ideas: Invalid idea: CHI_bo_yibo. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[10:13:40][1939.08.14.12]: common/national_focus/iraq.txt:669: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: history/countries/IRQ - Iraq.txt:281: diplomatic_relation: The relation(non_aggression_pact) already exists, between IRQ and TUR.
+[10:13:40][1939.08.14.12]: history/countries/IRQ - Iraq.txt:293: diplomatic_relation: The relation(non_aggression_pact) already exists, between IRQ and AFG.
+[10:13:40][1939.08.14.12]: history/countries/IRQ - Iraq.txt:301: remove_ideas: Invalid idea: IRQ_bakr_sidqi. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[10:13:40][1939.08.14.12]: history/countries/IRQ - Iraq.txt:306: retire_character: Character IRQ_bakr_sidqi has already been retired from country IRQ
+[10:13:40][1939.08.14.12]: common/national_focus/mexico.txt:974: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/mexico.txt:974: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/mexico.txt:974: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/mexico.txt:974: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/new_zealand.txt:1648: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/new_zealand.txt:1654: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/new_zealand.txt:1535: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/new_zealand.txt:1609: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: history/countries/PER - Persia.txt:255: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and TUR.
+[10:13:40][1939.08.14.12]: history/countries/PER - Persia.txt:261: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and IRQ.
+[10:13:40][1939.08.14.12]: history/countries/PER - Persia.txt:267: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and AFG.
+[10:13:40][1939.08.14.12]: common/national_focus/china_warlord_sea.txt:3024: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/uruguay.txt:865: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/paraguay_uruguay_shared_branch.txt:2220: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: common/national_focus/paraguay_uruguay_shared_branch.txt:2226: add_resource can't be called from a history file!
+[10:13:40][1939.08.14.12]: Character already has a country leader role for ideology: 反修正主义: common/scripted_effects/WTT_warlord_scripted_effects.txt:343: add_country_leader_role
+[10:13:40][1939.08.14.12]: Character already has a country leader role for ideology: 社会主义: common/scripted_effects/WTT_warlord_scripted_effects.txt:355: add_country_leader_role
+[10:13:40][1939.08.14.12]: Character already has a country leader role for ideology: 雷克斯主义: common/scripted_effects/WTT_warlord_scripted_effects.txt:367: add_country_leader_role
+[10:13:40][1939.08.14.12]: common/national_focus/indonesia.txt:6511: give_market_access: Market access between INS and JAP is not valid
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "light_tank_chassis_2" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "large_plane_airframe_1" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Error scripting OOB history/units/ENG_1939_air_bba.txt. Could not set pool equipment 'version_name' in 西南英格兰
+[10:14:15][1939.08.14.12]: Country "ENG" does not have any equipment variant for type "large_plane_airframe_1" version 0 created by "ENG".
+[10:14:15][1939.08.14.12]: Error scripting OOB history/units/ENG_1939_air_bba.txt. Could not set pool equipment 'version_name' in 洛锡安
+[10:14:15][1939.08.14.12]: Country "SOV" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "SOV".
+[10:14:15][1939.08.14.12]: Country "SOV" does not have any equipment variant for type "ship_hull_cruiser_1" version_name "Kirov Class" created by "SOV".
+[10:14:15][1939.08.14.12]: Country "SOV" does not have any equipment variant for type "ship_hull_cruiser_1" version_name "Kirov Class" created by "SOV".
+[10:14:15][1939.08.14.12]: Country "SOV" does not have any equipment variant for type "ship_hull_cruiser_1" version_name "Kirov Class" created by "SOV".
+[10:14:15][1939.08.14.12]: Country "FRA" does not have any equipment variant for type "medium_tank_chassis_0" version 0 created by "FRA".
+[10:14:15][1939.08.14.12]: Country "FRA" does not have any equipment variant for type "medium_tank_chassis_0" version 0 created by "FRA".
+[10:14:15][1939.08.14.12]: Country "GER" does not have any equipment variant for type "small_plane_cas_airframe_0" version 0 created by "GER".
+[10:14:15][1939.08.14.12]: Error scripting OOB history/units/SPA_1939_air_bba.txt. Could not set pool equipment 'version_name' in 马德里
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "ITA" does not have any equipment variant for type "ship_hull_submarine_2" version 0 created by "ITA".
+[10:14:15][1939.08.14.12]: Country "GER" does not have any equipment variant for type "small_plane_cas_airframe_0" version 0 created by "GER".
+[10:14:15][1939.08.14.12]: Error scripting OOB history/units/YUG_1939_air_bba.txt. Could not set pool equipment 'version_name' in 塞尔维亚
+[10:14:16][1939.08.14.12]: Country "CAN" does not have any equipment variant for type "ship_hull_light_1" version 0 created by "CAN".
+[10:14:16][1939.08.14.12]: Country "CAN" does not have any equipment variant for type "ship_hull_light_1" version 0 created by "CAN".
+[10:14:16][1939.08.14.12]: Country "CAN" does not have any equipment variant for type "ship_hull_light_1" version 0 created by "CAN".
+[10:14:16][1939.08.14.12]: Country "CAN" does not have any equipment variant for type "ship_hull_light_1" version 0 created by "CAN".
+[10:14:16][1939.08.14.12]: Country "CAN" does not have any equipment variant for type "ship_hull_light_1" version 0 created by "CAN".
+[10:14:16][1939.08.14.12]: Country "CAN" does not have any equipment variant for type "ship_hull_light_1" version 0 created by "CAN".
+[10:14:16][1939.08.14.12]: Country "CAN" does not have any equipment variant for type "ship_hull_light_1" version 0 created by "CAN".
+[10:14:16][1939.08.14.12]: mio:CHI_hanyan_arsenal_organization was not found in country scope CHI
+[10:14:16][1939.08.14.12]: history/units/CHI_1939_sea.txt:1393: add_equipment_production: industrial_manufacturer is set but no MIO has been found
+[10:14:16][1939.08.14.12]: Country "JAP" does not have any equipment variant for type "light_tank_chassis_1" version_name "Type 95 Ha-Go" created by "JAP".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "USA" does not have any equipment variant for type "ship_hull_cruiser_1" version 0 created by "USA".
+[10:14:16][1939.08.14.12]: Country "SLO" does not have any equipment variant for type "light_tank_chassis_1" version_name "LT vz. 34" created by "SLO".
+[10:14:16][1939.08.14.12]: in history files, MIO FRA_acl_organization has been incorrectly attached to a production line with 'Le Hardi Class'. reason=[Equipment no match]
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: AI tried to post an invalid command: unlock_trait_command
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between TUR and AFG.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between IRQ and AFG.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and AFG.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between TUR and IRQ.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between AFG and IRQ.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and IRQ.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between TUR and PER.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between AFG and PER.
+[10:16:17][1939.08.14.13]: events/GOE_Persia.txt:2172: diplomatic_relation: The relation(non_aggression_pact) already exists, between IRQ and PER.

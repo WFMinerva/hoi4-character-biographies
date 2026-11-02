@@ -323,8 +323,8 @@ characters={
 				small="GFX_idea_CAN_harry_crerar" #small="GFX_idea_generic_army_europe_4"
 			}
 		}
-		advisor={
-			desc = CBIO_CAN_harry_crerar_desc	
+		advisor={	
+			desc = CBIO_CAN_harry_crerar_desc
 			slot = army_chief
 			idea_token = CAN_harry_crerar
 			allowed = {
@@ -573,8 +573,8 @@ characters={
 				small="GFX_idea_CAN_guy_simonds" #small="GFX_idea_generic_army_europe_1"
 			}
 		}
-		advisor={
-			desc = CBIO_CAN_guy_simonds_desc	
+		advisor={	
+			desc = CBIO_CAN_guy_simonds_desc
 			slot = high_command
 			idea_token = CAN_guy_simonds
 			ledger = army
@@ -673,8 +673,8 @@ characters={
 				small="GFX_idea_CAN_frederick_m_w_harvey" #small="GFX_idea_generic_army_europe_3"
 			}
 		}
-		advisor={
-			desc = CBIO_CAN_frederick_m_w_harvey_desc	
+		advisor={	
+			desc = CBIO_CAN_frederick_m_w_harvey_desc
 			slot = high_command
 			idea_token = CAN_frederick_m_w_harvey
 			ledger = army
@@ -729,11 +729,22 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism 
+					has_government = fascism
 				}
 			}
 			ai_will_do = {
 				factor = 0.000
+				modifier = {
+					add = 10
+					NOT = { has_government = fascism }
+					OR = {
+						has_country_flag = CAN_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = CAN_ai_behavior
+							option = FASCIST
+						}
+					}
+				}
 			}
 		}
 	}
@@ -820,11 +831,22 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = communism 
+					has_government = communism
 				}
 			}
 			ai_will_do = {
 				factor = 0.000
+				modifier = {
+					add = 10
+					NOT = { has_government = communism }
+					OR = {
+						has_country_flag = CAN_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = CAN_ai_behavior
+							option = COMMUNIST
+						}
+					}
+				}
 			}
 		}
 	}

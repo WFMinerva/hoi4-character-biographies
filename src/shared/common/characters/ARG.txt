@@ -904,7 +904,7 @@ characters={
 					original_tag  = ARG
 				}
 				traits  = {
-					anti_unionist_pure_anarchist 
+					ARG_anti_unionist_pure_anarchist 
 				}
 				visible = {
 					has_government = communism
@@ -1825,7 +1825,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_manuel_maria_de_iriondo
+		name = CBIO_NAME_ARG_manuel_maria_de_iriondo
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_manuel_iriondo_small"
@@ -1867,7 +1867,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_hugo_wast
+		name = CBIO_NAME_ARG_hugo_wast
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_hugo_wast_small"
@@ -1889,7 +1889,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_raul_prebisch
+		name = CBIO_NAME_ARG_raul_prebisch
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_raul_prebisch_small"
@@ -1936,7 +1936,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_julio_roca
+		name = CBIO_NAME_ARG_julio_roca
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_julio_roca_small"
@@ -1958,7 +1958,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_honorio_pueyrredon
+		name = CBIO_NAME_ARG_honorio_pueyrredon
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_honorio_pueyrredon_small"
@@ -1980,7 +1980,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_diogenes_taboada
+		name = CBIO_NAME_ARG_diogenes_taboada
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_diogenes_taboada_small"
@@ -2010,7 +2010,7 @@ characters={
 		}
 	}
 
-		name =CBIO_NAME_ARG_guillermo_rothe
+		name = CBIO_NAME_ARG_guillermo_rothe
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_guillermo_rothe_small"
@@ -2040,7 +2040,7 @@ characters={
 		}
 	}
 
-		name =CBIO_NAME_ARG_frederick_pinedo
+		name = CBIO_NAME_ARG_frederick_pinedo
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_frederick_pinedo_small"
@@ -2062,7 +2062,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_jose_cantilo
+		name = CBIO_NAME_ARG_jose_cantilo
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_jose_cantilo_small"
@@ -2084,7 +2084,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_enrique_ruiz_guinazu
+		name = CBIO_NAME_ARG_enrique_ruiz_guinazu
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_enrique_guinazu_small"
@@ -2109,7 +2109,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_vincente_gallo
+		name = CBIO_NAME_ARG_vincente_gallo
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_vicente_gallo_small"
@@ -2134,7 +2134,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_carlos_lamas
+		name = CBIO_NAME_ARG_carlos_lamas
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_carlos_marquez_small"
@@ -2162,7 +2162,7 @@ characters={
 				}
 		}
 
-		name =CBIO_NAME_ARG_osmar_hellmuth
+		name = CBIO_NAME_ARG_osmar_hellmuth
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_osmar_hellmuth_small"
@@ -2193,7 +2193,7 @@ characters={
 				}
 			}
 
-		name =CBIO_NAME_ARG_eva_peron
+		name = CBIO_NAME_ARG_eva_peron
 		portraits = {
 			army = {
 				small="GFX_portrait_ARG_eva_peron_small"

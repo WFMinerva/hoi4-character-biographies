@@ -2,7 +2,7 @@ from __future__ import annotations
 from common import ROOT, iter_desc_assignments, read_utf8, source_relative
 
 STATIC_ROLES={'country_leader','advisor','corps_commander','field_marshal','navy_leader','scientist'}
-DYNAMIC_DIRECT={'add_corps_commander_role','add_field_marshal_role','add_navy_leader_role'}
+DYNAMIC_DIRECT={'add_corps_commander_role','add_field_marshal_role','add_navy_leader_role','add_naval_commander_role'}
 CREATE_DIRECT={'create_country_leader','create_corps_commander','create_field_marshal','create_navy_leader'}
 errors=[]; checked=0; relevant=0
 

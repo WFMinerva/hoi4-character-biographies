@@ -39,7 +39,6 @@ characters = {
 			#}
 
 			advisor = {
-
 				desc = CBIO_INS_sukarno_desc
 				slot = political_advisor
 				idea_token = INS_sukarno
@@ -376,7 +375,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_musso_desc
 			slot = political_advisor
 			cost = 150
@@ -432,7 +430,6 @@ characters = {
 			}
 
 			field_marshal = {
-
 				desc = CBIO_INS_hein_ter_poorten_desc
 				traits = { logistics_wizard inspirational_leader INS_loyalty_to_netherlands }
 				skill = 3
@@ -444,7 +441,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_hein_ter_poorten_desc
 				slot = theorist
 				cost = 150
@@ -485,7 +481,6 @@ characters = {
 			}
 
 			field_marshal = {
-
 				desc = CBIO_INS_hein_ter_poorten_desc
 				traits = { logistics_wizard inspirational_leader INS_loyalty_to_netherlands }
 				skill = 3
@@ -509,7 +504,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_andries_cornelis_dirk_de_graeff_desc
 			slot = political_advisor
 			idea_token = INS_andries_cornelis_dirk_de_graeff
@@ -587,7 +581,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_christian_willhelm_bodenhausen_desc
 			slot = political_advisor
 			idea_token = INS_christian_willhelm_bodenhausen
@@ -648,7 +641,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_harry_kuneman_desc
 			slot = political_advisor
 			idea_token = INS_harry_kuneman
@@ -710,7 +702,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_adipati_soejono_desc
 			slot = political_advisor
 			cost = 75
@@ -769,7 +760,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_mohammad_hunsi_tharmin_desc
 			slot = political_advisor
 			cost = 100
@@ -827,7 +817,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_oto_iskandar_di_nata_desc
 			slot = political_advisor
 			cost = 150
@@ -875,7 +864,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_i_j_k_hendrowahyono_desc
 			slot = political_advisor
 			cost = 100
@@ -923,7 +911,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_dick_de_hoog_desc
 			slot = political_advisor
 			idea_token = INS_dick_de_hoog
@@ -982,7 +969,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_soetardjo_kartohadikusomo_desc
 			slot = political_advisor
 			idea_token = INS_soetardjo_kartohadikusomo
@@ -1033,7 +1019,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_hok_hoei_kan_desc
 			slot = political_advisor
 			cost = 150
@@ -1081,7 +1066,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_sam_ratulangi_desc
 			slot = political_advisor
 			idea_token = INS_sam_ratulangi
@@ -1131,7 +1115,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_achmad_soebardjo_desc
 			slot = political_advisor
 			cost = 100
@@ -1183,7 +1166,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_wirantakusumah_v_desc
 			slot = political_advisor
 			idea_token = INS_wirantakusumah_v
@@ -1234,7 +1216,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_surachman_tjokoadisurjo_desc
 			slot = political_advisor
 			idea_token = INS_surachman_tjokoadisurjo
@@ -1294,7 +1275,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_supomo_desc
 			slot = political_advisor
 			cost = 100
@@ -1352,7 +1332,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_dr_samsi_sastrawidagda_desc
 			slot = political_advisor
 			idea_token = INS_dr_samsi_sastrawidagda
@@ -1397,7 +1376,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_ki_hajar_dewantara_desc
 			slot = political_advisor
 			idea_token = INS_ki_hajar_dewantara
@@ -1448,7 +1426,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_iwa_kusuma_sumantri_desc
 			slot = political_advisor
 			cost = 100
@@ -1494,7 +1471,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_dr_boentaran_martooatmodjo_desc
 			slot = political_advisor
 			cost = 150
@@ -1551,7 +1527,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_mohammad_natsir_desc
 				slot = political_advisor
 				idea_token = INS_mohammad_natsir
@@ -1600,7 +1575,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_mohammad_natsir_desc
 				slot = political_advisor
 				idea_token = INS_mohammad_natsir
@@ -1647,7 +1621,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_mohammad_roem_desc
 			slot = political_advisor
 			idea_token = INS_mohammad_roem
@@ -1693,7 +1666,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_sjafruddin_prawiranegara_desc
 			slot = political_advisor
 			cost = 200
@@ -1745,7 +1717,6 @@ characters = {
 			}
 
 			field_marshal = {
-
 				desc = CBIO_INS_murk_boersta_desc
 				traits = { trait_reckless INS_loyalty_to_netherlands }
 				skill = 3
@@ -1757,7 +1728,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_murk_boersta_desc
 				slot = army_chief
 				cost = 100
@@ -1811,7 +1781,6 @@ characters = {
 			}
 
 			corps_commander = {
-
 				desc = CBIO_INS_murk_boersta_desc
 				traits = { trait_reckless }
 				skill = 2
@@ -1823,7 +1792,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_murk_boersta_desc
 				slot = army_chief
 				cost = 100
@@ -1870,7 +1838,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_INS_gerardus_johannes_berenschot_desc
 			traits = { brilliant_strategist career_officer politically_connected INS_loyalty_to_netherlands }
 			skill = 3
@@ -1886,7 +1853,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_gerardus_johannes_berenschot_desc
 			slot = army_chief
 			cost = 100
@@ -1935,7 +1901,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_INS_tjalling_bakker_desc
 			traits = { INS_loyalty_to_netherlands }
 			skill = 2
@@ -1958,7 +1923,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_INS_gustav_adolf_ilgen_desc
 			traits = { INS_loyalty_to_netherlands }
 			skill = 2
@@ -1970,7 +1934,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_gustav_adolf_ilgen_desc
 			slot = theorist
 			cost = 100
@@ -2021,7 +1984,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_INS_jacob_jan_pesman_desc
 			traits = { INS_loyalty_to_netherlands }
 			skill = 1
@@ -2044,7 +2006,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_INS_pierre_antoine_cox_desc
 			traits = { INS_loyalty_to_netherlands }
 			skill = 1
@@ -2072,7 +2033,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_ludolph_hendrik_van_oyen_desc
 				slot = air_chief
 				cost = 100
@@ -2118,7 +2078,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_ludolph_hendrik_van_oyen_desc
 				slot = air_chief
 				cost = 100
@@ -2155,7 +2114,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_dirk_reinhard_adelbert_van_langen_desc
 			slot = high_command
 			cost = 50
@@ -2210,7 +2168,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_simon_spoor_desc
 				slot = high_command
 				cost = 50
@@ -2265,7 +2222,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_simon_spoor_desc
 				slot = high_command
 				cost = 50
@@ -2312,7 +2268,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_gustave_statius_muller_desc
 			slot = high_command
 			cost = 200
@@ -2372,7 +2327,6 @@ characters = {
 		#}
 
 		advisor = {
-
 			desc = CBIO_INS_sudirman_desc
 			slot = army_chief
 			cost = 50
@@ -2424,7 +2378,6 @@ characters = {
 			}
 
 			corps_commander = {
-
 				desc = CBIO_INS_oerip_soemohardjo_desc
 				traits = { INS_loyalty_to_indonesia old_guard harsh_leader }
 				skill = 2
@@ -2436,7 +2389,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_oerip_soemohardjo_desc
 				slot = army_chief
 				cost = 100
@@ -2491,7 +2443,6 @@ characters = {
 			}
 
 			corps_commander = {
-
 				desc = CBIO_INS_oerip_soemohardjo_desc
 				traits = { old_guard harsh_leader }
 				skill = 2
@@ -2503,7 +2454,6 @@ characters = {
 			}
 
 			advisor = {
-
 				desc = CBIO_INS_oerip_soemohardjo_desc
 				slot = army_chief
 				cost = 100
@@ -2549,7 +2499,6 @@ characters = {
 		}
 
 		corps_commander = {
-
 			desc = CBIO_INS_gatot_soebroto_desc
 			traits = { INS_loyalty_to_indonesia }
 			skill = 2
@@ -2561,7 +2510,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_gatot_soebroto_desc
 			slot = high_command
 			cost = 50
@@ -2580,7 +2528,6 @@ characters = {
 						has_cosmetic_tag = INS_UNION
 					}
 				}
-				INS_character_republic_founded_check_VISIBLE = yes
 			}
 			available = {
 				if = {
@@ -2663,7 +2610,6 @@ characters = {
 		#}
 
 		advisor = {
-
 			desc = CBIO_INS_moestopo_desc
 			slot = high_command
 			cost = 25
@@ -2740,7 +2686,6 @@ characters = {
 		#}
 
 		advisor = {
-
 			desc = CBIO_INS_djatikoesoemo_desc
 			slot = high_command
 			idea_token = INS_djatikoesoemo
@@ -2786,7 +2731,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_soerjadi_soerjadarma_desc
 			slot = air_chief
 			cost = 50
@@ -2832,7 +2776,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_mas_pardi_desc
 			slot = navy_chief
 			cost = 100
@@ -2878,7 +2821,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_mohammad_nazir_isa_desc
 			slot = theorist
 			cost = 100
@@ -2924,7 +2866,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_t_b_simatupang_desc
 			slot = high_command
 			cost = 50
@@ -2970,7 +2911,6 @@ characters = {
 		}
 
 		country_leader = {
-
 			desc = CBIO_INS_dewa_geg_desc
 			ideology = despotism
 			traits = {
@@ -2981,7 +2921,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_dewa_geg_desc
 			slot = political_advisor
 			cost = 150
@@ -3129,7 +3068,6 @@ characters = {
 		}
 
 		country_leader = {
-
 			desc = CBIO_INS_sultan_muhibuddin_desc
 			ideology = despotism
 			traits = {
@@ -3140,7 +3078,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_sultan_muhibuddin_desc
 			slot = political_advisor
 			cost = 150
@@ -3180,7 +3117,6 @@ characters = {
 		}
 
 		country_leader = {
-
 			desc = CBIO_INS_iskandar_sjah_desc
 			ideology = despotism
 			traits = {
@@ -3191,7 +3127,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_iskandar_sjah_desc
 			slot = political_advisor
 			cost = 150
@@ -3280,7 +3215,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_njono_desc
 			slot = political_advisor
 			cost = 150
@@ -3307,7 +3241,8 @@ characters = {
 						original_tag = INS
 					}
 					OR = {
-						has_completed_focus = INS_minimum_program
+						#has_completed_focus = INS_minimum_program
+						has_completed_focus = INS_musso_ascends
 						has_completed_focus = INS_concessions_to_communists
 					}
 				}
@@ -3332,7 +3267,6 @@ characters = {
 		}
 
 		advisor = {
-
 			desc = CBIO_INS_setyadjit_soegondo_desc
 			slot = political_advisor
 			cost = 150

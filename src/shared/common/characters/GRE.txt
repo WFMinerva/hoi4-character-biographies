@@ -139,6 +139,7 @@ characters={
 		portraits = {
 			civilian = {
 				large = GFX_portrait_gre_george_ii
+				small = GFX_idea_GRE_george_ii_advisor	#unused army advisor portrait, likely intended for army chief role
 			}
 		}
 
@@ -460,7 +461,6 @@ characters={
 		}
 
 		corps_commander = {
-
 			desc = CBIO_GRE_stylianos_gonatas_desc
 			traits = { trait_GRE_venezelist_loyalist infantry_officer hill_fighter }
 			skill = 2
@@ -474,7 +474,6 @@ characters={
 		}
 
 		advisor = {
-
 			desc = CBIO_GRE_stylianos_gonatas_desc
 			slot = high_command
 			idea_token = GRE_stylianos_gonatas
@@ -599,7 +598,6 @@ characters={
 		}
 
 		advisor = {	
-
 			desc = CBIO_GRE_dimitrios_oikonomou_desc
 			slot = high_command
 			idea_token = GRE_dimitrios_oikonomou
@@ -628,7 +626,6 @@ characters={
 		}
 
 		navy_leader = {
-
 			desc = CBIO_GRE_dimitrios_oikonomou_desc
 			traits = { trait_GRE_stauch_monarchist air_controller }
 			skill = 2
@@ -813,7 +810,6 @@ characters={
 			}
 
 			navy_leader={
-
 				desc = CBIO_GRE_alexandros_sakellariou_desc
 				traits={ navy_media_personality bold caustic_personality fleet_protector }
 				skill=3
@@ -974,7 +970,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_GRE_alexandros_papagos_desc
 			cost = 100
 			slot = theorist
@@ -1003,7 +998,6 @@ characters={
 		}
 
 		field_marshal={
-
 			desc = CBIO_GRE_alexandros_papagos_desc
 			traits={ old_guard inflexible_strategist career_officer war_hero trait_GRE_stauch_monarchist trait_mountaineer }
 			skill=3
@@ -1225,7 +1219,6 @@ characters={
 		}
 
 		navy_leader = {
-
 			desc = CBIO_GRE_epameinondas_kavvadias_desc
 			traits = { fleet_protector destroyer_leader }
 			skill = 2
@@ -1237,7 +1230,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_GRE_epameinondas_kavvadias_desc
 			slot = high_command
 			idea_token = GRE_epameinondas_kavvadias

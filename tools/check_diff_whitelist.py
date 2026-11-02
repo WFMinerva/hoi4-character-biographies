@@ -1,6 +1,7 @@
 from __future__ import annotations
 import argparse
 import fnmatch
+from collections import defaultdict
 from pathlib import Path
 import re
 from common import ROOT, changed_source_paths, git_available, load_json, resolve_diff_base, run_git
@@ -13,18 +14,24 @@ def load_exceptions():
     p=ROOT/'audit/allowlists/diff_exceptions.json'
     return load_json(p).get('exceptions',[]) if p.exists() else []
 
-def permitted(path,line,exceptions):
+def permitted(path,direction,line,exceptions,actual_counts):
     for ex in exceptions:
-        if not ex.get('approved_by_user',False): continue
-        if fnmatch.fnmatch(path,ex.get('path','')):
-            patterns=ex.get('allowed_regex',[])
-            if ex.get('allow_all') or any(re.search(rx,line) for rx in patterns): return True
+        if not ex.get('approved_by_user',False) or not fnmatch.fnmatch(path,ex.get('path','')): continue
+        exact=ex.get('exact_lines',[])
+        if exact:
+            for row in exact:
+                if row.get('direction')==direction and row.get('line')==line:
+                    actual_counts[(path,direction,line)]+=1
+                    return True
+            continue
+        patterns=ex.get('allowed_regex',[])
+        if ex.get('allow_all') or any(re.search(rx,line) for rx in patterns): return True
     return False
 
-def check_semantic_line(path,line,exceptions,errors,prefix=''):
+def check_semantic_line(path,direction,line,exceptions,errors,actual_counts,prefix=''):
     if path.endswith(('.yml','.png')): return
     if COMMENT_OR_BLANK.match(line) or DESC_ONLY.match(line): return
-    if permitted(path,line,exceptions): return
+    if permitted(path,direction,line,exceptions,actual_counts): return
     if FORBIDDEN.search(line): errors.append(f'{prefix}禁止字段变化: {path}: {line[:180]}')
     else: errors.append(f'{prefix}脚本非desc变化未获批准: {path}: {line[:180]}')
 
@@ -32,15 +39,15 @@ ap=argparse.ArgumentParser(); ap.add_argument('--base'); args=ap.parse_args()
 if not git_available():
     print('diff_whitelist: SKIP（尚未初始化Git；首次迁移请运行verify_initial_baseline.py）')
     raise SystemExit(0)
-base=resolve_diff_base(args.base); errors=[]; exceptions=load_exceptions(); changed=set(changed_source_paths(args.base))
+base=resolve_diff_base(args.base); errors=[]; exceptions=load_exceptions(); changed=set(changed_source_paths(args.base)); actual_counts=defaultdict(int)
 cp=run_git(['diff','--unified=0','--no-ext-diff',base,'--','src'])
 current=''
 for raw in cp.stdout.splitlines():
     if raw.startswith('+++ b/'):
-        current=raw[6:]; continue
+        current=raw[6:].rstrip('\t'); continue
     if raw.startswith('--- ') or raw.startswith('@@') or raw.startswith('diff --git') or raw.startswith('index ') or raw.startswith('new file mode') or raw.startswith('deleted file mode'): continue
     if not current or not raw.startswith(('+','-')): continue
-    check_semantic_line(current,raw[1:],exceptions,errors)
+    check_semantic_line(current,raw[0],raw[1:],exceptions,errors,actual_counts)
 tracked_diff=set(x.strip() for x in run_git(['diff','--name-only',base,'--','src']).stdout.splitlines() if x.strip())
 for path in sorted(changed-tracked_diff):
     p=ROOT/path
@@ -49,7 +56,14 @@ for path in sorted(changed-tracked_diff):
     except UnicodeDecodeError:
         errors.append(f'未跟踪源码无法按UTF-8检查: {path}'); continue
     for line in lines:
-        check_semantic_line(path,line,exceptions,errors,prefix='未跟踪文件：')
+        check_semantic_line(path,'+',line,exceptions,errors,actual_counts,prefix='未跟踪文件：')
+for ex in exceptions:
+    if not ex.get('approved_by_user',False): continue
+    path=ex.get('path','')
+    for row in ex.get('exact_lines',[]):
+        key=(path,row.get('direction'),row.get('line'))
+        expected=row.get('count',1); got=actual_counts.get(key,0)
+        if got!=expected: errors.append(f'精确例外未命中或次数不符: {path} direction={key[1]} expected={expected} got={got} line={str(key[2])[:160]}')
 for e in errors: print('ERROR',e)
 print(f'diff_whitelist: base={base} changed_files={len(changed)} errors={len(errors)}')
 raise SystemExit(1 if errors else 0)

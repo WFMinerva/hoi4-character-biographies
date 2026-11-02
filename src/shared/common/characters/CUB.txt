@@ -1,6 +1,6 @@
 characters={
 	CUB_josé_agripino_barnet={
-		name=CBIO_NAME_CUB_jose_agripino_barnet
+		name = CBIO_NAME_CUB_jose_agripino_barnet
 		portraits={
 			civilian={
 				large="GFX_portrait_cuba_jose_barnet"
@@ -55,7 +55,7 @@ characters={
 		}
 	}
 	CUB_federico_laredo_bru={
-		name=CBIO_NAME_CUB_federico_laredo_bru
+		name = CBIO_NAME_CUB_federico_laredo_bru
 		portraits={
 			civilian={
 				large=GFX_portrait_Federico_Laredo_Bru
@@ -88,7 +88,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_fidel_castro
+		name = CUB_fidel_castro
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_3"
@@ -188,7 +188,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_eduardo_chibas
+		name = CUB_eduardo_chibas
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_3"
@@ -215,7 +215,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_juan_blas_hernandez
+		name = CUB_juan_blas_hernandez
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_1"
@@ -239,7 +239,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_sergio_carbo
+		name = CUB_sergio_carbo
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
@@ -265,7 +265,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_fulgencio_batista
+		name = CUB_fulgencio_batista
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_5"
@@ -308,7 +308,7 @@ characters={
 					original_tag = CUB
 				}
 				traits = {
-					navy_fleet_logistics_2
+					navy_chief_commerce_raiding_2
 				}
 				cost = 100
 				ai_will_do = {
@@ -316,7 +316,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_sandalio_junco
+		name = CUB_sandalio_junco
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_south_america_2"
@@ -342,7 +342,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_salvador_castaneda_castro
+		name = CUB_salvador_castaneda_castro
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_4"
@@ -392,7 +392,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CBIO_NAME_CUB_julio_sanguily
+		name = CBIO_NAME_CUB_julio_sanguily
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_south_america_3"
@@ -412,7 +412,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_carlos_prio
+		name = CUB_carlos_prio
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_1"
@@ -432,7 +432,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_gerardo_machado
+		name = CUB_gerardo_machado
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_3"
@@ -452,7 +452,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=CUB_eugenio_molinet_castro
+		name = CUB_eugenio_molinet_castro
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_2"

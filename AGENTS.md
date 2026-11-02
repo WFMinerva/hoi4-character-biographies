@@ -2,12 +2,15 @@
 
 本文件是仓库总入口。任何接手者先读本文件的快照、待办、目录地图和阅读顺序，再按任务深入对应文档。
 
-## 0.1 当前状态快照（2026-08-20）
+## 0.1 当前状态快照（2026-11-02）
 
 > 时效提醒：本节负责当前工作状态和待办，可能过期。稳定版本和发布物以`docs/CURRENT_BASELINE.md`为准，语义裁定以人工裁定台账为准；先核对`git log`/`git status`，冲突时标记为“待验证”并更新对应事实源，不得让历史文档反向覆盖。
 
 - 当前版本：v130e-stable（兼容版`china_bio_lite_v130e.zip` + 完整版`china_bio_v130e.zip`），用户实机确认德国女皇线在完整版1936剧本中正常上台并显示审定小传，是当前稳定基准；2026-07-30已上传Steam工坊（兼容版物品`3736859636`，完整版物品`3762643540`）。
-- 游戏版本口径：HOI4 1.19.x（原版参考已配置于`reference/vanilla_path.json`，指向1.19.2）。
+- 当前候选：**v130g**（HOI4 1.19.4.1 全量重建）。正式包已生成（完整版`china_bio_v130g.zip` SHA-256 `3bac28fd939da16f539172bd92adf9175ef189c714371fc1df731605ed205afa`；兼容版`china_bio_lite_v130g.zip` SHA-256 `52de98ce748abd00d0e1d19f6415169776e159299a8125875647b3fa01f53edc`），并已按机主 2026-11-02 授权提交、合并 `main`；**尚未上传工坊、尚未更新稳定基准卡**——待机主实机确认后再转正并打 `*-stable` 标签。
+- v130g 证据链：重建方案与实施记录见`docs/maintenance/2026-11-01_HOI4_1.19.4.1全量重建方案.md`第七～九节；独立复检`audit/reports/independent_review_v130g-test2.md`＋Must-fix 后独立复检`…_recheck.md`（均 PASS）；实机归档`docs/testing/v130g-test2/`（AI 代跑，16 截图 + 7 组脱敏日志）；发布与上传交接`docs/maintenance/2026-11-02_v130g发布与上传交接.md`。
+- 日志白名单：`tools/cbio_log_whitelist.json` 共 89 条（A 组 41 + B 组 24 + 兼容版行号变体 10 + `GOE_Persia` 9 + 既有 5），**每条标注仅适用 HOI4 1.19.4.1**；游戏升级后必须重新判定，不得直接沿用。执行记录`audit/reports/cbio_whitelist_ruling_execution_v130g-test2.md`。
+- 游戏版本口径：HOI4 1.19.x（原版参考已配置于`reference/vanilla_path.json`，指向1.19.4.1，2026-11-02 兼容重建口径；路径不变，仅版本元数据更新）。
 - 测试口径：1936、1939剧本。
 - v130d相对v130c7的变更：傅作义SHX顾问/溥仪MAN理论家补挂desc别名；蒋有芬（SIK）、韩乙奴（XSM）核实为真人，恢复中文名并入审定小传；完成6421条静态身份覆盖对账（档1已结案）。
 - v130e相对v130d的变更：德国女皇线`GER_victoria`已确认是威廉二世独女维多利亚·路易丝，旧正文误写为威廉二世之妹；修订正文已于2026-07-30经用户逐字审定，并在完整版1936剧本动态上台路径中实机确认显示正常。兼容版仅包含正文，不覆盖该动态事件，因此不负责此路径的小传显示。
@@ -25,8 +28,9 @@
 ## 0.2 当前待办（按优先级）
 
 1. 静态身份对账收尾（未排期，需用户发起）：档3共364条、待裁定区1579条尚未裁定，底账见`workbench/import_lists/`。**口径警告**：底账未计入顾问`<idea_token>_desc`自动显示路径（档1曾因此全部误报），推进前必须先按该路径重新核，见`docs/ENGINEERING_PLAYBOOK.md`第4节。
-2. HOI4发布新游戏版本时：以新原版文件为底重建`src/full_only/`全部覆盖（规则见第9节、`docs/KNOWN_RISKS.md`第1条），并重新跑全量审计。
+2. **v130g 转正**（待机主发起）：机主实机确认 → 按`docs/maintenance/2026-11-02_v130g发布与上传交接.md`上传工坊 → 更新`docs/CURRENT_BASELINE.md`/`CHANGELOG`状态并打 `*-stable` 标签。自然焦点链全量实机回归（P0/P1 全人物矩阵、长时间运行）仍建议补做。
 3. 兼容版1939剧本动态领袖缺口（毛泽东NCNS线、德王、乔巴山）：已裁定不修复，仅登记，见`docs/KNOWN_RISKS.md`第9条。
+4. HOI4 再次发布新游戏版本时：以新原版文件为底重建`src/full_only/`全部覆盖（规则见第9节、`docs/KNOWN_RISKS.md`第1条），并重新跑全量审计；`tools/cbio_log_whitelist.json` 的 1.19.4.1 白名单必须重新判定。
 
 ## 0.3 目录地图
 
@@ -46,7 +50,7 @@
 | `docs/maintenance/` | 三级流程、开发交接快照、机主开工手册 | 可维护，先读《维护与重构标准流程_适配版》 |
 | `docs/testing/` | 实机回归归档与黄金存档制度 | 按制度写入 |
 | `build/` | 构建暂存（工具输出） | 工具写入，勿手改 |
-| `releases/` | 当前发布包（v130e双zip） | 只由`build_release.py`产出；`releases/archive/`为旧测试包 |
+| `releases/` | 当前发布包（v130g 双zip；v130e 为稳定基准） | 只由`build_release.py`产出；`releases/archive/`为旧测试包 |
 | `baseline_inputs/` | 历史原始包与封面素材 | 只读 |
 | `reference/` | 原版游戏路径配置 | 只改`vanilla_path.json`指向本机安装路径 |
 | `.git/` | Git仓库 | 禁止`reset --hard`/`clean -fd`等破坏性操作 |

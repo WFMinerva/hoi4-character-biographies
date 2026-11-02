@@ -4773,10 +4773,7 @@ focus_tree = {
 				KHM = {
 					XSM_ma_hongbin = {
 						set_nationality = ROOT
-						clr_character_flag = yes
-						remove_trait = {
-							trait = XSM_dubious_loyalty
-						}
+						CHI_clear_dubious_loyalty_effect = yes
 					}
 				}
 			}
@@ -4789,10 +4786,7 @@ focus_tree = {
 				NXM = {
 					XSM_ma_hongbin = {
 						set_nationality = ROOT
-						clr_character_flag = yes
-						remove_trait = {
-							trait = XSM_dubious_loyalty
-						}
+						CHI_clear_dubious_loyalty_effect = yes
 					}
 				}
 			}
@@ -4805,10 +4799,7 @@ focus_tree = {
 				XSM = {
 					XSM_ma_hongbin = {
 						set_nationality = ROOT
-						clr_character_flag = yes
-						remove_trait = {
-							trait = XSM_dubious_loyalty
-						}
+						CHI_clear_dubious_loyalty_effect = yes
 					}
 				}
 			}
@@ -4821,10 +4812,7 @@ focus_tree = {
 				GSM = {
 					XSM_ma_hongbin = {
 						set_nationality = ROOT
-						clr_character_flag = yes
-						remove_trait = {
-							trait = XSM_dubious_loyalty
-						}
+						CHI_clear_dubious_loyalty_effect = yes
 					}
 				}
 			}

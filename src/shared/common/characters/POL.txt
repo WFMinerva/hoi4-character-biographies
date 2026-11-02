@@ -1,6 +1,6 @@
 characters = {
 	POL_anna_andersson = {
-		name=POL_anna_andersson
+		name = POL_anna_andersson
 		portraits = {
 			civilian = {
 				large="GFX_portrait_POL_anna_anderson"
@@ -166,7 +166,7 @@ characters = {
 			visible = {
 				has_completed_focus = POL_soviet_military_staff
 			}
-			traits = { JAP_communist_sympathizer old_guard }
+			traits = { communist_sympathizer old_guard }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 4
@@ -473,7 +473,6 @@ characters = {
 		}
 		
 		field_marshal = {
-		
 			desc = CBIO_POL_edward_rydzsmigly_desc
 			traits = { old_guard POL_sanation_right_leader thorough_planner politically_connected }
 			skill=4
@@ -619,7 +618,6 @@ characters = {
 		}
 		
 		corps_commander = {
-		
 			desc = CBIO_POL_jozef_haller_desc
 			traits = { old_guard POL_sanation_left_leader }
 			skill=3
@@ -717,7 +715,6 @@ characters = {
 		}
 		
 		corps_commander = {
-		
 			desc = CBIO_POL_wladyslaw_anders_desc
 			traits = { armor_officer }
 			skill=4
@@ -872,7 +869,6 @@ characters = {
 		}
 		
 		navy_leader = {
-		
 			desc = CBIO_POL_jozef_unrug_desc
 			traits = { war_hero }
 			skill=4

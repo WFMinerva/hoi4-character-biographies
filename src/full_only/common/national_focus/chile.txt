@@ -4323,8 +4323,9 @@ focus_tree = {
 							is_in_faction_with = ROOT
 						}
 					}
-					any_country = {
-						original_tag = ARG
+					any_country_with_original_tag = {
+						exists = yes
+						original_tag_to_check = ARG
 						OR = {
 							owns_state = 512
 							owns_state = 955
@@ -5497,8 +5498,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ANNEXATION }
 
 		available = {
-			any_country = {
-				is_subject_of = ROOT
+			any_subject_country = {
 				OR = {
 					tag = GAR
 					tag = INC
@@ -5603,8 +5603,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
 
 		available = {
-			any_country = {
-				is_subject_of = ROOT
+			any_subject_country = {
 				OR = {
 					tag = GAR
 					tag = INC
@@ -7371,8 +7370,8 @@ focus_tree = {
 			base = 1.5
 			modifier = {
 				factor = 2
-				any_country = {
-					is_major = yes
+				any_collection_element = {
+					collection = game:all_majors
 					has_government = communism
 				}
 			}
@@ -7800,8 +7799,8 @@ focus_tree = {
 			base = 1.5
 			modifier = {
 				factor = 2
-				any_country = {
-					is_major = yes
+				any_collection_element = {
+					collection = game:all_majors
 					has_government = communism
 				}
 			}
@@ -8115,8 +8114,9 @@ focus_tree = {
 		available = {
 			has_government = fascism
 			#has_completed_focus = CHL_enforce_the_chilean_identity
-			any_country = {
-				original_tag = GER
+			any_country_with_original_tag = {
+				exists = yes
+				original_tag_to_check = GER
 				has_government = fascism
 				is_faction_leader = yes
 			}
@@ -8863,10 +8863,10 @@ focus_tree = {
 			has_army_manpower = {
 				size > 200000
 			}
-			any_country = {
-				owns_state = 953 
-				NOT = {
-					OR = {
+			953 = {
+				owner = {
+					NOT = { 
+						tag = ROOT 
 						is_in_faction_with = ROOT
 						is_subject_of = ROOT
 						has_war_with = ROOT
@@ -8877,11 +8877,12 @@ focus_tree = {
 		}
 
 		bypass = {
-			OR = {
-				owns_state = 953
-				any_country = {
-					owns_state = 953
-					has_war_with = ROOT
+			953 = {
+				owner = {
+					OR = {
+						tag = ROOT
+						has_war_with = ROOT
+					}
 				}
 			}
 		}
@@ -8935,10 +8936,10 @@ focus_tree = {
 			has_army_manpower = {
 				size > 210000
 			}
-			any_country = {
-				owns_state = 954 
-				NOT = {
-					OR = {
+			954 = {
+				owner = {
+					NOT = { 
+						tag = ROOT 
 						is_in_faction_with = ROOT
 						is_subject_of = ROOT
 						has_war_with = ROOT
@@ -8949,17 +8950,20 @@ focus_tree = {
 		}
 
 		bypass = {
-			OR = {
-				owns_state = 954
-				any_country = {
-					owns_state = 954 
-					NOT = {
-						original_tag = ROOT
-					}
+			954 = {
+				owner = {
 					OR = {
-						is_in_faction_with = ROOT
-						is_subject_of = ROOT
-						has_war_with = ROOT
+						tag = ROOT
+						AND = {
+							NOT = {
+								original_tag = ROOT
+							}
+							OR = {
+								is_in_faction_with = ROOT
+								is_subject_of = ROOT
+								has_war_with = ROOT
+							}
+						}
 					}
 				}
 			}
@@ -8968,7 +8972,6 @@ focus_tree = {
 		ai_will_do = {
 			base = 2
 		}
-
 		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_ANNEXATION FOCUS_FILTER_STABILITY }
 		
 		completion_reward = {
@@ -11259,8 +11262,8 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 2.5
-				any_country = {
-					is_major = yes
+				any_collection_element = {
+					collection = game:all_majors
 					has_government = fascism
 					has_war = yes
 				}
@@ -11704,16 +11707,14 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 2
-				any_country = {
-					is_subject_of = ROOT
-				}
+				num_subjects > 0
 			}
 		}
 	
 		available = {
 			has_government = communism
 	
-			any_country = {
+			any_subject_country = {
 				capital_scope = {
 					OR = {
 						is_on_continent = south_america
@@ -11721,12 +11722,9 @@ focus_tree = {
 					}
 				}
 				has_government = communism
-				is_subject_of = ROOT
 				NOT = {
-					OR = {
-						original_tag = USA
-						tag = ROOT
-					}
+					original_tag = USA
+					tag = ROOT
 				}
 			}
 
@@ -12219,8 +12217,9 @@ focus_tree = {
 			NOT = {
 				has_government = communism
 			}
-			any_country = {
-				original_tag = USA
+			any_country_with_original_tag = {
+				exists = yes
+				original_tag_to_check = USA
 				has_war = yes
 			}
 			has_war = no
@@ -12708,6 +12707,8 @@ focus_tree = {
 
 		available = {
 			has_government = democratic
+			is_in_faction = no
+			is_subject = no
 			ARG = {
 				NOT = {
 					OR = {
@@ -12717,13 +12718,11 @@ focus_tree = {
 				}
 				is_in_faction = no
 			}
-			any_country = {
-				is_major = yes
-				has_government = democratic 
-				is_faction_leader = yes 
-			}
-			is_in_faction = no
-			is_subject = no
+			any_collection_element = {
+				collection = game:all_majors
+				is_faction_leader = yes
+				has_government = democratic
+		  	}
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -12905,8 +12904,7 @@ focus_tree = {
 							has_government = neutrality
 						}
 						is_subject = no
-						any_country = {
-							has_war_with = PREV
+						any_enemy_country = {
 							capital_scope = {
 								OR = {
 									is_on_continent = north_america
@@ -12931,8 +12929,7 @@ focus_tree = {
 							has_government = neutrality
 						}
 						is_subject = no
-						any_country = {
-							has_war_with = PREV
+						any_enemy_country = {
 							capital_scope = {
 								OR = {
 									is_on_continent = north_america
@@ -12957,8 +12954,7 @@ focus_tree = {
 							has_government = neutrality
 						}
 						is_subject = no
-						any_country = {
-							has_war_with = PREV
+						any_enemy_country = {
 							capital_scope = {
 								OR = {
 									is_on_continent = north_america
@@ -14421,11 +14417,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 		
 		completion_reward = {
-
-			every_country = {
-				limit = {
-					is_major = yes
+			every_collection_element = {
+				input = {
+					input = game:all_majors
 				}
+
 				add_opinion_modifier = {
 					target = ROOT
 					modifier = medium_decrease

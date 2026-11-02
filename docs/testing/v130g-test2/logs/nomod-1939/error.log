@@ -1,0 +1,44 @@
+[10:26:08][1939.08.14.12]: common/decisions/GER.txt:6557: add_compliance 波默恩 does not have resistance
+[10:26:08][1939.08.14.12]: common/decisions/GER.txt:6580: add_compliance 波默恩 does not have resistance
+[10:26:08][1939.08.14.12]: common/decisions/GER.txt:6580: add_compliance 摩拉维亚 does not have resistance
+[10:26:08][1939.08.14.12]: 'history/countries/ENG - Britain.txt:2012: create_equipment_variant': 'Fairey Swordfish' - Invalid icon 'GFX_ENG_nav_bomber1_medium'.
+[10:26:08][1939.08.14.12]: common/national_focus/indonesia_joint.txt:7850: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/indonesia_joint.txt:7854: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/italy.txt:2759: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/romania.txt:1314: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/turkey.txt:184: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/turkey.txt:197: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/finland.txt:10819: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/finland.txt:10630: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/finland.txt:10634: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/finland.txt:10233: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: common/national_focus/hungary_wuw.txt:15923: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: history/countries/AFG - Afghanistan.txt:339: diplomatic_relation: The relation(non_aggression_pact) already exists, between AFG and TUR.
+[10:26:08][1939.08.14.12]: history/countries/ARG - Argentina.txt:360: recruit_character: Character ARG_roberto_maria_ortiz cannot be assigned to ARG as it is already assigned to ARG
+[10:26:08][1939.08.14.12]: history/countries/ARG - Argentina.txt:362: retire_character: Unknown character 
+[10:26:08][1939.08.14.12]: history/countries/AST - Australia.txt:257: complete_national_focus: Unkown focus scripted AST_domestic_industries
+[10:26:08][1939.08.14.12]: history/countries/CHI - China.txt:797: add_ideas: Invalid idea: CHI_bo_yibo. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[10:26:08][1939.08.14.12]: common/national_focus/iraq.txt:669: add_resource can't be called from a history file!
+[10:26:08][1939.08.14.12]: history/countries/IRQ - Iraq.txt:281: diplomatic_relation: The relation(non_aggression_pact) already exists, between IRQ and TUR.
+[10:26:08][1939.08.14.12]: history/countries/IRQ - Iraq.txt:293: diplomatic_relation: The relation(non_aggression_pact) already exists, between IRQ and AFG.
+[10:26:08][1939.08.14.12]: history/countries/IRQ - Iraq.txt:301: remove_ideas: Invalid idea: IRQ_bakr_sidqi. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[10:26:08][1939.08.14.12]: history/countries/IRQ - Iraq.txt:306: retire_character: Character IRQ_bakr_sidqi has already been retired from country IRQ
+[10:26:09][1939.08.14.12]: common/national_focus/mexico.txt:966: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/mexico.txt:966: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/mexico.txt:966: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/mexico.txt:966: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/new_zealand.txt:1648: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/new_zealand.txt:1654: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/new_zealand.txt:1535: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/new_zealand.txt:1609: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: history/countries/PER - Persia.txt:255: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and TUR.
+[10:26:09][1939.08.14.12]: history/countries/PER - Persia.txt:261: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and IRQ.
+[10:26:09][1939.08.14.12]: history/countries/PER - Persia.txt:267: diplomatic_relation: The relation(non_aggression_pact) already exists, between PER and AFG.
+[10:26:09][1939.08.14.12]: common/national_focus/china_warlord_sea.txt:3024: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/uruguay.txt:865: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/paraguay_uruguay_shared_branch.txt:2220: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: common/national_focus/paraguay_uruguay_shared_branch.txt:2226: add_resource can't be called from a history file!
+[10:26:09][1939.08.14.12]: Character already has a country leader role for ideology: 反修正主义: common/scripted_effects/WTT_warlord_scripted_effects.txt:328: add_country_leader_role
+[10:26:09][1939.08.14.12]: Character already has a country leader role for ideology: 社会主义: common/scripted_effects/WTT_warlord_scripted_effects.txt:339: add_country_leader_role
+[10:26:09][1939.08.14.12]: Character already has a country leader role for ideology: 雷克斯主义: common/scripted_effects/WTT_warlord_scripted_effects.txt:350: add_country_leader_role
+[10:26:09][1939.08.14.12]: common/national_focus/indonesia.txt:6507: give_market_access: Market access between INS and JAP is not valid

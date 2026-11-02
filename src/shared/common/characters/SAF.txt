@@ -40,7 +40,6 @@ characters={
 		}
 		
 		country_leader={
-		
 			desc = CBIO_SAF_d_f_malan_desc
 			ideology=fascism_ideology
 			expire="1965.1.1.1"
@@ -161,7 +160,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_SAF_j_f_van_rensburg_desc
 			slot = political_advisor
 			idea_token = SAF_j_f_van_rensburg_fascist
@@ -185,15 +183,26 @@ characters={
 				}
 			}
 			traits = {
-				fascist_demagogue 
+				fascist_demagogue
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism 
+					has_government = fascism
 				}
 			}
 			ai_will_do = {
 				factor = 0.000
+				modifier = {
+					add = 10
+					NOT = { has_government = fascism }
+					OR = {
+						has_country_flag = SAF_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = SAF_ai_behavior
+							option = FASCIST
+						}
+					}
+				}
 			}
 		}
 	}
@@ -224,7 +233,7 @@ characters={
 	### ARMY CHIEFS ###
 
 	SAF_james_mitchell_baker={
-		name="James Mitchell-Baker"
+		name = "James Mitchell-Baker"
 		portraits={
 			army={
 				small="GFX_idea_SAF_james_mitchell_baker" #small="GFX_idea_generic_army_europe_3"
@@ -247,7 +256,7 @@ characters={
 	}
 
 	SAF_leonard_beyers={
-		name="Leonard Beyers"
+		name = "Leonard Beyers"
 		portraits={
 			army={
 				small="GFX_idea_SAF_leonard_beyers" #small="GFX_idea_generic_army_europe_4"
@@ -273,7 +282,7 @@ characters={
 	### NAVY CHIEFS ###
 
 	SAF_pierre_oliver_knoll={
-		name="Pierre Oliver-Knoll"
+		name = "Pierre Oliver-Knoll"
 		portraits={
 			army={
 				small="GFX_idea_SAF_pierre_oliver_knoll" #small="GFX_idea_generic_navy_europe_2"
@@ -296,7 +305,7 @@ characters={
 	}
 
 	SAF_cornelis_van_zuigenbrogge={
-		name="Cornelis van Zuigenbrogge"
+		name = "Cornelis van Zuigenbrogge"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_europe_1"
@@ -373,7 +382,7 @@ characters={
 	### MILITARY HIGH COMMAND ###
 
 	SAF_robert_palmer={
-		name="Robert Palmer"
+		name = "Robert Palmer"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_1"
@@ -397,7 +406,7 @@ characters={
 	}
 
 	SAF_c_de_weenburg_du_toit={
-		name="C. de Weenburg du Toit"
+		name = "C. de Weenburg du Toit"
 		portraits={
 			army={
 				small="GFX_idea_SAF_c_de_weenburg_du_toit" #small="GFX_idea_generic_army_europe_5"
@@ -421,7 +430,7 @@ characters={
 	}
 
 	SAF_marinus_van_osterkamp={
-		name="Marinus van Osterkamp"
+		name = "Marinus van Osterkamp"
 		portraits={
 			army={
 				small="GFX_idea_SAF_marinus_van_osterkamp" #small="GFX_idea_generic_air_europe_3"
@@ -445,7 +454,7 @@ characters={
 	}
 
 	SAF_jeannot_de_la_tourier={
-		name="Jeannot de la Tourier"
+		name = "Jeannot de la Tourier"
 		portraits={
 			army={
 				small="GFX_idea_SAF_jeannot_de_la_tourier" #small="GFX_idea_generic_navy_europe_2"
@@ -550,15 +559,26 @@ characters={
 				}
 			}
 			traits = {
-				communist_revolutionary 
+				communist_revolutionary
 			}
 			do_effect = {
 				NOT = {
-					has_government = communism 
+					has_government = communism
 				}
 			}
 			ai_will_do = {
 				factor = 0.000
+				modifier = {
+					add = 10
+					NOT = { has_government = communism }
+					OR = {
+						has_country_flag = SAF_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = SAF_ai_behavior
+							option = COMMUNIST
+						}
+					}
+				}
 			}
 		}		
 	}

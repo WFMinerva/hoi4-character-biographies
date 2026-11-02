@@ -2317,11 +2317,10 @@ country_event = {
 
 		every_state = {
 			limit = {
-				OR = {
-					is_controlled_by = ROOT
-					any_country = {
+				controller = {
+					OR = {
+						tag = ROOT
 						is_subject_of = ROOT
-						controls_state = PREV
 					}
 				}
 				NOT = {
@@ -2538,11 +2537,10 @@ country_event = {
 
 		every_state = {
 			limit = {
-				OR = {
-					is_controlled_by = ROOT
-					any_country = {
+				controller = {
+					OR = {
+						tag = ROOT
 						is_subject_of = ROOT
-						controls_state = PREV
 					}
 				}
 				NOT = {
@@ -2763,7 +2761,10 @@ country_event = {
 			promote_character = CZE_albrecht_franz
 		}
 
-		puppet = FROM 
+		puppet = {
+			target = FROM
+			end_wars = no
+		}
 
 		hidden_effect = {
 			set_country_flag = HUN_created_bohemian_monarchy 
@@ -3087,11 +3088,10 @@ country_event = {
 
 		every_state = {
 			limit = {
-				OR = {
-					is_controlled_by = ROOT
-					any_country = {
+				controller = {
+					OR = {
+						tag = ROOT
 						is_subject_of = ROOT
-						controls_state = PREV
 					}
 				}
 				NOT = {
@@ -3294,11 +3294,10 @@ country_event = {
 
 		every_state = {
 			limit = {
-				OR = {
-					is_controlled_by = ROOT
-					any_country = {
+				controller = {
+					OR = {
+						tag = ROOT
 						is_subject_of = ROOT
-						controls_state = PREV
 					}
 				}
 				NOT = {
@@ -3461,11 +3460,10 @@ country_event = {
 		LBV = {
 			every_core_state = {
 				limit = {
-					OR = {
-						is_controlled_by = ROOT
-						any_country = {
+					controller = {
+						OR = {
+							tag = ROOT
 							is_subject_of = ROOT
-							controls_state = PREV
 						}
 					}
 					NOT = {

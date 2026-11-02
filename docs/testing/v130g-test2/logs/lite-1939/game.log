@@ -1,0 +1,34 @@
+[10:38:59][no_game_date]: 4489 defines loaded
+[10:39:16][no_game_date]: Loaded 13414 provinces.
+[10:39:20][no_game_date]: Resetting game
+[10:39:22][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+[10:39:23][1936.01.01.12]: Executing History from 2.1.1.1 to  1936.1.1.12
+[10:40:21][1936.01.01.12]: Resetting game
+[10:40:23][1936.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+[10:40:23][1939.08.14.12]: Executing History from 2.1.1.1 to  1939.8.14.12
+[10:40:23][1939.08.14.12]: Fully cantons activated
+[10:40:23][1939.08.14.12]: Very cantons activated
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Enumerating effects:
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4440: 1 SumSoFar=0
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4441: 1 SumSoFar=1
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4442: 1 SumSoFar=2
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4443: 1 SumSoFar=3
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Total=4.0000
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Rolled=2.3602
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Executing=common/scripted_effects/00_scripted_effects.txt:4442
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Enumerating effects:
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4440: 1 SumSoFar=0
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4441: 1 SumSoFar=1
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4442: 1 SumSoFar=2
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4443: 1 SumSoFar=3
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Total=4.0000
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Rolled=3.2080
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Executing=common/scripted_effects/00_scripted_effects.txt:4443
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Enumerating effects:
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4440: 1 SumSoFar=0
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4441: 1 SumSoFar=1
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4442: 1 SumSoFar=2
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4443: 1 SumSoFar=3
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Total=4.0000
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Rolled=1.8016
+[10:40:23][1939.08.14.12]: common/scripted_effects/00_scripted_effects.txt:4436: random_list: Executing=common/scripted_effects/00_scripted_effects.txt:4441
