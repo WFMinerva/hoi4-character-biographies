@@ -97,6 +97,7 @@ characters = {
 			}
 		}
 		field_marshal={
+			desc = CBIO_SLO_vojtech_tuka_desc
 			traits={ old_guard politically_connected harsh_leader militias_officer }
 			skill=1
 			attack_skill=1

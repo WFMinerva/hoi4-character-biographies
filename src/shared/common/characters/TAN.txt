@@ -137,7 +137,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=TAN_tanchak_shoma
+		name="Tanchak Shoma"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_2"
@@ -187,7 +187,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=TAN_homushku_churguj_ool
+		name="Homushku Churguj-ool"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_3"
@@ -287,7 +287,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=TAN_kechir_ool
+		name="Kechir-ool"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_1"
@@ -404,7 +404,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=TAN_vladimir_sokoline
+		name="Vladimir Sokoline"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_3"
@@ -424,7 +424,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=TAN_sodmon_balchor
+		name="Sodmon Balchor"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_2"

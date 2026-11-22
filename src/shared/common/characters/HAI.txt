@@ -71,7 +71,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=HAI_emilie_lescot
+		name="Emilie Lescot"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_african_4"
@@ -94,7 +94,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Pascale B. G. Guillaume"
+		name="Pascalé B.G. Guillaume"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_african_2"
@@ -144,7 +144,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Andre Sainte Frederic"
+		name="André Sainté Frederic"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_african_1"
@@ -171,7 +171,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=HAI_paul_magloire
+		name="Paul Magloire"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_african_5"
@@ -195,7 +195,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=HAI_georges_leger
+		name="Georges Léger"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_african_3"
@@ -350,7 +350,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="G. Edouard Roy"
+		name="G.Edouard Roy"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_african_1"
@@ -415,7 +415,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=HAI_demosthenes_calixte
+		name="Demosthenes Calixte"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_african_1"
@@ -438,7 +438,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=HAI_louis_dejoie
+		name="Louis Dejoie"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_african_2"

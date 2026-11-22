@@ -5,6 +5,7 @@ from collections import defaultdict
 from pathlib import Path
 import re
 from common import ROOT, changed_source_paths, git_available, load_json, resolve_diff_base, run_git
+from rebase_evidence import OPERATION, rebase_version, validated_rebases
 
 FORBIDDEN=re.compile(r'\b(ideology|traits?|skill|attack_skill|defense_skill|planning_skill|logistics_skill|cost|allowed|available|visible|trigger|ai_will_do|complete_effect|hidden_effect|immediate|option|add_political_power|set_country_leader_ideology|recruit_character|promote_character)\b\s*=')
 DESC_ONLY=re.compile(r'^\s*desc\s*=')
@@ -12,10 +13,11 @@ COMMENT_OR_BLANK=re.compile(r'^\s*(?:#.*)?$')
 
 def load_exceptions():
     p=ROOT/'audit/allowlists/diff_exceptions.json'
-    return load_json(p).get('exceptions',[]) if p.exists() else []
+    return load_json(p) if p.exists() else {}
 
 def permitted(path,direction,line,exceptions,actual_counts):
     for ex in exceptions:
+        if ex.get('operation') == OPERATION: continue
         if not ex.get('approved_by_user',False) or not fnmatch.fnmatch(path,ex.get('path','')): continue
         exact=ex.get('exact_lines',[])
         if exact:
@@ -39,17 +41,30 @@ ap=argparse.ArgumentParser(); ap.add_argument('--base'); args=ap.parse_args()
 if not git_available():
     print('diff_whitelist: SKIP（尚未初始化Git；首次迁移请运行verify_initial_baseline.py）')
     raise SystemExit(0)
-base=resolve_diff_base(args.base); errors=[]; exceptions=load_exceptions(); changed=set(changed_source_paths(args.base)); actual_counts=defaultdict(int)
-cp=run_git(['diff','--unified=0','--no-ext-diff',base,'--','src'])
+base=resolve_diff_base(args.base)
+document=load_exceptions()
+version=rebase_version(document)
+exceptions=document.get('exceptions',[])
+changed=set(changed_source_paths(args.base))
+actual_counts=defaultdict(int)
+rebases, errors=validated_rebases(base, changed, exceptions)
+if version:
+    scripts={p for p in changed if p.endswith('.txt') and p.startswith(('src/full_only/', 'src/shared/common/characters/'))}
+    errors.extend(f'版本重建脚本缺少精确例外: {p}' for p in sorted(scripts-set(rebases)))
+cp=run_git(['-c','core.quotePath=false','diff','--no-renames','--unified=0','--no-ext-diff',base,'--','src'])
 current=''
 for raw in cp.stdout.splitlines():
-    if raw.startswith('+++ b/'):
-        current=raw[6:].rstrip('\t'); continue
+    if raw.startswith('diff --git '):
+        current=''; continue
+    if raw.startswith(('--- a/', '+++ b/')):
+        current=raw[6:].removesuffix('\t'); continue
+    if raw == '+++ /dev/null': continue
     if raw.startswith('--- ') or raw.startswith('@@') or raw.startswith('diff --git') or raw.startswith('index ') or raw.startswith('new file mode') or raw.startswith('deleted file mode'): continue
     if not current or not raw.startswith(('+','-')): continue
-    check_semantic_line(current,raw[0],raw[1:],exceptions,errors,actual_counts)
-tracked_diff=set(x.strip() for x in run_git(['diff','--name-only',base,'--','src']).stdout.splitlines() if x.strip())
-for path in sorted(changed-tracked_diff):
+    if current not in rebases:
+        check_semantic_line(current,raw[0],raw[1:],exceptions,errors,actual_counts)
+tracked_diff=set(x.strip() for x in run_git(['-c','core.quotePath=false','diff','--no-renames','--name-only',base,'--','src']).stdout.splitlines() if x.strip())
+for path in sorted(changed-tracked_diff-set(rebases)):
     p=ROOT/path
     if not p.exists() or p.is_dir() or path.endswith(('.yml','.png')): continue
     try: lines=p.read_text(encoding='utf-8-sig').splitlines()
@@ -58,7 +73,7 @@ for path in sorted(changed-tracked_diff):
     for line in lines:
         check_semantic_line(path,'+',line,exceptions,errors,actual_counts,prefix='未跟踪文件：')
 for ex in exceptions:
-    if not ex.get('approved_by_user',False): continue
+    if ex.get('operation') == OPERATION or not ex.get('approved_by_user',False): continue
     path=ex.get('path','')
     for row in ex.get('exact_lines',[]):
         key=(path,row.get('direction'),row.get('line'))

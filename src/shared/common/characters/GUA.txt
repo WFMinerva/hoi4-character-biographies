@@ -102,7 +102,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=GUA_carlos_diaz_de_leon
+		name="Carlos Diaz de Leon"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_2"
@@ -128,7 +128,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=GUA_jacopo_arbenz_guzman
+		name="Jacopo Arbenz Guzman"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_5"
@@ -397,7 +397,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=GUA_eduardo_villagran_ariza
+		name="Eduardo Villagran Ariza"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_1"

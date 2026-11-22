@@ -12,7 +12,7 @@ characters = {
 			}
 			
 		}
-		country_leader = {
+		country_leader = { desc = CBIO_HOI120_valentino_riroroko_tuki_desc 
 			ideology = despotism
 			traits = { rapa_nui_ariki }
 			expire = "2017.1.1.1"

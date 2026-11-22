@@ -25,6 +25,8 @@ for base in (ROOT/'src/shared', ROOT/'src/full_only'):
             m=key_re.match(line)
             if m:
                 key=m.group(1)
+                if not key.isascii():
+                    errors.append(f'本地化键含游戏无法读取的非ASCII字符: {p.relative_to(ROOT)}:{no}: {key}')
                 keys_by_language[language][key].append((p.relative_to(ROOT).as_posix(),no))
                 all_keys.add(key)
             elif line.strip() and not line.lstrip().startswith('#') and not line.strip().startswith('l_'):

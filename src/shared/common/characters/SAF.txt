@@ -233,7 +233,7 @@ characters={
 	### ARMY CHIEFS ###
 
 	SAF_james_mitchell_baker={
-		name = "James Mitchell-Baker"
+		name=SAF_james_mitchell_baker
 		portraits={
 			army={
 				small="GFX_idea_SAF_james_mitchell_baker" #small="GFX_idea_generic_army_europe_3"
@@ -256,7 +256,7 @@ characters={
 	}
 
 	SAF_leonard_beyers={
-		name = "Leonard Beyers"
+		name=SAF_leonard_beyers
 		portraits={
 			army={
 				small="GFX_idea_SAF_leonard_beyers" #small="GFX_idea_generic_army_europe_4"
@@ -282,7 +282,7 @@ characters={
 	### NAVY CHIEFS ###
 
 	SAF_pierre_oliver_knoll={
-		name = "Pierre Oliver-Knoll"
+		name=SAF_pierre_oliver_knoll
 		portraits={
 			army={
 				small="GFX_idea_SAF_pierre_oliver_knoll" #small="GFX_idea_generic_navy_europe_2"
@@ -305,7 +305,7 @@ characters={
 	}
 
 	SAF_cornelis_van_zuigenbrogge={
-		name = "Cornelis van Zuigenbrogge"
+		name=SAF_cornelis_van_zuigenbrogge
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_europe_1"
@@ -382,7 +382,7 @@ characters={
 	### MILITARY HIGH COMMAND ###
 
 	SAF_robert_palmer={
-		name = "Robert Palmer"
+		name=SAF_robert_palmer
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_1"
@@ -406,7 +406,7 @@ characters={
 	}
 
 	SAF_c_de_weenburg_du_toit={
-		name = "C. de Weenburg du Toit"
+		name=SAF_c_de_weenburg_du_toit
 		portraits={
 			army={
 				small="GFX_idea_SAF_c_de_weenburg_du_toit" #small="GFX_idea_generic_army_europe_5"
@@ -430,7 +430,7 @@ characters={
 	}
 
 	SAF_marinus_van_osterkamp={
-		name = "Marinus van Osterkamp"
+		name=SAF_marinus_van_osterkamp
 		portraits={
 			army={
 				small="GFX_idea_SAF_marinus_van_osterkamp" #small="GFX_idea_generic_air_europe_3"
@@ -454,7 +454,7 @@ characters={
 	}
 
 	SAF_jeannot_de_la_tourier={
-		name = "Jeannot de la Tourier"
+		name=SAF_jeannot_de_la_tourier
 		portraits={
 			army={
 				small="GFX_idea_SAF_jeannot_de_la_tourier" #small="GFX_idea_generic_navy_europe_2"

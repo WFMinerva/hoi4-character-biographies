@@ -5523,6 +5523,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
+					desc = CBIO_INS_mohammad_hatta_desc
 					ideology = moderatism
 					expire = 1965.1.1.1
 					traits = { INS_the_proclamator }
@@ -8252,6 +8253,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
+					desc = CBIO_INS_kartosoewirjo_desc
 					ideology = despotism
 					traits = { islamic_scholar } 
 				}

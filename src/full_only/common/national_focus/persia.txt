@@ -10326,6 +10326,7 @@ focus_tree = {
 				promote_leader = yes 
 				add_country_leader_role = {
 					country_leader = {
+						desc = CBIO_PER_abol_ghasem_kashani_desc
 						ideology = despotism
 						expire = "1965.1.1.1"
 						traits = {
@@ -13376,7 +13377,7 @@ focus_tree = {
 			    character = PER_davud_monshizadeh
 			    promote_leader = yes
 			    country_leader = {
-			    	desc = CBIO_PER_davud_monshizadeh_desc
+			        desc = CBIO_PER_davud_monshizadeh_desc
 			        ideology = nazism
 			        expire = "1965.1.1.1"
 			    }

@@ -499,13 +499,13 @@ country_event = {
 		ICE_king_knud = {
 			add_country_leader_role = {
 				promote_leader = yes
-				country_leader = {
+				country_leader = { desc = CBIO_HOI120_knud_desc 
 					ideology = moderatism
 					expire = "1965.1.1"
 					traits = { ICE_the_navy_king } 
 				}
 			}
-			add_naval_commander_role = {
+			add_naval_commander_role = { desc = CBIO_HOI120_knud_desc 
 			    skill = 2
 			    attack_skill = 2
 			    defense_skill = 1
@@ -532,7 +532,7 @@ country_event = {
 		}
 		add_ideas = ICE_knud_i
 		ICE_king_knud = {
-			add_naval_commander_role = {
+			add_naval_commander_role = { desc = CBIO_HOI120_knud_desc 
 			    skill = 2
 			    attack_skill = 2
 			    defense_skill = 1

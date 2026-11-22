@@ -113,7 +113,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hugo Montes Ramirez"
+		name="Hugo Montés Ramirez"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_3"
@@ -165,7 +165,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_guillermo_macho_nunez
+		name="Guillermo Macho Nuñez"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_1"
@@ -188,7 +188,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Luis Fernandez Rodriguez"
+		name="Luís Fernandéz Rodríguez"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_1"
@@ -214,7 +214,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_jorge_volio_jimenez
+		name="Jorge Volio Jimenéz"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_2"
@@ -240,7 +240,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_manuel_mora_valverde
+		name="Manuel Mora Valverde"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
@@ -266,7 +266,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Carlos Uribe Alpoveda"
+		name="Carlos Uribé Alpoveda"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
@@ -318,7 +318,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_francisco_rosendo_arguello
+		name="Francisco Rosendo Arguello"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_4"
@@ -413,7 +413,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_otto_cortes_fernandez
+		name="Otto Cortes Fernandez"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_3"
@@ -433,7 +433,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_jose_figueres_ferrer
+		name="Jose Figueres Ferrer"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_2"
@@ -453,7 +453,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_roberto_brenes_mesen
+		name="Roberto Brenes Mesen"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_2"
@@ -473,7 +473,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_julio_acosta_garcia
+		name="Julio Acosta Garcia"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_1"
@@ -493,7 +493,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=COS_chico_orlich_bolmarich
+		name="Chico Orlich Bolmarich"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_2"

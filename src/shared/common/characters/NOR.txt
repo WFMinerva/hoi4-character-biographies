@@ -179,7 +179,6 @@ characters={
 		}
 		
 		advisor = {
-		
 			desc = CBIO_NOR_eivind_heiberg_desc
 			slot = political_advisor
 			idea_token = NOR_eivind_heiberg
@@ -214,7 +213,6 @@ characters={
 		}
 		
 		advisor = {
-		
 			desc = CBIO_NOR_christopher_hornsrud_desc
 			slot = political_advisor
 			idea_token = NOR_christopher_hornsrud
@@ -248,7 +246,6 @@ characters={
 		}
 		
 		advisor = {
-		
 			desc = CBIO_NOR_kirsten_hansteen_desc
 			slot = political_advisor
 			idea_token = NOR_kirsten_hansteen
@@ -323,7 +320,7 @@ characters={
 		allowed_civil_war = {
 			NOR_char_cw_loyalist = yes
 		}		
-		country_leader={
+		country_leader={ desc = CBIO_HOI120_maud_desc 
 			ideology=despotism
 			expire="1965.1.1.1"
 			traits = { NOR_queen_of_norway }
@@ -694,7 +691,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_NOR_peder_furubotn_desc
 			slot = political_advisor
 			idea_token = NOR_peder_furubotn
@@ -720,7 +716,6 @@ characters={
 		}
 		
 		advisor={
-		
 			desc = CBIO_NOR_jeanette_olsen_desc
 			slot = political_advisor
 			idea_token = NOR_jeanette_olsen
@@ -755,7 +750,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_NOR_lev_trotsky_desc
 			slot = political_advisor
 			idea_token = NOR_lev_trotsky
@@ -814,7 +808,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_NOR_sverre_riisnaes_desc
 			slot = political_advisor
 			idea_token = NOR_sverre_riisnaes
@@ -843,7 +836,6 @@ characters={
 		}
 
 		advisor={
-
 			desc = CBIO_NOR_birger_meidell_desc
 			slot = political_advisor
 			idea_token = NOR_birger_meidell
@@ -875,7 +867,6 @@ characters={
 		}
 		
 		advisor={
-		
 			desc = CBIO_NOR_ragnar_skancke_desc
 			slot = political_advisor
 			idea_token = NOR_ragnar_skancke
@@ -904,7 +895,6 @@ characters={
 		}
 		
 		advisor = {
-		
 			desc = CBIO_NOR_rolf_fuglesang_desc
 			slot = political_advisor
 			idea_token = NOR_rolf_fuglesang
@@ -934,7 +924,6 @@ characters={
 		}
 		
 		advisor = {
-		
 			desc = CBIO_NOR_eivind_blehr_desc
 			slot = political_advisor
 			idea_token = NOR_eivind_blehr
@@ -967,7 +956,6 @@ characters={
 		}
 		
 		advisor={
-		
 			desc = CBIO_NOR_joakim_lehmkuhl_desc
 			slot = political_advisor
 			idea_token = NOR_joakim_lehmkuhl
@@ -996,7 +984,6 @@ characters={
 		}
 
 		advisor = {
-
 			desc = CBIO_NOR_hans_ystgaard_desc
 			slot = political_advisor 
 			idea_token = NOR_hans_ystgaard
@@ -1043,7 +1030,6 @@ characters={
 		}
 
 		corps_commander={
-
 			desc = CBIO_NOR_carl_gustav_fleischer_desc
 			visible = {
 				NOT = { 
@@ -1104,7 +1090,6 @@ characters={
 		}
 
 		corps_commander={
-
 			desc = CBIO_NOR_jacob_ager_laurantzon_desc
 			traits={ trait_reckless }
 			skill=1
@@ -1173,7 +1158,7 @@ characters={
 	}	
 
 	NOR_edgar_otto={
-		name=NOR_edgar_otto
+		name="Edgar Otto"
 		portraits={
 			army={
 				large=GFX_portrait_edgar_otto
@@ -1221,7 +1206,6 @@ characters={
 		}
 
 		navy_leader={
-
 			desc = CBIO_NOR_carsten_tank_nielsen_desc
 			traits={ inshore_fighter seawolf }
 			skill=2
@@ -1241,7 +1225,6 @@ characters={
 		}
 				
 		advisor={
-				
 			desc = CBIO_NOR_wilhelm_von_tangen_hansteen_desc
 			slot = army_chief
 			idea_token = NOR_wilhelm_von_tangen_hansteen
@@ -1302,7 +1285,6 @@ characters={
 		}
 		
 		advisor={
-		
 			desc = CBIO_NOR_skule_storheil_desc
 			cost = 100
 			
@@ -1356,7 +1338,6 @@ characters={
 		}
 		
 		advisor={
-		
 			desc = CBIO_NOR_tryggve_gran_desc
 			cost = 100
 			
@@ -1541,7 +1522,6 @@ characters={
 		}
 	
 		advisor={
-	
 			desc = CBIO_NOR_birger_eriksen_desc
 			cost = 100
 
@@ -1581,7 +1561,6 @@ characters={
 			}
 			
 			advisor={
-			
 				desc = CBIO_NOR_alfred_roscher_lund_desc
 				slot = high_command
 				idea_token = NOR_alfred_roscher_lund
@@ -1674,7 +1653,6 @@ characters={
 			}
 
 			advisor={
-
 				desc = CBIO_NOR_konrad_sundlo_desc
 				cost = 100
 				
@@ -1739,7 +1717,6 @@ characters={
 		}		
 
 		advisor={
-
 			desc = CBIO_NOR_otto_ruge_desc
 			slot = army_chief
 			idea_token = NOR_otto_ruge
@@ -1779,7 +1756,6 @@ characters={
 		}		
 
 		advisor={
-
 			desc = CBIO_NOR_rasmus_hatledal_desc
 			slot = high_command
 			idea_token = NOR_rasmus_hatledal
@@ -1810,7 +1786,6 @@ characters={
 		}		
 		
 		advisor = {
-		
 			desc = CBIO_NOR_bjorn_christophersen_desc
 			slot = high_command
 			idea_token = NOR_bjorn_christophersen
@@ -1845,7 +1820,6 @@ characters={
 			}					
 			
 			advisor={
-			
 				desc = CBIO_NOR_kristian_laake_desc
 				slot = army_chief
 				idea_token = NOR_kristian_laake
@@ -1931,8 +1905,8 @@ characters={
 	}
 
 	NOR_bjarne_oen={
-		advisor={
-			desc = CBIO_NOR_bjarne_oen_desc			
+		advisor={			
+			desc = CBIO_NOR_bjarne_oen_desc
 			slot = air_chief
 			idea_token = NOR_bjarne_oen
 			allowed = {
@@ -1991,7 +1965,6 @@ characters={
 			}
 
 			advisor = {
-
 				desc = CBIO_NOR_halvdan_koht_desc
 				slot = political_advisor
 				idea_token = NOR_halvdan_koht
@@ -2054,7 +2027,6 @@ characters={
 			}
 			
 			advisor={
-			
 				desc = CBIO_NOR_trygve_halvdan_lie_desc
 				slot = political_advisor
 				idea_token = NOR_trygve_halvdan_lie

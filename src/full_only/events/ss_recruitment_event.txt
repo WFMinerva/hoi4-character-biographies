@@ -1714,7 +1714,7 @@ country_event = {
 		}
 		create_country_leader = {
 			name = "Günther von Kluge"
-			desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+			desc = "CBIO_GER_gunther_von_kluge_desc"
 			picture = GFX_portrait_Gunther_von_Kluge
 			expire = "1965.1.1"
 			ideology = despotism

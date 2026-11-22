@@ -1092,7 +1092,7 @@ characters={
 						factor = 1.000
 					}
 			}
-			name = CBIO_NAME_PHI_basilio_j_valdez
+			name=CBIO_NAME_PHI_basilio_j_valdez
 			portraits={
 				army={
 					small="GFX_idea_generic_army_asia_3"
@@ -1251,7 +1251,7 @@ characters={
 						factor = 1.000
 					}
 			}
-			name = CBIO_NAME_PHI_vicente_p_lim
+			name=CBIO_NAME_PHI_vicente_p_lim
 			portraits={
 				army={
 					small="GFX_idea_generic_army_asia_3"

@@ -263,7 +263,7 @@ characters={
 				small=GFX_portrait_YUG_josef_depre_small
 			}
 		}
-		corps_commander={
+		corps_commander={ desc = CBIO_HOI120_josef_depre_desc 
 			traits={ cavalry_officer }
 			skill=2
 			attack_skill=2

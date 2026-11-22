@@ -8287,6 +8287,7 @@ focus_tree = {
 			}
 
 			add_field_marshal_role = {
+				desc = CBIO_SWE_king_gustaf_v_desc
 				character = "SWE_king_gustaf_v"
 				traits={ politically_connected media_personality old_guard }
 				skill=1

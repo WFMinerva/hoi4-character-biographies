@@ -4362,7 +4362,7 @@ focus_tree = {
 				custom_effect_tooltip = available_political_advisor
 				show_ideas_tooltip = POR_francisco_da_cunha_leal
 			}
-			create_corps_commander = {
+			create_corps_commander = { desc = CBIO_HOI120_mendes_reis_desc 
 				name = "José Mendes dos Reis"
 				portrait_path = GFX_portrait_Jose_Mendes_dos_Reis
 				traits = { war_hero infantry_officer }
@@ -4372,7 +4372,7 @@ focus_tree = {
 				planning_skill = 3
 				logistics_skill = 3
 			}
-			create_navy_leader = {
+			create_navy_leader = { desc = CBIO_HOI120_agatao_lanca_desc 
 				name = "Armando Pereira de Castro Agatão Lança"
 				portrait_path = GFX_portrait_Armando_Pereira_de_Castro_Agatao_Lanca
 				traits = { spotter bold }

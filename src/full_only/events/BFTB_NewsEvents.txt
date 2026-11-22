@@ -931,6 +931,7 @@ news_event = {
 		add_country_leader_role = {
 			character = TUR_abdulmejid_ii
 			country_leader = {
+				desc = CBIO_TUR_abdulmejid_ii_desc
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {

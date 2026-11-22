@@ -684,7 +684,7 @@ characters={
 				}
 			}
 			corps_commander = {
-				desc = CBIO_BEL_jules_pire_desc
+			desc = CBIO_BEL_jules_pire_desc
 			visible = {
 				NOT = { 
 					has_government = communism 
@@ -711,7 +711,7 @@ characters={
 				}
 			}
 			advisor={
-				desc = CBIO_BEL_jules_pire_desc
+			desc = CBIO_BEL_jules_pire_desc
 			cost = 100
 			
 			slot = theorist

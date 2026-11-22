@@ -185,6 +185,14 @@ def resolve_diff_base(explicit: str | None = None) -> str | None:
     if env:
         run_git(["rev-parse", "--verify", env])
         return env
+    evidence = ROOT / "audit/allowlists/diff_exceptions.json"
+    if evidence.is_file():
+        base = load_json(evidence).get("base_commit")
+        if base is not None:
+            if not isinstance(base, str) or not re.fullmatch(r"[0-9a-f]{40}", base):
+                raise ValueError("版本重建基准必须是完整 Git 提交 SHA")
+            run_git(["merge-base", "--is-ancestor", base, "HEAD"])
+            return base
     branch = run_git(["branch", "--show-current"]).stdout.strip()
     if branch and branch != "main":
         try:
@@ -205,9 +213,9 @@ def changed_source_paths(base: str | None = None) -> list[str]:
     resolved = resolve_diff_base(base)
     if not resolved:
         return []
-    cp = run_git(["diff", "--name-only", resolved, "--", "src"])
+    cp = run_git(["-c", "core.quotePath=false", "diff", "--no-renames", "--name-only", resolved, "--", "src"])
     paths = {x.strip().replace("\\", "/") for x in cp.stdout.splitlines() if x.strip()}
-    untracked = run_git(["ls-files", "--others", "--exclude-standard", "--", "src"]).stdout.splitlines()
+    untracked = run_git(["-c", "core.quotePath=false", "ls-files", "--others", "--exclude-standard", "--", "src"]).stdout.splitlines()
     paths.update(x.strip().replace("\\", "/") for x in untracked if x.strip())
     return sorted(paths)
 

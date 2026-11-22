@@ -2153,6 +2153,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
+					desc = CBIO_SWE_tage_erlander_desc
 					ideology = socialism
 				}
 			}
@@ -7001,6 +7002,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
+					desc = CBIO_SWE_sven_olov_lindholm_desc
 					ideology = nazism
 					expire = "1965.1.1"
 					traits = { anti_democrat }

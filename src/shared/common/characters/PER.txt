@@ -1130,7 +1130,7 @@ characters={
 
 	PER_abdollah_zelli = {
 		
-		navy_leader = {
+		navy_leader = { desc = CBIO_HOI120_abdollah_zelli_desc 
 			traits = { cuts_corners }
 			skill = 2
 			attack_skill = 2
@@ -1345,7 +1345,7 @@ characters={
 				small = GFX_portrait_PER_ali_akbar_derakshani_small
 			}
 		}
-		corps_commander={
+		corps_commander={ desc = CBIO_HOI120_derakhshani_desc 
 			skill=2
 			attack_skill = 2
 			defense_skill = 1
@@ -1486,7 +1486,7 @@ characters={
 				small= GFX_portrait_PER_assadollah_hosseinpoor_small
 			}
 		}
-		corps_commander={
+		corps_commander={ desc = CBIO_HOI120_hosseinpour_desc 
 			skill=2
 			attack_skill = 1
 			defense_skill = 3
@@ -1510,7 +1510,7 @@ characters={
 				small=GFX_portrait_PER_haj_ali_razmara_small
 			}
 		}
-		corps_commander={
+		corps_commander={ desc = CBIO_HOI120_razmara_desc 
 			skill=2
 			attack_skill = 2
 			defense_skill = 2
@@ -1590,7 +1590,7 @@ characters={
 				large = GFX_portrait_Soleyman_Mirza_Eskandari
 			}
 		}
-		country_leader={
+		country_leader={ desc = CBIO_HOI120_eskandari_desc 
 			ideology=anarchist_communism
 			expire="1965.1.1.1"
 			id=-1

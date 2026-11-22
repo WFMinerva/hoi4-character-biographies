@@ -9746,10 +9746,10 @@ focus_tree = {
 			    character = IRQ_ahmed_barzani
 			    promote_leader = yes
 			    country_leader = {
+			        desc = CBIO_IRQ_ahmed_barzani_desc
 			        ideology = conservatism
 			        expire = "1965.1.1.1"
 			        traits = { guerilla_warfare_expert }
-			        desc = CBIO_IRQ_ahmed_barzani_desc
 			    }
 			}
 			hidden_effect = {
@@ -9757,10 +9757,10 @@ focus_tree = {
 				    character = IRQ_ahmed_barzani
 				    promote_leader = yes
 				    country_leader = {
+				        desc = CBIO_IRQ_ahmed_barzani_desc
 				        ideology = despotism
 				        expire = "1965.1.1.1"
 				        traits = { guerilla_warfare_expert }
-				        desc = CBIO_IRQ_ahmed_barzani_desc
 				    }
 				}
 			}
@@ -10379,7 +10379,7 @@ focus_tree = {
 			    character = IRQ_mustafa_barzani
 			    promote_leader = yes
 			    country_leader = {
-			    	desc = CBIO_IRQ_mustafa_barzani_desc
+			        desc = CBIO_IRQ_mustafa_barzani_desc
 			        ideology = stalinism
 			        expire = "1965.1.1.1"
 			        traits = { guerilla_warfare_expert }

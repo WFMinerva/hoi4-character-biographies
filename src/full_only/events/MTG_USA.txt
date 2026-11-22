@@ -1795,7 +1795,7 @@ country_event = {
 			limit = {
 				has_completed_focus = USA_work_with_the_bund
 			}
-			create_corps_commander = {
+			create_corps_commander = { desc = CBIO_HOI120_kuhn_desc 
 				name = "Fritz Kuhn"
 				GFX = GFX_portrait_ger_fritz_kuhn
 				skill = 2
@@ -2440,7 +2440,7 @@ country_event = {
 		name = mtg_usa_civil_war_democrats.41.c
 		create_country_leader = {
 			name = "Adam Hilt"
-			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+			desc = "CBIO_HOI120_adolf_hitler_desc"
 			picture = GFX_portrait_USA_mr_hilt
 			expire = "1965.1.1"
 			ideology = nazism

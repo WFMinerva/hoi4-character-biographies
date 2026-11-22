@@ -1,24 +1,47 @@
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import re
 import subprocess
 from pathlib import Path
 
-from common import ROOT, find_vanilla_reference, load_json, resolve_diff_base
+from common import ROOT, changed_source_paths, find_vanilla_reference, load_json, resolve_diff_base, sha256_bytes
+from rebase_evidence import load_rebase_document, rebase_version, validated_rebases
 
 
-def unauthorized_whitespace(root: Path, vanilla: Path, base: str, donor: Path | None = None) -> tuple[list[str], int]:
+def unauthorized_whitespace(
+    root: Path, vanilla: Path, base: str, donor: Path | None = None,
+    rebases: set[str] | None = None, approved_lines: Counter | None = None,
+) -> tuple[list[str], int]:
     diff = subprocess.run(
-        ["git", "diff", "--check", base, "--", "src"], cwd=root,
+        ["git", "-c", "core.quotePath=false", "diff", "--check", base, "--", "src"], cwd=root,
         stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
         text=True, encoding="utf-8", errors="replace",
     )
     errors: list[str] = []
+    if diff.returncode not in {0, 2}:
+        return [f"无法检查 Git 空白: {diff.stdout.strip()}"], 0
+    rebases = rebases or set()
+    remaining = Counter(approved_lines or {})
     inherited = 0
     cache: dict[str, list[str]] = {}
     donor_cache: dict[str, list[str]] = {}
-    for raw in diff.stdout.splitlines():
+    output = diff.stdout.splitlines()
+    if rebases:
+        untracked = subprocess.check_output(
+            ["git", "-c", "core.quotePath=false", "ls-files", "--others", "--exclude-standard", "-z", "--", "src"],
+            cwd=root, encoding="utf-8",
+        )
+        for path in (p for p in untracked.split("\0") if p):
+            new = subprocess.run(
+                ["git", "-c", "core.quotePath=false", "diff", "--no-index", "--check", "--", "/dev/null", path],
+                cwd=root, capture_output=True, encoding="utf-8",
+            )
+            if new.returncode not in {0, 1, 2, 3}:
+                errors.append(f"无法检查新文件空白: {path}: {new.stderr.strip()}")
+            output.extend(new.stdout.splitlines())
+    for raw in output:
         match = re.match(r"^(.+?):(\d+): (trailing whitespace|space before tab in indent|new blank line at EOF)\.$", raw)
         if not match:
             continue
@@ -44,8 +67,13 @@ def unauthorized_whitespace(root: Path, vanilla: Path, base: str, donor: Path | 
         source_line = source.read_text(encoding="utf-8-sig").splitlines()[line_number - 1]
         if source_line in cache[rel] or source_line in donor_lines:
             inherited += 1
-        else:
-            errors.append(f"新增空白格式问题: {rel}:{line_number} {kind}: {source_line!r}")
+            continue
+        exception = (rel, kind, sha256_bytes(source_line.encode("utf-8")))
+        if rel in rebases and remaining[exception] > 0:
+            remaining[exception] -= 1
+            continue
+        errors.append(f"新增空白格式问题: {rel}:{line_number} {kind}: {source_line!r}")
+    errors.extend(f"历史包空白例外未命中: {key} ×{count}" for key, count in remaining.items() if count)
     return errors, inherited
 
 
@@ -53,16 +81,25 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base")
     args = parser.parse_args()
-    if not (ROOT / "audit/allowlists/rebuild_manifest.json").exists():
+    manifest = ROOT / "audit/allowlists/rebuild_manifest.json"
+    document = load_rebase_document()
+    candidate = rebase_version(document)
+    if not manifest.exists() and not candidate:
         print("rebuild_whitespace: SKIP（无重建manifest）")
         return
     vanilla = find_vanilla_reference()
     if vanilla is None:
         raise SystemExit("ERROR 未配置原版路径")
-    errors, inherited = unauthorized_whitespace(ROOT, vanilla, resolve_diff_base(args.base), Path(load_json(ROOT / "audit/allowlists/rebuild_manifest.json")["donor_path"]))
+    historical = load_json(manifest) if manifest.exists() else {}
+    donor = Path(historical["donor_path"]) if historical and not candidate else None
+    base = resolve_diff_base(args.base)
+    verified, rebase_errors = validated_rebases(base, changed_source_paths(args.base), document.get("exceptions", []))
+    approved = Counter((row["path"], row["kind"], row["line_sha256"]) for row in document.get("released_whitespace", []))
+    errors, inherited = unauthorized_whitespace(ROOT, vanilla, base, donor, set(verified), approved)
+    errors.extend(rebase_errors)
     for error in errors:
         print("ERROR", error)
-    print(f"rebuild_whitespace: inherited={inherited} unauthorized={len(errors)}")
+    print(f"rebuild_whitespace: inherited={inherited} released_exceptions={sum(approved.values())} unauthorized={len(errors)}")
     raise SystemExit(1 if errors else 0)
 
 

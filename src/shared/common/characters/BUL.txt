@@ -191,7 +191,7 @@ characters = {
 				small = GFX_portrait_BUL_atanas_shalapatov_small
 			}
 		}
-		navy_leader = {
+		navy_leader = { desc = CBIO_HOI120_shalapatov_desc 
 			traits = { old_guard_navy gentlemanly }
 			skill = 2
 			attack_skill = 1
@@ -1473,7 +1473,7 @@ characters = {
 				has_dlc = "Battle for the Bosporus"
 			}
 			advisor = {
-				desc = CBIO_BUL_georgi_ivanov_kyoseivanov_desc
+			desc = CBIO_BUL_georgi_ivanov_kyoseivanov_desc
 			slot = political_advisor
 			idea_token = BUL_georgi_ivanov_kyoseivanov
 			allowed = {
@@ -2097,7 +2097,7 @@ characters = {
 				}
 			}
 			advisor = {
-				desc = CBIO_BUL_dobri_bozhilov_desc
+			desc = CBIO_BUL_dobri_bozhilov_desc
 			slot = political_advisor
 			idea_token = BUL_dobri_bozhilov
 			allowed = {
@@ -2196,7 +2196,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = CBIO_BUL_bogdan_filov_desc
+				desc = CBIO_BUL_bogdan_filov_desc
 				expire = "1965.1.1"
 				ideology = centrism
 				traits = {

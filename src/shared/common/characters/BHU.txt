@@ -201,7 +201,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Tommy Gould"
+		name= BHU_tommy_gould
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"

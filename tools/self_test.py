@@ -10,6 +10,7 @@ their fixture, so every daily checker has at least one canary.
 """
 from __future__ import annotations
 
+import hashlib
 import os
 import json
 import shutil
@@ -360,7 +361,61 @@ def test_rebuild_whitespace() -> None:
         source.write_text("a = 1 \nnew = 2 \n", encoding="utf-8")
         errors, _ = unauthorized_whitespace(root, root / "vanilla", "HEAD")
         assert errors, "新增非原版空白必须拦截"
-    print("OK  check_rebuild_whitespace.py: 原版继承/新增空白自检通过")
+        source.write_bytes(original.read_bytes())
+        new = source.with_name("NEW.txt")
+        new_vanilla = original.with_name(new.name)
+        new.write_text("a = 1 \n", encoding="utf-8")
+        new_vanilla.write_text("a = 1\n", encoding="utf-8")
+        relative = new.relative_to(root).as_posix()
+        errors, _ = unauthorized_whitespace(root, root / "vanilla", "HEAD", rebases={relative})
+        assert len(errors) == 1 and relative in errors[0], errors
+        stamp = hashlib.sha256(b"a = 1 ").hexdigest()
+        evidence = {(relative, "trailing whitespace", stamp): 1}
+        errors, _ = unauthorized_whitespace(
+            root, root / "vanilla", "HEAD", rebases={relative}, approved_lines=evidence,
+        )
+        assert not errors, errors
+    print("OK  check_rebuild_whitespace.py: 原版继承/未跟踪新增/精确空白例外自检通过")
+
+
+def test_rebase_removal() -> None:
+    import rebase_evidence
+
+    with tempfile.TemporaryDirectory(prefix="cbio_rebase_removal_") as tmp:
+        root = Path(tmp)
+        rel = "src/full_only/events/probe.txt"
+        p = root / rel
+        p.parent.mkdir(parents=True)
+        original = """country_event = {
+ id = probe.1
+ option = {
+  add_country_leader_role = {
+   character = PROBE_one
+   country_leader = {
+    ideology = liberalism
+    desc = CBIO_probe_desc
+   }
+  }
+ }
+}
+"""
+        p.write_text(original, encoding="utf-8")
+        git(root, "init")
+        git(root, "config", "user.email", "selftest@example.invalid")
+        git(root, "config", "user.name", "CBIO self-test")
+        git(root, "add", ".")
+        git(root, "commit", "-m", "base")
+        p.unlink()
+        old_root = rebase_evidence.ROOT
+        try:
+            rebase_evidence.ROOT = root
+            check = rebase_evidence.removed_biography_errors
+            assert not check("HEAD", rel, original.encode(), set())
+            assert check("HEAD", rel, original.replace("probe.1", "probe.2").encode(), set())
+            assert check("HEAD", rel, original.replace("PROBE_one", "PROBE_two").encode(), set())
+        finally:
+            rebase_evidence.ROOT = old_root
+    print("OK  rebase_evidence.py: 删除覆盖保留原人物 desc，自测拦截换人或转移事件")
 
 
 def test_rebuild_restore() -> None:
@@ -514,9 +569,83 @@ country_event = {
     print("OK  rebuild_with_vanilla.py: 显式裁定落点/旧事件不写入/静态重复拦截自检通过")
 
 
+REBASE_FIXTURE_PATH = "src/full_only/events/AAT_Denmark.txt"
+
+
+def setup_rebase_fixture(fx: Path) -> None:
+    (fx / ".gitattributes").write_text("* -text\n", encoding="utf-8")
+    setup_git_fixture(fx)
+    setup_vanilla_fixture(fx)
+    source = fx / REBASE_FIXTURE_PATH
+    vanilla = fx / "reference/vanilla/events" / source.name
+    before = source.read_bytes()
+    after = before + b"\nfixture_new_vanilla_token = yes\n"
+    source.write_bytes(after)
+    vanilla.write_bytes(after)
+    old_digest = hashlib.sha256(before).hexdigest()
+    new_digest = hashlib.sha256(after).hexdigest()
+    allowlist = fx / "audit/allowlists/diff_exceptions.json"
+    allowlist.parent.mkdir(parents=True, exist_ok=True)
+    allowlist.write_text(json.dumps({"exceptions": [{
+        "operation": "vanilla_rebase",
+        "path": REBASE_FIXTURE_PATH,
+        "approved_by_user": True,
+        "reason": "Fixture for exact upstream replacement",
+        "allowed_regex": [f"^{old_digest} -> {new_digest}$"],
+        "vanilla_sha256": new_digest,
+    }]}), encoding="utf-8")
+
+
+def fault_rebase_source_mismatch(fx: Path) -> None:
+    source = fx / REBASE_FIXTURE_PATH
+    source.write_bytes(source.read_bytes().replace(b"fixture_new_vanilla_token = yes", b"fixture_new_vanilla_token = no"))
+
+
+def fault_rebase_vanilla_mismatch(fx: Path) -> None:
+    vanilla = fx / "reference/vanilla/events" / Path(REBASE_FIXTURE_PATH).name
+    vanilla.write_bytes(vanilla.read_bytes() + b"# different vanilla bytes\n")
+
+
+def fault_unapproved_deletion(fx: Path) -> None:
+    (fx / REBASE_FIXTURE_PATH).unlink()
+
+
+def fault_vanilla_semantics(fx: Path) -> None:
+    p = sorted((fx / "src/full_only").rglob("*.txt"))[0]
+    rewrite_keep_bom(p, lambda t: t + "\nideology = fascism\n")
+
+
+def fault_non_ascii_localisation_key(fx: Path) -> None:
+    p = next(fx.joinpath("src").rglob("*.yml"))
+    rewrite_keep_bom(p, lambda text: text + '\n CBIO_selftest_gonzález_desc:0 "示例"\n')
+
+
+def setup_ordered_instance(fx: Path) -> None:
+    p = fx / "src/shared/common/characters/CBIO_SELFTEST.txt"
+    p.write_text(
+        "characters = {\n"
+        "  CBIO_selftest = {\n"
+        "    instance = { # Keep the first field after the comment meaningful.\n"
+        "      allowed = { always = yes }\n"
+        "      name = CBIO_selftest\n"
+        "    }\n"
+        "  }\n"
+        "}\n",
+        encoding="utf-8", newline="\n",
+    )
+
+
+def fault_instance_before_allowed(fx: Path) -> None:
+    p = fx / "src/shared/common/characters/CBIO_SELFTEST.txt"
+    allowed = "      allowed = { always = yes }\n"
+    name = "      name = CBIO_selftest\n"
+    rewrite_keep_bom(p, lambda text: text.replace(allowed + name, name + allowed))
+
+
 CASES = [
     ("check_encoding.py", fault_strip_bom, None, None),
     ("check_localisation.py", fault_duplicate_key, None, None),
+    ("check_localisation.py", fault_non_ascii_localisation_key, None, None),
     ("check_aliases.py", fault_alias_missing_target, None, None),
     ("check_text_quality.py", fault_text_residue, None, None),
     ("check_human_decisions.py", fault_delete_protected, None, None),
@@ -526,8 +655,12 @@ CASES = [
     ("check_snapshot.py", fault_snapshot_pointer_missing, None, None),
     ("check_snapshot.py", fault_snapshot_version_reembedded, None, None),
     ("check_script_structure.py", fault_unbalanced_brace, None, None),
+    ("check_script_structure.py", fault_instance_before_allowed, setup_ordered_instance, None),
     ("check_desc_semantics.py", fault_desc_wrong_level, None, None),
     ("check_diff_whitelist.py", fault_forbidden_diff, setup_git_fixture, None),
+    ("check_diff_whitelist.py", fault_rebase_source_mismatch, setup_rebase_fixture, None),
+    ("check_diff_whitelist.py", fault_unapproved_deletion, setup_git_fixture, None),
+    ("compare_with_vanilla.py", fault_rebase_vanilla_mismatch, setup_rebase_fixture, None),
     ("check_diff_whitelist.py", fault_unused_exact_exception, setup_git_fixture, None),
     ("compare_with_vanilla.py", fault_vanilla_semantics, setup_vanilla_fixture, None),
     ("verify_build.py", fault_zip_tamper, setup_build_fixture, build_version_args),
@@ -557,6 +690,7 @@ with tempfile.TemporaryDirectory(prefix="cbio_selftest_") as tmp:
 try:
     test_rebuild_overlay()
     test_rebuild_whitespace()
+    test_rebase_removal()
     test_rebuild_restore()
     test_verify_build_semantics()
     test_character_identity()
@@ -564,7 +698,7 @@ try:
 except Exception as exc:
     failures.append(f"rebuild_with_vanilla.py: {type(exc).__name__}: {exc}")
 
-print(f"\nself_test: cases={len(CASES) + 6} failures={len(failures)}")
+print(f"\nself_test: cases={len(CASES) + 7} failures={len(failures)}")
 for f in failures:
     print("FAIL", f)
 raise SystemExit(1 if failures else 0)

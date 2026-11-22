@@ -3097,7 +3097,7 @@ characters = {
 				factor = 1.000
 			}
 		}
-		navy_leader = {
+		navy_leader = { desc = CBIO_HOI120_videla_cobo_desc 
 			traits = { gunnery_expert fleet_protector }
 			skill = 3
 			attack_skill = 3

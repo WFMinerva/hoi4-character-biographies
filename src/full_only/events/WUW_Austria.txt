@@ -9333,7 +9333,7 @@ country_event = { #A familiar guy wants to assume power over Austria
 
 		add_country_leader_role = {
 			character = AUS_johann_hiedler
-			country_leader={
+			country_leader={ desc = CBIO_HOI120_adolf_hitler_desc 
 				expire = "1965.1.1"
 				ideology = nazism
 				traits = {
@@ -9370,7 +9370,7 @@ country_event = { #A familiar guy wants to assume power over Austria
 
 		add_country_leader_role = {
 			character = AUS_johann_hiedler
-			country_leader={
+			country_leader={ desc = CBIO_HOI120_adolf_hitler_desc 
 				expire = "1965.1.1"
 				ideology = nazism
 				traits = {

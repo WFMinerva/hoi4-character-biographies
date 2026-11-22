@@ -3554,7 +3554,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = ROM_local_development
+			add_ideas = ROM_local_development_idea
 		}
 	}
 
@@ -3907,7 +3907,7 @@ focus_tree = {
 			add_ideas = ROM_army_war_college
 			custom_effect_tooltip = ROM_war_college_tt
 			hidden_effect = {
-				create_corps_commander = { 
+				create_corps_commander = { desc = CBIO_HOI120_paraianu_desc  
 					name = "Barbu Paraianu"
 					gfx = GFX_Portrait_romania_barbu_paraianu
 					traits = { infantry_officer }

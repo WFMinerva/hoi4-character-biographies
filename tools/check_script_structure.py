@@ -1,5 +1,19 @@
 from __future__ import annotations
-from common import ROOT
+from common import ROOT, lex_script
+
+
+def instance_order_errors(text, path):
+    tokens = lex_script(text)
+    errors = []
+    for index, token in enumerate(tokens):
+        if token.quoted or token.value != "instance":
+            continue
+        tail = tokens[index + 1:index + 5]
+        if tuple(t.value for t in tail[:2]) != ("=", "{"):
+            continue
+        if len(tail) != 4 or tail[2].quoted or tuple(t.value for t in tail[2:]) != ("allowed", "="):
+            errors.append(f"人物定义的 instance 必须先写 allowed: {path}:{token.line}")
+    return errors
 
 errors=[]
 checked=0
@@ -51,6 +65,8 @@ for base in (ROOT/'src/shared',ROOT/'src/full_only'):
             errors.append(f'字符串引号未闭合: {p.relative_to(ROOT)}')
         if depth!=0:
             errors.append(f'大括号不平衡({depth}): {p.relative_to(ROOT)}')
+        if p.relative_to(base).parts[:2] == ("common", "characters"):
+            errors.extend(instance_order_errors(text, p.relative_to(ROOT)))
 for e in errors: print('ERROR',e)
 print(f'structure: checked={checked} errors={len(errors)}')
 raise SystemExit(1 if errors else 0)

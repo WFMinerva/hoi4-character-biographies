@@ -1,9 +1,9 @@
-﻿version="1.19.*"
+version="1.20.*"
 tags={
     "Historical"
     "Utilities"
 }
-name="china_bio_lite_v130e"
-supported_version="1.19.*"
-path="mod/china_bio_lite_v130e"
+name="china_bio_lite_v130f"
+supported_version="1.20.*"
+path="mod/china_bio_lite_v130f"
 picture="thumbnail.png"

@@ -343,7 +343,7 @@ characters={
 				small=GFX_portrait_SWE_folke_hogberg_small
 			}
 		}
-		corps_commander={
+		corps_commander={ desc = CBIO_HOI120_folke_hogberg_desc 
 			traits={ commando }
 			skill=3
 			attack_skill=1
@@ -361,7 +361,7 @@ characters={
 				small=GFX_portrait_SWE_erik_af_edholm_small
 			}
 		}
-		corps_commander={
+		corps_commander={ desc = CBIO_HOI120_edholm_desc 
 			traits={ hill_fighter }
 			skill=4
 			attack_skill=4
@@ -379,7 +379,7 @@ characters={
 				small=GFX_portrait_SWE_claes_lindstrom_small
 			}
 		}
-		navy_leader={
+		navy_leader={ desc = CBIO_HOI120_claes_lindstrom_desc 
 			traits={ battleship_adherent blockade_runner }
 			skill=4
 			attack_skill=3
@@ -458,7 +458,7 @@ characters={
 				}
 			}
 
-			corps_commander={
+			corps_commander={ desc = CBIO_HOI120_per_sylvan_desc 
 				traits={ infantry_officer }
 				skill=2
 				attack_skill=1
@@ -567,7 +567,7 @@ characters={
 				}
 			}
 
-			navy_leader={
+			navy_leader={ desc = CBIO_HOI120_gosta_ehrensvard_desc 
 				traits={ navy_career_officer fleet_protector }
 				skill=1
 				attack_skill=1
@@ -699,7 +699,7 @@ characters={
 				}
 			}
 
-			navy_leader={
+			navy_leader={ desc = CBIO_HOI120_helge_stromback_desc 
 				traits={ fleet_protector aviation_enthusiast }
 				skill=1
 				attack_skill=1
@@ -985,7 +985,7 @@ characters={
 				}
 			}
 
-			navy_leader={
+			navy_leader={ desc = CBIO_HOI120_charles_de_champs_desc 
 				traits={ navy_career_officer gentlemanly naval_lineage }
 				skill=2
 				attack_skill=2
@@ -1199,7 +1199,7 @@ characters={
 					large = "GFX_portrait_SWE_axel_ljungdahl"
 				}
 			}
-			corps_commander={
+			corps_commander={ desc = CBIO_HOI120_axel_ljungdahl_desc 
 				traits={ }
 				skill=1
 				attack_skill=1

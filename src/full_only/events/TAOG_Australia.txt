@@ -986,6 +986,7 @@ country_event = { #ENG&AST: Australian Prime Minister takes over England
 						character = ENG_robert_menzies
 						promote_leader = yes
 						country_leader = {
+							desc = CBIO_AST_robert_menzies_desc
 							ideology = socialism
 							expire = "1952.1.1.1"
 						}
@@ -1032,6 +1033,7 @@ country_event = { #ENG&AST: Australian Prime Minister takes over England
 					character = ENG_robert_menzies
 					promote_leader = yes
 					country_leader = {
+						desc = CBIO_AST_robert_menzies_desc
 						ideology = socialism
 						expire = "1952.1.1.1"
 					}

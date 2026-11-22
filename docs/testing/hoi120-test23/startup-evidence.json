@@ -1,0 +1,18 @@
+{
+  "测试包": "china_bio_v130f-hoi120-test23_dev",
+  "包SHA256": "5d00ed3349bdae8295b5a62e0f6a2dc41292e4409ff2277a94f5a5312d21c569",
+  "进程启动本地时间": "2026-11-22T11:00:17.8931668+08:00",
+  "启动时启用MOD": [
+    "mod/china_bio_v130f-hoi120-test23_dev.mod"
+  ],
+  "禁用DLC": [],
+  "进入剧本日志": "1936.1.1.12 单人游戏",
+  "启动错误日志字节数": 0,
+  "前次启动错误签名": [
+    "Expected colon(:)",
+    "Expected allowed: instance",
+    "Multiple character have the tag PAR_juan_manuel_frutos",
+    "Multiple character have the tag PAR_higenio_morinigo_martinez"
+  ],
+  "样本范围": "截至 1936 单人局启动。顾问实际名单、人物小传悬浮、1939、成就与联机仍待按各自机制实测。"
+}

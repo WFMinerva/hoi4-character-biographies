@@ -4600,6 +4600,7 @@ country_event = {
 
 		effect_tooltip = {
 			add_corps_commander_role = {
+				desc = PRC_he_long_commander_desc
 				character = PRC_he_long
 				traits={ militias_officer trait_mountaineer guerilla_fighter PRC_survivor_of_the_long_march }
 				skill=5
@@ -5921,6 +5922,7 @@ country_event = {
 			set_country_flag = PRC_bo_gu_general
 			effect_tooltip = {
 				add_corps_commander_role = { ## Make sure corresponds with actual skills, TODO_ML
+					desc = PRC_bo_gu_commander_desc
 					character = PRC_bo_gu 
 					traits = { infantry_officer }
 					skill=3

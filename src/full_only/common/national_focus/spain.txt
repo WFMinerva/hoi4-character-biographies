@@ -5714,6 +5714,7 @@ focus_tree = {
 			custom_effect_tooltip = remove_theorist
 			show_ideas_tooltip = SPA_agustin_munoz_grandes
 			create_field_marshal = {
+				desc = CBIO_SPR_manuel_fal_conde_desc
 				name = "Manuel Fal Conde"
 				gfx = "GFX_portrait_SPA_manuel_fal_conde"
 				traits = { trait_SPA_carlist_loyalties }
@@ -7253,7 +7254,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			create_field_marshal = {
+			create_field_marshal = { desc = CBIO_HOI120_durruti_desc 
 				name = "Buenaventura Durruti"
 				gfx = "GFX_portrait_SPR_buenaventura_durruti"
 				traits = { infantry_officer offensive_doctrine aggressive_assaulter }
@@ -7263,7 +7264,7 @@ focus_tree = {
 			    planning_skill = 2
 			    logistics_skill = 2
 			}
-			create_corps_commander = {
+			create_corps_commander = { desc = CBIO_HOI120_medrano_desc 
 				name = "Eduardo Medrano Rivas"
 				gfx = "GFX_portrait_SPR_eduardo_medrano_rivas"
 				traits = { infantry_leader }
@@ -7273,7 +7274,7 @@ focus_tree = {
 			    planning_skill = 2
 			    logistics_skill = 3
 			}
-			create_corps_commander = {
+			create_corps_commander = { desc = CBIO_HOI120_odena_desc 
 				name = "Lina Ódena"
 				gfx = "GFX_portrait_SPR_lina_odena"
 				traits = { adaptable }
@@ -7284,7 +7285,7 @@ focus_tree = {
 			    planning_skill = 2
 			    logistics_skill = 1
 			}
-			create_corps_commander = {
+			create_corps_commander = { desc = CBIO_HOI120_mera_desc 
 				name = "Cipriano Mera"
 				gfx = "GFX_portrait_SPR_cipriano_mera"
 				traits = { trait_cautious }
@@ -7886,6 +7887,7 @@ focus_tree = {
 					}
 				}
 				create_field_marshal = {
+					desc = CBIO_SPR_mate_zalka_desc
 					name = "Máté Zalka"
 					gfx = "GFX_portrait_SPR_mate_zalka"
 					traits = {  }
@@ -8032,6 +8034,7 @@ focus_tree = {
 						}
 					}
 					create_field_marshal = {
+						desc = CBIO_SPR_jose_rovira_desc
 						name = "José Rovira"
 						portrait_path = GFX_portrait_Jose_Rovira
 						traits = { infantry_officer politically_connected }
@@ -8041,7 +8044,7 @@ focus_tree = {
 					    planning_skill = 2
 					    logistics_skill = 3
 					}
-					create_corps_commander = {
+					create_corps_commander = { desc = CBIO_HOI120_carmel_desc 
 						name = "Carmel Rosa Baserba"
 						portrait_path = GFX_portrait_Carmel_Rosa_Baserba
 						traits = { trait_cautious infantry_officer }
@@ -8051,7 +8054,7 @@ focus_tree = {
 					    planning_skill = 2
 					    logistics_skill = 2
 					}
-					create_corps_commander = {
+					create_corps_commander = { desc = CBIO_HOI120_rastrollo_desc 
 						name = "Luis Rastrollo"
 						portrait_path = GFX_portrait_Luis_Rastrollo
 						traits = { politically_connected }

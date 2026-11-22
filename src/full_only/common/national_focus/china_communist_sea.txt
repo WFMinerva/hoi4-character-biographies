@@ -3435,6 +3435,7 @@ focus_tree = {
 
 			effect_tooltip = {
 				add_corps_commander_role = {
+					desc = PRC_otto_braun_commander_desc
 					character = PRC_otto_braun 
 					traits = { infantry_officer }
 					skill=1

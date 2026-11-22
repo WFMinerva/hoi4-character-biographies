@@ -532,7 +532,7 @@ characters = {
 			allowed = {
 				NOT = { has_dlc = "Graveyard of Empires" }
 			}
-			name = IRQ_hamdi_al_pachachi
+			name="IRQ_hamdi_al_pachachi"
 			portraits={
 				army={
 					small="GFX_idea_generic_navy_arab_1"
@@ -2116,7 +2116,7 @@ characters = {
 			}
 		}
 
-		corps_commander = {
+		corps_commander = { desc = CBIO_HOI120_hussein_fawzi_desc 
 			traits = { organizer infantry_leader }
 			skill = 2
 			attack_skill = 1

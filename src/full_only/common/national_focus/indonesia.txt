@@ -790,6 +790,7 @@ focus_tree = {
 
 			INS_kartosoewirjo = {
 				add_corps_commander_role = {
+					desc = CBIO_INS_kartosoewirjo_desc
 					traits = { INS_loyalty_to_indonesia }
 					skill = 2
 					attack_skill = 3
@@ -1063,6 +1064,7 @@ focus_tree = {
 			}
 			INS_moestopo = {
 				add_corps_commander_role = {
+					desc = CBIO_INS_moestopo_desc
 					traits = { INS_loyalty_to_indonesia militias_officer }
 					skill = 1
 					attack_skill = 1
@@ -2027,6 +2029,7 @@ focus_tree = {
 		completion_reward = {
 			INS_mas_pardi = {
 				add_naval_commander_role = {
+					desc = CBIO_INS_mas_pardi_desc
 					traits = { INS_loyalty_to_indonesia }
 					skill = 2
 					attack_skill = 2
@@ -2320,6 +2323,7 @@ focus_tree = {
 				}
 				add_advisor_role = {
 					advisor = {
+						desc = CBIO_INS_sudirman_desc
 						slot = army_chief
 						cost = 150
 						traits = {

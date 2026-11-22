@@ -703,7 +703,7 @@ characters={
 		instance = {
 			allowed = {NOT = {has_dlc = "By Blood Alone"}}
 			advisor={
-				desc = CBIO_SWI_eugen_bircher_desc
+			desc = CBIO_SWI_eugen_bircher_desc
 			slot = high_command
 			idea_token = SWI_eugen_bircher
 			ledger = army

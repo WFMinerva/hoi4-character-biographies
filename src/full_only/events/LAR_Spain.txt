@@ -7690,6 +7690,7 @@ country_event = {
 				#    logistics_skill = 3
 				#}
 				add_field_marshal_role = {
+					desc = CBIO_SPR_jose_rovira_desc
 					character = SPR_jose_rovira
 					traits = { infantry_officer politically_connected }
 					skill = 3
@@ -7698,7 +7699,7 @@ country_event = {
 				    planning_skill = 2
 				    logistics_skill = 3
 				}
-				create_corps_commander = {
+				create_corps_commander = { desc = CBIO_HOI120_carmel_desc 
 					name = "Carmel Rosa Baserba"
 					portrait_path = GFX_portrait_Carmel_Rosa_Baserba
 					traits = { trait_cautious infantry_officer }
@@ -7708,7 +7709,7 @@ country_event = {
 				    planning_skill = 2
 				    logistics_skill = 2
 				}
-				create_corps_commander = {
+				create_corps_commander = { desc = CBIO_HOI120_rastrollo_desc 
 					name = "Luis Rastrollo"
 					portrait_path = GFX_portrait_Luis_Rastrollo
 					traits = { politically_connected }

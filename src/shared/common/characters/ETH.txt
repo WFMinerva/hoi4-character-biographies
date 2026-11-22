@@ -545,7 +545,7 @@ characters = {
 				}
 			}
 	        advisor = { 
-	        	desc = CBIO_ETH_desta_damtew_desc
+				desc = CBIO_ETH_desta_damtew_desc
 				slot = army_chief
 				ledger = army
 				idea_token = ETH_desta_damtew

@@ -84,3 +84,7 @@ F:\steamcmd\steamcmd.exe +login wendu1991 +workshop_build_item F:\steamcmd\hoi4_
 - v130g完整版：物品`3762643540`，Manifest `2613996748925903739`，`workshop_log.txt` 记录 `Upload finished ... : OK`（11:27:45）。
 - 上传前用户已手动实机确认（完整版 1936 开局，`error.log` 0 字节）；上传后转正 `v130g-stable`。
 - 暂存目录与正式ZIP逐文件哈希一致；VDF 未包含 `title`/`description`，changenote 按玩家版口径。
+
+## 2026-11-22 HOI4 1.20 test23
+
+两版使用已核对的 test23 ZIP。兼容版物品 `3736859636` 显示上传 `OK`，Manifest `4306698535882921344`。完整版物品 `3762643540` 显示上传 `OK`，Manifest `5459731534021633536`。工坊页面待机主点验。[补录及证据](testing/hoi120-test23/README.md)

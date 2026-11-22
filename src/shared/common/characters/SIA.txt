@@ -1670,7 +1670,7 @@ characters={
 			}
 		}
 
-		corps_commander={
+		corps_commander={ desc = CBIO_HOI120_subhasvasti_desc 
 			traits={ inflexible_strategist trait_cautious organizer }
 			skill=2
 			attack_skill=2

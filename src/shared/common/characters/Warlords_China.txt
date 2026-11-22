@@ -2834,6 +2834,7 @@ characters={
 		}
 		
 		field_marshal={
+			desc = SIC_liu_xiang_desc
 			skill=3
 			attack_skill=2
 			defense_skill=3
@@ -2864,6 +2865,7 @@ characters={
 		}
 		
 		corps_commander={
+		desc = SIC_yang_sen_desc
 		traits = { organizer }
 			skill=3
 			attack_skill=2
@@ -2920,6 +2922,7 @@ characters={
 		}
 		
 		field_marshal={
+			desc = SND_han_fuju_desc
 			skill=3
 			attack_skill=2
 			defense_skill=3

@@ -1,6 +1,6 @@
 characters={
 	IRE_Éamon_de_valera={
-		name = CBIO_NAME_IRE_Eamon_de_valera
+		name=CBIO_NAME_IRE_Eamon_de_valera
 		portraits={
 			civilian={
 				large=GFX_portrait_Eamon_de_Valera
@@ -14,7 +14,7 @@ characters={
 		}
 	}
 	IRE_eoin_oduffy={
-		name = CBIO_NAME_IRE_eoin_oduffy
+		name=CBIO_NAME_IRE_eoin_oduffy
 		portraits={
 			civilian={
 				large=GFX_portrait_Eoin_ODuffy
@@ -28,7 +28,7 @@ characters={
 		}
 	}
 	IRE_james_larkin={
-		name = CBIO_NAME_IRE_james_larkin
+		name=CBIO_NAME_IRE_james_larkin
 		portraits={
 			civilian={
 				large=GFX_portrait_James_Larkin
@@ -42,7 +42,7 @@ characters={
 		}
 	}
 	IRE_william_norton={
-		name = CBIO_NAME_IRE_william_norton
+		name=CBIO_NAME_IRE_william_norton
 		portraits={
 			civilian={
 				large=GFX_portrait_William_Norton
@@ -56,7 +56,7 @@ characters={
 		}
 	}
 	IRE_michael_costello={
-		name = CBIO_NAME_IRE_michael_costello
+		name=CBIO_NAME_IRE_michael_costello
 		portraits={
 			army={
 				large=GFX_portrait_Michael_Costello
@@ -92,7 +92,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_p_a_mulcahy
+		name="P.A. Mulcahy"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_europe_2"
@@ -118,7 +118,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_liam_archer
+		name="Liam Archer"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_2"
@@ -168,7 +168,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_oscar_traynor
+		name="Oscar Traynor"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_2"
@@ -195,7 +195,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_frank_fahy
+		name="Frank Fahy"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_6"
@@ -247,7 +247,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_michael_brennan
+		name="Michael Brennan"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_europe_3"
@@ -273,7 +273,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_richard_james_mulcahy
+		name="Richard James Mulcahy"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_5"
@@ -297,7 +297,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_michael_joe_costello
+		name="Michael Joe Costello"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_2"
@@ -324,7 +324,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_dan_mckenna
+		name="Daniel McKenna"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_1"
@@ -375,7 +375,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_john_byrne
+		name="John O'Byrne"
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_europe_1"
@@ -395,7 +395,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_sean_lemass
+		name="Seán Lemass"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_5"
@@ -415,7 +415,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_douglas_hyde
+		name="Douglas Hyde"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_3"
@@ -435,7 +435,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name = IRE_sean_ceallaigh
+		name="Seán T. O'Ceallaigh"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_1"

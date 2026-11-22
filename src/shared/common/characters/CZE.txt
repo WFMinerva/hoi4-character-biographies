@@ -3489,6 +3489,7 @@ characters = {
 			}
 		}
 		corps_commander={
+			desc = CBIO_SLO_stefan_jurech_desc
 			traits={ career_officer infantry_officer }
 			skill=2
 			attack_skill=1
@@ -4096,6 +4097,7 @@ characters = {
 				}
 			}
 			corps_commander={ #This needs to go last
+				desc = CBIO_CZE_karel_pavala_desc
 				traits={ career_officer naval_liason }
 				skill=1
 				attack_skill=1

@@ -56,7 +56,7 @@ characters={
 			}
 
 		}
-		country_leader = {
+		country_leader = { desc = CBIO_HOI120_gisli_sigurbjornsson_desc 
 			ideology = gen_nazism
 			traits = { ICE_national_romanticist }
 			expire = "1965.1.1"
@@ -925,7 +925,7 @@ characters={
 
 		}
 		
-		corps_commander= {
+		corps_commander= { desc = CBIO_HOI120_bjorn_bjornsson_desc 
 			traits = { }
 			skill = 1
 			attack_skill = 1

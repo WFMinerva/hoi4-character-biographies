@@ -110,7 +110,7 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = PAR_higinio_morinigo
+			name = "Higinio Morinigo"
 			portraits = {
 				civilian = {
 					large = GFX_portrait_PAR_higinio_morinigo
@@ -146,7 +146,7 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = PAR_higinio_morinigo
+			name = "Higinio Morinigo"
 			portraits = {
 				civilian = {
 					large = GFX_portrait_Higinio_Morinigo
@@ -164,7 +164,7 @@ characters = {
 
 	PAR_Jose_Felix_Estigarribia = {
 		
-		name = PAR_Jose_Felix_Estigarribia
+		name = "José Félix Estigarribia"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_PAR_jose_felix_estigarribia
@@ -190,7 +190,6 @@ characters = {
 	}
 
 	PAR_ramon_paredes = {
-		name = PAR_ramon_paredes
 		portraits = {
 			civilian = {
 				#large = GFX_idea_generic_army_south_america_1
@@ -240,7 +239,6 @@ characters = {
 	}
 
 	PAR_ivan_belyaev = {
-		name = PAR_ivan_belyaev
 		portraits = {
 			army = {
 				large = GFX_idea_generic_army_europe_6
@@ -358,7 +356,6 @@ characters = {
 	}
 
 	PAR_aristides_rivas_ortellado = {
-		name = PAR_aristides_rivas_ortellado
 		advisor = {
 			desc = CBIO_PAR_aristides_rivas_ortellado_desc
 			slot = political_advisor
@@ -384,7 +381,6 @@ characters = {
 	}
 
 	PAR_freire_gomez_esteves = {
-		name = PAR_freire_gomez_esteves
 		advisor = {
 			desc = CBIO_PAR_freire_gomez_esteves_desc
 			slot = political_advisor
@@ -411,7 +407,6 @@ characters = {
 	}
 
 	PAR_emilio_gardel = {
-		name = PAR_emilio_gardel
 		advisor = {
 			desc = CBIO_PAR_emilio_gardel_desc
 			slot = political_advisor
@@ -443,7 +438,6 @@ characters = {
 	}
 
 	PAR_anselmo_jover_peralta = {
-		name = PAR_anselmo_jover_peralta
 		advisor = {
 			desc = CBIO_PAR_anselmo_jover_peralta_desc
 			slot = political_advisor
@@ -469,7 +463,6 @@ characters = {
 	}
 
 	PAR_tomas_salomoni = {
-		name = PAR_tomas_salomoni
 		advisor = {
 			desc = CBIO_PAR_tomas_salomoni_desc
 			slot = political_advisor
@@ -495,7 +488,6 @@ characters = {
 	}
 
 	PAR_justo_pastor_benitez = {
-		name = PAR_justo_pastor_benitez
 		advisor = {
 			desc = CBIO_PAR_justo_pastor_benitez_desc
 			
@@ -524,9 +516,8 @@ characters = {
 	}
 
 	PAR_bernardino_caballero = {
-		name = PAR_bernardino_caballero
 			advisor = {
-				desc = CBIO_PAR_bernardino_caballero_desc
+			desc = CBIO_PAR_bernardino_caballero_desc
 			slot = political_advisor
 			idea_token = PAR_bernardino_caballero
 			allowed = {
@@ -550,7 +541,6 @@ characters = {
 	}
 
 	PAR_pedro_duarte_ortellado = {
-		name = PAR_pedro_duarte_ortellado
 
 		advisor = {
 			desc = CBIO_PAR_pedro_duarte_ortellado_desc
@@ -577,7 +567,6 @@ characters = {
 	}
 
 	PAR_felipe_molas_lopez = { #CM: Needs emergency loc or post loc fix 
-		name = PAR_felipe_molas_lopez
 
 		advisor = {
 			desc = CBIO_PAR_felipe_molas_lopez_desc
@@ -607,7 +596,6 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = PAR_juan_stefanich
 			advisor = {
 				desc = CBIO_PAR_juan_stefanich_desc
 				slot = political_advisor
@@ -660,7 +648,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = PAR_juan_stefanich
 			advisor = {
 				desc = CBIO_PAR_juan_stefanich_desc
 				slot = navy_chief
@@ -690,7 +677,6 @@ characters = {
 	}
 
 	PAR_mutshuito_villasboa_barboza = {
-		name = PAR_mutshuito_villasboa_barboza
 		
 		advisor = {
 			desc = CBIO_PAR_mutshuito_villasboa_barboza_desc
@@ -868,7 +854,6 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = PAR_alfred_stroessner_matiauda
 			advisor = {
 				desc = CBIO_PAR_alfred_stroessner_matiauda_desc
 				slot = high_command
@@ -898,7 +883,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = PAR_alfred_stroessner_matiauda
 			advisor = {
 				desc = CBIO_PAR_alfred_stroessner_matiauda_desc
 				slot = high_command
@@ -929,7 +913,6 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = PAR_amancio_pampliega
 			advisor = {
 				desc = CBIO_PAR_amancio_pampliega_desc
 				slot = high_command
@@ -963,7 +946,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = PAR_amancio_pampliega
 			advisor = {
 				desc = CBIO_PAR_amancio_pampliega_desc
 				slot = high_command
@@ -1020,8 +1002,8 @@ characters = {
 
 
 	PAR_damian_bruyn = {
-		advisor = {
-			desc = CBIO_PAR_damian_bruyn_desc 
+		advisor = { 
+			desc = CBIO_PAR_damian_bruyn_desc
 			slot = political_advisor
 			idea_token = PAR_damian_bruyn
 			allowed = {
@@ -1129,7 +1111,6 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = PAR_juan_natalicio_gonzalez
 
 			portraits = {
 				civilian = {
@@ -1150,7 +1131,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = PAR_juan_natalicio_gonzalez
 			advisor = {
 				desc = CBIO_PAR_juan_natalicio_gonzalez_desc
 				cost = 100
@@ -1175,7 +1155,6 @@ characters = {
 	}
 
 	PAR_Eusebio_Ayala = {
-		name = PAR_Eusebio_Ayala
 		
 		portraits = {
 			civilian = {
@@ -1216,7 +1195,6 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = PAR_francisco_esculies
 			advisor = {
 				desc = CBIO_PAR_francisco_esculies_desc
 				slot = political_advisor
@@ -1240,7 +1218,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = PAR_francisco_esculies
 			advisor = {
 				desc = CBIO_PAR_francisco_esculies_desc
 				slot = political_advisor
@@ -1267,7 +1244,6 @@ characters = {
 			allowed = {
 				has_dlc = "Trial of Allegiance"
 			}
-			name = PAR_riccardo_odriosola
 			advisor = {
 				desc = CBIO_PAR_riccardo_odriosola_desc
 				slot = political_advisor
@@ -1295,7 +1271,6 @@ characters = {
 					has_dlc = "Trial of Allegiance"
 				}
 			}
-			name = PAR_riccardo_odriosola
 			advisor = {
 				desc = CBIO_PAR_riccardo_odriosola_desc
 				slot = political_advisor

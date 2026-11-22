@@ -2960,6 +2960,7 @@ country_event = {
 			character = SIA_pridi_banomyong
 			promote_leader = yes
 			country_leader = {
+				desc = CBIO_SIA_pridi_banomyong_desc
 				ideology = socialism
 				traits = { JUNO_minister_of_foreign_affairs }
 			}
@@ -2974,6 +2975,7 @@ country_event = {
 			character = SIA_kuang_abhayavongsa
 			promote_leader = yes
 			country_leader = {
+				desc = CBIO_SIA_kuang_abhayavongsa_desc
 				ideology = conservatism
 				traits = { SIA_the_inoffensive_choice }
 			}
@@ -2988,6 +2990,7 @@ country_event = {
 			character = SIA_phin_choonhavan
 			promote_leader = yes
 			country_leader = {
+				desc = CBIO_SIA_phin_choonhavan_desc
 				ideology = conservatism
 				traits = { SIA_the_generals_mandate }
 			}

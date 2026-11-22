@@ -110,7 +110,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jose Miguel Moncada"
+		name="José Miguel Moncada"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
@@ -161,7 +161,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=DOM_julio_ortega_frier
+		name="Julio Ortega Frier"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_1"
@@ -213,7 +213,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Diego Trabajo Ruiz"
+		name="Diego Trabajo Rúiz"
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
@@ -287,7 +287,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jesus da Costa Ruiz"
+		name="Jesus da Costa-Ruiz"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_2"
@@ -362,7 +362,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=DOM_manuel_pena_battle
+		name="Manuel Peña Battle"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_1"
@@ -387,7 +387,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Victor Vinas Roman"
+		name="Victor Viñas Roman"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_south_america_3"
@@ -427,7 +427,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=DOM_manuel_de_jesus_troncoso
+		name="Manuel de Jesús Troncoso"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_2"
@@ -447,7 +447,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name=DOM_jacinto_bienvenido_peynado
+		name="Jacinto Bienvenido Peynado"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_south_america_1"

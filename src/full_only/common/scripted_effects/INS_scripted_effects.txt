@@ -421,6 +421,7 @@ indonesia_form_republic_effect = {
 			}
 			INS_sudirman = {
 				add_corps_commander_role = {
+					desc = CBIO_INS_sudirman_desc
 					traits = { INS_loyalty_to_indonesia career_officer politically_connected trait_SOV_determined }
 					skill = 2
 					attack_skill = 2
@@ -433,6 +434,7 @@ indonesia_form_republic_effect = {
 
 		INS_soengkono = {
 			add_corps_commander_role = {
+				desc = CBIO_INS_soengkono_desc
 				traits = { INS_loyalty_to_indonesia }
 				skill = 1
 				attack_skill = 1
@@ -444,6 +446,7 @@ indonesia_form_republic_effect = {
 
 		INS_djatikoesoemo = {
 			add_corps_commander_role = {
+				desc = CBIO_INS_djatikoesoemo_desc
 				traits = { INS_loyalty_to_indonesia }
 				skill = 1
 				attack_skill = 1
@@ -2269,6 +2272,7 @@ indonesia_hatta_focus_effect = {
 		add_country_leader_role = {
 			promote_leader = yes
 			country_leader = {
+				desc = CBIO_INS_mohammad_hatta_desc
 				ideology = conservatism
 				expire = "1965.1.1.1"
 				traits = { INS_the_proclamator } 

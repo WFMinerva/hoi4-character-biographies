@@ -4828,6 +4828,7 @@ focus_tree = {
 					}
 					XSM_ma_bufang = {
 					 	add_corps_commander_role = {
+						desc = XSM_ma_bufang_desc
 						traits = { }
 						attack_skill = 4
 						defense_skill = 2

@@ -1,0 +1,1487 @@
+{
+  "机主审稿原话": "审稿通过，我没有修改。",
+  "来源版本": "v130f-hoi120-test21_dev",
+  "拟验证版本": "v130f-hoi120-test22_dev",
+  "原版": "1.20.0.0",
+  "原样通过的新稿": 266,
+  "原样通过的修订稿": 23,
+  "原样通过的共用修订稿": 6,
+  "保留待选的同人组": 31,
+  "正文": [
+    {
+      "人物": "耿贵",
+      "拟定正文主键": "CBIO_HOI120_geng_gui_desc",
+      "正文SHA256": "5dd68f1982ffce97f119f86ddb3408cb14b818606a19580c97d2f466d7ad9ba7"
+    },
+    {
+      "人物": "路易斯·费尔南德斯·罗德里格斯",
+      "拟定正文主键": "CBIO_HOI120_luis_fernandez_rodriguez_desc",
+      "正文SHA256": "6ef2f0a829765cbe4db315ff3441e646330adf4a759e5dd517f4e9dde2788f41"
+    },
+    {
+      "人物": "曼努埃尔·阿罗约·阿雷瓦洛",
+      "拟定正文主键": "CBIO_HOI120_manuel_arroyo_arevalo_desc",
+      "正文SHA256": "8da0c0da9721ef1655982246437b45a34f39c150afc39c548fa600014bced1e9"
+    },
+    {
+      "人物": "安赫尔·奥雷利奥·冈萨雷斯",
+      "拟定正文主键": "CBIO_HOI120_angel_aurelio_gonzalez_desc",
+      "正文SHA256": "007aed9013d02c6a60d16144fb82336e542d14340bf0e5969bb6108ce9ca458b"
+    },
+    {
+      "人物": "恩里克·卡雷拉斯·罗拉斯",
+      "拟定正文主键": "CBIO_HOI120_enrique_carreras_rolas_desc",
+      "正文SHA256": "ee4cb1b274172836156f114ca414ef0a0d69ec2a2ca6873218faf2cbc79cbcfa"
+    },
+    {
+      "人物": "扎沃德·戈贝纳",
+      "拟定正文主键": "CBIO_HOI120_zawde_gobena_desc",
+      "正文SHA256": "cdb467f901f7401c6693cc4b219b790b902892c5d62d0e0c3dc6cf0b1f81011c"
+    },
+    {
+      "人物": "埃斯特万·埃莱纳",
+      "拟定正文主键": "CBIO_HOI120_esteban_elena_desc",
+      "正文SHA256": "7c5479e393006a78b123f05bbc03846d280d7f83fc8691c50f553d359b047c11"
+    },
+    {
+      "人物": "特奥多米罗·巴雷拉·德安德拉德",
+      "拟定正文主键": "CBIO_HOI120_teodomiro_varela_de_andrade_desc",
+      "正文SHA256": "f5a24bee02dea6bb4786c5cf990fffda58c9cd3d2752f1267ef6cdf05139b187"
+    },
+    {
+      "人物": "贾米尔·艾哈迈德·阿卜杜拉·拉维",
+      "拟定正文主键": "CBIO_HOI120_jamil_al_rawi_desc",
+      "正文SHA256": "0371c3f0a86f9cebe4a4495ade6b748a959724649f29d2516f3a5640e4e4ca05"
+    },
+    {
+      "人物": "伊朗多赫特·卡扎尔",
+      "拟定正文主键": "CBIO_HOI120_irandokht_qajar_desc",
+      "正文SHA256": "117ce7380c875132b253cc546a0ee236698410532f7963a436f4080910e3d74e"
+    },
+    {
+      "人物": "博玉·斯托耶夫·比伦科夫",
+      "拟定正文主键": "CBIO_HOI120_bonyu_pironkov_desc",
+      "正文SHA256": "cf22bcb749c4fbc271ea909ed7fd0194740ee6ed7a941bb5371ace532577f4e1"
+    },
+    {
+      "人物": "尼古拉·托特夫·马尔科夫",
+      "拟定正文主键": "CBIO_HOI120_nikola_markov_totev_desc",
+      "正文SHA256": "1e6ca53b647cb50b756bdc90da623f4283f97dd670cc69af52901abc4a9cc4f3"
+    },
+    {
+      "人物": "阿巴斯·达里亚纳瓦尔德",
+      "拟定正文主键": "CBIO_HOI120_abbas_daryanavard_desc",
+      "正文SHA256": "3d7167b18493bb2cea06b8fc303e7ce2184dbe48c86955c4fbfe2b75df56d9fc"
+    },
+    {
+      "人物": "阿卜杜勒-礼萨·阿夫哈米",
+      "拟定正文主键": "CBIO_HOI120_abdolreza_afkhami_desc",
+      "正文SHA256": "c44b5162af92b84fcf2db21b010042dbf1b974f77b1faa8b966c04eeb85dc042"
+    },
+    {
+      "人物": "伊凡·萨巴斯奇",
+      "拟定正文主键": "CBIO_HOI120_subasic_desc",
+      "正文SHA256": "f8e63794c98ad62e2d77c634399b223ba69daa785c9b930db0ffd02a0da9234b"
+    },
+    {
+      "人物": "阿洛茨杰·斯蒂芬纳克",
+      "拟定正文主键": "CBIO_HOI120_stepinac_desc",
+      "正文SHA256": "f36fe8800f323e6212e6b60138700c24421fcb6e61aa79a54df4b9f2157a866a"
+    },
+    {
+      "人物": "斯拉夫克·斯坦瑟",
+      "拟定正文主键": "CBIO_HOI120_slavko_stancer_desc",
+      "正文SHA256": "c0878ae425a4084ea86c854fbf4d9c974343f9270f41b48f09bd9c035c5077d4"
+    },
+    {
+      "人物": "维勒库·贝基奇",
+      "拟定正文主键": "CBIO_HOI120_vilko_begic_desc",
+      "正文SHA256": "740b640081bee633ac9110955a105b24b8a8dd44b305fea648d3329ef228982a"
+    },
+    {
+      "人物": "弗拉迪米尔·拉克萨",
+      "拟定正文主键": "CBIO_HOI120_vladimir_laxa_desc",
+      "正文SHA256": "74f5a0fa3501436f2bf91f597f09c76f283f4d0d4341ad21faa635a1f9843310"
+    },
+    {
+      "人物": "费多尔·德拉戈伊洛夫",
+      "拟定正文主键": "CBIO_HOI120_fedor_dragojlov_desc",
+      "正文SHA256": "0355f3e0e358f224fc519e1efbd60eafcd96ae2d8c5d24b4ac3f0caa6d26e866"
+    },
+    {
+      "人物": "阿达尔贝特·罗古加",
+      "拟定正文主键": "CBIO_HOI120_adalbert_rogulja_desc",
+      "正文SHA256": "2b6a28a42158cd60bd69e4406a029dbcae956063f77157294ea8ab78ca1df43e"
+    },
+    {
+      "人物": "埃德加·安盖利",
+      "拟定正文主键": "CBIO_HOI120_edgar_angeli_desc",
+      "正文SHA256": "b6863afc7ae44f093f9d1c64bf7576fd62d991339931e2ad13cab62ab9fd1205"
+    },
+    {
+      "人物": "尼古拉·斯坦福",
+      "拟定正文主键": "CBIO_HOI120_nikola_steinfl_desc",
+      "正文SHA256": "908edc9acd2c1b8a409a687a1b0580a4223a8560dd660880ac23623c60899076"
+    },
+    {
+      "人物": "弗拉迪米尔·克伦",
+      "拟定正文主键": "CBIO_HOI120_vladimir_kren_desc",
+      "正文SHA256": "0267948ebad942aafe7220dba633891b2facbcf39fa1a09b0de400ce61330f07"
+    },
+    {
+      "人物": "埃斯泰因·荣松",
+      "拟定正文主键": "CBIO_HOI120_eysteinn_jonsson_desc",
+      "正文SHA256": "ce5cdb1b9fe5bca46a93a58f8fdf88131723636b45cdb126900003ffa06abd68"
+    },
+    {
+      "人物": "哈拉迪尔·格维兹门松",
+      "拟定正文主键": "CBIO_HOI120_haraldur_gudhmundsson_desc",
+      "正文SHA256": "30c7b92850505c7e10a5b8fceb2df17a94c1c6171a373c7adf007e2100263e0c"
+    },
+    {
+      "人物": "斯库利·格维兹门松",
+      "拟定正文主键": "CBIO_HOI120_skuli_gudhmundsson_desc",
+      "正文SHA256": "6ae10cc0a0ff95981d7a4b176222c8dcd202c3226007ac2a187a7e3fbf5c0080"
+    },
+    {
+      "人物": "斯特凡·约翰·斯特凡松",
+      "拟定正文主键": "CBIO_HOI120_stefan_johann_stefansson_desc",
+      "正文SHA256": "518414f7678930c901b3258e9931aaf7a86ee90946bbfc55cbc6d93782567f7a"
+    },
+    {
+      "人物": "雅各布·默勒",
+      "拟定正文主键": "CBIO_HOI120_jakob_moller_desc",
+      "正文SHA256": "c0a3eb9d90a87dfcbf27e9c329b3a987758943bec18dbf3cf45cffcb0365d953"
+    },
+    {
+      "人物": "马格努斯·荣松",
+      "拟定正文主键": "CBIO_HOI120_magnus_jonsson_desc",
+      "正文SHA256": "313d1f44e6ba8ac2ab3e20bcf3e684c013b9f7824ca28528bacea6404f655b5e"
+    },
+    {
+      "人物": "埃纳尔·阿诺尔松",
+      "拟定正文主键": "CBIO_HOI120_einar_arnorsson_desc",
+      "正文SHA256": "875cfc490fd997c48aee088095a09d41f9fa327ea99915aea4dfad3db735ad69"
+    },
+    {
+      "人物": "比约恩·奥拉夫松",
+      "拟定正文主键": "CBIO_HOI120_bjorn_olafsson_desc",
+      "正文SHA256": "f4ed4869e098ec2661f8337edfab93c7ce6bf388c331ba83e8afa35e8c6be51b"
+    },
+    {
+      "人物": "维尔希奥米尔·索尔",
+      "拟定正文主键": "CBIO_HOI120_vilhjalmur_thor_desc",
+      "正文SHA256": "077d4d6642af66c7f9fba4abc466b6af15d63f849c24b5bcacd22e8c40f6e335"
+    },
+    {
+      "人物": "约翰·塞门松",
+      "拟定正文主键": "CBIO_HOI120_johann_saemundsson_desc",
+      "正文SHA256": "cdd90f63d06b80967a8366068e5b7e31e2070ac16c55dd8c3cdbedcf4231d5ea"
+    },
+    {
+      "人物": "比约恩·索尔达松",
+      "拟定正文主键": "CBIO_HOI120_bjorn_thordharson_desc",
+      "正文SHA256": "f348a9c9ffdafa4d0beae75404f51873c40a3661dce4e9a09fd2fceb9f354917"
+    },
+    {
+      "人物": "奥拉维尔·彼德松",
+      "拟定正文主键": "CBIO_HOI120_olafur_petursson_desc",
+      "正文SHA256": "ee763b187c44adb4c8b03e01a42fd1aa53c4a7c46db403c1703e5bae2e7866e7"
+    },
+    {
+      "人物": "奥拉夫·J·索尔拉休斯",
+      "拟定正文主键": "CBIO_HOI120_olaf_j_thorlacius_desc",
+      "正文SHA256": "76294facd7ff938e72f11139d8b13033c6cdfc2539352bf96771c5678fc3c3d5"
+    },
+    {
+      "人物": "埃纳尔·奥吉尔松",
+      "拟定正文主键": "CBIO_HOI120_einar_olgeirsson_desc",
+      "正文SHA256": "489b2efc5090fbd0f5f16215415915334a3bd977e5e9a216d9f969c71207c59c"
+    },
+    {
+      "人物": "伊斯莱维尔·赫格纳松",
+      "拟定正文主键": "CBIO_HOI120_isleifur_hognason_desc",
+      "正文SHA256": "adf7071342594cebbda89816ef6062d569930adc362b019f45e8e49a16781749"
+    },
+    {
+      "人物": "维尔纳·耶拉克",
+      "拟定正文主键": "CBIO_HOI120_werner_gerlach_desc",
+      "正文SHA256": "b4a18261192976bfe8e6274dbf33ee7cd03532892a1aaa92ff55e885afa9d316"
+    },
+    {
+      "人物": "阿格纳尔·埃尔德贝格·科弗德-汉森",
+      "拟定正文主键": "CBIO_HOI120_agnar_eldberg_kofoed_hansen_desc",
+      "正文SHA256": "ba902eeaf5b3f8f3da9e69c6f14cc0c81a02ed567bd851a2ad76239db79d4d43"
+    },
+    {
+      "人物": "布埃纳文图拉·杜鲁蒂",
+      "拟定正文主键": "CBIO_HOI120_durruti_desc",
+      "正文SHA256": "11f6ff4cb4f1fa9db3fce2b438277668247bf32cd1d1513886fb2a9d5468f2a6"
+    },
+    {
+      "人物": "西普里亚诺·梅拉",
+      "拟定正文主键": "CBIO_HOI120_mera_desc",
+      "正文SHA256": "b96ada5fbbad28fb21d011f39340279b41bae3a8618964c5449dd7daac944369"
+    },
+    {
+      "人物": "爱德华多·梅德拉诺·里瓦斯",
+      "拟定正文主键": "CBIO_HOI120_medrano_desc",
+      "正文SHA256": "12f01d1e788ba08e85a74a14e6e2408a851921c637128da85665c9db8fe84d82"
+    },
+    {
+      "人物": "莉娜·奥德纳",
+      "拟定正文主键": "CBIO_HOI120_odena_desc",
+      "正文SHA256": "2a0ef03cd0e2606f40b74a1cbd0b206b63e1fc7f89fded6a55d6ba81f9d2ae64"
+    },
+    {
+      "人物": "路易斯·拉斯特罗略",
+      "拟定正文主键": "CBIO_HOI120_rastrollo_desc",
+      "正文SHA256": "11128992ed35e6d316dad51a2574882638637c33a1d403318c834b005158ceb3"
+    },
+    {
+      "人物": "奥古斯特·科尔克",
+      "拟定正文主键": "CBIO_HOI120_kork_desc",
+      "正文SHA256": "909e05c4677cd61730e11726b640fe0c02aa368acf92fb4866179aeb24d55f08"
+    },
+    {
+      "人物": "雅各布·帕尔瓦德雷",
+      "拟定正文主键": "CBIO_HOI120_palvadre_desc",
+      "正文SHA256": "5ed05e3c7a337fd7a56437d9fb48bc3236bbb5e6af9402389c4692c559659883"
+    },
+    {
+      "人物": "马丁·拉齐斯",
+      "拟定正文主键": "CBIO_HOI120_latsis_desc",
+      "正文SHA256": "81d02ab3ce1836e105cc9d9585a054b277ddde657e712180a97d8c2f8a014eb3"
+    },
+    {
+      "人物": "普拉纳斯·萨拉久斯",
+      "拟定正文主键": "CBIO_HOI120_saladzius_desc",
+      "正文SHA256": "a7dbc9659efe65b2d94151e3e666213962f1dee0a368b2c6aa18d3d460035e19"
+    },
+    {
+      "人物": "若泽·门德斯·多斯雷斯",
+      "拟定正文主键": "CBIO_HOI120_mendes_reis_desc",
+      "正文SHA256": "11b80718aca9ea4cc12d3041d4b22647fcea7eb2ddd2725297faa084fa087ccb"
+    },
+    {
+      "人物": "弗里茨·库恩",
+      "拟定正文主键": "CBIO_HOI120_kuhn_desc",
+      "正文SHA256": "969a8ef11ac79883d1847c33955d34925b03f9896074941974e092fd71f9fe1d"
+    },
+    {
+      "人物": "穆罕默德·齐亚·哈克",
+      "拟定正文主键": "CBIO_HOI120_zia_desc",
+      "正文SHA256": "eb68efa7264b97cd9b591d64ade7a768a0c20bc34edad67bc4ea3614756d47ab"
+    },
+    {
+      "人物": "伊夫蒂哈尔·汗·詹朱阿",
+      "拟定正文主键": "CBIO_HOI120_janjua_desc",
+      "正文SHA256": "d102235954fed448b4404e237d0ea82ef5e42416a4ada9a3de99adf45ffe840d"
+    },
+    {
+      "人物": "丹麦王子克努特（Knud，冰岛路线称克努特一世）",
+      "拟定正文主键": "CBIO_HOI120_knud_desc",
+      "正文SHA256": "b57d6b07b4f853633fe34644d8a5167774dbb6dcf38593a432c5003d1ffa0a5f"
+    },
+    {
+      "人物": "莫德王后",
+      "拟定正文主键": "CBIO_HOI120_maud_desc",
+      "正文SHA256": "4eaf28b8310e5c1cec977b0013147d4540e19f65951487ca07de477eba97b4ef"
+    },
+    {
+      "人物": "吉斯利·西于比约恩松",
+      "拟定正文主键": "CBIO_HOI120_gisli_sigurbjornsson_desc",
+      "正文SHA256": "e2bd61df0ea6ea567a9629e8da0fc94de4a10ec16648697f902b7f7f8761af01"
+    },
+    {
+      "人物": "瓦西里·列沃宁",
+      "拟定正文主键": "CBIO_HOI120_vasili_levonen_desc",
+      "正文SHA256": "5cca72600377ef8ed61366a3709813162194466d5eb299e796a5bb3a6de5bfe5"
+    },
+    {
+      "人物": "吉列尔莫·帕迪利亚·曼里克",
+      "拟定正文主键": "CBIO_HOI120_guillermo_padilla_manrique_desc",
+      "正文SHA256": "87dca84b60dc81e3b83729d83cc3cb38ac87bb0892503f91d960966f61d02b96"
+    },
+    {
+      "人物": "弗朗索瓦·沙梅尔",
+      "拟定正文主键": "CBIO_HOI120_francois_schammel_desc",
+      "正文SHA256": "aee90355e572d4860f1ab56e7b3f1e9001fc63e4b5604ee969376f38f325e7e2"
+    },
+    {
+      "人物": "阿洛伊斯·格洛特",
+      "拟定正文主键": "CBIO_HOI120_aloyse_glodt_desc",
+      "正文SHA256": "f957a7bbe1ce7069a62a9a79349715b39dd7d3c3ed1fc73477bfbeeaf5da18fe"
+    },
+    {
+      "人物": "穆罕默德·塔希尔·穆希卜丁",
+      "拟定正文主键": "CBIO_HOI120_muhibuddin_desc",
+      "正文SHA256": "e6201b10af567fa18dd4edcc6e7758df4c169b36fb4fd70434023812e1ebb1aa"
+    },
+    {
+      "人物": "多明戈·罗西略·德尔托罗",
+      "拟定正文主键": "CBIO_HOI120_domingo_rosillo_del_toro_desc",
+      "正文SHA256": "ae22e1d75f8df6a1cd1ef2d1c25fdae7d4e0b9d055787df8be8d3348ecd2d1a0"
+    },
+    {
+      "人物": "阿尔贝特·福斯特",
+      "拟定正文主键": "CBIO_HOI120_forster_desc",
+      "正文SHA256": "9e4df7742746b843b659efa9f8a60e5d0a804d271f6a06042cfa78b4fe15dd9c"
+    },
+    {
+      "人物": "安东·普莱尼科夫斯基",
+      "拟定正文主键": "CBIO_HOI120_plenikowski_desc",
+      "正文SHA256": "c53e8b31713d83755118ffd19d61f7b9962f6e82677c50d93e7dae105ecdb1b4"
+    },
+    {
+      "人物": "阿图尔·布里尔",
+      "拟定正文主键": "CBIO_HOI120_brill_desc",
+      "正文SHA256": "a1032e85db3bc1d2d6b1f9b6836140f781b9fed7e532380f10b34ffd0c2714fc"
+    },
+    {
+      "人物": "亚历山大·马伊科夫斯基",
+      "拟定正文主键": "CBIO_HOI120_majkowski_desc",
+      "正文SHA256": "7ed5934a872f09decfd401e3370c6173f6565947bdc44cad3828c5485ae25a86"
+    },
+    {
+      "人物": "卡尔·赫尔曼·弗兰克",
+      "拟定正文主键": "CBIO_HOI120_frank_desc",
+      "正文SHA256": "7e946781ba06c5f91f2e8861e28fb7783341fd3fc72b6020d1f012a0401d08b1"
+    },
+    {
+      "人物": "埃纳尔·奥尔盖尔松",
+      "拟定正文主键": "CBIO_HOI120_olgeirsson_desc",
+      "正文SHA256": "fcc53f60f8bea9f8bdc5ce1c14c9b672febeea50f22556b8346ca9922df5f5f0"
+    },
+    {
+      "人物": "哈拉尔杜尔·古德蒙松",
+      "拟定正文主键": "CBIO_HOI120_gudmundsson_desc",
+      "正文SHA256": "2e7dce66d848c0c125f8d989aedaade563baafdf9c6b2b8030dd5f1f64435a16"
+    },
+    {
+      "人物": "哈吉·穆罕默德·达内什",
+      "拟定正文主键": "CBIO_HOI120_danesh_desc",
+      "正文SHA256": "bd9f0a823b571b85b0783d345d13f7f7f48d963afebfc66684622bf960656051"
+    },
+    {
+      "人物": "卡齐·穆罕默德·伊萨",
+      "拟定正文主键": "CBIO_HOI120_essa_desc",
+      "正文SHA256": "b7ad988f5b1a71b849d77231a8c6c2aafec09c5e18056da1d5cc2d6c838a34f7"
+    },
+    {
+      "人物": "切克迪·卡马",
+      "拟定正文主键": "CBIO_HOI120_khama_desc",
+      "正文SHA256": "fe9d906a6d0e14e2fe36ed112cb8607f7b507d2e7c85c66eca3ae5d081d6809c"
+    },
+    {
+      "人物": "约瑟夫·博伊德·波因德克斯特",
+      "拟定正文主键": "CBIO_HOI120_poindexter_desc",
+      "正文SHA256": "9c43f6b14caa40e74786adb24428cfa6dcf56617f46980993321835370bb8320"
+    },
+    {
+      "人物": "查尔斯·藤本",
+      "拟定正文主键": "CBIO_HOI120_fujimoto_desc",
+      "正文SHA256": "41e503037bd0799f895a2c4f4f0bc0d95f606f9d1fc39ba08249c326859549d9"
+    },
+    {
+      "人物": "戴维·卡拉卡瓦·卡瓦纳纳科阿",
+      "拟定正文主键": "CBIO_HOI120_kawananakoa_desc",
+      "正文SHA256": "c890b1359ace5156cff7a0fe08d9375a00fedd5e672a6c1a843c73d4dd76996b"
+    },
+    {
+      "人物": "日沃拉德·约万诺维奇",
+      "拟定正文主键": "CBIO_HOI120_jovanovic_desc",
+      "正文SHA256": "9d508e28fd49295897d2e1f03543627d5ab4aadf5d013d12018e976984f0936e"
+    },
+    {
+      "人物": "泰里努伊·波马雷",
+      "拟定正文主键": "CBIO_HOI120_pomare_desc",
+      "正文SHA256": "0ffca6c8def4c1ebef6f09a9fa232f3413ef47a15c1a0816f72817c7ff45cbac"
+    },
+    {
+      "人物": "爱德华多·希万博·蒙德拉内",
+      "拟定正文主键": "CBIO_HOI120_eduardo_mondlane_desc",
+      "正文SHA256": "1ff947b58eeb38fd2e97f6ecf52818926dc17d5ed2c70ea505e7e0fbba07229d"
+    },
+    {
+      "人物": "若纳斯·萨文比",
+      "拟定正文主键": "CBIO_HOI120_jonas_savimbi_desc",
+      "正文SHA256": "42a5049b7f802ea8cd08397040d6cf261c32116f566a3c944559fd43d86f00d2"
+    },
+    {
+      "人物": "瓦伦蒂诺·里罗罗科·图基",
+      "拟定正文主键": "CBIO_HOI120_valentino_riroroko_tuki_desc",
+      "正文SHA256": "261042935e52ba8142fd8047b10bef9113dccd5f6fa25fb561fd2654035b1aff"
+    },
+    {
+      "人物": "克立·巴莫",
+      "拟定正文主键": "CBIO_HOI120_sia_kukrit_pramoj_desc",
+      "正文SHA256": "ddc6cc57265d5701341c856fa4f9000082f29a585b65fb263bfb803b4f05c85c"
+    },
+    {
+      "人物": "瓦尼·巴纳暖",
+      "拟定正文主键": "CBIO_HOI120_sia_vanich_pananont_desc",
+      "正文SHA256": "7b4732f07a0f648bf40d5e8d0552448670999db68f987b6e55866f08fc2b4955"
+    },
+    {
+      "人物": "埃巴·玛加丽塔·帕尔姆谢纳",
+      "拟定正文主键": "CBIO_HOI120_swe_ebba_palmstierna_desc",
+      "正文SHA256": "708b1451448c01d56f39b438b56428e5508ac20317c3d52dc7861ce9d2a25e0c"
+    },
+    {
+      "人物": "康拉德·哈尔格伦",
+      "拟定正文主键": "CBIO_HOI120_swe_konrad_hallgren_desc",
+      "正文SHA256": "d7d384b581c6aa082b83424740fe658b738eb9da01fad854116bd06e4e5fc47e"
+    },
+    {
+      "人物": "斯文·赫登格伦",
+      "拟定正文主键": "CBIO_HOI120_swe_sven_hedengren_desc",
+      "正文SHA256": "5c7ab47e78f4d5586ecf4fe188bac7dc002a3ad08078cdc5c1d83817d98e0fff"
+    },
+    {
+      "人物": "卡洛斯·瓦伊基尼尔",
+      "拟定正文主键": "CBIO_HOI120_chl_carlos_huayquinir_desc",
+      "正文SHA256": "3ec223faf392f8950a7e99c98dc496de98a3752965ad467f3dead91f06eae396"
+    },
+    {
+      "人物": "赫克托·麦克薛罗",
+      "拟定正文主键": "CBIO_HOI120_mex_hector_meixueiro_desc",
+      "正文SHA256": "14c85e27d60ccce9d09f6166e2ef732666591b73159ff8f7fd8d59ba3abc83a2"
+    },
+    {
+      "人物": "H·D·麦格雷戈",
+      "拟定正文主键": "CBIO_HOI120_nzl_h_d_mcgregor_desc",
+      "正文SHA256": "9e46384a4462ae4fcbff278f469023db4e9b58fb9f9208b5b60d81060c8873a3"
+    },
+    {
+      "人物": "伦纳德·拜尔斯",
+      "拟定正文主键": "CBIO_HOI120_saf_leonard_beyers_desc",
+      "正文SHA256": "766e7d29dcf3069b87a19245021936694de082e3abe16b49d02c7bb68ad5f982"
+    },
+    {
+      "人物": "穆罕默德·阿里·贾瓦德",
+      "拟定正文主键": "CBIO_HOI120_irq_muhammad_ali_jawad_desc",
+      "正文SHA256": "f48a32d60b471d7be7d0eb42f13cd347912d8d4b124f33181a423f0d1cde07c7"
+    },
+    {
+      "人物": "纳达乌·阿巴·沃洛",
+      "拟定正文主键": "CBIO_HOI120_nadaw_abba_wallo_desc",
+      "正文SHA256": "648e5bdde60af32f4ae70f574d1248b6fec7f28c3c907a89217a2f2918e528f5"
+    },
+    {
+      "人物": "阿尼瓦尔·巴列霍·索萨",
+      "拟定正文主键": "CBIO_HOI120_anibal_vallejo_sosa_desc",
+      "正文SHA256": "cb89887974f8f3950c991b51e63a284a9501fe942c64531bc6e8fdcfbb25d37a"
+    },
+    {
+      "人物": "弗兰克·安德烈斯·费利斯·米兰达",
+      "拟定正文主键": "CBIO_HOI120_frank_feliz_miranda_desc",
+      "正文SHA256": "dc45e90fbb5abee32378d9a9dff1c80d1533e32f8b4278819b869b70745149e7"
+    },
+    {
+      "人物": "维克托·埃尔比·比尼亚斯·罗曼",
+      "拟定正文主键": "CBIO_HOI120_victor_vinas_roman_desc",
+      "正文SHA256": "063ed95b4408531f94fa79cb7ff4936a498e0e8d49bd3c897752c3d3552821d6"
+    },
+    {
+      "人物": "戴维·洛佩斯·恩里克斯",
+      "拟定正文主键": "CBIO_HOI120_david_lopez_henriquez_desc",
+      "正文SHA256": "5c5f59b9638297c70051c1e0cb729ab0e7b8eacdf68b3c3f21fa085b3ac6b74b"
+    },
+    {
+      "人物": "曼努埃尔·T·阿蓬特",
+      "拟定正文主键": "CBIO_HOI120_manuel_t_aponte_desc",
+      "正文SHA256": "38bc7c12c1660e32371dd4636394219f089ad97baa5dec6751f93babbd5c972d"
+    },
+    {
+      "人物": "阿道夫·希特勒",
+      "拟定正文主键": "CBIO_HOI120_adolf_hitler_desc",
+      "正文SHA256": "58e36b8f0d9b8fcc1e1b9fefe26eae636c5acadee2ad53641535e67400bbea8c"
+    },
+    {
+      "人物": "张希良",
+      "拟定正文主键": "CBIO_HOI120_zhang_xiliang_desc",
+      "正文SHA256": "8eee7409fcec5d6982ce14cb93486c5b7f28df316cb632c38e4f65dcec630e61"
+    },
+    {
+      "人物": "约瑟夫·考伊·尼科尔斯",
+      "拟定正文主键": "CBIO_HOI120_joseph_cowie_nichols_desc",
+      "正文SHA256": "616ffb0accdc2928987b673013f3a784774e96fcc59023b152234d31cf4e3288"
+    },
+    {
+      "人物": "托马斯·利奇",
+      "拟定正文主键": "CBIO_HOI120_thomas_leech_desc",
+      "正文SHA256": "3d656354630f23aff3f82a61a2a1c8afb77dcefb7390b782135463703e604804"
+    },
+    {
+      "人物": "詹姆斯·米切尔-贝克",
+      "拟定正文主键": "CBIO_HOI120_james_mitchell_baker_desc",
+      "正文SHA256": "cde099fd112fcdf2a1ef188c6b17a6930634b094e61cbadf2da5dc229697069a"
+    },
+    {
+      "人物": "克里斯蒂安·杜·托伊特",
+      "拟定正文主键": "CBIO_HOI120_christiaan_du_toit_desc",
+      "正文SHA256": "5c37b3d0d7f941d796e38f4e092a89780954661397396f83a58afa18b214255e"
+    },
+    {
+      "人物": "易卜拉欣·卡迈勒·加丹法里",
+      "拟定正文主键": "CBIO_HOI120_ibrahim_kamal_al_ghandanfari_desc",
+      "正文SHA256": "1f2899c0091f86c2a88ba00d2eccdfdaa5787d7efc3a66d40fd47e0faa3432be"
+    },
+    {
+      "人物": "何塞·佩泽特",
+      "拟定正文主键": "CBIO_HOI120_jose_pezet_desc",
+      "正文SHA256": "8a5825831b8b3b01a7b5b2883034efbb5e91148e542e6210ba199e4636c48bdc"
+    },
+    {
+      "人物": "巴贝尔·拉纳",
+      "拟定正文主键": "CBIO_HOI120_baber_rana_desc",
+      "正文SHA256": "1dbedff96c56a7ce0bf205c955227df5e617d3f6a655848e8589cc9c2b7ad7e9"
+    },
+    {
+      "人物": "伊万·多尔蒂",
+      "拟定正文主键": "CBIO_HOI120_ast_ivan_dougherty_desc",
+      "正文SHA256": "a47db50a1bf158807cbcbe77f5216b40fe0472a5a236aea141ea7a794a731527"
+    },
+    {
+      "人物": "菲林托·穆勒",
+      "拟定正文主键": "CBIO_HOI120_bra_filinto_muller_desc",
+      "正文SHA256": "9207030dd50821f675333185417c0226e0d3557e98c5b7fdf884c78635459f13"
+    },
+    {
+      "人物": "若热·多兹沃思·马丁斯",
+      "拟定正文主键": "CBIO_HOI120_bra_jorge_dodsworth_martins_desc",
+      "正文SHA256": "28f912b6a5c1def0b4b1c612ddf190897406167ba111e928a437028eade47bde"
+    },
+    {
+      "人物": "佩德罗·德·阿尔坎塔拉",
+      "拟定正文主键": "CBIO_HOI120_bra_pedro_alcantara_desc",
+      "正文SHA256": "915e62e6b4ad771ad9bc71627f9ae2498dcbc069ad5b968f8941937548fb2d2d"
+    },
+    {
+      "人物": "佩德罗·加斯唐",
+      "拟定正文主键": "CBIO_HOI120_bra_pedro_gastao_desc",
+      "正文SHA256": "744effae37771895c1b472d33dce93f91f7ec865209888d4bc84357e94ca793e"
+    },
+    {
+      "人物": "佩德罗·恩里克",
+      "拟定正文主键": "CBIO_HOI120_pedro_henrique_desc",
+      "正文SHA256": "bdffbd5c41f9b16bc494576de3511886a0d485aad6eea47822ec1d9a7caa814f"
+    },
+    {
+      "人物": "艾哈迈德·艾哈迈迪",
+      "拟定正文主键": "CBIO_HOI120_per_ahmad_ahmadi_desc",
+      "正文SHA256": "61dce29e1f6794b066baf12edcc594253d5cf89b7a50b4790f145a838613fcd2"
+    },
+    {
+      "人物": "弗朗西斯科·莫雷诺·费尔南德斯",
+      "拟定正文主键": "CBIO_HOI120_spa_fransisco_moreno_fernandez_desc",
+      "正文SHA256": "c0753ed26f3a80bfcb241f0fbc8d8d26adc21ae9a15b1585c02ebcb4298922c2"
+    },
+    {
+      "人物": "毛里西奥·德·茜瓦特",
+      "拟定正文主键": "CBIO_HOI120_spa_mauricio_de_sivatte_desc",
+      "正文SHA256": "cb81116acf6b7ebb27747ece82cfe6494d905675b74aaf45905e7f1de2e8f071"
+    },
+    {
+      "人物": "拉斐尔·加西亚·巴利尼奥",
+      "拟定正文主键": "CBIO_HOI120_spa_rafael_garcia_valino_desc",
+      "正文SHA256": "cc627d060e0f0deee35f8529d0c5b8d572c86ba50d4a47328c019139c078cf0b"
+    },
+    {
+      "人物": "雷蒙多·费尔南德斯·库斯塔",
+      "拟定正文主键": "CBIO_HOI120_spa_raimundo_fernandez_cuesta_desc",
+      "正文SHA256": "385529762739fb4e2c4d5018c0188eb106f7182eb82dd0eebfd4112c9ccc1689"
+    },
+    {
+      "人物": "拉蒙·塞拉诺·苏涅尔",
+      "拟定正文主键": "CBIO_HOI120_spa_ramon_serrano_suner_desc",
+      "正文SHA256": "31e4c1b66d82411bbdab66a0678a9b0b6a995c450d049cca59fcb87f894b2d58"
+    },
+    {
+      "人物": "萨尔瓦多·莫雷诺·费尔南德斯",
+      "拟定正文主键": "CBIO_HOI120_spa_salvador_moreno_fernandez_desc",
+      "正文SHA256": "0d6d3319652883a1daf297dfc562fdbc34d04e20178b57e3dcb91cd9cc060fe9"
+    },
+    {
+      "人物": "托马斯·多明戈斯·阿雷瓦洛",
+      "拟定正文主键": "CBIO_HOI120_spa_tomas_dominguez_arevalo_desc",
+      "正文SHA256": "c6addfdb3918acc4e53bc1bcd1b1b9533057866df4f1107b8d6623e80af46ba1"
+    },
+    {
+      "人物": "安东尼娅·阿德罗埃尔·帕斯夸尔",
+      "拟定正文主键": "CBIO_HOI120_spr_antonia_adroher_i_pascual_desc",
+      "正文SHA256": "815a9baa043bad7f8ce172918cd4bf1ddae90138968c80fc32c4071128ea0fb6"
+    },
+    {
+      "人物": "安东尼奥·阿扎罗拉·格雷西隆",
+      "拟定正文主键": "CBIO_HOI120_spr_antonio_azarola_y_gresillon_desc",
+      "正文SHA256": "aa342992b3b46012aad4965eb7790ca8672e626dcf0d5e692bbee00dfd70d366"
+    },
+    {
+      "人物": "卡梅尔·罗萨·巴塞尔巴",
+      "拟定正文主键": "CBIO_HOI120_carmel_desc",
+      "正文SHA256": "16509a62def676fc03aee28f4b0504350b2ca66ff8b95545006f430dcbc117f8"
+    },
+    {
+      "人物": "卡洛斯·茹安·德拉莫特",
+      "拟定正文主键": "CBIO_HOI120_carlos_jouanne_de_la_motte_desc",
+      "正文SHA256": "b0e44675747e661718056d2791118b029b71cc5d37fdb32452a4394bb16035cc"
+    },
+    {
+      "人物": "托马斯·马丁内斯",
+      "拟定正文主键": "CBIO_HOI120_tomas_martinez_desc",
+      "正文SHA256": "e2bb93cc381e36b0834583861e9c3b870b9c0381a7eb4505dbc1f3c50daaed43"
+    },
+    {
+      "人物": "达里奥·卡列哈斯·罗哈斯",
+      "拟定正文主键": "CBIO_HOI120_dario_callejas_rojas_desc",
+      "正文SHA256": "cf2d638edf73079ca2f8af996710363f1003996851b270a457226e41a01961a8"
+    },
+    {
+      "人物": "马丁·卡普",
+      "拟定正文主键": "CBIO_HOI120_martin_karp_desc",
+      "正文SHA256": "893d14dbc9735811620d513234d7bec74187338e1d7fa95afdd99366d0ac57c9"
+    },
+    {
+      "人物": "菲利普·戈登·李",
+      "拟定正文主键": "CBIO_HOI120_philip_gordon_lee_desc",
+      "正文SHA256": "c4cb78252f690a48aa76f372fdeefb0e49fc6fc34b9c930e24056490996b749e"
+    },
+    {
+      "人物": "弗朗索瓦·德·拉罗克（François de La Rocque）",
+      "拟定正文主键": "CBIO_HOI120_la_rocque_desc",
+      "正文SHA256": "00cdf708988ff8bae9ec9d28f207b076f641fc29b29f1906f1c759d05fc1bdab"
+    },
+    {
+      "人物": "雅克·多里奥（Jacques Doriot）",
+      "拟定正文主键": "CBIO_HOI120_doriot_desc",
+      "正文SHA256": "086d05ff0ae0bc4cb38c2a3e27db2da4d8a7465278744ba065a5046f33206adf"
+    },
+    {
+      "人物": "吉斯公爵让·德·奥尔良（Jean d’Orléans）",
+      "拟定正文主键": "CBIO_HOI120_guise_desc",
+      "正文SHA256": "bfdaaea98d60a3a3038ddd8e7c12845441485c9f3b32caac371fa7db0c0460a5"
+    },
+    {
+      "人物": "巴黎伯爵亨利·德·奥尔良（Henri d’Orléans）",
+      "拟定正文主键": "CBIO_HOI120_paris_desc",
+      "正文SHA256": "c801a80eb5751e3e6bbf7711ef02a504b89bd8934a8fcbb3e4cb739c70194b39"
+    },
+    {
+      "人物": "西班牙国王阿方索十三世（Alfonso XIII）",
+      "拟定正文主键": "CBIO_HOI120_alfonso_desc",
+      "正文SHA256": "e9e4f85f88803584990c48a6b6670803fdda22166d0a0d67638d5e79aba0d3e8"
+    },
+    {
+      "人物": "塞戈维亚公爵海梅·德·波旁（Jaime de Borbón y Battenberg）",
+      "拟定正文主键": "CBIO_HOI120_jaime_desc",
+      "正文SHA256": "0eee94c00cad9b0fc74dc23658f117bad5bb8a57a8da200c0104775f5cabb405"
+    },
+    {
+      "人物": "拿破仑亲王路易（Louis Napoléon）",
+      "拟定正文主键": "CBIO_HOI120_napoleon_desc",
+      "正文SHA256": "8bdd4dcfe90cca328fe8e506f0ba7d264579db804275f5a1e3db8cb263b4975f"
+    },
+    {
+      "人物": "哈维尔·德·波旁-帕尔马（Francisco Javier de Borbón-Parma）",
+      "拟定正文主键": "CBIO_HOI120_javier_desc",
+      "正文SHA256": "cc82024c104309641b7619c57d71ade956953c9aa6f10b15001cd056491ce399"
+    },
+    {
+      "人物": "马里-皮埃尔·柯尼希（Marie-Pierre Kœnig）",
+      "拟定正文主键": "CBIO_HOI120_koenig_desc",
+      "正文SHA256": "3e7bc168fe8fbe1752442056e2db71a5f70395aa64e1bba76e059029206b6c5c"
+    },
+    {
+      "人物": "乔治·卡特鲁（Georges Catroux）",
+      "拟定正文主键": "CBIO_HOI120_catroux_desc",
+      "正文SHA256": "08f4cc3dedf705f6cc8437d9f085e2833670f22d1c5ddf50512a35dba43a975a"
+    },
+    {
+      "人物": "白尔瑞",
+      "拟定正文主键": "CBIO_HOI120_berger_desc",
+      "正文SHA256": "e4f765feb6e5ca89942f6764a91494b261e4176fc00b981be8992997ef33d647"
+    },
+    {
+      "人物": "萨瓦·普提阿南",
+      "拟定正文主键": "CBIO_HOI120_sawat_phutianands_desc",
+      "正文SHA256": "9927c6b4b6b539328bec0577db62dec8f83458a303e241d1a81eaee189440cc5"
+    },
+    {
+      "人物": "G·爱德华·鲁瓦",
+      "拟定正文主键": "CBIO_HOI120_edouard_roy_desc",
+      "正文SHA256": "06bf3203d02dcd00774d5aa57832657e0cbaad0895d1fa81a582bc7a5000dfe1"
+    },
+    {
+      "人物": "阿塔纳斯·沙拉帕托夫",
+      "拟定正文主键": "CBIO_HOI120_shalapatov_desc",
+      "正文SHA256": "43c1bbf90330cd87859a83589224283f523d93481c4a2c066e9c5d3d1cc6b2b0"
+    },
+    {
+      "人物": "豪尔赫·魏地拉·托博",
+      "拟定正文主键": "CBIO_HOI120_videla_cobo_desc",
+      "正文SHA256": "bc4e2a22c2cd8941115d5eea7bb80f1de440f9f16bfbba724920938031b63f7c"
+    },
+    {
+      "人物": "阿卜杜拉·泽利",
+      "拟定正文主键": "CBIO_HOI120_abdollah_zelli_desc",
+      "正文SHA256": "558d1e8796ec084aa155e8d65175b482cf7e415143de8f85f52ca4cdeebedcee"
+    },
+    {
+      "人物": "阿尔曼多·佩雷拉·德卡斯特罗·阿加唐·兰萨",
+      "拟定正文主键": "CBIO_HOI120_agatao_lanca_desc",
+      "正文SHA256": "98cd2be442b4b8502848384f78ee699734406e872d643bc44cfd6c76afef7d54"
+    },
+    {
+      "人物": "路易斯·卡雷罗·布兰科",
+      "拟定正文主键": "CBIO_HOI120_carrero_blanco_desc",
+      "正文SHA256": "34cde851ad07af477298f22bc2cd4a376017579504ac763be6cc8afe126768cf"
+    },
+    {
+      "人物": "耶日·鲁特科夫斯基",
+      "拟定正文主键": "CBIO_HOI120_jerzy_rutkowski_desc",
+      "正文SHA256": "e636285cf72b4987c4c27995e869d67e3c34b5c8a6b8aac8347f1533a89de62c"
+    },
+    {
+      "人物": "胡利安·蒙特利亚诺·卡拉斯科",
+      "拟定正文主键": "CBIO_HOI120_julian_montellano_desc",
+      "正文SHA256": "0003410aefe610fa762bcfc62bb860834312bb0c99f56efa05040a89dfeea8c8"
+    },
+    {
+      "人物": "何塞·玛丽亚·古铁雷斯",
+      "拟定正文主键": "CBIO_HOI120_jose_maria_gutierrez_lea_plaza_desc",
+      "正文SHA256": "ca98b49d52be64dade6ab445fbf25ca4be3b35ee21d37c913790eaac16235af2"
+    },
+    {
+      "人物": "古斯塔·欧联斯瓦德",
+      "拟定正文主键": "CBIO_HOI120_gosta_ehrensvard_desc",
+      "正文SHA256": "5c188e3eb911ae6c576a96ed5869d3468a5523de47f7f544d10859c314fd06a9"
+    },
+    {
+      "人物": "克拉斯·林德斯特伦",
+      "拟定正文主键": "CBIO_HOI120_claes_lindstrom_desc",
+      "正文SHA256": "2aba25c315a46cc53718e16c7f274f5d5f8e7363c061e9fe4f4270bce411a11b"
+    },
+    {
+      "人物": "黑尔格·斯特伦巴克",
+      "拟定正文主键": "CBIO_HOI120_helge_stromback_desc",
+      "正文SHA256": "85fdc2f423a61baecfdc3a3c6d2db25111f6c5ab5378204e59abbcfe6965d2ec"
+    },
+    {
+      "人物": "夏尔·德·尚",
+      "拟定正文主键": "CBIO_HOI120_charles_de_champs_desc",
+      "正文SHA256": "af18e8e035e4e1df20bcdda1ff20df197646d977ab55748cebf58c7b18353b2c"
+    },
+    {
+      "人物": "佩尔·西尔万",
+      "拟定正文主键": "CBIO_HOI120_per_sylvan_desc",
+      "正文SHA256": "dfd96f1d000fe6f9c112bb52a48b12758a09643f7fc4286a7309d1130aa5d8df"
+    },
+    {
+      "人物": "福尔克·赫格贝里",
+      "拟定正文主键": "CBIO_HOI120_folke_hogberg_desc",
+      "正文SHA256": "7093c7245bfec689c4570c5b4b7cf6edc9723fb39fbbc9acf11e222ff87c4869"
+    },
+    {
+      "人物": "阿克塞尔·永达尔",
+      "拟定正文主键": "CBIO_HOI120_axel_ljungdahl_desc",
+      "正文SHA256": "8196ec241823fbdafe7ad7b982c1cc683f5245f5e3bded7639ca294a8178eda9"
+    },
+    {
+      "人物": "赫尔曼·埃里克松",
+      "拟定正文主键": "CBIO_HOI120_herman_eriksson_desc",
+      "正文SHA256": "aa1c26a1d83f723e1fde658d7817a89dd98c588a8f5e73e61f8c8478ec44b903"
+    },
+    {
+      "人物": "阿尔瓦·米达尔",
+      "拟定正文主键": "CBIO_HOI120_alva_myrdal_desc",
+      "正文SHA256": "7dba6050d7f56f82b2e1b00b036d3115bcabd957391a9eec2efa445ca5c4fd0c"
+    },
+    {
+      "人物": "勒内·冯·格拉芬里德",
+      "拟定正文主键": "CBIO_HOI120_rene_von_graffenried_desc",
+      "正文SHA256": "5bd6bf907a1123d86f7fc54f9c31d3d74906319f2f2b279e64acc0f23f65c602"
+    },
+    {
+      "人物": "里哈德·费尔马",
+      "拟定正文主键": "CBIO_HOI120_richard_veermaa_desc",
+      "正文SHA256": "b7057d18ab07221545ef8c454ebffcbbd5b0ca3976325b568a44bc85413ec683"
+    },
+    {
+      "人物": "齐里尔·库赫塔",
+      "拟定正文主键": "CBIO_HOI120_cyril_kuchta_desc",
+      "正文SHA256": "700de8309f9e93309fa0304000334cba689ee40f500a9dd1f3c70c8456edf888"
+    },
+    {
+      "人物": "安东尼·劳勒",
+      "拟定正文主键": "CBIO_HOI120_anthony_lawlor_desc",
+      "正文SHA256": "e8ece7f72ce5146e23fec6302461577fc512da20b0bac81ba59406db51a8c4ed"
+    },
+    {
+      "人物": "谢默斯·奥穆里斯",
+      "拟定正文主键": "CBIO_HOI120_seamus_o_muiris_desc",
+      "正文SHA256": "654196153eeb0be771f45faf57cfaacb15b86fde14f6d5188bfcbcd99365d9a5"
+    },
+    {
+      "人物": "鲍里斯·贝尔曼",
+      "拟定正文主键": "CBIO_HOI120_boris_davidovich_berman_desc",
+      "正文SHA256": "b93afb480145e306ded978cb58d4cf933dc5a6a844ae3b62ae2bf0e79965767d"
+    },
+    {
+      "人物": "伊奥西夫·雷日科夫",
+      "拟定正文主键": "CBIO_HOI120_iosif_ryzhikov_desc",
+      "正文SHA256": "c3746e43c4d8f12be8d5165f99192b418cbcbf7fa33f7734d81ee7a3143642a8"
+    },
+    {
+      "人物": "瓦西里·索科洛夫斯基",
+      "拟定正文主键": "CBIO_HOI120_vasily_sokolovsky_desc",
+      "正文SHA256": "903f3bc6a207302c32fdba0e07e9d52a2002f9b4951794ab2f4807b2f25839d2"
+    },
+    {
+      "人物": "伊万·雅库鲍夫斯基",
+      "拟定正文主键": "CBIO_HOI120_ivan_yakubovsky_desc",
+      "正文SHA256": "d7972c31c3253af77fc6a864afc583556100d21cbca5ace55de1502fc05e9433"
+    },
+    {
+      "人物": "伊万·普斯特戈",
+      "拟定正文主键": "CBIO_HOI120_ivan_pstygo_desc",
+      "正文SHA256": "0418fcedac106daca84a09350a1041128cf0805c3eb3ea10888a6ba19851bfd4"
+    },
+    {
+      "人物": "费奥多尔·多贝什",
+      "拟定正文主键": "CBIO_HOI120_fedor_dobysh_desc",
+      "正文SHA256": "395511848c4edf64ae09836774211fb221b0c2e0165c90b586c6bc276cf5635d"
+    },
+    {
+      "人物": "瓦连金·德罗兹德",
+      "拟定正文主键": "CBIO_HOI120_valentin_drozd_desc",
+      "正文SHA256": "4ce2d810d4d2fc0a9f7fb2a1a511aef60789bd7907d252bbd949681b475c0e7c"
+    },
+    {
+      "人物": "格奥尔吉·霍洛斯贾科夫",
+      "拟定正文主键": "CBIO_HOI120_georgy_holostyakov_desc",
+      "正文SHA256": "d7e36420543e31e17a1d71bfd9ae2d7a86bdde6e37e0f72a08bd151791b30b92"
+    },
+    {
+      "人物": "亚历山大·阿库里奇",
+      "拟定正文主键": "CBIO_HOI120_alexander_akulich_desc",
+      "正文SHA256": "5938034bf5df009ad7bdfffd01ce9a7cd412e5cbfb567ff633c89342a126fef5"
+    },
+    {
+      "人物": "马克西姆·安东纽克",
+      "拟定正文主键": "CBIO_HOI120_maksim_antonyuk_desc",
+      "正文SHA256": "897edb87e1e9d588a63bbb57dfc459f3f275a632acb8a3e1533f2f0fa36a1525"
+    },
+    {
+      "人物": "阿列克谢·安东诺夫",
+      "拟定正文主键": "CBIO_HOI120_aleksei_antonov_desc",
+      "正文SHA256": "506b158690858b50d60ae219a7667b48ae0d3648c934912ae3510e9495c14990"
+    },
+    {
+      "人物": "帕维尔·伊万诺维奇·穆拉绍夫",
+      "拟定正文主键": "CBIO_HOI120_pavel_murashev_desc",
+      "正文SHA256": "0dc068f3231b6bbd35532e933a01292f4e998019fe55ed47a9e48384c17ca9c6"
+    },
+    {
+      "人物": "弗朗西斯科·M. 贝莱斯",
+      "拟定正文主键": "CBIO_HOI120_francisco_m_velez_desc",
+      "正文SHA256": "c5ecfebd54112a29d32cf44350d00abcfc2c1550202925bc5c8bf22d56409e98"
+    },
+    {
+      "人物": "爱德华多·蒙特罗·罗哈斯",
+      "拟定正文主键": "CBIO_HOI120_eduardo_montero_rojas_desc",
+      "正文SHA256": "4ea4367aa5d06cd65261ad987a677ef19e3d1aaf3d80e4e3c0cafdfa6b479b6f"
+    },
+    {
+      "人物": "勒内·布斯凯",
+      "拟定正文主键": "CBIO_HOI120_rene_bousquet_desc",
+      "正文SHA256": "caa138b2762590ba33f80253b32780b6e88af28dfd0d7a2426585cb5fbab2b19"
+    },
+    {
+      "人物": "马里于斯·维普勒",
+      "拟定正文主键": "CBIO_HOI120_marius_viple_desc",
+      "正文SHA256": "ea060964ac18e1fdafe16be13fdee53c4bf652195b0db2812668481d406fa62c"
+    },
+    {
+      "人物": "欧仁·布里杜",
+      "拟定正文主键": "CBIO_HOI120_eugene_bridoux_desc",
+      "正文SHA256": "35d6c322a818c118bed7d6f042c710764cbab5e3a7067e30047bf92f5d32b89e"
+    },
+    {
+      "人物": "皮耶尔·勒·格洛昂",
+      "拟定正文主键": "CBIO_HOI120_pierre_le_gloan_desc",
+      "正文SHA256": "be9f61d691f76b24e209f41ce5200881b96af69d1b27226e8f7195839c21fccc"
+    },
+    {
+      "人物": "吕西安·拉卡兹",
+      "拟定正文主键": "CBIO_HOI120_lucien_lacaze_desc",
+      "正文SHA256": "526dab83161338d205cf6df96c560a2a1fc9692c819916ab8a9bc8a70ed92938"
+    },
+    {
+      "人物": "埃米尔·波德纳拉斯（Emil Bodnăraș）",
+      "拟定正文主键": "CBIO_HOI120_emil_bodnaras_desc",
+      "正文SHA256": "03960dd594a8ee8b4a8b3a6d7058958e7fe90d3e456e67bfb7a15bc4909a935f"
+    },
+    {
+      "人物": "欧金·克里斯泰斯库（Eugen Cristescu）",
+      "拟定正文主键": "CBIO_HOI120_eugen_cristescu_desc",
+      "正文SHA256": "4b29800b2b2541f355f13e0ed45eb52642fbbbcdb6ad5740d9fc08c83666b182"
+    },
+    {
+      "人物": "格奥尔基·阿列克西亚努（Gheorghe（George）Alexianu）",
+      "拟定正文主键": "CBIO_HOI120_gheorghe_alexianu_desc",
+      "正文SHA256": "62b8e28681079d0f370b02e32cea40be9c4ffea9cc955137fe86a8bfd7638d52"
+    },
+    {
+      "人物": "格奥尔基·平蒂列（Gheorghe Pintilie）",
+      "拟定正文主键": "CBIO_HOI120_gheorghe_pintilie_desc",
+      "正文SHA256": "d8b1ece4cd3547e5e1c7f3f11ab5a7826f469a891dd51f4071c9c32643adf317"
+    },
+    {
+      "人物": "约瑟夫·基希涅夫斯基（Iosif Chișinevschi）",
+      "拟定正文主键": "CBIO_HOI120_iosif_chisinevschi_desc",
+      "正文SHA256": "56fc45272cc1fc4a80d1565e52a44b85c735e35ee60843eab6a468093c9928f4"
+    },
+    {
+      "人物": "米哈伊尔·莫鲁佐夫（Mihail Moruzov）",
+      "拟定正文主键": "CBIO_HOI120_mihail_moruzov_desc",
+      "正文SHA256": "5093e0de4c423003282ed01167cdbdc3bd7d9965ff60f5000d972771096115da"
+    },
+    {
+      "人物": "尼古拉·齐奥塞斯库（Nicolae Ceaușescu）",
+      "拟定正文主键": "CBIO_HOI120_nicolae_ceausescu_desc",
+      "正文SHA256": "ca9650f6e57de25962fcdaa492972c7e42314d60846cc9487b1e2b8de59f719c"
+    },
+    {
+      "人物": "佩特雷·格奥尔基（Petre Gheorghe）",
+      "拟定正文主键": "CBIO_HOI120_petre_gheorghe_desc",
+      "正文SHA256": "1460d9c6953a89b789631a971f347b27f92d148101777480ea1364bb9c05ab28"
+    },
+    {
+      "人物": "斯特凡·沃伊捷克（Ștefan Voitec）",
+      "拟定正文主键": "CBIO_HOI120_stefan_voitec_desc",
+      "正文SHA256": "e6230e8b7989880cfb46e04ca10ea77af999ee3ed62d0ee3ae84f75efc8b4469"
+    },
+    {
+      "人物": "瓦西里·卢卡（Vasile Luca）",
+      "拟定正文主键": "CBIO_HOI120_vasile_luca_desc",
+      "正文SHA256": "954ef178a6644dd93e3cd656a696fb1ebcc4d93d96053febe2973e9e012aec1d"
+    },
+    {
+      "人物": "亚历山德里娜·坎塔库济诺（Alexandrina Cantacuzino）",
+      "拟定正文主键": "CBIO_HOI120_alexandrina_cantacuzino_desc",
+      "正文SHA256": "4ae5613890fd9d84962e7b69af819de7f1f4c82381defd21ef7ca507fc18491e"
+    },
+    {
+      "人物": "康斯坦丁·阿尔杰托阿亚努（Constantin Argetoianu）",
+      "拟定正文主键": "CBIO_HOI120_constantin_argetoianu_desc",
+      "正文SHA256": "805bdf260eb2f1b00c17d6624f8466de9ae49fafc10599a7d19bea4f630c6150"
+    },
+    {
+      "人物": "埃内斯特·乌尔德里亚努（Ernest Urdăreanu）",
+      "拟定正文主键": "CBIO_HOI120_ernest_urdarianu_desc",
+      "正文SHA256": "993d5e41ba21463dbf9e82e6e30cbf41ef27e891955a9ec6e543409dc5ff7c51"
+    },
+    {
+      "人物": "尤柳·哈吉耶加努（Iuliu Hațieganu）",
+      "拟定正文主键": "CBIO_HOI120_iuliu_hatieganu_desc",
+      "正文SHA256": "37a1333157b0d3fe6215bf971f14fcd9152efca2f2106ed7b4f923cbc36a530c"
+    },
+    {
+      "人物": "拉扎尔·埃德莱亚努（Lazăr Edeleanu）",
+      "拟定正文主键": "CBIO_HOI120_lazar_edeleanu_desc",
+      "正文SHA256": "74d704d649cb969bc0f8b4d5a5534765b280cee861c99daf211fdd0c9945eb8f"
+    },
+    {
+      "人物": "马克斯·奥斯尼特（Max Auschnitt）",
+      "拟定正文主键": "CBIO_HOI120_max_auschnitt_desc",
+      "正文SHA256": "f3fbc239e163a2cd7ca3e11caa30d704a4872051b7a204d5706fbd75aca72dfc"
+    },
+    {
+      "人物": "米哈伊尔·马诺莱斯库（Mihail Manoilescu）",
+      "拟定正文主键": "CBIO_HOI120_mihail_manoilescu_desc",
+      "正文SHA256": "5c5f5a676a24e164730d061a318b0bd2095e6406bafdbf268bce57f4844b22d1"
+    },
+    {
+      "人物": "米哈伊尔·拉莱亚（Mihai（Mihail）Ralea）",
+      "拟定正文主键": "CBIO_HOI120_mihail_ralea_desc",
+      "正文SHA256": "44fbe8cdd17bbf106d9384ebf65ab16e71551dd3ac068e077b623942fca6317b"
+    },
+    {
+      "人物": "米隆·克里斯蒂亚（Miron Cristea）",
+      "拟定正文主键": "CBIO_HOI120_miron_cristea_desc",
+      "正文SHA256": "14b8fb5f461f0d4f4081e090af945d5dca86970b6389509d283a43d8cdf66609"
+    },
+    {
+      "人物": "内伊·约内斯库（Nae Ionescu）",
+      "拟定正文主键": "CBIO_HOI120_nae_ionescu_desc",
+      "正文SHA256": "363c02525ae1cc2e2e24e15639d1a1f77389bd512555c144a8c181ab41f21f44"
+    },
+    {
+      "人物": "尼基福·克莱尼克（Nichifor Crainic）",
+      "拟定正文主键": "CBIO_HOI120_nichifor_crainic_desc",
+      "正文SHA256": "4b5858f098e11a896852089ecabcd90753ecd4f36ea0752ac2f0dbee1a9cd84c"
+    },
+    {
+      "人物": "尼科迪姆·蒙泰亚努（Nicodim Munteanu）",
+      "拟定正文主键": "CBIO_HOI120_nicodim_munteanu_desc",
+      "正文SHA256": "c8729d727731edc588ae8ac5c188f34b1ea0af2516eab9c7c64f06cebfa2009e"
+    },
+    {
+      "人物": "拉杜·伊里梅斯库（Radu Irimescu）",
+      "拟定正文主键": "CBIO_HOI120_radu_irimescu_desc",
+      "正文SHA256": "a268ca859122ba371ed44045fb6578d91223df5837ab7ba3eccc874c2bb54a0c"
+    },
+    {
+      "人物": "维克托·斯拉韦斯库（Victor Slăvescu）",
+      "拟定正文主键": "CBIO_HOI120_victor_slavescu_desc",
+      "正文SHA256": "880184e349678ecd250e0e0bf3521fe74f47d57941524fbdd3cede2a49cfeef7"
+    },
+    {
+      "人物": "维吉尔·马德盖鲁（Virgil Madgearu）",
+      "拟定正文主键": "CBIO_HOI120_virgil_madgearu_desc",
+      "正文SHA256": "7993999e95e11dc1f81cf869b685351cd9aa0023f31d236d9fa33910460238f7"
+    },
+    {
+      "人物": "康斯坦丁·阿塔纳塞斯库（Constantin Atanasescu）",
+      "拟定正文主键": "CBIO_HOI120_constantin_atanasescu_desc",
+      "正文SHA256": "ee4b6bd4e7bf95e8dbf82b0867b01dc1fbbf25c4d015a85bebd49d90858d5716"
+    },
+    {
+      "人物": "康斯坦丁·康斯坦丁内斯库-克拉普斯（Constantin Constantinescu-Claps）",
+      "拟定正文主键": "CBIO_HOI120_constantin_constantinescu_claps_desc",
+      "正文SHA256": "758e71351b392f485b0d5e62c10fb6e7821f3c15180259b14fec24e1c49486c6"
+    },
+    {
+      "人物": "康斯坦丁·潘塔济（Constantin Pantazi）",
+      "拟定正文主键": "CBIO_HOI120_constantin_pantazi_desc",
+      "正文SHA256": "c5b00ca380066cac13f92483db2b59b959cb5f031e2b0b864779d22ff77e9666"
+    },
+    {
+      "人物": "康斯坦丁·普雷赞（Constantin Prezan）",
+      "拟定正文主键": "CBIO_HOI120_constantin_prezan_desc",
+      "正文SHA256": "7c249a687a6f9fe8054e0ff3ac7ac79f8978d513ee842b04f335f6fe588b2ff7"
+    },
+    {
+      "人物": "欧根·罗什卡（Eugeniu Roșca）",
+      "拟定正文主键": "CBIO_HOI120_eugen_rosca_desc",
+      "正文SHA256": "05f4ec570b9af4ea2dcf524f60b2296c42dfd5be15da02cef962908d1f6a45b9"
+    },
+    {
+      "人物": "约瑟夫·雅科比奇（Iosif Iacobici）",
+      "拟定正文主键": "CBIO_HOI120_iosif_iacobici_desc",
+      "正文SHA256": "29e97b439b841de779c8318a24035fd668bb0ae2a645cf188680cb409ebf9693"
+    },
+    {
+      "人物": "尼古拉·丘佩尔克（Nicolae Ciupercă）",
+      "拟定正文主键": "CBIO_HOI120_nicolae_ciuperca_desc",
+      "正文SHA256": "847b5d962e829d40670a047c502a7e2cfe0bcc1647fdaeede6762ed2ba4212fe"
+    },
+    {
+      "人物": "佩特雷·伯尔布内阿努（Petre Bărbuneanu）",
+      "拟定正文主键": "CBIO_HOI120_petre_barbureanu_desc",
+      "正文SHA256": "cd5e6890b0b04273375256868e30bf38f1e3ecafaed58d29d3c7bd1071969187"
+    },
+    {
+      "人物": "拉杜·巴尔代斯库（Radu Băldescu）",
+      "拟定正文主键": "CBIO_HOI120_radu_baldescu_desc",
+      "正文SHA256": "2cc60b6c3e95cf571eedd8eb9fe3ffaf3b3b89e24387e33bd0cd3084e4a18319"
+    },
+    {
+      "人物": "瓦西里·阿塔纳休（Vasile Atanasiu）",
+      "拟定正文主键": "CBIO_HOI120_vasile_atanasiu_desc",
+      "正文SHA256": "c8235758ecb6630737a31165aae163d5bc6539f4b01c6b1232ecb052e9b4368b"
+    },
+    {
+      "人物": "维克托·施密特（Victor Schmidt）",
+      "拟定正文主键": "CBIO_HOI120_victor_schmidt_desc",
+      "正文SHA256": "d5c96ddd9bb72a000cfc4e6aa736133c37074fc2c5f50a919e8b93a41685e47f"
+    },
+    {
+      "人物": "扬·C·约努库列特（Ion C. Inculeț）",
+      "拟定正文主键": "CBIO_HOI120_inculet_desc",
+      "正文SHA256": "2d2ed622c3b7e0d5dd043c1d15e689d4fd41d99efc9849c9d98d6c3bc860701f"
+    },
+    {
+      "人物": "尼古拉·约尔加（Nicolae Iorga）",
+      "拟定正文主键": "CBIO_HOI120_iorga_desc",
+      "正文SHA256": "c34f6f6fbea3ebe55f8fa0e5d584bcf942ba0f25d8c3529bd8dd7d4fa64d96a4"
+    },
+    {
+      "人物": "格里戈雷·加芬库（Grigore Gafencu）",
+      "拟定正文主键": "CBIO_HOI120_gafencu_desc",
+      "正文SHA256": "88fbd5ff46c4fc30dc7fb477c1d047fa36d5b269ab6bdcd28219087f167f40e4"
+    },
+    {
+      "人物": "尼古拉·蒂图列斯库（Nicolae Titulescu）",
+      "拟定正文主键": "CBIO_HOI120_titulescu_desc",
+      "正文SHA256": "90e5ab039cc0a3441d7b95542919939bc65e3ae968d9102cf2db6c40dfa67f66"
+    },
+    {
+      "人物": "迪米特里耶·古斯蒂（Dimitrie Gusti）",
+      "拟定正文主键": "CBIO_HOI120_gusti_desc",
+      "正文SHA256": "5d41b6d70eff407abb47ba94c4726b11ac5f409d993402c8dd9df4dfd390e07a"
+    },
+    {
+      "人物": "扬·米哈拉凯（Ion Mihalache）",
+      "拟定正文主键": "CBIO_HOI120_mihalache_desc",
+      "正文SHA256": "f2c41f305d84b8b37b9e6cd74abecc0de5616000976d64789f9bedc9a6bdce0f"
+    },
+    {
+      "人物": "埃莱娜王太后（Elena）",
+      "拟定正文主键": "CBIO_HOI120_elena_desc",
+      "正文SHA256": "be1665d7d9251c45651e087b2d0aeb4326c88854218a4404fdecc7cc41729ec0"
+    },
+    {
+      "人物": "尼古拉·勒代斯库（Nicolae Rădescu）",
+      "拟定正文主键": "CBIO_HOI120_radescu_desc",
+      "正文SHA256": "cb6ac3234e4390652fba7df74b050a53f4e88eab39edf8b4895b9f89437391e3"
+    },
+    {
+      "人物": "鲍里斯·斯特凡诺夫（Boris Ștefanov）",
+      "拟定正文主键": "CBIO_HOI120_stefanov_desc",
+      "正文SHA256": "33a15d27aaeae4d4115f32662a095dbfc433f61e74233ffd73225b27d88568a9"
+    },
+    {
+      "人物": "迪努·布勒蒂亚努（Constantin I. C. Brătianu）",
+      "拟定正文主键": "CBIO_HOI120_bratianu_desc",
+      "正文SHA256": "979502997dc613037436ea09f95a4ea3845b73d572ea3d8f774e948273ac2aa3"
+    },
+    {
+      "人物": "霍里亚·西马（Horia Sima）",
+      "拟定正文主键": "CBIO_HOI120_sima_desc",
+      "正文SHA256": "14bd2c46f388d07623d9baad21e8b6b766d4c2a21b2d418329e35cfea35098b8"
+    },
+    {
+      "人物": "米海伊·安东内斯库（Mihai Antonescu）",
+      "拟定正文主键": "CBIO_HOI120_mihai_antonescu_desc",
+      "正文SHA256": "09e9f799ec31a9512eccf885768f735c47f61346d646ace908dbe8e64db67548"
+    },
+    {
+      "人物": "巴尔布·斯蒂尔贝伊（Barbu Știrbey）",
+      "拟定正文主键": "CBIO_HOI120_stirbey_desc",
+      "正文SHA256": "0685d9030d3debc771bb51b340014994249f4655e8de602f88d876631d385a6c"
+    },
+    {
+      "人物": "格里戈雷·乔治斯库（Grigore Georgescu）",
+      "拟定正文主键": "CBIO_HOI120_georgescu_desc",
+      "正文SHA256": "90cec40d6e1349dc66c70ea121fa27601a89803b2841445b09bc916ae8a2bbe8"
+    },
+    {
+      "人物": "巴尔布·珀勒亚努（Barbu Părăianu）",
+      "拟定正文主键": "CBIO_HOI120_paraianu_desc",
+      "正文SHA256": "d8c54d28a73895e13ee4438ac49f0fa5746502ba0d3d67db4cb6db86f18c254f"
+    },
+    {
+      "人物": "瓦拉巴伊·帕特尔",
+      "拟定正文主键": "CBIO_HOI120_vallabhbhai_patel_desc",
+      "正文SHA256": "5272ccd3769dad7a9ba8963b9db631459b517282d981cae6a444f288b8b282a8"
+    },
+    {
+      "人物": "苏比尔·阿帕杜莱·艾耶尔",
+      "拟定正文主键": "CBIO_HOI120_subbier_appadurai_ayer_desc",
+      "正文SHA256": "352a2bf9ca00b09231871676316fc98e8c2db6beb62da22209477f3600ade19e"
+    },
+    {
+      "人物": "阿斯哈汗",
+      "拟定正文主键": "CBIO_HOI120_asghar_khan_desc",
+      "正文SHA256": "6a35703364dc632edcbd7c36d7bffc5dd9caff5142dd34802fe8f7c8b67575db"
+    },
+    {
+      "人物": "理查德·皮尔斯",
+      "拟定正文主键": "CBIO_HOI120_richard_peirse_desc",
+      "正文SHA256": "4c2f2d1aa2976ba1d4ac34fc9195a70f88fe6eb4837fc40a52d9d22a7c9599e7"
+    },
+    {
+      "人物": "何塞·桑胡尔霍",
+      "拟定正文主键": "CBIO_HOI120_sanjurjo_desc",
+      "正文SHA256": "dcc4bb689c33ddd6376f000133520e143a0ef4c4dcb9fe2ee9393838b70c9303"
+    },
+    {
+      "人物": "胡利安·戈尔金",
+      "拟定正文主键": "CBIO_HOI120_gorkin_desc",
+      "正文SHA256": "cb0faee0d35ae868908b7059f65101b65ae9b542f6efc5ac8685c84b72793090"
+    },
+    {
+      "人物": "阿方索·达尼埃尔·罗德里格斯·卡斯特劳",
+      "拟定正文主键": "CBIO_HOI120_castelao_desc",
+      "正文SHA256": "5576a29f6155c9d9f1efb8112ec4edd1b4a88418503daec27298a28f6b2bc879"
+    },
+    {
+      "人物": "富科·戈麦斯",
+      "拟定正文主键": "CBIO_HOI120_fuco_desc",
+      "正文SHA256": "00bb8159875a35aed7d67b7b239045b147b890d56efe2c8f7932e78da4f34812"
+    },
+    {
+      "人物": "圣地亚哥·卡萨雷斯·基罗加",
+      "拟定正文主键": "CBIO_HOI120_casares_desc",
+      "正文SHA256": "b38ddaa776304237e1727ec1c4ebd231e8de2476f1f8d9f57be139c5f9ce79e2"
+    },
+    {
+      "人物": "比森特·马丁内斯·里斯科",
+      "拟定正文主键": "CBIO_HOI120_risco_desc",
+      "正文SHA256": "d0141967f2e1a20dec8b20905b5ca006fc7f919df0134fb7318c23296a1a23ca"
+    },
+    {
+      "人物": "拉蒙·奥尔马萨瓦尔·蒂费",
+      "拟定正文主键": "CBIO_HOI120_ormazabal_desc",
+      "正文SHA256": "8b7032161cf396dc617668b2de35c601e96645e6e9d9fa8a114ccad8116f9c8a"
+    },
+    {
+      "人物": "路易斯·乌伦戈埃切亚",
+      "拟定正文主键": "CBIO_HOI120_urrengoetxea_desc",
+      "正文SHA256": "06fa353115c805dc6754d5bf9f1bc59dec508c1d0caf1102552e001f0c331538"
+    },
+    {
+      "人物": "莫里斯·迪阿梅尔",
+      "拟定正文主键": "CBIO_HOI120_duhamel_desc",
+      "正文SHA256": "7e330c6f8f173b0618383fc73f5c44e26043a014efa6a3e229645134e473ef5a"
+    },
+    {
+      "人物": "莫尔旺·马尔沙尔",
+      "拟定正文主键": "CBIO_HOI120_marchal_desc",
+      "正文SHA256": "518e4707cab025f74f5fd0840792efbc00a340fa40071ef79420c3f09e613bbe"
+    },
+    {
+      "人物": "奥利耶·莫德雷尔",
+      "拟定正文主键": "CBIO_HOI120_mordrel_desc",
+      "正文SHA256": "dda298fa4a147015c65b26701271eb65da097f0dc11cd20ad6eb2153479c7b50"
+    },
+    {
+      "人物": "扬-莫尔旺·热弗洛",
+      "拟定正文主键": "CBIO_HOI120_gefflot_desc",
+      "正文SHA256": "e94b0f714606129707fd35ef80f16f02f27880dc88242b2116c274d50dd8bc0f"
+    },
+    {
+      "人物": "丹巴绛央",
+      "拟定正文主键": "CBIO_HOI120_tenpa_jamyang_desc",
+      "正文SHA256": "da0bf5dad4cc4f36dc9925c992a47dd35db83eaab011380817a07c4c659e8fc2"
+    },
+    {
+      "人物": "甲多旺堆",
+      "拟定正文主键": "CBIO_HOI120_gyato_wangdu_desc",
+      "正文SHA256": "bb5777764264b905a6ed68397c62b6879b05f7f7459fd74f0dadd82af82358c9"
+    },
+    {
+      "人物": "嘉玛桑佩",
+      "拟定正文主键": "CBIO_HOI120_chama_samphe_desc",
+      "正文SHA256": "adf915e29b0f80d81e75daee2ffdcf74c7446b026c234d36c7b6074d0314fa62"
+    },
+    {
+      "人物": "基兰·沙姆谢尔·拉纳",
+      "拟定正文主键": "CBIO_HOI120_kiran_rana_desc",
+      "正文SHA256": "64d35c49bb407444841f6262280c0949f47df8cfacdb049d8c937db207dace73"
+    },
+    {
+      "人物": "安东尼奥·梅嫩德斯·佩拉埃斯",
+      "拟定正文主键": "CBIO_HOI120_antonio_menendez_pelaez_desc",
+      "正文SHA256": "73944161d8a78f848f6dad8514d04bcb9bfe74316d5202766300cc5aff2d80c7"
+    },
+    {
+      "人物": "阿里·苏海利",
+      "拟定正文主键": "CBIO_HOI120_ali_soheili_desc",
+      "正文SHA256": "54ecaba8659ce211794de0e7f695fc9b39c354070756c33a4d62a1e49d27bb56"
+    },
+    {
+      "人物": "赫苏斯·加尔萨·西列尔",
+      "拟定正文主键": "CBIO_HOI120_jesus_garza_siller_desc",
+      "正文SHA256": "8acb0729249fa717398d233c5809806f413362660635cbe05dc115c4dcf18a16"
+    },
+    {
+      "人物": "巴巴益西",
+      "拟定正文主键": "CBIO_HOI120_bapa_yeshe_desc",
+      "正文SHA256": "bf89ec401db888fd3efa41abf7be76108950b0e238186e3e54de1f566068949e"
+    },
+    {
+      "人物": "夏格·朗吉多杰",
+      "拟定正文主键": "CBIO_HOI120_chaghoe_namgyal_dorje_desc",
+      "正文SHA256": "6d13c06c9da33e88ce920f4870029dc13018a2063ebf27c06983b259c8f63a4a"
+    },
+    {
+      "人物": "穆罕默德·诺罗兹",
+      "拟定正文主键": "CBIO_HOI120_muhammad_nawruz_desc",
+      "正文SHA256": "0e75dc402425ac90d63df7bca67ac6c657f6b51ee62e6c91d102542d25a56707"
+    },
+    {
+      "人物": "苏莱曼·拉米",
+      "拟定正文主键": "CBIO_HOI120_sulaiman_bin_himyar_desc",
+      "正文SHA256": "c5037d8b4bd963c0cbb949d1fa5d3c3a053ab5f4590163d18d1de7634520daf0"
+    },
+    {
+      "人物": "埃里克·阿夫·埃德霍尔姆",
+      "拟定正文主键": "CBIO_HOI120_edholm_desc",
+      "正文SHA256": "b897cc554dcc63521d9d9d7c4349213fc1e732310efca8fcef6ffbed4219edc7"
+    },
+    {
+      "人物": "候赛因·法齐",
+      "拟定正文主键": "CBIO_HOI120_hussein_fawzi_desc",
+      "正文SHA256": "49b53d0300032de0f27f01b1dd823dc530029a0b2496f8bc1b4abf2141f83a6a"
+    },
+    {
+      "人物": "比约恩·斯温松·比约恩松",
+      "拟定正文主键": "CBIO_HOI120_bjorn_bjornsson_desc",
+      "正文SHA256": "09c4e0c4e3d1d2b949b109b51de520a8a23785029b057788b390bef139eb9568"
+    },
+    {
+      "人物": "阿里·阿克巴尔·德拉克沙尼",
+      "拟定正文主键": "CBIO_HOI120_derakhshani_desc",
+      "正文SHA256": "d03600e3f5014792e2151b5aff661d330005c3b046c6d9f87289d7b2fc0792c7"
+    },
+    {
+      "人物": "阿萨杜拉·侯赛因普尔",
+      "拟定正文主键": "CBIO_HOI120_hosseinpour_desc",
+      "正文SHA256": "7447002a34ce6679283136d5c95aeb8bfbedc7b328f8a17b42580c909acc1db5"
+    },
+    {
+      "人物": "约瑟夫·德普尔",
+      "拟定正文主键": "CBIO_HOI120_josef_depre_desc",
+      "正文SHA256": "103d39bddcda3d8eaa752965933c2024c4ef63b08ccf4d0f65736d1401157fb4"
+    },
+    {
+      "人物": "索蓬斯瓦斯蒂亲王",
+      "拟定正文主键": "CBIO_HOI120_subhasvasti_desc",
+      "正文SHA256": "c59108b46a2ce38c7a3f9b04b747c3a86d5a15e3104439ebfc9c2d7fac3800ec"
+    },
+    {
+      "人物": "尤库姆斯·瓦采季斯",
+      "拟定正文主键": "CBIO_HOI120_vacietis_desc",
+      "正文SHA256": "651f572a3632b53be22a0c935ccfc8d4b4891ccbb2a1cba8a8cf05c57dcbd8aa"
+    },
+    {
+      "人物": "温察斯·维特考斯卡斯",
+      "拟定正文主键": "CBIO_HOI120_vitkauskas_desc",
+      "正文SHA256": "136260d544acec937f2a20a8e195b48af3cd7f8a167df41f0980efac0f57e0a7"
+    },
+    {
+      "人物": "哈吉·阿里·拉兹马拉（旧稿修订）",
+      "拟定正文主键": "CBIO_HOI120_razmara_desc",
+      "正文SHA256": "63c67e05e66df859fb482e4c9dc0b14544e6bb18b26154ef919c16c2e8f67161"
+    },
+    {
+      "人物": "哈比卜·布尔吉巴",
+      "拟定正文主键": "CBIO_HOI120_bourguiba_desc",
+      "正文SHA256": "584e0fe33e3bb0b8f3aa0df7cd1216ebf8c62aef5d77a1de06b428bd6cb60238"
+    },
+    {
+      "人物": "艾哈迈德·本·贝拉",
+      "拟定正文主键": "CBIO_HOI120_ben_bella_desc",
+      "正文SHA256": "3a506df8178785ec458031f846c63d100119257b5b1869a32aa01fda254a2fc6"
+    },
+    {
+      "人物": "伊德里斯·塞努西",
+      "拟定正文主键": "CBIO_HOI120_idris_desc",
+      "正文SHA256": "1e709fba2969606013eb8c429972c4f06f46e75db99d82a046297cfbca07b513"
+    },
+    {
+      "人物": "塞米斯托克利斯·索富利斯",
+      "拟定正文主键": "CBIO_HOI120_sofoulis_desc",
+      "正文SHA256": "bbc3ed04937e6c09047bffffa2c3482527d6fc77372e3212ffa70119ec40c390"
+    },
+    {
+      "人物": "沃利斯·辛普森",
+      "拟定正文主键": "CBIO_HOI120_wallis_desc",
+      "正文SHA256": "0dc0d0783eb1d49da21bedf8ca19861ce5917bbfe7a5616738317bdac2e26fe0"
+    },
+    {
+      "人物": "威廉·伯德伍德",
+      "拟定正文主键": "CBIO_HOI120_birdwood_desc",
+      "正文SHA256": "648a7dc828eab7d7da6fbea5dc44df1cc949e4ae34876dd0a24678fe520d3c39"
+    },
+    {
+      "人物": "苏莱曼·米尔扎·伊斯坎达里（旧稿修订）",
+      "拟定正文主键": "CBIO_HOI120_eskandari_desc",
+      "正文SHA256": "0d6ec0965349d83d427225c8be3163da87f1c2adb1830345502480d55c5cea59"
+    },
+    {
+      "人物": "德拉斯塔马特·卡纳扬",
+      "拟定正文主键": "CBIO_HOI120_kanayan_desc",
+      "正文SHA256": "70926831869ba9b266010ff901ee1aea4f394f53f3365030d6a4b6e39e86b314"
+    },
+    {
+      "人物": "霍夫汉内斯·卡贾兹努尼",
+      "拟定正文主键": "CBIO_HOI120_kajaznuni_desc",
+      "正文SHA256": "c2c034d615a8bfb16f4d90dc497d2b96ed1b87a5ae6b4d7640c51d0927c95850"
+    },
+    {
+      "人物": "格里戈尔·哈鲁秋尼扬",
+      "拟定正文主键": "CBIO_HOI120_harutyunyan_desc",
+      "正文SHA256": "ff6b8c76af2785afbd6e96a0a44030511157b711d32b7f9645624517748aac01"
+    },
+    {
+      "人物": "马梅德·阿明·拉苏尔扎德",
+      "拟定正文主键": "CBIO_HOI120_rasulzade_desc",
+      "正文SHA256": "31419632b00d2f7a6357bf7679f2f33491552e9d232ca9cb8f0a479d066892c9"
+    },
+    {
+      "人物": "加拉·加拉别约夫",
+      "拟定正文主键": "CBIO_HOI120_garabeyov_desc",
+      "正文SHA256": "26e585bc95ac3cb0cb62e3340dea06692ea6da4fb0660511e827b93f71d0fdf3"
+    },
+    {
+      "人物": "米尔·贾法尔·巴吉罗夫",
+      "拟定正文主键": "CBIO_HOI120_baghirov_desc",
+      "正文SHA256": "6ce0caff1ec269d5a2bf23a1197c22353df29bb1d1754ed1941007cc6b436289"
+    },
+    {
+      "人物": "尼古拉·亚历山德罗维奇·斯克沃尔佐夫",
+      "拟定正文主键": "CBIO_HOI120_skvortsov_desc",
+      "正文SHA256": "da7fa6139ce050fc811143b373760edaf2730c854bc7380b3a467091e704243c"
+    },
+    {
+      "人物": "伊利亚斯·詹苏古罗夫",
+      "拟定正文主键": "CBIO_HOI120_zhansugurov_desc",
+      "正文SHA256": "4fce33b1fde8c9a3cd9e57a5a40660b9d178095f8d037366c5c9d8109bc18ecb"
+    },
+    {
+      "人物": "巴希尔·萨达维",
+      "拟定正文主键": "CBIO_HOI120_saadawi_desc",
+      "正文SHA256": "56f264cafb3bd05a89d908d10b4fab896c11da42be4d1af2542e4aac5d3eb699"
+    },
+    {
+      "人物": "哈桑·里达·塞努西",
+      "拟定正文主键": "CBIO_HOI120_hassan_desc",
+      "正文SHA256": "1ad7ec3552573f3dc981c1176abb2401ce77f71bdf570dd1296f246aeb6803de"
+    },
+    {
+      "人物": "穆罕默德五世",
+      "拟定正文主键": "CBIO_HOI120_mohammed_v_desc",
+      "正文SHA256": "6668860372e22554d785fa223b91a420d6d7d78e29b11c61698ff13dd07e4b7f"
+    },
+    {
+      "人物": "瓦利·穆斯塔法·赛义德",
+      "拟定正文主键": "CBIO_HOI120_el_ouali_desc",
+      "正文SHA256": "bc5022c13737c1042d4838f5ff5f31b4458a81ab4f4abea607ef39ed09f192b1"
+    },
+    {
+      "人物": "海因·特尔·波尔滕",
+      "拟定正文主键": "CBIO_HOI120_ter_poorten_common_revision_desc",
+      "正文SHA256": "9e2a0d69a418cb907e6fb0d59b485a70bf74a2e5c4c0494774a90c6d7e6fd7b8"
+    },
+    {
+      "人物": "约瑟夫·蒂索",
+      "拟定正文主键": "CBIO_HOI120_tiso_common_revision_desc",
+      "正文SHA256": "d1f5a006063677a7433c68109d4dc99c208537eb1d4731c3a5e68c4e5885bcc1"
+    },
+    {
+      "人物": "奥古斯丁·沃洛申",
+      "拟定正文主键": "CBIO_HOI120_voloshyn_common_revision_desc",
+      "正文SHA256": "9d7aebbfd6acaa71ad6e3984e386bb640830f56fb32b82acd82911f64c943f50"
+    },
+    {
+      "人物": "沃伊捷赫·图卡",
+      "拟定正文主键": "CBIO_HOI120_tuka_common_revision_desc",
+      "正文SHA256": "81fe34d4f347f606242abebc7ddad43755a465e19d518eec39db0da20f035efc"
+    },
+    {
+      "人物": "阿奇博尔德·韦维尔",
+      "拟定正文主键": "CBIO_HOI120_wavell_common_revision_desc",
+      "正文SHA256": "5e7992a40712799e960d90b4506812c80263960377edb9102701bf53630bc3a9"
+    },
+    {
+      "人物": "南云忠一",
+      "拟定正文主键": "CBIO_HOI120_nagumo_common_revision_desc",
+      "正文SHA256": "450a83964b91ef21527502ede6c3635fbeebc79378ce5fdd842803c5c7ff56ee"
+    }
+  ]
+}

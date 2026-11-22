@@ -3664,6 +3664,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
+					desc = CBIO_RAJ_mirza_khurshid_jah_bahadur_desc
 					ideology = despotism
 					expire = "1965.1.1.1"
 					traits = { RAJ_heir_of_the_empire } 

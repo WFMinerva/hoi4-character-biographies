@@ -29,6 +29,7 @@ characters={
 			id = -1
 		}
 		country_leader = {
+			desc = CBIO_KAL_nikolai_tundutov_desc
 			ideology = conservatism
 			expire = "1960.1.1.1"
 			traits = { KAL_hier_to_the_oirat_realm }

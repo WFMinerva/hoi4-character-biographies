@@ -325,6 +325,7 @@ characters={
 			}
 		}
 		corps_commander={
+			desc = CBIO_TUR_izzettin_calislar_desc
 			traits={ infantry_officer war_hero trait_TUR_kemalist_champion trait_mountaineer }
 			skill=3
 			attack_skill=4
