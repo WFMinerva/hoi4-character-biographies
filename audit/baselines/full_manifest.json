@@ -1,12 +1,12 @@
 {
-  "root": "china_bio_v130e",
-  "outer_mod": "china_bio_v130e.mod",
-  "file_count": 462,
+  "root": "china_bio_v130h",
+  "outer_mod": "china_bio_v130h.mod",
+  "file_count": 434,
   "files": [
     {
-      "path": "__outer__/china_bio_v130e.mod",
-      "size": 163,
-      "sha256": "f0a861bc8b6f06f18a753a1e9ffc6a38ab92a86e1e6fd75a3f7d36dab3e6c2c0"
+      "path": "__outer__/china_bio_v130h.mod",
+      "size": 160,
+      "sha256": "8d0acf85653ff1d7f788ecc710688fa915ade24f208e71cf00fd153867318935"
     },
     {
       "path": "common/characters/ABK.txt",
@@ -40,13 +40,13 @@
     },
     {
       "path": "common/characters/ARG.txt",
-      "size": 38743,
-      "sha256": "d700651e838f9f7d019ca36bad456224f8c021de7218eec9fa3dab289211f9e9"
+      "size": 38751,
+      "sha256": "8873f67865aea499f366c416ae229aabf0ccdc90ebdb6b730ad5cfe56c26fb1e"
     },
     {
       "path": "common/characters/AST.txt",
-      "size": 57967,
-      "sha256": "0740f2209213be9f575ee469d4bf2722769bceb437009057c509f9bb0638abf2"
+      "size": 58580,
+      "sha256": "1be094c9ca0f47e35e49507520455499504600950dbce5bfa8715a78d3dcc47c"
     },
     {
       "path": "common/characters/ASY.txt",
@@ -75,13 +75,13 @@
     },
     {
       "path": "common/characters/BEL.txt",
-      "size": 39651,
-      "sha256": "04af6efa5c05426019456be2b5908a9ce5dd48b8631450909d4b39dc18745e60"
+      "size": 39684,
+      "sha256": "506eff084db56e7432e32b5e1a1f335e7345a83ba3ac4d80a4762a5a87b7d09f"
     },
     {
       "path": "common/characters/BHU.txt",
-      "size": 7958,
-      "sha256": "48fa60bedec5a6ac5140596b7b08a3ce54c31ca5c0572017995952b43af27184"
+      "size": 7961,
+      "sha256": "405ca13cfcef354623767a85e75c91c2ebe34e23433183e1cbac36f1e21b0579"
     },
     {
       "path": "common/characters/BIA.txt",
@@ -125,8 +125,8 @@
     },
     {
       "path": "common/characters/BUL.txt",
-      "size": 48202,
-      "sha256": "a5a75d21cf9ac6bb4b099d57801c776bc85ced978f1c25364024bd0bc0171073"
+      "size": 48242,
+      "sha256": "8c6c43815c3b5823b7bfbdc9ee602cf3c539ea1ecf9ca3801c922e9237c53bd8"
     },
     {
       "path": "common/characters/BYA.txt",
@@ -140,8 +140,8 @@
     },
     {
       "path": "common/characters/CAN.txt",
-      "size": 17789,
-      "sha256": "760f42f726ca8d060f6c104ed9122910ec84168ef8fd3f79a77179d700653a51"
+      "size": 18251,
+      "sha256": "c25938fc407d22a697fb7239f8d6db5509fb35da4c8ed015e560c0f466ebf21c"
     },
     {
       "path": "common/characters/CAT.txt",
@@ -155,8 +155,8 @@
     },
     {
       "path": "common/characters/CHL.txt",
-      "size": 97924,
-      "sha256": "47a7d104610a81117687299c4f084d879b2e6ccaa0933bcbdfa6e1513eb4fa6b"
+      "size": 97961,
+      "sha256": "a5e3dbcafd4c27b1011ce34ce9405676fa131dbed6a338e7fc50f191687d0729"
     },
     {
       "path": "common/characters/CHU.txt",
@@ -180,8 +180,8 @@
     },
     {
       "path": "common/characters/COS.txt",
-      "size": 9761,
-      "sha256": "f2461526efe59443dd2ab8b4510e0d05aec90acbd987cce39ced5954e3f075b3"
+      "size": 9750,
+      "sha256": "6f94d7499a28941083f843aac546af6788cac77e650972e402e68ed9608afa4c"
     },
     {
       "path": "common/characters/CPS.txt",
@@ -200,13 +200,13 @@
     },
     {
       "path": "common/characters/CUB.txt",
-      "size": 8519,
-      "sha256": "4a490da4946e63ead579a05028c3410d32db719e2d03f26aa94f59b75e49e00c"
+      "size": 8507,
+      "sha256": "3d84ef25f76cf9e55e8f0406e8ac6d537c44df2a9f66f93f9b18861eadbca0d4"
     },
     {
       "path": "common/characters/CZE.txt",
-      "size": 95404,
-      "sha256": "95317e1477b9713e0d301ca8a56a2f2a97e2af2f5880ff20fd6a06a3ad65758b"
+      "size": 95480,
+      "sha256": "5eccd1aa01a0c713b67145259f2f1c5ff470ee1d01e1425b7617e35364aa60d8"
     },
     {
       "path": "common/characters/DAG.txt",
@@ -220,8 +220,8 @@
     },
     {
       "path": "common/characters/DOM.txt",
-      "size": 8464,
-      "sha256": "1fb7a07de7e2767808b72aef0fa9006150f516fc7e85f10c65fcd95b55be6404"
+      "size": 8461,
+      "sha256": "796c10f0400b9e3defe5b312ef8220c6af7d6e57a7edcd6e1286770ff430dc65"
     },
     {
       "path": "common/characters/DON.txt",
@@ -250,8 +250,8 @@
     },
     {
       "path": "common/characters/ETH.txt",
-      "size": 45828,
-      "sha256": "96cf397e778d92bbf67f7e6bf1e2b887c05aa3eb635013ce72d8afc3bdc75fd7"
+      "size": 45834,
+      "sha256": "c2424696fd61d64e2fa0e3660a508e828c337f262439683257e087a97ee7c86b"
     },
     {
       "path": "common/characters/FIN.txt",
@@ -275,8 +275,8 @@
     },
     {
       "path": "common/characters/GER.txt",
-      "size": 90994,
-      "sha256": "92da1fa7574919fdf33dfcbc8e42cdc9ecb81f5bbbb66f20c6b2394acf707d1f"
+      "size": 91143,
+      "sha256": "65de88c5c96d7e58516cb502527baaa94bbaf5bb3aa7c730f807b6d734fb16bd"
     },
     {
       "path": "common/characters/GHA.txt",
@@ -285,18 +285,18 @@
     },
     {
       "path": "common/characters/GRE.txt",
-      "size": 35966,
-      "sha256": "2dca943a747b247a6a9006fc1048c4380f74fe7ab451a7e59f471eff379e36f1"
+      "size": 36067,
+      "sha256": "e60051b11f19523e0a6d15807ccdb5d4773ba4ad348fa88cb77ae2eef5ccdc26"
     },
     {
       "path": "common/characters/GUA.txt",
-      "size": 8180,
-      "sha256": "d1d1ad4a3cb2821bb55b7af02827a6a929a0abd6d85b813f4ba0d7bda4ca73bd"
+      "size": 8174,
+      "sha256": "226a7b4d0bf1661e1fd37df7a0aecd9a6960583a0ddba7988bf42aba08ad1791"
     },
     {
       "path": "common/characters/HAI.txt",
-      "size": 8092,
-      "sha256": "7ffd5a22b7204ebf987465887adcd794256d2a261245ad1724d34067f2089cee"
+      "size": 8084,
+      "sha256": "f05088d5445d3b827e201fca04db67474081b999fe7fc9f511a51802a4924f53"
     },
     {
       "path": "common/characters/HAN.txt",
@@ -310,8 +310,8 @@
     },
     {
       "path": "common/characters/HOL.txt",
-      "size": 23315,
-      "sha256": "8e623aeca6b38d8e6f0c479dec794fe0a55ab424bdc35b5c45b910b8975274bb"
+      "size": 23256,
+      "sha256": "8f11a57836d1e7a348b33ab7ddc55a65308b3c0839699f92445846570bf9206f"
     },
     {
       "path": "common/characters/HON.txt",
@@ -320,8 +320,8 @@
     },
     {
       "path": "common/characters/HUN.txt",
-      "size": 69192,
-      "sha256": "2ed9df56b138c6101874829986cf967f048d33864a2bbf094b9263b8dcea52c9"
+      "size": 69729,
+      "sha256": "a556340c914baa6f0b991250de84d79e6d84d37bdb1a9ff5c4f90716e0c0791a"
     },
     {
       "path": "common/characters/IA.txt",
@@ -330,8 +330,8 @@
     },
     {
       "path": "common/characters/ICE.txt",
-      "size": 14998,
-      "sha256": "4a6c3bb5932bc0080907b45479bb7fad39f7984740b9640e139da8a814c13eb0"
+      "size": 15085,
+      "sha256": "cf48373097aca4de92abbfbd4c712bdcdfa1a403fa74c5bfe6a1a64a655be6cb"
     },
     {
       "path": "common/characters/IMO.txt",
@@ -340,18 +340,18 @@
     },
     {
       "path": "common/characters/INS.txt",
-      "size": 59147,
-      "sha256": "cc7362cd54d18e5c50c5d0f0ec95b39a1a2c132416a8942df280ccc0f478892b"
+      "size": 59073,
+      "sha256": "cfc534a64965ac0588ae9cd3f89fc10305d8326bd01a7d83468c9d4f16596823"
     },
     {
       "path": "common/characters/IRE.txt",
-      "size": 8789,
-      "sha256": "0d4bc4800204b2f212673bed9e29bbd9f4e91aba740f77c2926abe2d99cc7e90"
+      "size": 8744,
+      "sha256": "8a77fd8113f4fab6de6e4bde0d59dfebc5a21c90ddb8c36c3db34d69a3d037de"
     },
     {
       "path": "common/characters/IRQ.txt",
-      "size": 40300,
-      "sha256": "4e49014c7776a95983734b717ce4e5561fcedd9e4d8d47e9f741d9e4a810812b"
+      "size": 40442,
+      "sha256": "9ce446a91ede397ce32a7a6583939e80ff41cca4215f14b9eb945fe3cec33dc5"
     },
     {
       "path": "common/characters/ISR.txt",
@@ -365,8 +365,8 @@
     },
     {
       "path": "common/characters/JAP.txt",
-      "size": 107396,
-      "sha256": "c3069ed4aac48d54df1df9f41810a2d493a678b7a1a60c1e2b120dc171135895"
+      "size": 107993,
+      "sha256": "b4bd05686f540cfebfcc51eb72bd313caf9b3a46505d6fbc93b860f5a0337665"
     },
     {
       "path": "common/characters/JOR.txt",
@@ -375,13 +375,13 @@
     },
     {
       "path": "common/characters/KAL.txt",
-      "size": 588,
-      "sha256": "6ee506fd0de427cd0b7c90d097b2a1fc88d2c2d6045b59c8c36fd79b237e992a"
+      "size": 805,
+      "sha256": "ecb9ce8ea372dce98a75cfead2e8e1d9b79986c39304fc2289a70359fe4f3be0"
     },
     {
       "path": "common/characters/KAR.txt",
-      "size": 1354,
-      "sha256": "d19002b7719b3e1a2ef6f88ab400bd926ef9f33b40d65423adbf011488e937e8"
+      "size": 1434,
+      "sha256": "f64d3ca7fd884d45db27c286207ec7cb9ad5bd26c76a670396c68239e6b4e8aa"
     },
     {
       "path": "common/characters/KAT.txt",
@@ -450,13 +450,13 @@
     },
     {
       "path": "common/characters/LIB.txt",
-      "size": 5774,
-      "sha256": "049b52d968bd4d7a0968b17577dec922d621727e7426e088413b5aefd34c042a"
+      "size": 5772,
+      "sha256": "47450dd4f448ba8c520b71923878edf6693384e3ecd349396290dea4ebb5f326"
     },
     {
       "path": "common/characters/LIT.txt",
-      "size": 19399,
-      "sha256": "1a65b5a1bfa490f7118d4f00c2d4778882a9b87c99d273036256962239107190"
+      "size": 19395,
+      "sha256": "fde1797015cd51cc7acaa08d2c292bd9c4c822763a6087c94fd4da8c6388a3bf"
     },
     {
       "path": "common/characters/LUX.txt",
@@ -520,8 +520,8 @@
     },
     {
       "path": "common/characters/NOR.txt",
-      "size": 38291,
-      "sha256": "8636b4ab595fd9f6bf02da00dcfd22a0c5ec20c612f931656a4fd11c1063c4a9"
+      "size": 38255,
+      "sha256": "481d56d28a8da305e45c81583ba2ac0edfefdceb4309d9b267b6df5841767c6b"
     },
     {
       "path": "common/characters/NZL.txt",
@@ -535,8 +535,8 @@
     },
     {
       "path": "common/characters/OMA.txt",
-      "size": 7805,
-      "sha256": "1ffb2e9f602a1b7e1f1466739d26781271fd7cfac6d44d3e271df8e700e29470"
+      "size": 7802,
+      "sha256": "d2de0dafec10a0cf7431fb77aee9cb72eb182424414e4934c1b40e2746de5f86"
     },
     {
       "path": "common/characters/PAL.txt",
@@ -545,28 +545,28 @@
     },
     {
       "path": "common/characters/PAN.txt",
-      "size": 9172,
-      "sha256": "4e31967c9586f69bc89ef86717a7a7b8d0926755bb13a0701e6a699ee55ee122"
+      "size": 9176,
+      "sha256": "8a48df185880f8415852c194a2ce1d16da4c30fff4a0ad884b023aa5fc928156"
     },
     {
       "path": "common/characters/PAR.txt",
-      "size": 28245,
-      "sha256": "600c12a59fd7a9747c6687581998149734b987c962525d949699fd814bb51b7d"
+      "size": 27408,
+      "sha256": "cf53ac292a93a215a071e6c815d284c15951a89bbbc8d511e39edf38c13b01bd"
     },
     {
       "path": "common/characters/PER.txt",
-      "size": 34522,
-      "sha256": "400aedc84a534eb123cec2033fa15d7a452fc0a096de835280cd5876f4a10ef0"
+      "size": 34704,
+      "sha256": "625dc90800cbee4f22ec2b84c868c78d5c37b2bf96375af45b817bfd9536ba30"
     },
     {
       "path": "common/characters/PHI.txt",
-      "size": 35864,
-      "sha256": "b00498356b63f398548cd9e00453a2f418f99458a38846f05daef7eef98e20e2"
+      "size": 35901,
+      "sha256": "2084d1c5c852daf917b337e4bed6a7e1e6e51b43598ec0cd22f1f49aa8518629"
     },
     {
       "path": "common/characters/POL.txt",
-      "size": 33655,
-      "sha256": "2cf2a39ba52a88f4ad5e3fb581c8fb933714c3fa3adfce3eea2c3710f454ee4e"
+      "size": 33640,
+      "sha256": "8fd7f094ab557a0dfc4f030c87cf683d498bdf6f994d5d0f0778d08bf7730efa"
     },
     {
       "path": "common/characters/POR.txt",
@@ -590,13 +590,13 @@
     },
     {
       "path": "common/characters/RAJ.txt",
-      "size": 65136,
-      "sha256": "3c849264d90f7cf4b62557fcce200b1ab2221ba6ba4f5eae4849203b4b526ed0"
+      "size": 71604,
+      "sha256": "779538f654bf60ea533af508a85fea4f784b7c65feb550260e1b4f0218aa424d"
     },
     {
       "path": "common/characters/RAP.txt",
-      "size": 1094,
-      "sha256": "3eb8fbdcdd22a42967beb0c52e25fe53b8e167e14e3cb630b9817c8bd5ea9fe3"
+      "size": 1143,
+      "sha256": "1dc0a955540c8cfab0acefbd6e7e2cba21687315d8cdc9539770e9004573485f"
     },
     {
       "path": "common/characters/RHI.txt",
@@ -665,8 +665,8 @@
     },
     {
       "path": "common/characters/ROM.txt",
-      "size": 11631,
-      "sha256": "fdd977ec6930cde2bdc3d230011f33220c2486438c4171c4b85a4a28187f1201"
+      "size": 54644,
+      "sha256": "0df7d893f3d4adb5b41c48a0060ffc00ee79b41cfdfb7ca99acbb10f914a1f11"
     },
     {
       "path": "common/characters/RUT.txt",
@@ -680,8 +680,8 @@
     },
     {
       "path": "common/characters/SAF.txt",
-      "size": 10486,
-      "sha256": "97af3e608ab5ff4a66f01e7d30142cc1e09fdfc6853a2804730322b14aecdbdc"
+      "size": 10957,
+      "sha256": "9796f63a91536ff82dbce7da71c23b887ed0ef23ca970634fb5a6a03b46e9334"
     },
     {
       "path": "common/characters/SAU.txt",
@@ -700,8 +700,8 @@
     },
     {
       "path": "common/characters/SIA.txt",
-      "size": 41215,
-      "sha256": "3acfd31a98f457685de31d50487ebdbddc4327cd1c6282a84f0c86cbffe51a0e"
+      "size": 41252,
+      "sha256": "71f14121314e8e91787cdd51a05a17ac2b8ee0732c819516abe8f5f8ea2ff8e5"
     },
     {
       "path": "common/characters/SIL.txt",
@@ -710,8 +710,8 @@
     },
     {
       "path": "common/characters/SLO.txt",
-      "size": 13971,
-      "sha256": "dd03cae21824ad9ebb2d9b1c7af29d6ff27d4c89cf2b20c49189120ce12f0f62"
+      "size": 14008,
+      "sha256": "ac55d95a8a435e1947e998e7709ff23cfdacbc9a2ca7616abd93c0bae705352c"
     },
     {
       "path": "common/characters/SOK.txt",
@@ -720,23 +720,23 @@
     },
     {
       "path": "common/characters/SOV.txt",
-      "size": 90538,
-      "sha256": "a4e81f38a80c525291b7fdacdbe37900b18593d4293ad4647bfe1a860c6f2d24"
+      "size": 90882,
+      "sha256": "05bae7089aebe8da06c66111dd05b36887dc31cd6e32da52e20bd6994d474c11"
     },
     {
       "path": "common/characters/SPR.txt",
-      "size": 95693,
-      "sha256": "400c37a8752a52ee78542f84e742329cf7721e900ac84a2e4451ffa02c4a983d"
+      "size": 96008,
+      "sha256": "0b41c25f9e685995feae31a6399a37c46831a5904c291524de98d691a0539330"
     },
     {
       "path": "common/characters/SWE.txt",
-      "size": 43032,
-      "sha256": "42a3f5241eb3218410e6acdd6854bd1aa5e645544d31b760ab48297f91374856"
+      "size": 43346,
+      "sha256": "66a47f3a3bb2126cfd6327de2271ad5d43a9e23d4ff4d7ae7e4020e4ff52c715"
     },
     {
       "path": "common/characters/SWI.txt",
-      "size": 54344,
-      "sha256": "a4d8772ed0bd921ccfea69fc4ddfcb739ba08cb4b0b7825b762d7daea6391b7a"
+      "size": 54677,
+      "sha256": "c731ee9e70cd987c0f4cbee9709bd60f9def1758cff9756a0cb074ef0064376a"
     },
     {
       "path": "common/characters/SYR.txt",
@@ -745,8 +745,8 @@
     },
     {
       "path": "common/characters/TAN.txt",
-      "size": 7654,
-      "sha256": "325e310dd39a6390912586cdeb0627009d3951954e749d34c48bab2c39e516c8"
+      "size": 7644,
+      "sha256": "02f8f34be8ddcfdadee3f0765ffd6f7c2e48ae8624ed42b82b72abbfb2fa0dd5"
     },
     {
       "path": "common/characters/TAT.txt",
@@ -775,8 +775,8 @@
     },
     {
       "path": "common/characters/TUR.txt",
-      "size": 58110,
-      "sha256": "0efc10a29612372d749eb5af4ce91730016ff092cce67c0b5bbe424bc396a47e"
+      "size": 58152,
+      "sha256": "9f96ddf00aaa28003b9a650c9094717e966c1715f4f7b951351d1617dd06e4d5"
     },
     {
       "path": "common/characters/UBD.txt",
@@ -796,7 +796,7 @@
     {
       "path": "common/characters/URG.txt",
       "size": 16337,
-      "sha256": "06973584c2fb9f78c0cc552e57e8a6e720edc9472b3e2b3abe53daf53f3aaff8"
+      "sha256": "ac2422e8028d42abc04225f1e27975c37fc27ec98865024cf6bb4c695c2ac6e0"
     },
     {
       "path": "common/characters/USA.txt",
@@ -805,8 +805,8 @@
     },
     {
       "path": "common/characters/VEN.txt",
-      "size": 8432,
-      "sha256": "174a7e55e99bd8778055c32d6d9d731fc8abc1bfeb81e3046937851a764b57f2"
+      "size": 8422,
+      "sha256": "c7e17b7834d25223cdde2ff431bf4b4047f082f5025a5a4d63f2f88949c5b25f"
     },
     {
       "path": "common/characters/VGE.txt",
@@ -825,8 +825,8 @@
     },
     {
       "path": "common/characters/Warlords_China.txt",
-      "size": 52111,
-      "sha256": "b2010a8948b7ed83e6d8b6478c3111b134bc9d12d4c1652544a2c476c5f13b85"
+      "size": 52195,
+      "sha256": "cad28084b16f113249ef10940b8b13515914fa0cfcf29430345200567d567151"
     },
     {
       "path": "common/characters/YAK.txt",
@@ -835,23 +835,23 @@
     },
     {
       "path": "common/characters/YEM.txt",
-      "size": 7835,
-      "sha256": "19141989f089fec32ff1beaf0073418dff1f796c6cf1fe92f79aaa52a9812e9d"
+      "size": 7833,
+      "sha256": "eb52f62126066914a560142e4f91e519a10ec69937ec5efd4cb697a68dbe8e17"
     },
     {
       "path": "common/characters/YUG.txt",
-      "size": 12528,
-      "sha256": "f4631ccfe9c5da1979466fce6f1a85ce8074dc8773781d849856879d70b77fee"
+      "size": 12565,
+      "sha256": "6c531a7cb7a3393a2212ceb0b41cf0a6d598206d326fd446c6a5d24d516df3bc"
     },
     {
       "path": "common/decisions/AST.txt",
-      "size": 71164,
-      "sha256": "568bf78028150b7282e531c446d4fb9348d8ccff90b0a87fb1a5963072e7a996"
+      "size": 81439,
+      "sha256": "fff3572e1aeb3801179f69f59233ff7e7a668ba433e1e32ad6a633f3327c13b2"
     },
     {
       "path": "common/decisions/AUS.txt",
-      "size": 58493,
-      "sha256": "816f4c9d9c9449499e7403f47c64240f4efedeed252f5f8c462d769bf77a9fee"
+      "size": 58794,
+      "sha256": "5469c4c6e371f64f0e916100ee905ede9b70a0e2249f88524e63f04c03af82c1"
     },
     {
       "path": "common/decisions/BOL.txt",
@@ -860,148 +860,213 @@
     },
     {
       "path": "common/decisions/BUL.txt",
-      "size": 241523,
-      "sha256": "357f2d0f6d0705b4afc084c37afb8b55f3ded90631155c23e2470def796c7f61"
+      "size": 242473,
+      "sha256": "e13713ea6ccd22861533d3757edc84456e7e45a2ca511edd73ddac8edf064f32"
+    },
+    {
+      "path": "common/decisions/CHI_decisions.txt",
+      "size": 232232,
+      "sha256": "9ce8e222f8fc5199edc39d3cacf64c55284e86b06d74eb458bf329fce5697ae4"
     },
     {
       "path": "common/decisions/CHL.txt",
-      "size": 204115,
-      "sha256": "545245e255bb14bbc8a080c854ffc260e9e8ce8d8ccc2b994d1e914a535f7ea5"
+      "size": 199100,
+      "sha256": "726dbf6dbd7d0701c9a77832cd94c209980bd364af8f0e36b943f2492e1664a5"
     },
     {
       "path": "common/decisions/GER.txt",
-      "size": 435834,
-      "sha256": "129df9bbfa7b8496c3448d1116b6153ff7d054ec20a9803ad2549bae89c5400f"
+      "size": 437141,
+      "sha256": "9dd8da3163ba3fb3b28e81bd05e1094f21b70d486d7bc90932d385eeedc996be"
+    },
+    {
+      "path": "common/decisions/HOL.txt",
+      "size": 46242,
+      "sha256": "9ee8fe49d1e508f8583012a0c41e91b526fb0dc67e1e1a62216fd6d950701caf"
     },
     {
       "path": "common/decisions/HUN.txt",
-      "size": 89645,
-      "sha256": "99df46d9e94f10d8fa1e5d1307f71b39d0ed244ec7ecde273c9dbc1f0a2e9344"
+      "size": 88770,
+      "sha256": "727627632e52c935e4d102b9aa493bbcfe2a19d690a5340c03793b359536e897"
     },
     {
       "path": "common/decisions/INS.txt",
-      "size": 113315,
-      "sha256": "c9ab572d6e3e18a10eb9f37a5e34c3e6d188c2a7db8b5e3b533c061a01a4f54f"
+      "size": 121922,
+      "sha256": "af6ef445567138e2907dfd61bf85310a0d1359e698ef61789a09e19d433877b8"
+    },
+    {
+      "path": "common/decisions/ROM.txt",
+      "size": 201661,
+      "sha256": "5ef9ca7957310247151a6f77a5186851a340f2b74632b27e4b4516b80001d7e2"
+    },
+    {
+      "path": "common/decisions/TOA_shared_decisions.txt",
+      "size": 86423,
+      "sha256": "5208a8639d5540bbd151d428681c9bf1d0f3a3bb36c8513ec91c04f8b3bf80d8"
+    },
+    {
+      "path": "common/decisions/TUR.txt",
+      "size": 138446,
+      "sha256": "2e275b1c3ac83cd1c7d91520828e4f0c8cff3fa726eff5273781adca52f3c32f"
     },
     {
       "path": "common/decisions/formable_nation_decisions.txt",
-      "size": 389172,
-      "sha256": "07619803b6f6076189049bea9879bea4af28baf4afb4de6b171a59e106c23857"
+      "size": 409380,
+      "sha256": "154620a2e6add0e7b4076ac6012e567b49c6a6142d49d531bcdac6c130f8c3b2"
     },
     {
       "path": "common/national_focus/afghanistan.txt",
-      "size": 254243,
-      "sha256": "d96c8bb89a8255360aa3c19040e21b477e946f18a6708aacf36bd9f97507f7a9"
+      "size": 257418,
+      "sha256": "b2540e9d31c9fd7f217433bc9243c6fb7c459072615f86ef0722d7f798aa16fd"
     },
     {
       "path": "common/national_focus/argentina.txt",
-      "size": 123709,
-      "sha256": "27c77aba3fd0357a1c9da15b749ebf972a0bdd48740a6d99b0488479f99c86fc"
+      "size": 124160,
+      "sha256": "03e1e016e01bf585dc097aa069925ccedb4b3a486ca3c2a7ab14548840f58a5c"
+    },
+    {
+      "path": "common/national_focus/australia.txt",
+      "size": 103115,
+      "sha256": "b62853ad4d12e5f6edae59a88827e6ebd514b50d2618288be7124ede7a76feeb"
     },
     {
       "path": "common/national_focus/australia_taog.txt",
-      "size": 254776,
-      "sha256": "d6f5ad2133e1d9818565074c1ba3ff389486e0d65fd6a59e7f5281f1ec6904d2"
+      "size": 284341,
+      "sha256": "e5458cdb88a280954ba58e9182c87fbca09f4167d9855f3dfb9b0af0ad0a6e71"
     },
     {
       "path": "common/national_focus/austria.txt",
-      "size": 290832,
-      "sha256": "76a600951d7250b20843bd74ec26adbc20626cb0fae5fa7059f519dbb282b17d"
+      "size": 290426,
+      "sha256": "cefa00a13e31836aaeebfbf42f3d115ad4d830382b70b5a0f4422ea5ccca1807"
+    },
+    {
+      "path": "common/national_focus/baltic_shared.txt",
+      "size": 95597,
+      "sha256": "b5866cbcc1221ef4c06438d13cc8db8d5028f19100f53af26b3afeef1fcf2d7e"
     },
     {
       "path": "common/national_focus/belgium.txt",
-      "size": 169226,
-      "sha256": "53764b7c14881e7ea4174e68c3768c7f53ddb67eedba7f8bb05dd58df7228e16"
+      "size": 169976,
+      "sha256": "0322380f7e2b6e27cb838206d1329aa32588dfb8b06a733eeb72d723059f7e36"
     },
     {
       "path": "common/national_focus/brazil.txt",
-      "size": 166837,
-      "sha256": "f4d1ef3a5995fce4db091e4e125ae6eaca56251646fd4029c16605d16f79bc1b"
+      "size": 167188,
+      "sha256": "d86a48b5a46e3bf3cd708c6eac127165e4c57d26249c87ac03c919056d3ebbc8"
     },
     {
       "path": "common/national_focus/bulgaria.txt",
-      "size": 215970,
-      "sha256": "87a2d05ee28941a93c87894a45651b4a22fe38a567b4dac7331db28d3cff5b7c"
+      "size": 216412,
+      "sha256": "a5fbb5744a12b786e3d272a9d4b729ad9d8f74c5c44cc6d55d6f7de520f1c71b"
     },
     {
       "path": "common/national_focus/chile.txt",
-      "size": 275753,
-      "sha256": "69723faa66f68654b22198d020c6272ee634a08305dbe059010e9e00622f26c2"
+      "size": 275841,
+      "sha256": "ba1eabfcc195b58dddc02966681f9908c8d11e01e004f0000d4304d5e2b91c10"
     },
     {
       "path": "common/national_focus/china_communist_sea.txt",
-      "size": 289124,
-      "sha256": "9a915312c0591b5284ba6e6db0673b7d1b3e210e1e9d8590fcebe26e03ec3da8"
+      "size": 289645,
+      "sha256": "877ccb476d128fcd83f980ab73a60ff7940088d5b9fdcf8cfa0a73730f5a8570"
+    },
+    {
+      "path": "common/national_focus/china_shared.txt",
+      "size": 69623,
+      "sha256": "74b768e1b47055d3d98736e2c1dabe0464c1130851001c7c7652ce79ef8f233a"
+    },
+    {
+      "path": "common/national_focus/china_shared_TSR.txt",
+      "size": 78601,
+      "sha256": "d93c718880ac37d0ec7a7dc2310041125014366d0030bd165280ac315252db5a"
     },
     {
       "path": "common/national_focus/china_warlord_sea.txt",
-      "size": 156993,
-      "sha256": "715bde0409e172e4f9cf3c388a5da4e494ce938caa6c4567fc9c4b036be30477"
+      "size": 156944,
+      "sha256": "e4baf8e527e73c390d2dc4d8ea6808fb245708851d624c26a6396e85b339cc1e"
+    },
+    {
+      "path": "common/national_focus/congo.txt",
+      "size": 166897,
+      "sha256": "87b1296f0bf8114606e93605165949e34e88ad7068ffb3d67837a2d1fa53cc28"
+    },
+    {
+      "path": "common/national_focus/congo_shared.txt",
+      "size": 199131,
+      "sha256": "1a48ca59d8183f4eec0e0efafea06a1a2e9219d9839cda977cb1d9e78da328ae"
     },
     {
       "path": "common/national_focus/czechoslovakia_mu.txt",
-      "size": 484595,
-      "sha256": "14fb827b44d5160c3fdf2ec29c6cf600e9eadcbc495d1bf6d75523ff1f5ec5af"
+      "size": 484685,
+      "sha256": "110c82a7f2c1fdd0be5669ad56d29f59e846a9f84df2bdfb7b3ddae231ceb01b"
     },
     {
       "path": "common/national_focus/finland.txt",
-      "size": 367054,
-      "sha256": "b88067e2b6c0bb16b709ea917c5bc0af2fe643074c80547bfc8afb76905b3761"
+      "size": 367968,
+      "sha256": "3babc92444e06a4b9c95792c4caff6532469756f47ca5039863f88d15dceb9b3"
     },
     {
       "path": "common/national_focus/france.txt",
-      "size": 173064,
-      "sha256": "ff4f04747d98b2e8de0ac4ab67e718c7c65a9e43f2832ff4b237d2b020648e67"
+      "size": 174075,
+      "sha256": "0b8a535a593940a06fb3994c9a5001ae6cd03d61c9fc8a2b461af96b2c34cb1b"
+    },
+    {
+      "path": "common/national_focus/free_france.txt",
+      "size": 18211,
+      "sha256": "73f35a28ffed1784454899451c29aed6ea73cc93b09f4f7702b8a3c1a8e2dc1a"
     },
     {
       "path": "common/national_focus/germany.txt",
-      "size": 847031,
-      "sha256": "4ed1dfa9704946db3736aa5f172e83a5ad09c370e00e1eeb7af46b808dca2482"
+      "size": 851779,
+      "sha256": "b1daab3e0cd3271f494c0a8762a1fef27db955251ecd6840df6b7f680adb8e52"
     },
     {
       "path": "common/national_focus/greece.txt",
-      "size": 129820,
-      "sha256": "80acd509ad4460146693bc03b45732391bc5b21b307059076408f05ec98e4fd3"
+      "size": 130301,
+      "sha256": "cc75e592785524b31d2ca484707054c2e9dcc68da48bffb77cc4afb5a1cff5cd"
     },
     {
       "path": "common/national_focus/hungary.txt",
-      "size": 98018,
-      "sha256": "5e9b2db9c43d674a524fcf1ec20cba079cab8b13946686d04b8bfd402ca53b19"
+      "size": 98408,
+      "sha256": "fb80eec8fa50aec7a27c4846432dbdb1a7134b1e084920bb03f97f37af9e545e"
     },
     {
       "path": "common/national_focus/hungary_wuw.txt",
-      "size": 407432,
-      "sha256": "9bb9dae6eb8f9c805d283e5271999ce01418ff6544c82c29147e310268cadb92"
+      "size": 406349,
+      "sha256": "ce46b71da2e648e42c238ef801184a5579e01f96bc8791d6f689bf4cbf94ed77"
     },
     {
       "path": "common/national_focus/india.txt",
-      "size": 76455,
-      "sha256": "47170e99a474dd44b2e1d1143b32fbccf916aa9a8f208f092334c9b42faf86c6"
+      "size": 76685,
+      "sha256": "e26ac28879b70bb36e64126800621f94faa08a230c61a05f1b7397e910c383d9"
     },
     {
       "path": "common/national_focus/india_goe.txt",
-      "size": 692358,
-      "sha256": "df537c413794fc838899fd306013dc4c22e0bd1571e2241781e9f5d8e1dbba6c"
+      "size": 694856,
+      "sha256": "f8de3dbdfc7bf56093db964394ccf71a5e9d293934e49c75ea6c6b75e5cb50ec"
     },
     {
       "path": "common/national_focus/indonesia.txt",
-      "size": 159876,
-      "sha256": "3dd51f2e9fe7917a8255139a3dbdfd0ae534301f354e7bf7ee745dbe0bc8b55c"
+      "size": 180714,
+      "sha256": "be6baf2228e278745d8d462c2afd95f87f1a93ff2b88466e7418146b6473478e"
     },
     {
       "path": "common/national_focus/iraq.txt",
-      "size": 194774,
-      "sha256": "676241a200dbe899b98398adf4cff6f512b8167ea13ee17d0975eed9532ff5d1"
+      "size": 195317,
+      "sha256": "dbe394e995e15c783f703da282ea5b4770a8544b672661a79ebc24d27a51d48d"
     },
     {
       "path": "common/national_focus/italy.txt",
-      "size": 543142,
-      "sha256": "0c727f21d03d3e8aa715c5c16777123f9ebf0c7ac8b5bfa53a3ffbc7e6619b8e"
+      "size": 543990,
+      "sha256": "71b21e7a59bc338e968de2152568db321c235f0d24f28ebff3c641cd482c531c"
     },
     {
       "path": "common/national_focus/japan.txt",
-      "size": 649651,
-      "sha256": "2654f80806ee17280a3d9d1b7781830903682d87f7be9dc1ac69ba1210a49248"
+      "size": 649767,
+      "sha256": "2bfbb759250e55da50b8472884cf760dfa6bfd29164846b539112fd871c81677"
+    },
+    {
+      "path": "common/national_focus/lithuania.txt",
+      "size": 94253,
+      "sha256": "06c1ffca720453630f8e4d00c4e423d7b576efd7f79f817555e22df3d5f0efab"
     },
     {
       "path": "common/national_focus/manchukuo.txt",
@@ -1010,8 +1075,8 @@
     },
     {
       "path": "common/national_focus/manchukuo_TSR.txt",
-      "size": 93739,
-      "sha256": "bf2c24edbb3678a063b52dc67b750bdadd34081f99fab29c13a01c4ddff045f1"
+      "size": 93563,
+      "sha256": "9a7626d2451748155bc5d6ee178f942ea2ca9d426580a31ed88cca888e0ba2fe"
     },
     {
       "path": "common/national_focus/mexico.txt",
@@ -1019,69 +1084,84 @@
       "sha256": "3a8590a55b0a5a04191982814cbdfedb5b5932776ebe8fc826c2658b7cb969ba"
     },
     {
+      "path": "common/national_focus/netherlands.txt",
+      "size": 182299,
+      "sha256": "5ef17d79258e1901f30ccf2ab2a2e401bfcae3921feb8c305a2dd2411e14f765"
+    },
+    {
+      "path": "common/national_focus/norway.txt",
+      "size": 210772,
+      "sha256": "9b0021c8a580bd9a74db8299c27b37cc9789c240dd15e0b3ada162cd263015b7"
+    },
+    {
       "path": "common/national_focus/persia.txt",
-      "size": 263474,
-      "sha256": "1135d17f85dfcf79aa420ca64c666668dad6bb33fe7aaa69dc55f1c0e3cad946"
+      "size": 263890,
+      "sha256": "e5499109b62f939a5aa4ad10ab1cfe30847f1721c880e071f816b1b4d5ce9d2b"
     },
     {
       "path": "common/national_focus/philippines.txt",
-      "size": 206700,
-      "sha256": "1e1f22cde35e8705d3fdb8b3972f7c709df7faa273ad2f0a1382cc0c50118546"
+      "size": 207602,
+      "sha256": "1513d04dd2de40847e5a48b67cb41b5ea22d00bb59450d7abde0c10618deacd2"
     },
     {
       "path": "common/national_focus/poland.txt",
-      "size": 318209,
-      "sha256": "a0cfb86060de086f61525929acd2193a81ed129e2df1244c20cd30d97efa654a"
+      "size": 318404,
+      "sha256": "004b697d4965cc7987f82698a3767c4dbf874df901a008df7c3225958a29afe9"
     },
     {
       "path": "common/national_focus/portugal.txt",
-      "size": 145719,
-      "sha256": "786d5f457218a25142136d522c6d3825b01f504ecaef79bdc14c0286a3cfa53e"
+      "size": 145786,
+      "sha256": "76194575e415bc0148fea3da9bbfa73470ef9ea2b5acf030717e66ee8d72774b"
     },
     {
       "path": "common/national_focus/romania.txt",
-      "size": 91489,
-      "sha256": "f71ca24e16804c2812d00195b703b0b4c5141783eb3316df24e8dd3c1a413476"
+      "size": 91715,
+      "sha256": "178c1c1ab0b2d54afca6e164e318346eae483b440fb57ba91ce2f8bcba6dc7fb"
+    },
+    {
+      "path": "common/national_focus/romania_ttbe.txt",
+      "size": 279681,
+      "sha256": "8b4872d9126603a478ec25e55d8a26e3fa26dd1a8ad65467b42d816040d827a9"
     },
     {
       "path": "common/national_focus/siam.txt",
-      "size": 218751,
-      "sha256": "e958a894eec141e615d0c1187a4a680ae0d88a5dd0bb64dbde55185f521e0ef9"
+      "size": 246833,
+      "sha256": "143a463f108155e7cb8f4011a4bcf7acd9b3fe2a15b46418db94cc5c3a500cf9"
     },
     {
       "path": "common/national_focus/soviet.txt",
-      "size": 470789,
-      "sha256": "da05e7cec7ba64f85b43a8ef5977d5ae3991df69aa11bc538065228f2d43f8f9"
+      "size": 471928,
+      "sha256": "91cc9f5731698e1f5dd90a3c9bb37fc56de332597aa0a632af693b256000b491"
     },
     {
       "path": "common/national_focus/spain.txt",
-      "size": 294127,
-      "sha256": "702bb4c0ce0bb54657fc9fc6c725d6aeaddb2328ee8796bb4b1f8c65159563e8"
+      "size": 296601,
+      "sha256": "a0ed1208f085916aeb03a3a4dda53c5f91639cc658840a10e61293590bafd18e"
     },
     {
       "path": "common/national_focus/sweden.txt",
-      "size": 209698,
-      "sha256": "5cae8e07ad20f8be576e024de53bce162aa5a53c6491e0eb610d7c6c9d8d40bd"
+      "size": 210665,
+      "sha256": "aae633b41653335affe07a3e756f42e16a6d643438df98cff2140dee7565e818"
     },
     {
       "path": "common/national_focus/switzerland.txt",
-      "size": 186596,
-      "sha256": "bb24c8c5a8365fb031ff955aa9406672b912fb3a01bb3f21035f4c1acfb35af2"
+      "size": 186688,
+      "sha256": "32942ca4a721fe3fcf3dec86cb65450a2f82e261dd3c82be268bfa696da43b7b"
     },
     {
       "path": "common/national_focus/turkey.txt",
-      "size": 232419,
-      "sha256": "d7385ce6be0f8ffd58dc98a9c53a8a6f14805788f3020f9dd69f8df22e181965"
+      "size": 235431,
+      "sha256": "0ad4c2cbffa9607c7818ac827dad39ea943b91d896a1a59ac9451a7de6ce11b8"
     },
     {
       "path": "common/national_focus/yugoslavia.txt",
-      "size": 142555,
-      "sha256": "d47a1b3212ad3432456f9f4344c920e706abdd161931d585c4c179da9b8c4e12"
+      "size": 142741,
+      "sha256": "df27db10340e9e6e0f21938758d69b98b57bc06401a93bab91700b86272efc1d"
     },
     {
       "path": "common/on_actions/04_mtg_on_actions.txt",
-      "size": 75162,
-      "sha256": "7fc419a5d4796656d7a23ac3dae12a9e2b499f0ad876abe7fe65260e87e67d63"
+      "size": 75997,
+      "sha256": "470d264a9828364fdd097649c7d43042f7c6516a4a344bced627e67cf03bca30"
     },
     {
       "path": "common/on_actions/09_aat_on_actions.txt",
@@ -1089,9 +1169,14 @@
       "sha256": "3905a414ecc5c1057796c79a9d51d90e5c060ffcf52b7f59683919cc77447abb"
     },
     {
+      "path": "common/on_actions/14_sea_on_actions.txt",
+      "size": 104866,
+      "sha256": "a581436736c8489266521a0015243bba82ea775facfa5d9455923b20e029a5eb"
+    },
+    {
       "path": "common/on_actions/16_taog_on_actions.txt",
-      "size": 66460,
-      "sha256": "4abb86588e4420614db379e4d52dc6b5969348f9c0954209ee39223588c4bb91"
+      "size": 71768,
+      "sha256": "281f6d45206d5fc703a8ee268d255c4cb3174dc7fb991b5eb3c302aea62626bd"
     },
     {
       "path": "common/scripted_effects/AUS_scripted_effects.txt",
@@ -1100,8 +1185,8 @@
     },
     {
       "path": "common/scripted_effects/CHI_scripted_effects.txt",
-      "size": 34684,
-      "sha256": "ccb30258c7c2b49aacb82f8cd0dea6e9d52b94d5b270e988b156a537c28ce353"
+      "size": 37630,
+      "sha256": "e1a39a9ea569d05aaab4f077f00e66e60e9f0e4f9033ab57da5cd8963267da4f"
     },
     {
       "path": "common/scripted_effects/DEN_scripted_effects.txt",
@@ -1110,23 +1195,23 @@
     },
     {
       "path": "common/scripted_effects/ETH_scripted_effects.txt",
-      "size": 38079,
-      "sha256": "d66e43f7549aca749199101e1fcaa0d3027dc74286a53279aecb6d244e66c7f8"
+      "size": 39909,
+      "sha256": "0af957e5761f605ff4f9c7d110f9c642170cfc52e0bbefacfd7d22ac3de27a7c"
     },
     {
       "path": "common/scripted_effects/INS_scripted_effects.txt",
-      "size": 62361,
-      "sha256": "c9d0c00bde5fad6a0b98586ccdc540af069fa2a226f7d11e1115697f4c1fbab5"
+      "size": 67911,
+      "sha256": "e7cc889dd8b702f76d1a50c9f998d7c18e0a53032fedf6df6a61fecf9e270217"
     },
     {
       "path": "common/scripted_effects/ITA_scripted_effects.txt",
-      "size": 183270,
-      "sha256": "b3ae2490270535f8029866e530d5cce412d7f30efa720e2d6b69689872dd48ff"
+      "size": 183288,
+      "sha256": "1be81528073bb4082aadf537aa06b95291c0a7668230a39304831ac3020dd004"
     },
     {
       "path": "common/scripted_effects/JAP_scripted_effects.txt",
-      "size": 175483,
-      "sha256": "f3f4830cd242b0aa716665e4603aad85b29cff814f872418c17148e17e2d22d0"
+      "size": 177558,
+      "sha256": "54270ae346d0b1c6f849e0e26d547161f85c752a985917ceecc4fe5f41ca909a"
     },
     {
       "path": "common/scripted_effects/PHI_scripted_effects.txt",
@@ -1139,9 +1224,14 @@
       "sha256": "fa984005d1cce92852bc7ac5a353a23652941af29bf6b1958804366dc32153d2"
     },
     {
+      "path": "common/scripted_effects/RAJ_GOE_scripted_effects.txt",
+      "size": 44690,
+      "sha256": "9439a9d448423c19e8c28297d4a680ffc9f557c05dc03e85e0be330c7163f9d1"
+    },
+    {
       "path": "common/scripted_effects/SOV_scripted_effects.txt",
-      "size": 310997,
-      "sha256": "8ad4a9c681234e533248272660c45cbc5941489d7269780a4425b0fd5ce28ba0"
+      "size": 311599,
+      "sha256": "18db69167dc7cebf528f62b40b1a05137b4d6851a9bb426264ae58bd65a382f7"
     },
     {
       "path": "common/scripted_effects/WTT_warlord_scripted_effects.txt",
@@ -1150,203 +1240,78 @@
     },
     {
       "path": "descriptor.mod",
-      "size": 163,
-      "sha256": "f0a861bc8b6f06f18a753a1e9ffc6a38ab92a86e1e6fd75a3f7d36dab3e6c2c0"
+      "size": 160,
+      "sha256": "8d0acf85653ff1d7f788ecc710688fa915ade24f208e71cf00fd153867318935"
     },
     {
       "path": "events/AAT_Denmark.txt",
-      "size": 215230,
-      "sha256": "ae59f63ab37218f200de05b36759c62acdf0184e1e101b691b9a7d8f9bca8969"
-    },
-    {
-      "path": "events/AAT_Finland.txt",
-      "size": 131331,
-      "sha256": "363c53751ed2fbe113fbed5635940f4494b5c67f3bfa0a3787aa327f6cdfda13"
-    },
-    {
-      "path": "events/AAT_Generic_Events.txt",
-      "size": 7668,
-      "sha256": "e718d19edba2d56c75a5bbf1fa0c51bbb6cda54e0919434c4490fec9dabcea69"
+      "size": 215387,
+      "sha256": "4c3534a0b06134c2b06afeca35634266a50387c2dbcf47bdf241b1426392d170"
     },
     {
       "path": "events/AAT_Iceland.txt",
-      "size": 24886,
-      "sha256": "26114b8af98adbdb78db9e2491d99b0a995ce4508271722ecdfc9e25d50bf278"
-    },
-    {
-      "path": "events/AAT_NewsEvents.txt",
-      "size": 5840,
-      "sha256": "dcf41b240b8ac42a1b6d233fce6600f62ec7628175072c476b2d902a2fda20b5"
-    },
-    {
-      "path": "events/AAT_Norway.txt",
-      "size": 72558,
-      "sha256": "0ae7b0f6e3fd2d22909f3a0d853bdf439cb3dcfe3687dfe599a6f3d7e3d3e57b"
+      "size": 24976,
+      "sha256": "9c2e69265d5a6e6c19ae915c4a8efedcc8d01beb5ee138517eff9767341d039b"
     },
     {
       "path": "events/AAT_Sweden.txt",
-      "size": 169887,
-      "sha256": "597d04acccb14ac75d559117b438dc8d317f4c5aafb7332aa8fee605dcd77a4a"
-    },
-    {
-      "path": "events/AAT_nordic.txt",
-      "size": 14898,
-      "sha256": "3c2a41543169ca9fc7cd40eea9f0fe999f8215bc6b0c8c2808adaeb031cecf17"
-    },
-    {
-      "path": "events/ABDA_events.txt",
-      "size": 4979,
-      "sha256": "86c79e4892223b7a0c63d4bfdbb10fb4f3f627d9b596d066e07f879bf1275ff2"
-    },
-    {
-      "path": "events/AcePilots.txt",
-      "size": 6074,
-      "sha256": "3e43554061bbbafcfd9a189953cd7af2f540190d55dae0b53502a02d489f1507"
-    },
-    {
-      "path": "events/BBA_AfricanUnion_events.txt",
-      "size": 13355,
-      "sha256": "35de434ccfd9a7a1a90578630d17c55fbb155e641a8446c1614f16c2ec562e5a"
+      "size": 169972,
+      "sha256": "9899537bf17b63d2449f32ea030b10f38b3e80061cd3c215031b972c2bb7f3b5"
     },
     {
       "path": "events/BBA_Ethiopia.txt",
-      "size": 173215,
-      "sha256": "580869af4bb8d1db75a64d4253e542860244837effb6f54b984d669deabfa644"
-    },
-    {
-      "path": "events/BBA_ItaloEthiopianWar.txt",
-      "size": 43130,
-      "sha256": "d301769e560a9cd1c6301d265e784e641819b29c009580b2dd4994c55067b179"
+      "size": 173491,
+      "sha256": "dd3cb71bb93fe5b2fbe58b75fc6ec69485274f009e1b38e31fe8b512a05de3d3"
     },
     {
       "path": "events/BBA_Italy.txt",
-      "size": 294653,
-      "sha256": "d69e5f4efa23ba84e669a510fbbef177f51637afa6b5fc1f00c93f0190c2b4d0"
-    },
-    {
-      "path": "events/BBA_NewsEvents.txt",
-      "size": 15247,
-      "sha256": "99f18f38d2a07b8dd026c8bda5b586c60b5e50cedca33a3569e781e1b9380d15"
-    },
-    {
-      "path": "events/BBA_Switzerland.txt",
-      "size": 87392,
-      "sha256": "4331bbe2ea7d0844eb357ecd73f915c1ba3e5a0b115ae62ea5b95a8011e1145e"
+      "size": 294629,
+      "sha256": "8d819729f6f5bb2a0d094d4f79b7af63892122174461525144136c8176092245"
     },
     {
       "path": "events/BFTB_Bulgaria.txt",
-      "size": 231059,
-      "sha256": "7598570b27e0a8cca06218dc83a7ca52ff1bb2ddf2dfec7b0a929b42cc65b956"
+      "size": 231078,
+      "sha256": "5235abd2d7585d96e82d64dc4a25c6a1e5cea0bc5ac6ccc188f4553e3d3ef228"
     },
     {
       "path": "events/BFTB_Greece.txt",
-      "size": 157730,
-      "sha256": "e3bcc5e022a8b46999854a9309dd9c5191649a6691e5302b906eefd3e7755414"
+      "size": 157828,
+      "sha256": "db34759d0b8f99a3bdacda80b6862166e686504e8c1005bacda2d19dfdf581a5"
     },
     {
       "path": "events/BFTB_NewsEvents.txt",
-      "size": 20020,
-      "sha256": "5a60f64783006af408d111ec919c1df80c756adaa61d3cb8e0995e7368dbbd83"
+      "size": 20055,
+      "sha256": "1fab03c1e1fd31c6e5099ba9c27002b0e9b1f5e8b14d46962fef9e6f651cfa03"
     },
     {
       "path": "events/BFTB_Turkey.txt",
-      "size": 132878,
-      "sha256": "3af422774cb9210a7e1c348dae2a44b37dd510dcb3ccd40c69ee52ac5e0a72d5"
-    },
-    {
-      "path": "events/Baltic.txt",
-      "size": 11383,
-      "sha256": "cea8147949c85a11256d07d6efa57f5397f54ef7e3d2f708960ba2be0431e686"
-    },
-    {
-      "path": "events/Britain.txt",
-      "size": 23764,
-      "sha256": "83741f44f61f18c1bb2731612042878866093e8ba8e701c8ef0ab7a769494f28"
-    },
-    {
-      "path": "events/Bulgaria.txt",
-      "size": 2444,
-      "sha256": "27c97a1bc8fd51386a737038d6719e447f3cf9ae3648be09d6d54fb8e906a4f4"
-    },
-    {
-      "path": "events/CapitulationEvents.txt",
-      "size": 6465,
-      "sha256": "dd1e806bd26ed58f94aad41a530aac61784c3c657739bfe48c5c14747e8540ac"
-    },
-    {
-      "path": "events/China.txt",
-      "size": 28448,
-      "sha256": "2db5b801f9a438ba4de54e0082109459332a4e62c64294393ed1a4b33e6850f5"
-    },
-    {
-      "path": "events/DOD_Czechoslovakia.txt",
-      "size": 15667,
-      "sha256": "809fea3e10ec59decef1b8b03b0b8eb90c1ae98f5cafef6d91a6ac074ec3b2d6"
-    },
-    {
-      "path": "events/DOD_Hungary.txt",
-      "size": 182558,
-      "sha256": "951ed86af53737a062c63b9434a15b93980149e1804d53c5056cc2dfa4a309ad"
-    },
-    {
-      "path": "events/DOD_NewsEvents.txt",
-      "size": 2297,
-      "sha256": "6a13469c2d4d6c753a47a8125c379248f76d7a0dba8c37096923575b68d7213e"
-    },
-    {
-      "path": "events/DOD_Romania.txt",
-      "size": 81240,
-      "sha256": "03312e1d8abaa344204863a79b254a1cb9ba050a4fc066bf38ff7285fe21952c"
+      "size": 135167,
+      "sha256": "4b334a0e0b07914159bae82276ddd4a48f5b0cf1ee44307112bfe2bba6eeb603"
     },
     {
       "path": "events/DOD_Yugoslavia.txt",
-      "size": 121248,
-      "sha256": "dd744ab0e6c5afd8e0a7dfc55838041c08ff6b60850b1c387fc71b18a98a1589"
-    },
-    {
-      "path": "events/Decisions_Events.txt",
-      "size": 14706,
-      "sha256": "50d6fa2fbca4b0e2912ee82926efd68dd1dee85dcc5956f7171c5ca533558ddc"
-    },
-    {
-      "path": "events/ElectionEvents.txt",
-      "size": 17094,
-      "sha256": "a9b3a992a38332f55e63a6c7574dd43fd9ddf7df19b6d3115be70ebfc321f6f2"
-    },
-    {
-      "path": "events/Ethiopia.txt",
-      "size": 1300,
-      "sha256": "7690d5cddebfe2224165a4e7231c9e7118ee69d9734e11e88a55fe2c53403462"
-    },
-    {
-      "path": "events/Finland.txt",
-      "size": 8737,
-      "sha256": "461b840098e3a1d2f7a2036814ef846c1ef20f160a58f7cbdeaee99f91c3db11"
+      "size": 121438,
+      "sha256": "c4e507cd27153c3b6699de389a560b72bff0816a7437b0d98789d7d7213305d0"
     },
     {
       "path": "events/France.txt",
-      "size": 45603,
-      "sha256": "befee397473f15f951e233354fabef22d98170541fb36ed0841d84c92196923f"
+      "size": 45682,
+      "sha256": "1d87ece03299d346048da5371f2eb75698bb585749ffd43b2ab748c406416b6b"
     },
     {
       "path": "events/GOE_Afghanistan.txt",
-      "size": 71031,
-      "sha256": "583503c5080b21989a16960692163196c61d536dbf1fc909b2b6cde3a5fd13cc"
+      "size": 71084,
+      "sha256": "a8b36a9493b05aa6739eb29cb95b27f3edf38eb14f40adf4b07be43de4d91efb"
     },
     {
       "path": "events/GOE_Iraq.txt",
-      "size": 37153,
-      "sha256": "0308df2a3938b112c7f3068dbbfc3041a555ad036c870a4fef44798acdc6ed45"
-    },
-    {
-      "path": "events/GOE_Persia.txt",
-      "size": 78770,
-      "sha256": "46717cbe6b79a9cd70f1c7502b9cd9bfd295bd697db26cc93565d9e223cca914"
+      "size": 38036,
+      "sha256": "026d73b05c571fd09a7c3a7462639e74a1829210c88f803c61805d6fd6b5deb9"
     },
     {
       "path": "events/GOE_Raj.txt",
-      "size": 162771,
-      "sha256": "2a7126b53e5160ffb9f5be6707bfd0cf69f2a887a7029a45f6c131f4b2b7dd3f"
+      "size": 166965,
+      "sha256": "e96b95eded9880650d0e9857bc8945a3568954954214369431942295fc5b0d5d"
     },
     {
       "path": "events/GOE_generic_events.txt",
@@ -1354,64 +1319,19 @@
       "sha256": "a36d13882ab1a17d6ca9e2fe17b5dbe00efd59dcf16ce96335649cb22bc84ddb"
     },
     {
-      "path": "events/GOT_Generic_Events.txt",
-      "size": 3098,
-      "sha256": "55a15524e31a9a24981903a6cb9dc9309800b5fead7880193a0309d4d55edc4c"
-    },
-    {
-      "path": "events/Generic.txt",
-      "size": 39081,
-      "sha256": "96d510e119ec0548c3957689395674c7361c6689d2c7d0d65d1c0e024956ec26"
-    },
-    {
       "path": "events/Germany.txt",
-      "size": 258897,
-      "sha256": "a6194ef36f44d92ca6b7ed290e5108b147b2be91db5a52af741ddd6c877cb142"
-    },
-    {
-      "path": "events/Greece.txt",
-      "size": 6688,
-      "sha256": "f4fa459eb5aaa5c689a035000224adb5e71e73720d430463f54f78fdaf024220"
-    },
-    {
-      "path": "events/Hungary.txt",
-      "size": 2771,
-      "sha256": "ee3bcb25e113524de9d1482637f887a321170caf6e69e008430c5519debe51df"
-    },
-    {
-      "path": "events/Italy.txt",
-      "size": 11993,
-      "sha256": "3e2f7b7ef748028d1973349366e217276c1e333508681071835dbb359415f0a5"
-    },
-    {
-      "path": "events/Japan.txt",
-      "size": 22155,
-      "sha256": "2ef957de9efcac7b67a41c0e05572853713ca04e868dff97aa0871ddd29a73b1"
+      "size": 261502,
+      "sha256": "8258a3b2bc13262c5c4660392f636370537012055c80f10b7bb00cd954fd8468"
     },
     {
       "path": "events/LAR_NewsEvents.txt",
-      "size": 56103,
-      "sha256": "21f6093530e059a63f06398e8236aa5e16ad70e3f096f8e0aeb17a62d5ae790a"
+      "size": 56092,
+      "sha256": "fe96539ed4ca9f03fee0e8d5a84829d51b290a458c1e9f20062581e66d81d94e"
     },
     {
       "path": "events/LAR_Spain.txt",
-      "size": 291929,
-      "sha256": "a51d81eed31475b561ac3273f027ee2163b182d58e64d349618612a277e99796"
-    },
-    {
-      "path": "events/LAR_TestEvents.txt",
-      "size": 265,
-      "sha256": "6f0949821d55ff76a87542d7db0a4f527599b2f4f64fa3cd9a8b0c0350accaa2"
-    },
-    {
-      "path": "events/LAR_occupation.txt",
-      "size": 10073,
-      "sha256": "01de8c1cafbd3091c50767dcabb513d6288887750e18fb7b3b42f0f9781fbc60"
-    },
-    {
-      "path": "events/LaR_France.txt",
-      "size": 107653,
-      "sha256": "0a8620bee76f8cdd5d7252fd98225f08967418f578fa90f15899e5783f794d0f"
+      "size": 291861,
+      "sha256": "b1b16d5b10ed7dce2df67b5a823c074e0f9357f5653ea75dc5b0b37784b8c548"
     },
     {
       "path": "events/LaR_Portugal.txt",
@@ -1419,64 +1339,19 @@
       "sha256": "8c9390e29ed2dbac53933a9185c9427264de967f2ac6e2c1ce41075fb2469a6d"
     },
     {
-      "path": "events/LaR_agent_events.txt",
-      "size": 1638,
-      "sha256": "e16dfafd048cfa6cc74a1eeaa00099464d84012032c23907616da4e5a2d3f597"
-    },
-    {
-      "path": "events/LaR_espionage_operations.txt",
-      "size": 4403,
-      "sha256": "7f7ecd1537e6f27167260a386e5bec19bba2586131d2e06ad0ee828a382b0192"
-    },
-    {
-      "path": "events/LowCountries.txt",
-      "size": 268,
-      "sha256": "e6d91ee0bbdf71bd093ae583c221ac53ca4dbb8798e3d513392644daf520c30c"
-    },
-    {
-      "path": "events/MTG_Britain.txt",
-      "size": 193248,
-      "sha256": "f4f1e87ed13591d861afc778e57da0b986ff4d846606dc3db14c16a7631baa32"
-    },
-    {
-      "path": "events/MTG_Germany.txt",
-      "size": 1429,
-      "sha256": "878f63f22ba0667afcf32b825b6fb924229a992f3d1c01943946bdab847dfae3"
-    },
-    {
       "path": "events/MTG_Netherlands.txt",
-      "size": 70045,
-      "sha256": "6a9c3e53cb1e849f5b58a0a3b4c332a12b33b7d63b4bc78b1704f7dfb7c1d83e"
-    },
-    {
-      "path": "events/MTG_NewsEvents.txt",
-      "size": 55506,
-      "sha256": "ad736551eb16d3e132e40319c1f59853c92a76ee7544592c84c6a9d412cb889b"
+      "size": 70289,
+      "sha256": "8eb13cf4bfca18859e1e40f637f69e9940c7d8b648fbc6c94e2db4af4f785a0d"
     },
     {
       "path": "events/MTG_USA.txt",
-      "size": 108804,
-      "sha256": "82ec602e6564e90ecc376c4556d79abd7239e4f19284e9162dc2d75ae10e5e76"
-    },
-    {
-      "path": "events/MTG_generic.txt",
-      "size": 3919,
-      "sha256": "2d5225e0ea43ef6a01678fe7dbba5fd5ec4aacc3054cf95e473328c3c127f298"
-    },
-    {
-      "path": "events/MTG_naval_treaty_events.txt",
-      "size": 6522,
-      "sha256": "7c9787e64b6902d2b4e36ce73c9306aa5d8142cc152c2125a4bad2343c740417"
+      "size": 108832,
+      "sha256": "df2c52aa693d29f99182c98de23fd0583b1af2a96d36ea3f8994f13f87be8c15"
     },
     {
       "path": "events/MUN_Czechoslovakia.txt",
-      "size": 124492,
-      "sha256": "79b4f32aa843f2c9cecf1d9d8df7ca9d7a5fbb39ddeedf89b1b892cf327a367e"
-    },
-    {
-      "path": "events/MUN_Slovakia.txt",
-      "size": 3005,
-      "sha256": "c6d867c8e0bf41871d4c0d073cac32d4a5983b6b00e6ff9bf2d12eeccfdbe26e"
+      "size": 124954,
+      "sha256": "527de16b8a3e70cd9fa01dd8a0cab6320b8580df8b1d20c460abaaa079c613e1"
     },
     {
       "path": "events/Mexico.txt",
@@ -1484,89 +1359,34 @@
       "sha256": "9a24262a2ec0369975e1b0e3bb44b7255e61bdf77584262856a39be7bd205371"
     },
     {
-      "path": "events/NSB_Baltic.txt",
-      "size": 26418,
-      "sha256": "3157dc8bd261bd70e36390ca59d074c00c1cc7a81218033e468ad837e5bf56fc"
-    },
-    {
-      "path": "events/NSB_Estonia.txt",
-      "size": 13827,
-      "sha256": "73bea6d93be9eda5458302fc19762d08051a3ebe5f970b28ab3b18bf70baee02"
-    },
-    {
-      "path": "events/NSB_Latvia.txt",
-      "size": 16789,
-      "sha256": "4c1044b6f8c2a6cefc037bd70e47dae6f34ba940c8b2057bb4f41668385171f7"
-    },
-    {
-      "path": "events/NSB_Lithuania.txt",
-      "size": 23712,
-      "sha256": "418c8b3aaa7803dd4fa621d93874b31515969f6d5044dd84ab7ec5f55156e54a"
-    },
-    {
-      "path": "events/NSB_NewsEvents.txt",
-      "size": 25258,
-      "sha256": "32623f289482be8bdd1fb6a218a8fc52b463a7f9b74e10e01b4c47f034400249"
-    },
-    {
       "path": "events/NSB_Poland.txt",
-      "size": 90896,
-      "sha256": "75ccf6a0098b9d66d4358cef4cdf6dec693b96dda4456552d9cddf2a34f3d901"
-    },
-    {
-      "path": "events/NSB_Soviet.txt",
-      "size": 314031,
-      "sha256": "6976dcb77d185f0bebfdea59e671efb00e5e301dc4247e9d49ec104f2d26fee3"
-    },
-    {
-      "path": "events/NewsEvents.txt",
-      "size": 194812,
-      "sha256": "452bbc90b743eedc5da9101fcfce2c24572dd06988b36446b8c32a6cf0a3af71"
-    },
-    {
-      "path": "events/NukeEvents.txt",
-      "size": 6590,
-      "sha256": "5fb8ad2f07ddc3458e4240910d29ce6b4e04c01f88394f5f92e93ea23547fe06"
-    },
-    {
-      "path": "events/Paraguay.txt",
-      "size": 1032,
-      "sha256": "c5da9dee55e57bd737432448de2a86e4f66315fbdf93e44a8d6161e48088b5e1"
+      "size": 92076,
+      "sha256": "ca55592b4e963092ee38994da88e66fb000bbac7882d60e14a51b7fcfb8d6d35"
     },
     {
       "path": "events/Poland.txt",
-      "size": 35602,
-      "sha256": "ff0d26214267b49266efcaa29faac5bc9011a442a39b1649090ef3a8883edc21"
-    },
-    {
-      "path": "events/PoliticalEvents.txt",
-      "size": 44894,
-      "sha256": "9f1a7ded3255cb8c39b337b05cda48d8bd1256c8f246aafb4f03f1423da85746"
-    },
-    {
-      "path": "events/Romania.txt",
-      "size": 6051,
-      "sha256": "6384713d467442b9e83855e749d76e63d5eed2a8c40588cc094c06b5874570e5"
+      "size": 35640,
+      "sha256": "b12c794656d61a67510b38d65d6f39b619f0d903a6e5a12d203720444e0b32db"
     },
     {
       "path": "events/SEA_Communist_China.txt",
-      "size": 133869,
-      "sha256": "54231acb319d69a2d02d24bd2795f9c44605a3ca74aa9adf1e23112f9df565fc"
+      "size": 137248,
+      "sha256": "6e03d6d55e3bc1ab5bb746474068b33c1f9ef480f016f100b08dfcb7836b0382"
     },
     {
       "path": "events/SEA_Japan.txt",
-      "size": 306305,
-      "sha256": "d39e829a23ea508aebee95ba00d4cf798acf34338cb01d98de7ce06b3e3c6a6f"
+      "size": 313269,
+      "sha256": "e490604718d81fb02a25cb0c1705a32e90b10be858036ca0cdb7d9929adf9bdb"
     },
     {
       "path": "events/SEA_Nat_China.txt",
-      "size": 53574,
-      "sha256": "c00eeb075dc67de227e90116dff69924e1f6300e1e3b9400fcfb32fc2836d2be"
+      "size": 54171,
+      "sha256": "971df72300d25cdccc3f16ecedc6f5a59c208bbe55a191134eff3e570bc9e289"
     },
     {
       "path": "events/SEA_Philippines.txt",
-      "size": 51664,
-      "sha256": "938fa5a163f6d7e942b92fdf5dc8bbe93d90fed20d6ce129f7baa991b0a41f9a"
+      "size": 51810,
+      "sha256": "76ef7ccad6633fcd24c8f20526bedbbf0930bef3f73ba49f58494669ee90642a"
     },
     {
       "path": "events/SEA_Warlords.txt",
@@ -1574,69 +1394,24 @@
       "sha256": "a7b6c73eb2d083737836e6a947368fdf2c87e9aa7ef09ce9cf7a87c012f83f9d"
     },
     {
-      "path": "events/SEA_generic_events.txt",
-      "size": 14702,
-      "sha256": "9ceca854477b293cfb1a69f11be4ebadb40c9d0b99456e5475aefc6efb2de3fb"
-    },
-    {
-      "path": "events/SovietUnion.txt",
-      "size": 55251,
-      "sha256": "e4bc23d8f7c976d7df92d5eb7e436744169ff1814734d723c915538b9f59b86d"
-    },
-    {
       "path": "events/Spain.txt",
-      "size": 10686,
-      "sha256": "b203fe64248de0ca818b16a1e2111d15105f1bd793b12172bebc885d0eb3ecfd"
-    },
-    {
-      "path": "events/Special_Project_Events.txt",
-      "size": 640,
-      "sha256": "b973397bb6f994407b8f77a6f886ede78dcbcadf1fb4d7fc05b8ae71df8d7284"
+      "size": 10718,
+      "sha256": "fde02c9cc2b5000f59f58d7310dcd836d3ab2560e7ad19c7b7ee30dba7cb2a8c"
     },
     {
       "path": "events/TAOG_Australia.txt",
-      "size": 78280,
-      "sha256": "2010e78bab14c6828325734809736f9f1cd1b61a99fa53db8aaa0d883454a87e"
+      "size": 89474,
+      "sha256": "3f6bb4bf20aec51177110cfcff23f972e254004a8a73dbc09b25327785cc89c6"
     },
     {
       "path": "events/TAOG_Indonesia.txt",
-      "size": 151695,
-      "sha256": "00ac8bac5d2f9092783aebc46770513384bbb7ac9c96028599c6b714cafb111b"
-    },
-    {
-      "path": "events/TAOG_NewsEvents.txt",
-      "size": 532,
-      "sha256": "6a84e2eed571829f72066cb0603bde453ca827936020091fc13ad21a2a7fa00d"
+      "size": 173352,
+      "sha256": "ed6030b4523b7feda8900d13107d0b6cefa0fb2667486ff28f4acb783eb01215"
     },
     {
       "path": "events/TAOG_Siam.txt",
-      "size": 56973,
-      "sha256": "8cfce8bd3313fbaa26a1a902b65d5fe9b272919986166aea2eb803915eb619c3"
-    },
-    {
-      "path": "events/TFV_Australia.txt",
-      "size": 16270,
-      "sha256": "2b4d83d9745b3e4db3eaa48fecc84863a09f7de98c37c285b0dbefc43c97ec67"
-    },
-    {
-      "path": "events/TFV_Canada.txt",
-      "size": 16800,
-      "sha256": "c13e01588db42916372171808e8c9d82bd7597086bb54fe6f9d3ef46e3eec9e3"
-    },
-    {
-      "path": "events/TFV_New_Zealand.txt",
-      "size": 10423,
-      "sha256": "f85494277e092193b7970a1e8d8adfc5c5ae412e4dc0ec14e18b0109f1358695"
-    },
-    {
-      "path": "events/TFV_Raj.txt",
-      "size": 16486,
-      "sha256": "ad552e235a664d8d29b7ad59cc9f15fb45ec63c0ccf01058cea17e4f2517d309"
-    },
-    {
-      "path": "events/TFV_South_Africa.txt",
-      "size": 70149,
-      "sha256": "957bde06b0e48a79a9bbc9fecfb8060927e5f55a69d7c1cf68ce49fe214555a1"
+      "size": 60828,
+      "sha256": "bdf6caac8d46161dd644bbd0480fc9ea7e8ca227c3d081e16dcc7ba0cd2ae543"
     },
     {
       "path": "events/TOA_Argentina.txt",
@@ -1645,58 +1420,38 @@
     },
     {
       "path": "events/TOA_Brazil.txt",
-      "size": 71225,
-      "sha256": "b4ea5c1c84bb02909e69d4480862bae3e6aae9b0300b376c43b3bcf6561090e1"
+      "size": 71153,
+      "sha256": "9ed684dd9bab564c9ba715a47815f8c947bc145cd9cc65970df385480f9784c3"
     },
     {
       "path": "events/TOA_Chile.txt",
-      "size": 118506,
-      "sha256": "34da81d0a9a8ba9080be4b59398578d1ec68653f8259e85a4e96e7e8db37c33e"
-    },
-    {
-      "path": "events/TOA_GUAY.txt",
-      "size": 8864,
-      "sha256": "c62799694d4e77d6ccfb5e533ccc4f71e3e6d726abdb866a0ed4d881279053dd"
+      "size": 118692,
+      "sha256": "3040e82c4f5443deccb6016c6bc0c5573d809272333c6b689023c28f67d30306"
     },
     {
       "path": "events/TOA_Generic_Events.txt",
-      "size": 59099,
-      "sha256": "40cbc6453e90b585bcf1325216f882ac76c98b5a287e5e6b4b1bdd55bac17804"
+      "size": 59141,
+      "sha256": "d2f95eea3ecccc6f3ca5daf5654112279ac03e945f365ecf5ab5e2fa444466d3"
     },
     {
       "path": "events/TSR_Manchukuo.txt",
-      "size": 22703,
-      "sha256": "8dc7adef82f25f7e81648553ef192f16c048c6b6ba8892325c1afc2350ae1f80"
+      "size": 22752,
+      "sha256": "0da70df31ca887739678285e353d69c740a7fc0740d59047104fdf5dacdd26d7"
     },
     {
-      "path": "events/TestEvents.txt",
-      "size": 8538,
-      "sha256": "acbe10c14590576727ef4ab3a7e021c1ce445ff990b64dbfea82f85b847e92c8"
-    },
-    {
-      "path": "events/Turkey.txt",
-      "size": 958,
-      "sha256": "3d2a11fd384bb071e66fecbfbd76a3d5c833b4177900e8d415b52e7b2f86afb5"
+      "path": "events/TTBE_Romania.txt",
+      "size": 136286,
+      "sha256": "8002eb1387021e6f8e34eb655ee2cbcd2d2cdb3433280f586dd36431c1c15e61"
     },
     {
       "path": "events/USA.txt",
-      "size": 40111,
-      "sha256": "c61dc7b897c6d71493fd6865f2fee63b99869afa23ad22a5a41a2789530bb3d0"
-    },
-    {
-      "path": "events/WTT_Britain.txt",
-      "size": 7804,
-      "sha256": "84874e96de7c4d38e8b083b2292f9b269bdb259805a4133e1928e2f993c1a99b"
+      "size": 40154,
+      "sha256": "44091cde82f3c52108c5519ed1cba80bc1a008fe9e9b06e66cb0297212c9c552"
     },
     {
       "path": "events/WTT_China.txt",
       "size": 48204,
       "sha256": "a6158ab78bf2c07c5bd6a6f021a7be4a69d973a67c25eebc2c39c0a23d7a1ba8"
-    },
-    {
-      "path": "events/WTT_Denmark.txt",
-      "size": 491,
-      "sha256": "fc44505fa40459932ae76bb1a3b8f14b1b34571169ca384e33baac8bf0430c03"
     },
     {
       "path": "events/WTT_Germany.txt",
@@ -1705,103 +1460,78 @@
     },
     {
       "path": "events/WTT_Japan.txt",
-      "size": 53826,
-      "sha256": "4121902a04899daee15ea1e0c74bcd1d43c23af69e22963c5f5fae552db8590d"
-    },
-    {
-      "path": "events/WTT_Manchukou.txt",
-      "size": 3926,
-      "sha256": "e0f26032d067c89d522323ff4b7d539965965236b6e0865632ff2e83bc1690be"
-    },
-    {
-      "path": "events/WTT_NewsEvents.txt",
-      "size": 47819,
-      "sha256": "957c8477c855c308e8dc61d959bedfbcb674c81073a80cca9ff5b0ffe97c7c59"
-    },
-    {
-      "path": "events/WTT_PRC.txt",
-      "size": 22512,
-      "sha256": "aed20445b98fdd87a7fd097267ddac368d994ef057a65e825f28af69931204b7"
-    },
-    {
-      "path": "events/WTT_Soviet.txt",
-      "size": 2986,
-      "sha256": "76dc44be158bdc7b44c2d61089d1c1d06e0d7d8419763daea85e560fa4f3d4e6"
-    },
-    {
-      "path": "events/WTT_border_conflict_events.txt",
-      "size": 8714,
-      "sha256": "a5fbee41c6e9412841db148c3688d04d28acb73089a22c01b351b66d67634072"
-    },
-    {
-      "path": "events/WTT_china_political_power_struggle.txt",
-      "size": 23154,
-      "sha256": "fd087ea47db2a39b37b5384ac6c4743e3b91652084cc0aad5a00aea08d34c4dc"
+      "size": 54131,
+      "sha256": "b8dfbbe1ac4fff77e422b54edf5fc0f76f25267cc811455b8ce7085e8540d697"
     },
     {
       "path": "events/WUW_Austria.txt",
-      "size": 190915,
-      "sha256": "e7922be67cb46625d055ec5e9d6f2c8b7547106be347f85984f1345b1f111d24"
+      "size": 190991,
+      "sha256": "fe95130add9471cb21fc4e5a58bd83442f66cc38da3d752a91277fcea1c4b467"
     },
     {
       "path": "events/WUW_Belgium.txt",
-      "size": 60189,
-      "sha256": "7d28391ad2656b7c4383421af47bd4e55c34a371d110dc067105e4b5dfa41c5f"
+      "size": 63271,
+      "sha256": "bc3351e8f5ad6bdf42c8463f78199687fb150a746c7c68e31c10c48df15bc00d"
     },
     {
       "path": "events/WUW_Congo.txt",
-      "size": 106625,
-      "sha256": "f5790e15afcc5e42804bdc18e7bc760dbd4a937ba5c8c047eae5f2eb2bb1da41"
+      "size": 107085,
+      "sha256": "fe26716145f0cc3b428833409d4ff3ede886494f9ea647e6875f5d2f5805a8da"
     },
     {
       "path": "events/WUW_Germany.txt",
-      "size": 482388,
-      "sha256": "adc1f15a6fddca4fb8d36b83cc0505c648aad621b50c9d92788bf29e950d7a33"
+      "size": 482073,
+      "sha256": "ab9160f52d98c94115a0114c5f9460971c055a679e1d102e722049c21bce1311"
     },
     {
       "path": "events/WUW_Hungary.txt",
-      "size": 114239,
-      "sha256": "308e7f9707f6344cd9b31f540d4df32fa719deff638f3e920c60c1ea7da345b3"
-    },
-    {
-      "path": "events/WarJustification.txt",
-      "size": 22134,
-      "sha256": "6723beac127f9b69ed0595d39f186bd7947e9b9fc31e19e1c9c76de8b61ffc75"
-    },
-    {
-      "path": "events/Yugoslavia.txt",
-      "size": 12568,
-      "sha256": "138279b294ef0d567e477efe2f0ebb72c5c0a7f2920ed3fd03d2792749624dbc"
-    },
-    {
-      "path": "events/debug_events.txt",
-      "size": 927,
-      "sha256": "b83fa6d9457e1fb9dddafae88662d678a4df07622c1bb2a35d734c7866e6f4e5"
+      "size": 114085,
+      "sha256": "92f53aec937c5219f0b85f491623b83325266f763ad442e31ca4f55b283c33fa"
     },
     {
       "path": "events/ss_recruitment_event.txt",
-      "size": 61341,
-      "sha256": "345ddbcc96cd3296453ee88598d822bfec247c47a7d28fddf1d8ebe7ae689a14"
+      "size": 61342,
+      "sha256": "3fae98bd641beadd4e3ea49e0db87455777e997a5e666536c190a8bd6d8ee42a"
     },
     {
-      "path": "events/stability_events.txt",
-      "size": 29398,
-      "sha256": "383b2bcdb16c3266eff9f53c5ee5dd6306408ae8e913ebb34805d3de271b72da"
+      "path": "history/countries/ALG - Algeria.txt",
+      "size": 2368,
+      "sha256": "c090eb43db15628a402b3e1e1b03f2609f91c5b4653931092f75f6837e1e3980"
     },
     {
-      "path": "events/treaty_orgs.txt",
-      "size": 3699,
-      "sha256": "f626415f4645689454a012f32a69a71bd1e5e2f229845af6b458a283f2e14a36"
+      "path": "history/countries/ANG - Angola.txt",
+      "size": 2180,
+      "sha256": "1513a5c83927aba41878cc5544fdfc2be205c58fc05a1eaba3b5d9536389471c"
+    },
+    {
+      "path": "history/countries/ARM - Armenia.txt",
+      "size": 2073,
+      "sha256": "fd3947ab943b27038d59b87406e15037335d32d45d652daa700e613d2e9d8df1"
     },
     {
       "path": "history/countries/AST - Australia.txt",
-      "size": 32290,
-      "sha256": "349faf538f87646acff1c808523edff195493f6236f8d1424b34577d45576d45"
+      "size": 34341,
+      "sha256": "747e17717c392f324e770cb3a3ce49457bd796354fe8a712ff76c4b2416a2645"
+    },
+    {
+      "path": "history/countries/AZR - Azerbaijan.txt",
+      "size": 2052,
+      "sha256": "0550ca5182ddc969206b3c512354959881dc287214a122029f885570ac966557"
     },
     {
       "path": "history/countries/BEL - Belgium.txt",
-      "size": 19258,
-      "sha256": "1c54ad8c2eb32808079e5a25e214467df5b5e92403acdd0ca6a0f4ac9b2bbd9b"
+      "size": 19601,
+      "sha256": "11df4457628944342fa26700bbae51abc6b0df0c89fe5b8f6a162caca6ec81d7"
+    },
+    {
+      "path": "history/countries/BOT - Botswana.txt",
+      "size": 1932,
+      "sha256": "9cd48d6c6b15cc47e845278a2d903c027bac83c56f9cfeb36809519e8399e35d"
+    },
+    {
+      "path": "history/countries/BRI - Brittany.txt",
+      "size": 5637,
+      "sha256": "42ff3a2f7c475faae0effe02f2b1c3d0f000b3f50dcd5b10628cbcab669b8469"
     },
     {
       "path": "history/countries/CAT - Catalonia.txt",
@@ -1814,19 +1544,39 @@
       "sha256": "4eab37766fd9d243f276df64a7c86704f102a5c5c0fa15d393d6593ef9cde230"
     },
     {
+      "path": "history/countries/DNZ - Danzig.txt",
+      "size": 2339,
+      "sha256": "ef5db9a842ff22b6197c74cfc5435dd955d32f57c75363e71d740092df30e4cf"
+    },
+    {
       "path": "history/countries/EGY - Egypt.txt",
       "size": 2381,
       "sha256": "87ee49335eb7e5226f84dc0a1f40c119ea7402721071bce5b3005a6c76d64ead"
     },
     {
       "path": "history/countries/GER - Germany.txt",
-      "size": 57618,
-      "sha256": "acbe00d3556e8542834101ad50237f7415f756dd6631373122799f9202327d29"
+      "size": 57945,
+      "sha256": "f0a7330cc5cd4373f3756c073cade514267d630c3bd5249e0f3819687dae46c6"
+    },
+    {
+      "path": "history/countries/GLC - Galicia.txt",
+      "size": 2144,
+      "sha256": "4ef2f3a8cf3d2e3191f348cd6e6959d3c267a0058df4c2b0ead2fc866aa743f6"
+    },
+    {
+      "path": "history/countries/HAW - Hawaii.txt",
+      "size": 1671,
+      "sha256": "fd236934e660a20855707dc5071df8fcb40cbe3066e008f9244fdaf10f68cc2b"
+    },
+    {
+      "path": "history/countries/ICE - Iceland.txt",
+      "size": 7452,
+      "sha256": "f8296204db78e6ee7776a252a18ed852628369e5d5b5d778892711d03661bd28"
     },
     {
       "path": "history/countries/INS - Indonesia.txt",
-      "size": 20749,
-      "sha256": "99a3e108347328cdf6806a33e5da927d378576124dfdf28d08c8fc26163eb0a4"
+      "size": 22330,
+      "sha256": "24b535068ee76cf9ec2de6ac29d1a30105404ea155105c17c6d65af99c0eb7e9"
     },
     {
       "path": "history/countries/ISR - Israel.txt",
@@ -1835,13 +1585,28 @@
     },
     {
       "path": "history/countries/JAP - Japan.txt",
-      "size": 72879,
-      "sha256": "e1e46a608965848d271190243e1b5bb173d9a1d1da5c837017b2a3586bca7c05"
+      "size": 73100,
+      "sha256": "3a0b82ed30a873429fef103fdcad1282d5d91b7d1d129b33cf865da856e1c4f0"
     },
     {
       "path": "history/countries/JOR - Jordan.txt",
       "size": 2221,
       "sha256": "1ceab6f4768597c1fcfa92fd6e0b6e6840c167f63c6c1d565a4cf3e5c7cce656"
+    },
+    {
+      "path": "history/countries/KAZ - Kazakhstan.txt",
+      "size": 2461,
+      "sha256": "1348627774cf7c9f6a727441c3292724627dc117d8b937d3a755b28cf2e98c9c"
+    },
+    {
+      "path": "history/countries/KSH - Kashubia.txt",
+      "size": 4744,
+      "sha256": "547397db926d6a97998504dbc9dad76c356df96b6f24f7520bd8440d86003267"
+    },
+    {
+      "path": "history/countries/LBA - Libya.txt",
+      "size": 2241,
+      "sha256": "501c738a6333c44119b1176048e0c2062d47b8a56d2f2f0d8044efbeacf0b90c"
     },
     {
       "path": "history/countries/LEB - Lebanon.txt",
@@ -1864,19 +1629,69 @@
       "sha256": "63ad86bc423bfe15f1ad0c1c3e15226d128ace587b9339b058519eea267b2248"
     },
     {
+      "path": "history/countries/MOR - Morocco.txt",
+      "size": 1546,
+      "sha256": "a82b428cbe52d524ad0c5efd2f8633ac3fd2feb5b20b9de4b86060af43cd1f56"
+    },
+    {
+      "path": "history/countries/MZB - Mozambique.txt",
+      "size": 1922,
+      "sha256": "44b52864c75f37cfa085dfe4f6e2ddc562cd8f060de4e0ab481bd21cb0d2502e"
+    },
+    {
+      "path": "history/countries/NAV - Navarra.txt",
+      "size": 1783,
+      "sha256": "b1e6d5e72b85a8a02118de94d419b6d4e302d66a03b4d031062b96e72a5be129"
+    },
+    {
+      "path": "history/countries/PAK - Pakistan.txt",
+      "size": 4074,
+      "sha256": "05f53e009bd0634ac5fe46266d0d4b4e59a2a435c9fc266cd3e278b855e9832f"
+    },
+    {
       "path": "history/countries/PAL - Palestine.txt",
-      "size": 2339,
-      "sha256": "9358c29b5cf65197311975065da8473a89172b6df5ad4585f80fc04a71d07f86"
+      "size": 2392,
+      "sha256": "ea4cfe8bcfbc866e34339a5d5e927577fb26be07e2a14c3172653fbe533e5199"
     },
     {
       "path": "history/countries/RAJ - British Raj.txt",
-      "size": 20415,
-      "sha256": "ca2f824b4c3507480e859d3dee45f135e552aa3af0f5471a40b07e6b1600e7ab"
+      "size": 20754,
+      "sha256": "5a45931353e942c30c922417307e7edf5f94693bda3b945a6504a6af83ab2070"
+    },
+    {
+      "path": "history/countries/SDL - Sudetenland.txt",
+      "size": 2264,
+      "sha256": "6c8308bafedde5bf7ad18c32ee15f26d28df3b29d9d30b476b3428c117afc0f1"
+    },
+    {
+      "path": "history/countries/SER - Serbia.txt",
+      "size": 4151,
+      "sha256": "7f0b871d61bbce94ffdc4101aea56200f1a5349c245df063361d2c583cd8791a"
     },
     {
       "path": "history/countries/SYR - Syria.txt",
       "size": 2102,
       "sha256": "399a5446d78c4e860f53784c09188e1419e51ef20d31f7bdab9710d0530eb419"
+    },
+    {
+      "path": "history/countries/TAH - Tahiti.txt",
+      "size": 1949,
+      "sha256": "d528a1cd428a55d35c895c2d8409829a217b7888fb33d4dd60c71d3c19048597"
+    },
+    {
+      "path": "history/countries/TUN - Tunisia.txt",
+      "size": 2126,
+      "sha256": "a6e56a0bcb5088e62abd48fe31a738e151e69892471dec0d272aea898d5937d0"
+    },
+    {
+      "path": "history/countries/WES - Western Sahara.txt",
+      "size": 1550,
+      "sha256": "fc20a175ac0ee7ddf1b69380981a401a395695b78aba0654d64be95f8e7471e3"
+    },
+    {
+      "path": "history/general/spain_shared_advisors.txt",
+      "size": 59853,
+      "sha256": "f6fe188415ba1402a53a53fd9291df81e2620266abb2e7d3e27c55c55ca05250"
     },
     {
       "path": "localisation/english/zz_v129k_verified_real_names_l_english.yml",
@@ -1914,9 +1729,14 @@
       "sha256": "d675d1c15c19a5f7a74418dc96161f339f085159bffa3f8c0a623fbacb7be266"
     },
     {
+      "path": "localisation/replace/simp_chinese/zz_hoi120_biographies_override_l_simp_chinese.yml",
+      "size": 230,
+      "sha256": "26e17a0bb8aab8553e18e362ebf51c449d76dcabf628e5e9ee21a67efc9d63b5"
+    },
+    {
       "path": "localisation/replace/simp_chinese/zz_v116c_ARG_date_spacing_hotfix_l_simp_chinese.yml",
-      "size": 88894,
-      "sha256": "8c54cc5e852ffd4024e50c544622471d0e8a599c28acbf722bba385d0894e94d"
+      "size": 87029,
+      "sha256": "dcd1a670721595ed39ffa3def183543befdf8f303d4e71752d718419a81de23a"
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v117a_PHI_bios_l_simp_chinese.yml",
@@ -1940,13 +1760,13 @@
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v121f_B23_minor_tags_logfix_l_simp_chinese.yml",
-      "size": 115091,
-      "sha256": "2c8b8e1b725b6e2c2db382c070893afa1c11d722874c1914930bc67bf36841ac"
+      "size": 113370,
+      "sha256": "e7d3103537d413bbaf63b27d8d152f2f8e118d18760348a14b1fcb5fc44a4678"
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v124f_B26-B28_desc_alias_l_simp_chinese.yml",
-      "size": 6347,
-      "sha256": "0f70c479a29f3c95cc12977867643bd8e7cd7210a5870a20f11d67e9da6112d1"
+      "size": 6413,
+      "sha256": "378f8d1d68c89e19135898617712dd4c00c48fcbe1b1f130939d2164e61af4d5"
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v125b_B29-B31_desc_alias_l_simp_chinese.yml",
@@ -1960,8 +1780,8 @@
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v126c_B33_B34_alias_l_simp_chinese.yml",
-      "size": 5166,
-      "sha256": "36793b454f17eadb6b52608942df8531c7bdbe7df9b6e5c240835ac44628d4e4"
+      "size": 5094,
+      "sha256": "5c918e94e8bde3060a8401aed9103529d8a187452c35685829580247b28e70ea"
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v126d_BALTIC_GetLeader_logfix_l_simp_chinese.yml",
@@ -1985,8 +1805,8 @@
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v128a_COG_IRE_PAR_desc_alias_l_simp_chinese.yml",
-      "size": 62589,
-      "sha256": "249e1e663d9bacf023c8b26ed45292ff5f4b3670e8852e0fd61c3f41952638a2"
+      "size": 61436,
+      "sha256": "52a4dd0fee529852b7bffb37907ae14636e0d4c63c8e56032352e1b2a9810c74"
     },
     {
       "path": "localisation/replace/simp_chinese/zz_v129f_name_desc_aliases_and_restore_l_simp_chinese.yml",
@@ -2004,14 +1824,39 @@
       "sha256": "c11841cca1117ed2c492ca45d9f405f103129302743820619276f936913131db"
     },
     {
+      "path": "localisation/simp_chinese/cbio_hoi120_advisor_aliases_l_simp_chinese.yml",
+      "size": 16186,
+      "sha256": "21c2ae0c727642c4495271c776fa60d1e80e4deb264aa1b5e72ff0a346222c22"
+    },
+    {
+      "path": "localisation/simp_chinese/cbio_hoi120_generated_advisor_aliases_l_simp_chinese.yml",
+      "size": 4535,
+      "sha256": "1aca4a8d0c98921ebd5baa20f25a8b2c29fc9b0c0f55915cccda44d8f758bfb7"
+    },
+    {
+      "path": "localisation/simp_chinese/cbio_hoi120_legacy_aliases_l_simp_chinese.yml",
+      "size": 761,
+      "sha256": "9462049ebcaa97efce2215f3f88e6e2f824671b01dbf0feaa766548fd997cd2b"
+    },
+    {
+      "path": "localisation/simp_chinese/cbio_hoi120_romania_l_simp_chinese.yml",
+      "size": 1247,
+      "sha256": "5b73321cae9978f8b0be90a98e155807cbefe1fec1f22974df08c0c1a5e56c23"
+    },
+    {
+      "path": "localisation/simp_chinese/cbio_hoi120_same_person_aliases_l_simp_chinese.yml",
+      "size": 265,
+      "sha256": "507a4e114d258534acc4d40b38c30f7d48e607d23291c1c8b801144a7189b0fb"
+    },
+    {
       "path": "localisation/simp_chinese/chi_all_bio_l_simp_chinese.yml",
       "size": 54074,
       "sha256": "ffba42b681bb92feea78d6fadbd5c4d97d80dd8464268ae3daac6dc08c56b0f8"
     },
     {
       "path": "localisation/simp_chinese/east_asia_leaders_bio_l_simp_chinese.yml",
-      "size": 6324,
-      "sha256": "2ea0457ad3781c573878cbb47c613f86c9f79734db0678a92bee6603c64fb233"
+      "size": 4569,
+      "sha256": "0ee0f9b7060e7f7027267ab4d9bb8890338344a435e6ba07a445033649225d18"
     },
     {
       "path": "localisation/simp_chinese/prc_all_bio_l_simp_chinese.yml",
@@ -2029,9 +1874,24 @@
       "sha256": "a8afb0028e57e50a1a283148b67eaf3eb1b80f189d2cf4c55ceb13506efee3d6"
     },
     {
+      "path": "localisation/simp_chinese/zz_hoi120_advisor_desc_alias_l_simp_chinese.yml",
+      "size": 259,
+      "sha256": "6d687263e904ec752ca4e95c92c6be0ddbd244e415717b8c74911c7d44b84fc7"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_hoi120_biographies_l_simp_chinese.yml",
+      "size": 169117,
+      "sha256": "b15cf05110d2b579a37ce9a72107332220f3dc3567ba927a333c5dd7d4789acb"
+    },
+    {
+      "path": "localisation/simp_chinese/zz_hoi120_legacy_advisor_desc_alias_l_simp_chinese.yml",
+      "size": 847,
+      "sha256": "9f781800ffcfc8b6d882cc5a815af4bb61caa67c231d0099cf808a96079a9ca5"
+    },
+    {
       "path": "localisation/simp_chinese/zz_japan_bio_v74_l_simp_chinese.yml",
-      "size": 121524,
-      "sha256": "1966f6107c50b0113fb4b874595e22be6c234f199ebc257c93026a741cf3aac2"
+      "size": 120131,
+      "sha256": "8a488f13e6783e22ced238e0353a6fd31aee6792ee16a69779abab07971456be"
     },
     {
       "path": "localisation/simp_chinese/zz_missing_1936_leaders_bio_l_simp_chinese.yml",
@@ -2065,8 +1925,8 @@
     },
     {
       "path": "localisation/simp_chinese/zz_v105_eng_cleanup_l_simp_chinese.yml",
-      "size": 36774,
-      "sha256": "e71c347a39b729619949fb115c7f7905ce5529575f4ddd5e86e6ee0860c6cf8c"
+      "size": 36016,
+      "sha256": "a5fd9df4fab7687e0b104dee70ebde64f51fd2cb3c1cd4621ee6dc51bf9f8fb1"
     },
     {
       "path": "localisation/simp_chinese/zz_v106_targets_l_simp_chinese.yml",
@@ -2120,18 +1980,18 @@
     },
     {
       "path": "localisation/simp_chinese/zz_v114l_cze_l_simp_chinese.yml",
-      "size": 183927,
-      "sha256": "99a08e7d4a54ae61c9abc917b6a570e199a1cf046892497a99a6ac619b9d533c"
+      "size": 183265,
+      "sha256": "a010e3a6b22fb044e94b8039c5d10b6ef9c4794f30c8a982a824c2cfdffcceb5"
     },
     {
       "path": "localisation/simp_chinese/zz_v114n_raj_l_simp_chinese.yml",
-      "size": 197808,
-      "sha256": "d140cd6dcce8944fbb7907db84513e81fa4c1bf2b2bf656465c6bd4638c32df6"
+      "size": 196563,
+      "sha256": "2d0d05794196ea3189f63b25dc968eb5f4705c5453b382fe0ebc0b6d8dc587d6"
     },
     {
       "path": "localisation/simp_chinese/zz_v114o_spr_l_simp_chinese.yml",
-      "size": 189831,
-      "sha256": "2ddd3272ba55f2097eaf2ad29437c7abbcc8b2d8bd3751364dcbd97d0b6c2a44"
+      "size": 168266,
+      "sha256": "a4fe1b14bbdd30d9fbb923d865e167d043582dc7a4323c9629cafdc5dddf75d7"
     },
     {
       "path": "localisation/simp_chinese/zz_v114p_thoma_hotfix_l_simp_chinese.yml",
@@ -2140,23 +2000,23 @@
     },
     {
       "path": "localisation/simp_chinese/zz_v114r_ast_fin_hun_l_simp_chinese.yml",
-      "size": 1049934,
-      "sha256": "e70d7cc06a74b92e20cf60ef30a72621148231debeb20df6225f3a0de09abb8f"
+      "size": 1044178,
+      "sha256": "93751005391c0cf84bc974ca4d1da5d45c3966f71a850c0719842dd64da905ca"
     },
     {
       "path": "localisation/simp_chinese/zz_v114t_aut_tur_bra_bios_l_simp_chinese.yml",
-      "size": 560201,
-      "sha256": "0f3556001eafa92eed18dfcc9f567f0190e8973e9e553ba254f15227ccc4cfd6"
+      "size": 539949,
+      "sha256": "193f4ea821c6776fb58ed057e6ee74eb55c7b3ca36d90e06d36f05bd71053df0"
     },
     {
       "path": "localisation/simp_chinese/zz_v115_8countries_bios_l_simp_chinese.yml",
-      "size": 806713,
-      "sha256": "7c3e862c4e0f8c08e34285c8a23c0f3ec565671243236b681999009c5f0c8ff0"
+      "size": 800265,
+      "sha256": "f4c143d47654916f6e6731154beb5de7107fd80737b95404a12b75ac8d1c17e0"
     },
     {
       "path": "localisation/simp_chinese/zz_v115c_dynamic_slots_alias_l_simp_chinese.yml",
-      "size": 16836,
-      "sha256": "c5af38fbd21ee05b72585cb1765022e387416339d3b1d2a530dd491ca4aae99a"
+      "size": 16599,
+      "sha256": "3f5915ca3fa0844dc4024cd74c2d6663be52d593e8c474774c3352582d2c86f3"
     },
     {
       "path": "localisation/simp_chinese/zz_v115d_dynamic_slots_alias_l_simp_chinese.yml",
@@ -2175,8 +2035,8 @@
     },
     {
       "path": "localisation/simp_chinese/zz_v124f_B26-B28_ETH_HOL_ROM_bios_l_simp_chinese.yml",
-      "size": 82784,
-      "sha256": "4b28a15a002e09c02897327c0de1d46bf6a5e9f24b992e94caf5bf3dbdc30147"
+      "size": 81950,
+      "sha256": "3e6094ded9ac3b39f6d095dfe92cd59d846f9b876af3640479d786275cf2af69"
     },
     {
       "path": "localisation/simp_chinese/zz_v125b_B29-B31_POR_MEX_YUG_bios_l_simp_chinese.yml",
@@ -2235,8 +2095,8 @@
     },
     {
       "path": "localisation/simp_chinese/zz_v129g_B52-B62_bios_l_simp_chinese.yml",
-      "size": 151127,
-      "sha256": "c3493180ad9322c6a031c1639129c5753ef9d747d52256b70bf0404c4c6c3124"
+      "size": 149264,
+      "sha256": "1dfd8ad4f7fafe8312ab80f86d1dd7cc8bccc8835262c274b54e1d8f471b7380"
     },
     {
       "path": "localisation/simp_chinese/zz_v129h_PRU_ECU_advisor_desc_l_simp_chinese.yml",
@@ -2285,8 +2145,8 @@
     },
     {
       "path": "localisation/simp_chinese/zzzz_ger_bio_v86_l_simp_chinese.yml",
-      "size": 104744,
-      "sha256": "21331f81409bc70bbded3ecdc2958c6614315f277cb94ff50b49b6af76ac5c96"
+      "size": 104595,
+      "sha256": "3696a4e6188b8af485c11bbb714148ae58f2657255cfde3134cf9776c13c064d"
     },
     {
       "path": "localisation/simp_chinese/zzzz_sov_bio_l_simp_chinese.yml",
@@ -2300,13 +2160,13 @@
     },
     {
       "path": "localisation/simp_chinese/zzzzzz_eng_user_reviewed_v103_l_simp_chinese.yml",
-      "size": 68262,
-      "sha256": "968469a0072da214ad91acccc9b8f6b18916cfe864d7a5f1fa1bca737903e25b"
+      "size": 67504,
+      "sha256": "8082797258972650e3f5a2efbcfbc8c4dfaa399d61cb7a8bf8ec372245bfaafc"
     },
     {
       "path": "localisation/simp_chinese/zzzzzzzzzzz_v109_usa_reviewed_bios_l_simp_chinese.yml",
-      "size": 158073,
-      "sha256": "3c02b2cd7ee4348d7ee9f4a16849f5bfa2079ac9cbb80960cae4a98656967b1a"
+      "size": 155408,
+      "sha256": "947d874d4a6aacd04a8616b81740d321764f6a49a7f982600a4091bdc31450e0"
     },
     {
       "path": "thumbnail.png",

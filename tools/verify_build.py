@@ -4,10 +4,7 @@ from pathlib import Path
 from common import ROOT, load_json
 from build_release import rewrite_descriptor
 
-TARGETS={
- 'lite':('china_bio_lite_v130e.zip','lite_manifest.json'),
- 'full':('china_bio_v130e.zip','full_manifest.json')
-}
+TARGETS={"lite":"lite_manifest.json", "full":"full_manifest.json"}
 
 def manifest_zip(p:Path):
     rows={}
@@ -69,15 +66,15 @@ def main():
             print(f'semantic manifest: {args.semantic_manifest} sha256={digest}; bound to current sources')
         except (OSError,UnicodeDecodeError,json.JSONDecodeError,KeyError,TypeError,ValueError) as e:
             errors.append(f'semantic manifest: {e}')
-    for target,(baseline_zip,mname) in TARGETS.items():
+    for target,mname in TARGETS.items():
         if args.version is not None:
             stem='china_bio_lite' if target=='lite' else 'china_bio'
             zipname=f'{stem}_{args.version}.zip'
             exp=source_manifest(target,args.version)
             source='current sources'
         else:
-            zipname=baseline_zip
             expected=load_json(ROOT/'audit/baselines'/mname)
+            zipname=expected['root']+'.zip'
             exp={r['path']:(r['size'],r['sha256']) for r in expected['files']}
             source='baseline'
         p=ROOT/'releases'/zipname

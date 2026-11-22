@@ -1,27 +1,28 @@
 {
-  "baseline": "v130e",
+  "baseline": "v130h",
+  "game_version": "1.20.0.0",
   "normalized_comparison": {
-    "common_paths": 255,
-    "same_content_paths": 254,
+    "common_paths": 264,
+    "same_content_paths": 263,
     "different_common_paths": [
       "descriptor.mod"
     ],
     "lite_only_paths": [
-      "__outer__/china_bio_lite_v130e.mod"
+      "__outer__/china_bio_lite_v130h.mod"
     ],
-    "full_only_paths_count": 207,
-    "full_only_mod_files_count": 206
+    "full_only_paths_count": 170,
+    "full_only_mod_files_count": 169
   },
   "lite_zip": {
-    "filename": "china_bio_lite_v130e.zip",
-    "sha256": "b30febfc2b9c0cbe8fbb880ebd3c442b225d9024b8193f1f3d2287097ed913c1",
-    "root": "china_bio_lite_v130e",
-    "files": 256
+    "filename": "china_bio_lite_v130h.zip",
+    "sha256": "b62ad4dc5aa9d53f71a0ba08d1aab25610a2dbfbeeb19b7271c630ef45d19557",
+    "root": "china_bio_lite_v130h",
+    "files": 265
   },
   "full_zip": {
-    "filename": "china_bio_v130e.zip",
-    "sha256": "c00f9828393a1bbec8ee646f591176d71e313b238bdf4a9814b2c3ce09a26b02",
-    "root": "china_bio_v130e",
-    "files": 462
+    "filename": "china_bio_v130h.zip",
+    "sha256": "72919e3229d8b2bf2f4882eee938a22b629afb48100bd6596cdd01f23a3937cc",
+    "root": "china_bio_v130h",
+    "files": 434
   }
 }

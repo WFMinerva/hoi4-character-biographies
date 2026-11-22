@@ -7,7 +7,7 @@ import subprocess
 from pathlib import Path
 
 from common import ROOT, changed_source_paths, find_vanilla_reference, load_json, resolve_diff_base, sha256_bytes
-from rebase_evidence import load_rebase_document, rebase_version, validated_rebases
+from rebase_evidence import baseline_game_version, load_rebase_document, rebase_version, validated_rebases
 
 
 def unauthorized_whitespace(
@@ -91,7 +91,9 @@ def main() -> None:
     if vanilla is None:
         raise SystemExit("ERROR 未配置原版路径")
     historical = load_json(manifest) if manifest.exists() else {}
-    donor = Path(historical["donor_path"]) if historical and not candidate else None
+    version = candidate or baseline_game_version()
+    use_historical = historical and not candidate and version in (None, historical.get('game_version'))
+    donor = Path(historical['donor_path']) if use_historical else None
     base = resolve_diff_base(args.base)
     verified, rebase_errors = validated_rebases(base, changed_source_paths(args.base), document.get("exceptions", []))
     approved = Counter((row["path"], row["kind"], row["line_sha256"]) for row in document.get("released_whitespace", []))

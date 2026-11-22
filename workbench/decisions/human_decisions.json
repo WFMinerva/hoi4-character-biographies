@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "baseline": "v130g-stable",
+  "baseline": "v130h-stable",
   "rules": [
     {
       "id": "project_pure_bio",

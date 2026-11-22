@@ -6,7 +6,7 @@ from pathlib import Path
 import zipfile
 from common import (ROOT, changed_source_paths, find_vanilla_reference,
                     normalize_script_without_desc, read_utf8, resolve_diff_base, sha256_bytes)
-from rebase_evidence import load_rebase_document, rebase_version, validated_rebases, vanilla_semantics_errors
+from rebase_evidence import baseline_game_version, load_rebase_document, rebase_version, validated_rebases, vanilla_semantics_errors
 
 ap=argparse.ArgumentParser(); ap.add_argument('--require',action='store_true'); ap.add_argument('--base'); args=ap.parse_args()
 changed=changed_source_paths(args.base)
@@ -34,7 +34,7 @@ def read_vanilla_bytes(rel):
     return p.read_bytes() if p.is_file() else None
 
 document = load_rebase_document()
-version = rebase_version(document)
+version = rebase_version(document) or baseline_game_version()
 base = resolve_diff_base(args.base)
 rebases, rebase_errors = validated_rebases(base, changed, document.get("exceptions", []))
 errors.extend(rebase_errors)

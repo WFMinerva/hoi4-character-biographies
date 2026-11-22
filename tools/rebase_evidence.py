@@ -34,6 +34,11 @@ def load_rebase_document():
     return load_json(ALLOWLIST) if ALLOWLIST.is_file() else {}
 
 
+def baseline_game_version():
+    summary = ROOT / "audit/baselines/baseline_summary.json"
+    return load_json(summary).get("game_version") if summary.is_file() else None
+
+
 def validated_rebases(base, changed, exceptions):
     """Return exact approved paths and report missing or altered evidence."""
     verified = {}

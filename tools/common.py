@@ -195,13 +195,12 @@ def resolve_diff_base(explicit: str | None = None) -> str | None:
             return base
     branch = run_git(["branch", "--show-current"]).stdout.strip()
     if branch and branch != "main":
-        try:
-            run_git(["rev-parse", "--verify", "main"])
-            return run_git(["merge-base", "HEAD", "main"]).stdout.strip()
-        except Exception:
-            pass
+        for main in ("origin/main", "main"):
+            result = run_git(["merge-base", "HEAD", main], check=False)
+            if result.returncode == 0:
+                return result.stdout.strip()
     try:
-        tags = run_git(["tag", "--list", "*-stable", "--sort=-creatordate"]).stdout.splitlines()
+        tags = run_git(["tag", "--merged", "HEAD", "--list", "*-stable", "--sort=-creatordate"]).stdout.splitlines()
         if tags:
             return tags[0].strip()
     except Exception:

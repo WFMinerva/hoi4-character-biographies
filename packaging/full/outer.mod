@@ -3,7 +3,7 @@ tags={
     "Historical"
     "Utilities"
 }
-name="china_bio_v130f"
+name="china_bio_v130h"
 supported_version="1.20.*"
-path="mod/china_bio_v130f"
+path="mod/china_bio_v130h"
 picture="thumbnail.png"

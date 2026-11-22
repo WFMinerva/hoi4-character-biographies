@@ -1,0 +1,82 @@
+{
+  "owner_confirmed_play": true,
+  "save": {
+    "name": "1.hoi4",
+    "modified": "2026-11-22T13:42:03+08:00",
+    "sha256": "7b07ee96cac716a1dce38754d875a4fa32b9808f354b4b873a4c2c9d6db1a710",
+    "version_from_header": "1.20.0.0.8873",
+    "player_from_header": "PRC",
+    "mod_from_header": "china_bio_v130f-hoi120-test23_dev"
+  },
+  "logs": {
+    "files": {
+      "error.log": {
+        "raw_size": 45365,
+        "modified": "2026-11-22T15:01:35+08:00",
+        "sha256": "4539be325ae43355f850a9debe2da1eca92e3c10aa5532489ad304102b66e698"
+      },
+      "game.log": {
+        "raw_size": 66740,
+        "modified": "2026-11-22T15:01:32+08:00",
+        "sha256": "8e4c75fad2b0b323441dd31c3c57da7c3c91946a1fb2af284de786697bc39763"
+      },
+      "setup.log": {
+        "raw_size": 156482,
+        "modified": "2026-11-22T13:44:28+08:00",
+        "sha256": "355660b3be49dab0f06e038e6970565579320c2438ea405a716a937e1fa23f53"
+      },
+      "text.log": {
+        "raw_size": 0,
+        "modified": "2026-11-22T13:42:28+08:00",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "code_revisions.log": {
+        "raw_size": 340,
+        "modified": "2026-11-22T13:42:32+08:00",
+        "sha256": "beb39612028171bc28e4d97f8fecf0fea21af6a80194f75650a137077997e376"
+      }
+    },
+    "start": "Start-date: 1936.1.1.12",
+    "first_game_date": "1936.01.01.12",
+    "last_game_date": "1942.01.05.01",
+    "cannot_confirm_same_run_as_save": true
+  },
+  "war_failure": {
+    "error": "[14:52:39][1941.02.09.15]: Game corrupted: failed to create war between PRC and SND",
+    "launcher_enabled_mod": "ugc_3762643540",
+    "no_script_path_in_error": true,
+    "game_continued_to": "1942.01.05.01"
+  },
+  "grouped_signatures": {
+    "AI tried to post an invalid command: order_set_invasion_source_command": 359,
+    "AI tried to post an invalid command: order_assign_command": 24,
+    "AI tried to post an invalid command: merge_navies": 16,
+    "AI tried to post an invalid command: unlock_trait_command": 14,
+    "common/on_actions/14_sea_on_actions.txt:2340: random_list: all entries in random_list have 0 chance to happen - no effect is executed.": 12,
+    "AI tried to post an invalid command: strategic_air_enable_mission_command": 8,
+    "Unknown promotion \"GetCapitalVictoryPoint\"": 5,
+    "events/LAR_Spain.txt:6961: promote_character: Character does not exist": 1,
+    "events/LAR_Spain.txt:7346: promote_character: Character does not exist": 1,
+    "common/technologies/support.txt:928: add_units_to_division_template Trying to execute scripted effect add_units_to_division_template on unlocked template (Quartier General d'Armee), this is unreliable because the name could change": 1,
+    "common/decisions/GER.txt:382: add_compliance 但泽 does not have resistance": 1,
+    "common/decisions/GER.txt:383: add_resistance 但泽 does not have resistance": 1,
+    "common/decisions/GER.txt:382: add_compliance 格丁尼亚 does not have resistance": 1,
+    "common/decisions/GER.txt:383: add_resistance 格丁尼亚 does not have resistance": 1,
+    "common/technologies/support.txt:1438: add_units_to_division_template Trying to execute scripted effect add_units_to_division_template on unlocked template (Shtab Armii), this is unreliable because the name could change": 1,
+    "common/technologies/support.txt:1427: add_units_to_division_template Trying to execute scripted effect add_units_to_division_template on unlocked template (Field Army Headquarters), this is unreliable because the name could change": 1,
+    "AI tried to post an invalid command: deploy_air_wing_command": 1,
+    "events/WUW_Germany.txt:5151: diplomatic_relation: The relation(non_aggression_pact) already exists, between JAP and GER.": 1,
+    "events/WUW_Germany.txt:5529: diplomatic_relation: The relation(non_aggression_pact) already exists, between GER and JAP.": 1,
+    "Game corrupted: failed to create war between PRC and SND": 1,
+    "common/scripted_effects/FIN_scripted_effects.txt:184: diplomatic_relation: The relation(docking_rights) already exists, between FIN and GER.": 1,
+    "Could not find country leader role correspoding to ideology: events/WUW_Germany.txt:9061: remove_country_leader_role": 1
+  },
+  "named_script_semantics": {
+    "common/decisions/GER.txt": "all non-biography tokens equal to 1.20 vanilla",
+    "common/on_actions/14_sea_on_actions.txt": "all non-biography tokens equal to 1.20 vanilla",
+    "common/scripted_effects/FIN_scripted_effects.txt": "no MOD override",
+    "common/technologies/support.txt": "no MOD override",
+    "events/LAR_Spain.txt": "all non-biography tokens equal to 1.20 vanilla",
+    "events/WUW_Germany.txt": "all non-biography tokens equal to 1.20 vanilla"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "baseline": "v130e-stable",
+  "baseline": "v130h-stable",
   "files": [
     {
       "path": "src/shared/common/characters/ABK.txt",
@@ -812,12 +812,12 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/shared/common/characters/Warlords_China.txt",
+      "path": "src/shared/common/characters/WUR.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/shared/common/characters/WUR.txt",
+      "path": "src/shared/common/characters/Warlords_China.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -868,6 +868,11 @@
     },
     {
       "path": "src/shared/localisation/replace/simp_chinese/cbio_replace_vanilla_desc_whitelist_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/replace/simp_chinese/zz_hoi120_biographies_override_l_simp_chinese.yml",
       "utf8_bom": true,
       "line_ending": "lf"
     },
@@ -962,6 +967,31 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/shared/localisation/simp_chinese/cbio_hoi120_advisor_aliases_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/cbio_hoi120_generated_advisor_aliases_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/cbio_hoi120_legacy_aliases_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/cbio_hoi120_romania_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/cbio_hoi120_same_person_aliases_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/shared/localisation/simp_chinese/chi_all_bio_l_simp_chinese.yml",
       "utf8_bom": true,
       "line_ending": "lf"
@@ -983,6 +1013,21 @@
     },
     {
       "path": "src/shared/localisation/simp_chinese/zz_asia_leaders_bio_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_hoi120_advisor_desc_alias_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_hoi120_biographies_l_simp_chinese.yml",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/shared/localisation/simp_chinese/zz_hoi120_legacy_advisor_desc_alias_l_simp_chinese.yml",
       "utf8_bom": true,
       "line_ending": "lf"
     },
@@ -1267,11 +1312,6 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/shared/thumbnail.png",
-      "utf8_bom": false,
-      "line_ending": "crlf"
-    },
-    {
       "path": "src/full_only/common/decisions/AST.txt",
       "utf8_bom": false,
       "line_ending": "lf"
@@ -1292,17 +1332,22 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/common/decisions/CHI_decisions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/common/decisions/CHL.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/common/decisions/formable_nation_decisions.txt",
+      "path": "src/full_only/common/decisions/GER.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/common/decisions/GER.txt",
+      "path": "src/full_only/common/decisions/HOL.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1317,6 +1362,26 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/common/decisions/ROM.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/TOA_shared_decisions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/TUR.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/decisions/formable_nation_decisions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/common/national_focus/afghanistan.txt",
       "utf8_bom": false,
       "line_ending": "lf"
@@ -1327,12 +1392,22 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/common/national_focus/australia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/common/national_focus/australia_taog.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
       "path": "src/full_only/common/national_focus/austria.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/baltic_shared.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1362,7 +1437,27 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/common/national_focus/china_shared.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/china_shared_TSR.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/common/national_focus/china_warlord_sea.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/congo.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/congo_shared.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1379,6 +1474,11 @@
     {
       "path": "src/full_only/common/national_focus/france.txt",
       "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/free_france.txt",
+      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -1432,6 +1532,11 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/common/national_focus/lithuania.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/common/national_focus/manchukuo.txt",
       "utf8_bom": false,
       "line_ending": "lf"
@@ -1443,6 +1548,16 @@
     },
     {
       "path": "src/full_only/common/national_focus/mexico.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/netherlands.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/norway.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1468,6 +1583,11 @@
     },
     {
       "path": "src/full_only/common/national_focus/romania.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/national_focus/romania_ttbe.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1513,6 +1633,11 @@
     },
     {
       "path": "src/full_only/common/on_actions/09_aat_on_actions.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/common/on_actions/14_sea_on_actions.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1567,6 +1692,11 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/common/scripted_effects/RAJ_GOE_scripted_effects.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/common/scripted_effects/SOV_scripted_effects.txt",
       "utf8_bom": false,
       "line_ending": "lf"
@@ -1582,32 +1712,7 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/AAT_Finland.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/AAT_Generic_Events.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/AAT_Iceland.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/AAT_NewsEvents.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/AAT_nordic.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/AAT_Norway.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1617,47 +1722,12 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/ABDA_events.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/AcePilots.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Baltic.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/BBA_AfricanUnion_events.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/BBA_Ethiopia.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/BBA_ItaloEthiopianWar.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/BBA_Italy.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/BBA_NewsEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/BBA_Switzerland.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1682,87 +1752,12 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/Britain.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Bulgaria.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/CapitulationEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/China.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/debug_events.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Decisions_Events.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/DOD_Czechoslovakia.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/DOD_Hungary.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/DOD_NewsEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/DOD_Romania.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/DOD_Yugoslavia.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/ElectionEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Ethiopia.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Finland.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/France.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Generic.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Germany.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1772,17 +1767,7 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/GOE_generic_events.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/GOE_Iraq.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/GOE_Persia.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1792,57 +1777,17 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/GOT_Generic_Events.txt",
+      "path": "src/full_only/events/GOE_generic_events.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/Greece.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Hungary.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Italy.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Japan.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/LaR_agent_events.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/LaR_espionage_operations.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/LaR_France.txt",
-      "utf8_bom": true,
+      "path": "src/full_only/events/Germany.txt",
+      "utf8_bom": false,
       "line_ending": "lf"
     },
     {
       "path": "src/full_only/events/LAR_NewsEvents.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/LAR_occupation.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/LaR_Portugal.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -1852,47 +1797,12 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/LAR_TestEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/LowCountries.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Mexico.txt",
+      "path": "src/full_only/events/LaR_Portugal.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/MTG_Britain.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/MTG_generic.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/MTG_Germany.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/MTG_naval_treaty_events.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/MTG_Netherlands.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/MTG_NewsEvents.txt",
       "utf8_bom": true,
       "line_ending": "lf"
     },
@@ -1907,38 +1817,8 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/MUN_Slovakia.txt",
+      "path": "src/full_only/events/Mexico.txt",
       "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/NewsEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/NSB_Baltic.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/NSB_Estonia.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/NSB_Latvia.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/NSB_Lithuania.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/NSB_NewsEvents.txt",
-      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -1947,42 +1827,12 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/NSB_Soviet.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/NukeEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Paraguay.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/Poland.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/PoliticalEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Romania.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/SEA_Communist_China.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/SEA_generic_events.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
@@ -2007,28 +1857,8 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/SovietUnion.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/Spain.txt",
       "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/Special_Project_Events.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/ss_recruitment_event.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/stability_events.txt",
-      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -2042,43 +1872,8 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/TAOG_NewsEvents.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/TAOG_Siam.txt",
       "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/TestEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/TFV_Australia.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/TFV_Canada.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/TFV_New_Zealand.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/TFV_Raj.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/TFV_South_Africa.txt",
-      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -2102,23 +1897,13 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/TOA_GUAY.txt",
-      "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/treaty_orgs.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/TSR_Manchukuo.txt",
       "utf8_bom": false,
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/Turkey.txt",
-      "utf8_bom": true,
+      "path": "src/full_only/events/TTBE_Romania.txt",
+      "utf8_bom": false,
       "line_ending": "lf"
     },
     {
@@ -2127,33 +1912,8 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/WarJustification.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_border_conflict_events.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_Britain.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
       "path": "src/full_only/events/WTT_China.txt",
       "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_china_political_power_struggle.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_Denmark.txt",
-      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -2164,26 +1924,6 @@
     {
       "path": "src/full_only/events/WTT_Japan.txt",
       "utf8_bom": false,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_Manchukou.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_NewsEvents.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_PRC.txt",
-      "utf8_bom": true,
-      "line_ending": "lf"
-    },
-    {
-      "path": "src/full_only/events/WTT_Soviet.txt",
-      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -2212,7 +1952,22 @@
       "line_ending": "lf"
     },
     {
-      "path": "src/full_only/events/Yugoslavia.txt",
+      "path": "src/full_only/events/ss_recruitment_event.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/ALG - Algeria.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/ANG - Angola.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/ARM - Armenia.txt",
       "utf8_bom": true,
       "line_ending": "lf"
     },
@@ -2222,8 +1977,23 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/history/countries/AZR - Azerbaijan.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/history/countries/BEL - Belgium.txt",
       "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/BOT - Botswana.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/BRI - Brittany.txt",
+      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -2237,6 +2007,11 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/history/countries/DNZ - Danzig.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/history/countries/EGY - Egypt.txt",
       "utf8_bom": false,
       "line_ending": "lf"
@@ -2244,6 +2019,21 @@
     {
       "path": "src/full_only/history/countries/GER - Germany.txt",
       "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/GLC - Galicia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/HAW - Hawaii.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/ICE - Iceland.txt",
+      "utf8_bom": true,
       "line_ending": "lf"
     },
     {
@@ -2267,6 +2057,21 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/history/countries/KAZ - Kazakhstan.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/KSH - Kashubia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/LBA - Libya.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/history/countries/LEB - Lebanon.txt",
       "utf8_bom": false,
       "line_ending": "lf"
@@ -2287,6 +2092,26 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/history/countries/MOR - Morocco.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/MZB - Mozambique.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/NAV - Navarra.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/PAK - Pakistan.txt",
+      "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/history/countries/PAL - Palestine.txt",
       "utf8_bom": false,
       "line_ending": "lf"
@@ -2297,8 +2122,38 @@
       "line_ending": "lf"
     },
     {
+      "path": "src/full_only/history/countries/SDL - Sudetenland.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/SER - Serbia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
       "path": "src/full_only/history/countries/SYR - Syria.txt",
       "utf8_bom": false,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/TAH - Tahiti.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/TUN - Tunisia.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/countries/WES - Western Sahara.txt",
+      "utf8_bom": true,
+      "line_ending": "lf"
+    },
+    {
+      "path": "src/full_only/history/general/spain_shared_advisors.txt",
+      "utf8_bom": true,
       "line_ending": "lf"
     }
   ]

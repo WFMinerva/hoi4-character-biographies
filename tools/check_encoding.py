@@ -6,7 +6,8 @@ BOM=b"\xef\xbb\xbf"
 BINARY_SUFFIXES={'.png','.jpg','.jpeg','.gif','.dds','.tga','.zip','.xlsx','.xls'}
 errors=[]; warnings=[]; counts=Counter()
 baseline_path=ROOT/'audit/baselines/encoding_baseline.json'
-baseline={r['path']:r for r in load_json(baseline_path)['files']} if baseline_path.exists() else {}
+encoding_baseline=load_json(baseline_path) if baseline_path.exists() else {}
+baseline={r['path']:r for r in encoding_baseline.get('files',[])}
 
 for p in iter_source_files():
     rel=source_relative(p); data=p.read_bytes(); suffix=p.suffix.lower()
@@ -29,7 +30,7 @@ for p in iter_source_files():
     elif rel in baseline:
         expected=bool(baseline[rel]['utf8_bom'])
         if has_bom!=expected:
-            errors.append(f'BOM状态偏离v130c7基线: {rel}: expected={expected} got={has_bom}')
+            errors.append(f'BOM状态偏离基线: {rel}: expected={expected} got={has_bom}')
     elif suffix in {'.txt','.mod'} and has_bom:
         warnings.append(f'新脚本文件带BOM，请确认有意为之: {rel}')
     crlf=data.count(b'\r\n'); lf=data.count(b'\n'); lone_lf=lf-crlf
@@ -37,7 +38,7 @@ for p in iter_source_files():
         errors.append(f'混合换行: {rel}')
     style='crlf' if crlf else 'lf'
     if rel in baseline and baseline[rel].get('line_ending') not in (None,'none',style):
-        errors.append(f'换行风格偏离v130e基线: {rel}: expected={baseline[rel]["line_ending"]} got={style}')
+        errors.append(f'换行风格偏离基线: {rel}: expected={baseline[rel]["line_ending"]} got={style}')
     counts[suffix or '<none>']+=1
 for x in warnings: print('WARN',x)
 for x in errors: print('ERROR',x)
