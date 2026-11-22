@@ -6,16 +6,31 @@ from build_release import rewrite_descriptor
 
 TARGETS={"lite":"lite_manifest.json", "full":"full_manifest.json"}
 
-def manifest_zip(p:Path):
-    rows={}
-    with zipfile.ZipFile(p) as z:
-        for i in z.infolist():
-            if i.is_dir(): continue
-            parts=i.filename.split('/')
-            rel='__outer__/'+i.filename if len(parts)==1 else '/'.join(parts[1:])
-            data=z.read(i)
-            if rel in rows: raise ValueError(f'duplicate normalized ZIP path: {rel}')
-            rows[rel]=(len(data),hashlib.sha256(data).hexdigest())
+def manifest_zip(path: Path, root_name: str, outer_name: str):
+    rows = {}
+    seen = set()
+    with zipfile.ZipFile(path) as archive:
+        for member in archive.infolist():
+            name = member.orig_filename
+            directory = member.is_dir()
+            bare = name.removesuffix("/") if directory else name
+            parts = bare.split("/")
+            if (bare in seen or "\\" in name or "\x00" in name
+                    or any(part in {"", ".", ".."} for part in parts)):
+                raise ValueError(f"非法或重复的 ZIP 路径: {name}")
+            seen.add(bare)
+            if not directory and name == outer_name:
+                rel = f"__outer__/{outer_name}"
+            else:
+                if parts[0] != root_name or (len(parts) == 1 and not directory):
+                    raise ValueError(f"ZIP 根目录或外层 MOD 不符: {name}")
+                if len(parts) > 1 and parts[1] == "__outer__":
+                    raise ValueError(f"ZIP 内部使用了保留路径: {name}")
+                if directory:
+                    continue
+                rel = "/".join(parts[1:])
+            data = archive.read(member)
+            rows[rel] = (len(data), hashlib.sha256(data).hexdigest())
     return rows
 
 def source_manifest(target:str,version:str):
@@ -69,17 +84,19 @@ def main():
     for target,mname in TARGETS.items():
         if args.version is not None:
             stem='china_bio_lite' if target=='lite' else 'china_bio'
-            zipname=f'{stem}_{args.version}.zip'
+            root_name=f'{stem}_{args.version}'
+            outer_name=f'{root_name}.mod'
             exp=source_manifest(target,args.version)
             source='current sources'
         else:
             expected=load_json(ROOT/'audit/baselines'/mname)
-            zipname=expected['root']+'.zip'
+            root_name=expected['root']
+            outer_name=expected['outer_mod']
             exp={r['path']:(r['size'],r['sha256']) for r in expected['files']}
             source='baseline'
-        p=ROOT/'releases'/zipname
+        p=ROOT/'releases'/f'{root_name}.zip'
         try:
-            got=manifest_zip(p)
+            got=manifest_zip(p, root_name, outer_name)
         except (OSError,zipfile.BadZipFile,ValueError) as e:
             errors.append(f'{target}: {e}')
             continue

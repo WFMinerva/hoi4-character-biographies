@@ -11,6 +11,7 @@ their fixture, so every daily checker has at least one canary.
 from __future__ import annotations
 
 import hashlib
+from io import BytesIO
 import os
 import json
 import shutil
@@ -273,6 +274,128 @@ def fault_zip_tamper(fx: Path) -> None:
 def fault_zip_duplicate(fx: Path) -> None:
     with zipfile.ZipFile(fx / "releases/china_bio_selftest.zip", "a") as archive:
         archive.writestr("china_bio_selftest/descriptor.mod", "duplicate")
+
+
+
+def test_verify_build_zip_structure() -> None:
+    from verify_build import manifest_zip
+
+    root = "china_bio_selftest"
+    outer = f"{root}.mod"
+    contents = [(f"{root}/descriptor.mod", "descriptor"), (outer, "outer")]
+
+    def read_members(entries):
+        archive = BytesIO()
+        with zipfile.ZipFile(archive, "w") as output:
+            for name, content in entries:
+                output.writestr(name, content)
+        archive.seek(0)
+        return manifest_zip(archive, root, outer)
+
+    good = read_members(contents)
+    assert read_members(contents + [(f"{root}/", "")]) == good
+    wrong = [
+        ([("wrong_root/descriptor.mod", "descriptor"), contents[1]], "ZIP 根目录"),
+        ([contents[0], (f"{root}/__outer__/{outer}", "outer")], "保留路径"),
+        (contents + [(f"{root}//empty_component.txt", "")], "非法或重复"),
+        (contents + [(f"{root}/descriptor.mod/", "")], "非法或重复"),
+    ]
+    for entries, message in wrong:
+        try:
+            read_members(entries)
+        except ValueError as exc:
+            assert message in str(exc), str(exc)
+        else:
+            raise AssertionError(f"无效 ZIP 目录结构未被拦截: {message}")
+    print("OK  verify_build.py: 根目录、外层 MOD、保留路径与目录冲突自检通过")
+
+
+def test_shared_instance_names() -> None:
+    rel = "src/shared/common/characters/TST.txt"
+    original = """characters = {
+    TST_example = {
+        name = TST_vanilla
+        instance = {
+            allowed = { has_dlc = alpha }
+            name = TST_vanilla_alpha
+        }
+        instance = {
+            allowed = { has_dlc = beta }
+            name = TST_vanilla_beta
+        }
+    }
+}
+"""
+    stable = original.replace("TST_vanilla_alpha", "TST_approved_alpha").replace(
+        "TST_vanilla_beta", "TST_approved_beta",
+    )
+    proposed = "TST_approved_new"
+
+    with tempfile.TemporaryDirectory(prefix="cbio_name_instances_") as tmp:
+        root = Path(tmp)
+
+        def put(path, contents):
+            file = root / path
+            file.parent.mkdir(parents=True, exist_ok=True)
+            file.write_text(contents, encoding="utf-8", newline="\n")
+
+        put(rel, stable)
+        put("src/shared/localisation/test.yml", 'l_simp_chinese:\n'
+            ' TST_approved_alpha:0 "甲"\n TST_approved_beta:0 "乙"\n TST_approved_new:0 "新姓名"\n')
+        put("reference/vanilla/common/characters/TST.txt", original)
+        put("reference/vanilla/launcher-settings.json", '{"rawVersion":"1.20.0.0"}')
+        put("reference/vanilla_path.json", json.dumps({"path": str(root / "reference/vanilla")}))
+        put("audit/baselines/baseline_summary.json", '{"game_version":"1.20.0.0"}')
+        for variant in ("lite", "full"):
+            for filename in ("descriptor.mod", "outer.mod"):
+                put(f"packaging/{variant}/{filename}", 'supported_version="1.20.*"\n')
+        setup_git_fixture(root)
+
+        def compare():
+            return run("compare_with_vanilla.py", root, "--base", "HEAD", "--require")
+
+        clean = compare()
+        assert clean.returncode == 0, clean.stdout
+        put(rel, original.replace("TST_vanilla_alpha", "TST_approved_beta").replace(
+            "TST_vanilla_beta", "TST_approved_alpha",
+        ))
+        swapped = compare()
+        assert swapped.returncode != 0 and "instance[0]" in swapped.stdout and "instance[1]" in swapped.stdout, swapped.stdout
+
+        put(rel, stable.replace("TST_approved_alpha", proposed))
+        approval = {
+            "operation": "name_change", "path": rel, "approved_by_user": True,
+            "reason": "测试机主批准第一个身份实例的显示名",
+            "address": [["characters", 0], ["TST_example", 0], ["instance", 1]],
+            "old_names": ["TST_approved_alpha"], "new_names": [proposed],
+            "exact_lines": [
+                {"direction": "-", "line": "            name = TST_approved_alpha"},
+                {"direction": "+", "line": f"            name = {proposed}"},
+            ],
+        }
+
+        def record():
+            put("audit/allowlists/diff_exceptions.json", json.dumps({"exceptions": [approval]}))
+
+        record()
+        wrong_block = compare()
+        assert wrong_block.returncode != 0 and "instance[0]" in wrong_block.stdout, wrong_block.stdout
+        approval["address"][-1][-1] = 0
+        approval["old_names"] = ["TST_vanilla_alpha"]
+        record()
+        wrong_old_value = compare()
+        assert wrong_old_value.returncode != 0 and "精确批准" in wrong_old_value.stdout, wrong_old_value.stdout
+        approval["old_names"] = ["TST_approved_alpha"]
+        record()
+        approved = compare()
+        assert approved.returncode == 0, approved.stdout
+        diff = run("check_diff_whitelist.py", root, "--base", "HEAD")
+        assert diff.returncode == 0, diff.stdout
+
+        put(rel, stable.replace("TST_approved_alpha", "TST_vanilla_alpha"))
+        reverted = compare()
+        assert reverted.returncode != 0 and "精确批准" in reverted.stdout, reverted.stdout
+    print("OK  compare_with_vanilla.py: 实例互换/错块或错值批准/精确改名/撤回获批名自检通过")
 
 
 def test_verify_build_semantics() -> None:
@@ -693,12 +816,14 @@ try:
     test_rebase_removal()
     test_rebuild_restore()
     test_verify_build_semantics()
+    test_verify_build_zip_structure()
+    test_shared_instance_names()
     test_character_identity()
     test_explicit_insert_and_duplicate_guard()
 except Exception as exc:
     failures.append(f"rebuild_with_vanilla.py: {type(exc).__name__}: {exc}")
 
-print(f"\nself_test: cases={len(CASES) + 7} failures={len(failures)}")
+print(f"\nself_test: cases={len(CASES) + 9} failures={len(failures)}")
 for f in failures:
     print("FAIL", f)
 raise SystemExit(1 if failures else 0)

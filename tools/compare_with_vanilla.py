@@ -1,12 +1,14 @@
 from __future__ import annotations
 import argparse
+from collections import defaultdict
 import json
 import re
 from pathlib import Path
 import zipfile
 from common import (ROOT, changed_source_paths, find_vanilla_reference,
                     normalize_script_without_desc, read_utf8, resolve_diff_base, sha256_bytes)
-from rebase_evidence import baseline_game_version, load_rebase_document, rebase_version, validated_rebases, vanilla_semantics_errors
+from rebase_evidence import (NAME_CHANGE, baseline_game_version, load_rebase_document,
+                             rebase_version, validated_rebases, vanilla_semantics_errors)
 
 ap=argparse.ArgumentParser(); ap.add_argument('--require',action='store_true'); ap.add_argument('--base'); args=ap.parse_args()
 changed=changed_source_paths(args.base)
@@ -36,7 +38,12 @@ def read_vanilla_bytes(rel):
 document = load_rebase_document()
 version = rebase_version(document) or baseline_game_version()
 base = resolve_diff_base(args.base)
-rebases, rebase_errors = validated_rebases(base, changed, document.get("exceptions", []))
+exceptions = document.get("exceptions", [])
+name_changes = defaultdict(list)
+for entry in exceptions:
+    if entry.get("operation") == NAME_CHANGE:
+        name_changes[entry.get("path")].append(entry)
+rebases, rebase_errors = validated_rebases(base, changed, exceptions)
 errors.extend(rebase_errors)
 localization_keys = set()
 if version or rebases:
@@ -61,7 +68,8 @@ for source, expected_vanilla in sorted(rebases.items()):
     if vanilla is None or sha256_bytes(vanilla) != expected_vanilla:
         errors.append(f'版本重建原版SHA256不同或缺少参考: {rel}')
     else:
-        errors.extend(vanilla_semantics_errors(base, source, vanilla, localization_keys))
+        errors.extend(vanilla_semantics_errors(base, source, vanilla, localization_keys,
+                                              changed=True, name_changes=name_changes.get(source, ())))
         checked += (ROOT / source).is_file()
 
 scripts = list((ROOT / "src/full_only").rglob("*.txt"))
@@ -76,7 +84,8 @@ for p in scripts:
         errors.append(f'原版缺少对应文件: {rel}'); continue
     checked+=1
     if version:
-        errors.extend(vanilla_semantics_errors(base, source, vanilla, localization_keys))
+        errors.extend(vanilla_semantics_errors(base, source, vanilla, localization_keys,
+                                              changed=source in changed, name_changes=name_changes.get(source, ())))
         continue
     mod_tokens=normalize_script_without_desc(read_utf8(p)); vanilla_tokens=normalize_script_without_desc(vanilla.decode('utf-8-sig'))
     if mod_tokens!=vanilla_tokens:

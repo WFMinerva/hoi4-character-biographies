@@ -1,7 +1,7 @@
 """Exact Git-to-source approvals for a game-version migration."""
 from __future__ import annotations
 
-from collections import Counter
+from collections import Counter, defaultdict
 import re
 import subprocess
 
@@ -9,6 +9,7 @@ from common import ROOT, lex_script, load_json, sha256_bytes
 from rebuild_with_vanilla import parse_script, role_identity
 
 OPERATION = "vanilla_rebase"
+NAME_CHANGE = "name_change"
 SCRIPT_PREFIXES = ("src/shared/common/characters/", "src/full_only/")
 TRANSITION = re.compile(r"\^(?:[0-9a-f]{64}|missing) -> (?:[0-9a-f]{64}|missing)\$")
 BIO_ROLES = {
@@ -104,35 +105,55 @@ def removed_biography_errors(base, path, vanilla, localization_keys):
 
 
 def script_contents(data, shared):
-    """Ignore only person-role descriptions; track shared names by their block."""
+    """Keep non-biography tokens and locate names by character and block occurrence."""
     values = [token.value for token in lex_script(data.decode("utf-8-sig"))]
-    stack = []
+    address = []
+    siblings = [Counter()]
     tokens = []
-    names = Counter()
+    names = defaultdict(list)
     i = 0
     while i < len(values):
         value = values[i]
         if value == "{":
             block = values[i-2] if i >= 2 and values[i-1] == "=" else "<anonymous>"
-            stack.append(block)
-        elif value == "}" and stack:
-            stack.pop()
+            address.append((block, siblings[-1][block]))
+            siblings[-1][block] += 1
+            siblings.append(Counter())
+        elif value == "}" and address:
+            address.pop()
+            siblings.pop()
         scalar = i+2 < len(values) and values[i+1] == "=" and values[i+2] not in {"{", "}"}
-        if scalar:
-            bio_desc = value == "desc" and stack and stack[-1] in BIO_ROLES
-            name_scope = len(stack) == 2 or (len(stack) == 3 and stack[-1] == "instance")
-            character_name = value == "name" and shared and stack[0:1] == ["characters"] and name_scope
+        if scalar and address:
+            bio_desc = value == "desc" and address[-1][0] in BIO_ROLES
+            name_scope = len(address) == 2 or (len(address) == 3 and address[-1][0] == "instance")
+            character_name = value == "name" and shared and address[0][0] == "characters" and name_scope
             if character_name:
-                names[tuple(stack), values[i+2]] += 1
+                names[tuple(address)].append(values[i+2])
             if bio_desc or character_name:
                 i += 3
                 continue
         tokens.append(value)
         i += 1
-    return tokens, names
+    return tokens, dict(names)
 
 
-def vanilla_semantics_errors(base, path, vanilla, localization_keys):
+def approved_name_change(entries, address, before, after):
+    expected_address = [list(block) for block in address]
+    matches = [entry for entry in entries if entry.get("address") == expected_address]
+    if len(matches) != 1:
+        return False
+    entry = matches[0]
+    reason = entry.get("reason")
+    return (
+        entry.get("approved_by_user") is True
+        and isinstance(reason, str) and bool(reason.strip())
+        and all(type(block[1]) is int for block in entry["address"])
+        and entry.get("old_names") == before
+        and entry.get("new_names") == after
+    )
+
+
+def vanilla_semantics_errors(base, path, vanilla, localization_keys, *, changed, name_changes=()):
     current = ROOT / path
     if not current.is_file():
         return removed_biography_errors(base, path, vanilla, localization_keys)
@@ -141,25 +162,29 @@ def vanilla_semantics_errors(base, path, vanilla, localization_keys):
     original, original_names = script_contents(vanilla, shared)
     if actual != original:
         return [f"版本重建存在原版非小传脚本差异: {path}"]
-    if not shared or actual_names == original_names:
+    if not shared:
         return []
-    before = subprocess.run(["git", "show", f"{base}:{path}"], cwd=ROOT, capture_output=True)
-    if before.returncode:
-        return [f"无法核对旧版人物显示名: {path}"]
-    _, approved_names = script_contents(before.stdout, True)
-    invalid_names = [
-        (context, name) for (context, name), count in (actual_names-original_names).items()
-        if name not in localization_keys or not name or count > approved_names[context, name]
-    ]
-    original_counts = Counter()
-    actual_counts = Counter()
-    for (context, _), count in original_names.items():
-        original_counts[context] += count
-    for (context, _), count in actual_names.items():
-        actual_counts[context] += count
+
+    before_names = actual_names
+    if changed:
+        before = subprocess.run(["git", "show", f"{base}:{path}"], cwd=ROOT, capture_output=True)
+        if before.returncode != 0:
+            tree = subprocess.run(["git", "ls-tree", base, "--", path], cwd=ROOT, capture_output=True)
+            if tree.returncode != 0 or tree.stdout:
+                return [f"无法读取 Git 基准中的人物显示名: {path}"]
+            before_names = original_names
+        else:
+            _, before_names = script_contents(before.stdout, True)
     errors = []
-    if invalid_names:
-        errors.append(f"版本重建出现未经批准的姓名: {path} {invalid_names}")
-    if removed := original_counts - actual_counts:
-        errors.append(f"版本重建缺少原版人物姓名字段: {path} {dict(removed)}")
+    for address in sorted(actual_names.keys() | original_names.keys() | before_names.keys()):
+        current_names = actual_names.get(address, [])
+        vanilla_names = original_names.get(address, [])
+        stable_names = before_names.get(address, [])
+        block = " > ".join(f"{key}[{ordinal}]" for key, ordinal in address)
+        if len(current_names) < len(vanilla_names):
+            errors.append(f"缺少原版人物姓名字段: {path} {block}")
+        if current_names != stable_names and not approved_name_change(name_changes, address, stable_names, current_names):
+            errors.append(f"人物实例姓名变更缺少同一块的精确批准: {path} {block} {stable_names!r} -> {current_names!r}")
+        if unresolved := set(Counter(current_names) - Counter(vanilla_names)) - localization_keys:
+            errors.append(f"人物实例姓名缺少本地化: {path} {block} {sorted(unresolved)!r}")
     return errors
